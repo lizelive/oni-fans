@@ -1,0 +1,20 @@
+{
+  "name": "oni-fans",
+  "version": "1.0.0",
+  "description": "Solve",
+  "homepage": "https://github.com/lizelive/oni-fans#readme",
+  "bugs": {
+    "url": "https://github.com/lizelive/oni-fans/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lizelive/oni-fans.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "Ada Rosa",
+  "type": "module",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "node --test"
+  }
+}
