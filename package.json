@@ -1,0 +1,23 @@
+{
+  "name": "oni-fans",
+  "version": "1.0.0",
+  "description": "Speedrunning route solver for factorio-like games",
+  "main": "dist/index.js",
+  "bin": {
+    "oni-fans": "dist/cli/speedrun-cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/cli/speedrun-cli.ts",
+    "dev": "ts-node src/cli/speedrun-cli.ts",
+    "test": "ts-node src/tests/basic-tests.ts"
+  },
+  "keywords": ["speedrun", "factorio", "optimization", "game", "solver"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
