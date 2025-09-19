@@ -16,11 +16,13 @@ import vine_press from "../data/vine_press.json" with { type: 'json' };
 import potters_wheel from "../data/potters_wheel.json" with { type: 'json' };
 import cooking from "../data/cooking.json" with { type: 'json' };
 import extra from "../data/extra.json" with { type: 'json' };
+import jewelry_table from "../data/jewelry_table.json" with { type: 'json' };
+import bee_hive from "../data/bee_hive.json" with { type: 'json' };
 /**
  * data
  * @type {Data}
  */
-export let Data = merge(carpenters_workbench_2, chopping_spot, circular_saw, alchemy_workbench_1, alchemy_workbench_2, church_workbench, distillation_cube_2, furnace, stone_cutter, hand_mixer, alchemy_mill, anvil_2, vine_press, potters_wheel, cooking, extra);
+export let Data = merge(carpenters_workbench_2, chopping_spot, circular_saw, alchemy_workbench_1, alchemy_workbench_2, church_workbench, distillation_cube_2, furnace, stone_cutter, hand_mixer, alchemy_mill, anvil_2, vine_press, potters_wheel, cooking, extra, jewelry_table, bee_hive);
 
 
 
@@ -47,14 +49,43 @@ let Bugs = [
 // - Insect-like / pollinators (Bee, Moth, Butterfly) are caught via 'trap'.
 // - Misc resources like Ore, Coal, Limestone use 'mine' tag and are 'mine' actions (treated as harvest).
 
-const fishes = ['Eel'];
-const crops = ['Hemp', 'Beet', 'Wheat', 'Pumpkin', 'Carrot', 'Cabbage', 'Onion', 'Nori', 'Lentils', 'Grapes'];
-const mobs = ['Bat wing', 'Green jelly'];
-const forage = ['Hiccup grass', 'Red mushroom', 'Moth', 'Butterfly', 'Wooden stick'];
+const fishes = ['Eel', 'Tilapia', 'Frog', 'Gudgeon'];
+const crops = ['Hemp', "Hops", 'Beet', 'Wheat', 'Pumpkin', 'Carrot', 'Cabbage', 'Onion', 'Nori', 'Lentils', 'Grapes'];
+const mobs = ['Bat wing', 'Green jelly',
+    'Blue jelly',
+    'Black jelly',
+    'Orange jelly',
+    'Blue jelly',
+    'Black jelly',
+    'Orange jelly',
+
+    'Spider web'
+];
+
+const forageInsects = ['Moth', 'Butterfly'];
+const foragePlants = [
+    'Hiccup grass', 'Red mushroom',
+    'Yellow flower',
+    'White flower',
+    "Red flower",
+    'Red apple',
+    'Wooden stick',
+
+    "Berry"
+];
+
+
 // Further classify forage into plants vs insects
-const forageInsects = ['Moth','Butterfly'];
-const foragePlants = forage.filter(x => !forageInsects.includes(x));
-const ores = ['Clay', 'Coal', 'Iron ore', 'Silver nugget', 'Gold nugget', 'Pyrite', 'A piece of marble', 'Limestone', 'Metal scrap'];
+const ores = ['Clay', 'River sand', 'Coal', 'Iron ore', 'Silver nugget', 'Gold nugget', 'Pyrite', 'A piece of marble', 'Limestone', 'Metal scrap'];
+
+
+
+
+const buy = [
+    "Feather",
+    "Chicken egg",
+    "Jug of milk"
+]
 
 // Build recipe objects for harvesting/catching
 function makeGatherRecipe(item, opts = {}) {
@@ -84,7 +115,7 @@ for (const c of crops) {
     const seedName = `${c} seed`;
     // crops consume 1 seed and produce the crop plus 1 seed back (seed-preserving harvest)
     const products = {
-        "Crop waste" : 2
+        "Crop waste": 2
     };
     products[c] = 3; // yield of crop
     products[seedName] = 4; // returned seeds
@@ -119,6 +150,11 @@ for (const f of forageInsects) {
 // ores -> mine
 for (const o of ores) {
     Object.assign(generatedRecipes, makeGatherRecipe(o, { workbench_tags: ['mine'], amount: 1, energy_cost: 10, source: 'ore' }));
+}
+
+// buy -> shop (buy)
+for (const b of buy) {
+    Object.assign(generatedRecipes, makeGatherRecipe(b, { workbench_tags: ['shop'], amount: 1, energy_cost: 5, source: 'buy' }));
 }
 
 

@@ -1,0 +1,69 @@
+{
+    "building": {
+        "jewelry_table": {
+            "required_techs": [
+                "Precious Little Things"
+            ],
+            "workbench_tags": [
+                "jewelry_table"
+            ]
+        }
+    },
+    "recipe": {
+        "gold_jewelry_details": {
+            "workbench_tags": [
+                "jewelry_table"
+            ],
+            "reagents": {
+                "Gold ingot": 1,
+                "Steel parts": 1,
+                "Faith": 2
+            },
+            "products": {
+                "Gold jewelry details": 1
+            },
+            "energy_cost": 15
+        },
+        "jewelry": {
+            "workbench_tags": [
+                "jewelry_table"
+            ],
+            "reagents": {
+                "Gold jewelry details": 1,
+                "Faceted diamond": 1,
+                "Faith": 2
+            },
+            "products": {
+                "Jewelry": 1
+            },
+            "energy_cost": 15
+        },
+        "steel_sword_with_gem": {
+            "workbench_tags": [
+                "jewelry_table"
+            ],
+            "reagents": {
+                "Steel sword": 1,
+                "Gold jewelry details": 1
+            },
+            "products": {
+                "Steel sword with gem": 1
+            },
+            "energy_cost": 30
+        },
+        "damask_sword_with_gem": {
+            "workbench_tags": [
+                "jewelry_table"
+            ],
+            "reagents": {
+                "Steel sword": 1,
+                "Faceted diamond": 1,
+                "Gold jewelry details": 3
+            },
+            "products": {
+                "Damask sword with gem": 1
+            },
+            "energy_cost": 30
+        }
+    }
+}

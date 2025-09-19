@@ -1,0 +1,31 @@
+{
+    "building": {
+        "bee_hive": {
+            "required_techs": [
+                "Bee domestication"
+            ],
+            "workbench_tags": [
+                "bee_hive"
+            ],
+            "material_cost": {
+                "Flitch": 4,
+                "Nails": 6,
+                "Bee": 10
+            }
+        }
+    },
+    "recipe": {
+        "harvest_bee_hive": {
+            "workbench_tags": [
+                "bee_hive"
+            ],
+            "reagents": {},
+            "products": {
+                "Bee": 1,
+                "Honey": 3,
+                "Beeswax": 1
+            },
+            "energy_cost": 10
+        }
+    }
+}

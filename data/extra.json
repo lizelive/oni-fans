@@ -64,6 +64,19 @@
                 "Water": 20
             },
             "energy_cost": 0
+        },
+        "compost_crop_waste": {
+            "workbench_tags": [
+                "compost"
+            ],
+            "reagents": {
+                "Crop waste": 8
+            },
+            "products": {
+                "Peat": 6,
+                "Maggot": 2
+            },
+            "energy_cost": 0
         }
     }
 }

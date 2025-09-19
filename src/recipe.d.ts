@@ -22,6 +22,7 @@ interface Recipe {
 interface Building {
     required_techs: string[];
     workbench_tags: string[];
+    material_cost : Stuff;
 }
 
 interface Data {
