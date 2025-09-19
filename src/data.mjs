@@ -12,16 +12,31 @@ import anvil_2 from "../data/anvil_2.json" with { type: 'json' };
 import carpenters_workbench_2 from "../data/carpenters_workbench_2.json" with { type: 'json' };
 import chopping_spot from "../data/chopping_spot.json" with { type: 'json' };
 import circular_saw from "../data/circular_saw.json" with { type: 'json' };
-
+import vine_press from "../data/vine_press.json" with { type: 'json' };
+import potters_wheel from "../data/potters_wheel.json" with { type: 'json' };
+import cooking from "../data/cooking.json" with { type: 'json' };
+import extra from "../data/extra.json" with { type: 'json' };
 /**
  * data
  * @type {Data}
  */
-export const Data = merge(carpenters_workbench_2, chopping_spot, circular_saw, alchemy_workbench_1, alchemy_workbench_2, church_workbench, distillation_cube_2, furnace, stone_cutter, hand_mixer, alchemy_mill, anvil_2);
+export const Data = merge(carpenters_workbench_2, chopping_spot, circular_saw, alchemy_workbench_1, alchemy_workbench_2, church_workbench, distillation_cube_2, furnace, stone_cutter, hand_mixer, alchemy_mill, anvil_2, vine_press, potters_wheel, cooking, extra);
 
 
+
+let Base = [
+    "River sand",
+    "Log"
+];
+
+let Vegetable = [
+
+]
+
+let Bugs = [
+
+]
 // extra
-
 
 
 

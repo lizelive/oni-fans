@@ -1,0 +1,165 @@
+{
+  "building": {},
+  "recipe": {
+    "flour": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Wheat": 4 },
+      "products": { "Flour": 4 },
+      "energy_cost": 8
+    },
+    "dough": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Flour": 2, "Water": 3 },
+      "products": { "Dough": 4 },
+      "energy_cost": 4
+    },
+    "pastry_dough": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Flour": 2, "Jug of milk": 1, "Chicken egg": 1 },
+      "products": { "Pastry dough": 4 },
+      "energy_cost": 6
+    },
+    "grated_carrot": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Carrot": 1 },
+      "products": { "Grated carrot": 1 },
+      "energy_cost": 2
+    },
+    "grated_beets": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Beet": 1 },
+      "products": { "Grated beets": 1 },
+      "energy_cost": 2
+    },
+    "vegetable_salad": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Onion": 1, "Beet": 1, "Cabbage": 1 },
+      "products": { "Vegetable salad": 4 },
+      "energy_cost": 4
+    },
+    "white_fish_fillet_gudgeon": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Gudgeon": 1 },
+      "products": { "White fish fillet": 1 },
+      "energy_cost": 5
+    },
+    "white_fish_fillet_tilapia": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Tilapia": 1 },
+      "products": { "White fish fillet": 2 },
+      "energy_cost": 5
+    },
+    "raw_sliced_meat_from_package": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Package of meat": 1 },
+      "products": { "Raw sliced meat": 1 },
+      "energy_cost": 1,
+      "notes": "Recipe obtained from Horadric"
+    },
+    "raw_sliced_meat_from_frog": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Frog": 3 },
+      "products": { "Raw sliced meat": 1 },
+      "energy_cost": 5
+    },
+    "burger": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Bread": 2, "Baked meat": 4, "Onion": 1 },
+      "products": { "Burger": 4 },
+      "energy_cost": 5,
+      "notes": "Quality affects energy"
+    },
+    "berry_juice": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Red apple": 3, "Berry": 3 },
+      "products": { "Berry juice": 1 },
+      "energy_cost": 5
+    },
+    "panna_cotta": {
+      "workbench_tags": ["cooking_table"],
+      "reagents": { "Honey": 1, "Jug of milk": 1 },
+      "products": { "Panna cotta": 4 },
+      "energy_cost": 2,
+      "notes": "+energy13 each"
+    },
+    "flour_oven": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Wheat": 4 },
+      "products": { "Flour": 4 },
+      "energy_cost": 8,
+      "notes": "Oven variant"
+    },
+    "bread": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Dough": 2 },
+      "products": { "Bread": 2 },
+      "energy_cost": 5,
+      "time": "1:00",
+      "notes": "+energy12 each"
+    },
+    "baked_apple": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Red apple": 5 },
+      "products": { "Baked apple": 5 },
+      "energy_cost": 5,
+      "time": "0:30",
+      "notes": "+energy6 each"
+    },
+    "pancakes": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Pastry dough": 1, "Jug of milk": 1, "Butter": 1 },
+      "products": { "Pancakes": 5 },
+      "energy_cost": 10,
+      "time": "0:45",
+      "notes": "+energy33 each"
+    },
+    "fried_egg": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Chicken egg": 1 },
+      "products": { "Fried egg": 1 },
+      "energy_cost": 1,
+      "time": "0:08",
+      "notes": "+energy11 each"
+    },
+    "fish_nuggets": {
+      "workbench_tags": ["oven"],
+      "reagents": { "White fish fillet": 1, "Oil": 2 },
+      "products": { "Fish nuggets": 1 },
+      "energy_cost": 5,
+      "time": "0:26",
+      "notes": "+energy25 each"
+    },
+    "baked_meat": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Raw sliced meat": 1 },
+      "products": { "Baked meat": 2 },
+      "energy_cost": 10,
+      "time": "0:35",
+      "notes": "+energy15 each"
+    },
+    "muffin": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Dough": 1, "Honey": 1 },
+      "products": { "Muffin": 4 },
+      "energy_cost": 20,
+      "time": "0:30",
+      "notes": "+energy24 each"
+    },
+    "croissant": {
+      "workbench_tags": ["oven"],
+      "reagents": { "Dough": 1, "Honey": 1, "Chicken egg": 1 },
+      "products": { "Croissant": 4 },
+      "energy_cost": 20,
+      "time": "0:45",
+      "notes": "+energy30 each"
+    },
+    "baked_apple_bonfire": {
+      "workbench_tags": ["bonfire"],
+      "reagents": { "Red apple": 5 },
+      "products": { "Baked apple": 5 },
+      "energy_cost": 5,
+      "time": "0:30",
+      "notes": "+energy6 each"
+    }
+  }
+}

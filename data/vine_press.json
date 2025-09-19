@@ -1,0 +1,69 @@
+{
+  "building": {},
+  "recipe": {
+    "pail_of_apple_juice": {
+      "workbench_tags": [
+        "vine_press"
+      ],
+      "reagents": {
+        "Red apple": 10
+      },
+      "products": {
+        "Pail of apple juice": 1
+      },
+      "energy_cost": 5,
+      "notes": "+Green Tech Point1"
+    },
+    "pail_of_berry_juice": {
+      "workbench_tags": [
+        "vine_press"
+      ],
+      "reagents": {
+        "Berry": 25
+      },
+      "products": {
+        "Pail of berry juice": 1
+      },
+      "energy_cost": 5,
+      "notes": "+Green Tech Point1"
+    },
+    "pail_of_grape_juice": {
+      "workbench_tags": [
+        "vine_press"
+      ],
+      "reagents": {
+        "Grapes": 15
+      },
+      "products": {
+        "Pail of grape juice": 1
+      },
+      "energy_cost": 5,
+      "notes": "+Green Tech Point1"
+    },
+    "seed_oil_from_hemp_seed": {
+      "workbench_tags": [
+        "vine_press"
+      ],
+      "reagents": {
+        "Hemp seed": 4
+      },
+      "products": {
+        "Seed oil": 1
+      },
+      "energy_cost": 5,
+      "notes": "+Green Tech Point1"
+    },
+    "oil_from_fat": {
+      "workbench_tags": [
+        "vine_press"
+      ],
+      "reagents": {
+        "Fat": 3
+      },
+      "products": {
+        "Oil": 10
+      },
+      "energy_cost": 5
+    }
+  }
+}

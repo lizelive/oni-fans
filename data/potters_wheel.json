@@ -1,0 +1,19 @@
+{
+  "building": {},
+  "recipe": {
+    "ceramic_bowls": {
+      "workbench_tags": [
+        "potters_wheel"
+      ],
+      "reagents": {
+        "Clay": 1,
+        "Water": 1
+      },
+      "products": {
+        "Ceramic bowls": 3
+      },
+      "energy_cost": 10,
+      "notes": "+Red Tech Point1 Green Tech Point1"
+    }
+  }
+}

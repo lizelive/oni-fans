@@ -31,14 +31,3 @@ function getAllNames(data) {
 }
 
 getAllNames(Data);
-
-let numGraves = 10;
-let want = {
-    "Lye injection": 10,
-    "Glue injection": 10,
-    "Silver injection": 10,
-    "Gold injection": 10,
-    
-    "Marble sculpture II": 10,
-    "Marble grave fence II" : 10,
-}

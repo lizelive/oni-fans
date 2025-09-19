@@ -1,0 +1,59 @@
+{
+    "building": {},
+    "recipe": {
+        "cremate": {
+            "workbench_tags": [
+                "crematorium"
+            ],
+            "reagents": {
+                "Wood billet": 8,
+                "Corpse": 1
+            },
+            "products": {
+                "Burial certificate": 1,
+                "Salt": 2,
+                "Ash": 5
+            },
+            "energy_cost": 6
+        },
+        "bury_fancy": {
+            "workbench_tags": [
+                "graveyard"
+            ],
+            "reagents": {
+                "Corpse": 1,
+                "Lye injection": 1,
+                "Glue injection": 1,
+                "Silver injection": 1,
+                "Gold injection": 1,
+                "Marble sculpture II": 1,
+                "Marble grave fence II": 1
+            },
+            "products": {
+                "Burial certificate": 1,
+                "Fancy grave": 1
+            },
+            "energy_cost": 30
+        },
+        "use_well": {
+            "workbench_tags": [
+                "well"
+            ],
+            "reagents": {},
+            "products": {
+                "Bucket of clear water": 1
+            },
+            "energy_cost": 5
+        },
+        "empty_water_bucket": {
+            "workbench_tags": [],
+            "reagents": {
+                "Bucket of clear water": 1
+            },
+            "products": {
+                "Water": 20
+            },
+            "energy_cost": 0
+        }
+    }
+}
