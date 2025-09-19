@@ -1,0 +1,578 @@
+{
+  "building": {},
+  "recipe": {
+    "boost_fertilizer_I": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Peat": 10,
+        "Energy elixir": 1
+      },
+      "products": {
+        "Boost fertilizer I": 10
+      },
+      "energy_cost": 7
+    },
+    "boost_fertilizer_II": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Peat": 10,
+        "Energy elixir": 2
+      },
+      "products": {
+        "Boost fertilizer II": 10
+      },
+      "energy_cost": 15
+    },
+    "quality_fertilizer_I": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Peat": 10,
+        "Growth enhancer": 1
+      },
+      "products": {
+        "Quality fertilizer I": 10
+      },
+      "energy_cost": 7
+    },
+    "quality_fertilizer_II": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Peat": 10,
+        "Flavor enhancer": 2
+      },
+      "products": {
+        "Quality fertilizer II": 10
+      },
+      "energy_cost": 15
+    },
+    "paper_glop": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Bucket of clear water": 1,
+        "Wheat": 20
+      },
+      "products": {
+        "Paper glop": 1
+      },
+      "energy_cost": 5,
+      "experiance": {
+        "red": 0,
+        "green": 2,
+        "blue": 0
+      }
+    },
+    "bucket_of_blood": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Flitch": 3,
+        "Blood": 10
+      },
+      "products": {
+        "Bucket of blood": 1
+      },
+      "energy_cost": 10
+    },
+    "alchemists_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 3,
+        "Complex iron parts": 1,
+        "Tanning agent": 1
+      },
+      "products": {
+        "Alchemist's bag": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 0,
+        "green": 0,
+        "blue": 5
+      }
+    },
+    "farmers_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 3,
+        "Complex iron parts": 1,
+        "Tanning agent": 1
+      },
+      "products": {
+        "Farmer's bag": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 0,
+        "green": 10,
+        "blue": 0
+      }
+    },
+    "fishermans_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 3,
+        "Complex iron parts": 1,
+        "Tanning agent": 1
+      },
+      "products": {
+        "Fisherman's bag": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 0,
+        "green": 15,
+        "blue": 0
+      }
+    },
+    "tool_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 3,
+        "Complex iron parts": 1,
+        "Tanning agent": 1
+      },
+      "products": {
+        "Tool bag": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 10,
+        "green": 0,
+        "blue": 0
+      }
+    },
+    "potion_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 6,
+        "Steel parts": 2,
+        "Tanning agent": 2
+      },
+      "products": {
+        "Potion bag": 1
+      },
+      "energy_cost": 20,
+      "experiance": {
+        "red": 0,
+        "green": 0,
+        "blue": 6
+      }
+    },
+    "builders_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 6,
+        "Steel parts": 2,
+        "Tanning agent": 2
+      },
+      "products": {
+        "Builder's bag": 1
+      },
+      "energy_cost": 25,
+      "experiance": {
+        "red": 25,
+        "green": 10,
+        "blue": 0
+      }
+    },
+    "food_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 6,
+        "Steel parts": 2,
+        "Tanning agent": 2
+      },
+      "products": {
+        "Food bag": 1
+      },
+      "energy_cost": 25,
+      "experiance": {
+        "red": 5,
+        "green": 15,
+        "blue": 0
+      }
+    },
+    "universal_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 5,
+        "Complex iron parts": 2,
+        "Tanning agent": 2
+      },
+      "products": {
+        "Universal bag": 1
+      },
+      "energy_cost": 20,
+      "experiance": {
+        "red": 10,
+        "green": 10,
+        "blue": 10
+      }
+    },
+    "big_universal_bag": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 8,
+        "Steel parts": 4,
+        "Tanning agent": 3
+      },
+      "products": {
+        "Big universal bag": 1
+      },
+      "energy_cost": 30,
+      "experiance": {
+        "red": 20,
+        "green": 20,
+        "blue": 20
+      }
+    },
+    "ink": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Conical flasks": 1,
+        "Water": 1,
+        "Black paint": 1
+      },
+      "products": {
+        "Ink": 5
+      },
+      "energy_cost": 5
+    },
+    "pen_and_ink": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Feather": 3,
+        "Ink": 1
+      },
+      "products": {
+        "Pen and ink": 3
+      },
+      "energy_cost": 5
+    },
+    "pigskin_paper_4": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Skin": 1
+      },
+      "products": {
+        "Pigskin paper": 4
+      },
+      "energy_cost": 5
+    },
+    "pigskin_paper_2": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Bat wing": 5
+      },
+      "products": {
+        "Pigskin paper": 2
+      },
+      "energy_cost": 5
+    },
+    "clean_paper": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Pigskin paper": 1
+      },
+      "products": {
+        "Clean paper": 4
+      },
+      "energy_cost": 5
+    },
+    "softcover": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Pigskin paper": 2
+      },
+      "products": {
+        "Softcover": 1
+      },
+      "energy_cost": 10
+    },
+    "hard_cover_variant_1": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Softcover": 1,
+        "Tanning agent": 1,
+        "Faith": 1
+      },
+      "products": {
+        "Hard cover": 1
+      },
+      "energy_cost": 10
+    },
+    "hard_cover_variant_2": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Hard cover": 1,
+        "Steel parts": 2,
+        "Faith": 2
+      },
+      "products": {
+        "Hard cover": 1
+      },
+      "energy_cost": 20
+    },
+    "hard_cover_variant_3": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Hard cover": 1,
+        "Gold jewelry details": 2
+      },
+      "products": {
+        "Hard cover": 1
+      },
+      "energy_cost": 20
+    },
+    "hemp_rope": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Hemp": 4
+      },
+      "products": {
+        "Hemp rope": 5
+      },
+      "energy_cost": 5
+    },
+    "candle_variant_1": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Fat": 2,
+        "Beeswax": 2,
+        "Hemp rope": 1
+      },
+      "products": {
+        "Candle": 4
+      },
+      "energy_cost": 5,
+      "notes": "+1 Church Rating (Each)"
+    },
+    "candle_variant_2": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Fat": 2,
+        "Beeswax": 2,
+        "White paint": 3
+      },
+      "products": {
+        "Candle": 4
+      },
+      "energy_cost": 5,
+      "notes": "+2 Church Rating (Each)"
+    },
+    "candle_variant_3": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Beeswax": 4,
+        "White paint": 2,
+        "Hemp rope": 1
+      },
+      "products": {
+        "Candle": 4
+      },
+      "energy_cost": 6,
+      "notes": "+3 Church Rating (Each)"
+    },
+    "incense": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Freshener": 1
+      },
+      "products": {
+        "Incense": 2
+      },
+      "energy_cost": 5,
+      "notes": "+2 Church Rating"
+    },
+    "incense_ii": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Aromatizer": 1
+      },
+      "products": {
+        "Incense II": 2
+      },
+      "energy_cost": 5,
+      "notes": "+4 Church Rating"
+    },
+    "lye_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Alkali": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Lye injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "+1 Red Skull and +1 White Skull"
+    },
+    "acid_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Acid": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Acid injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "-1 Red Skull and -1 White Skull"
+    },
+    "glue_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Glue": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Glue injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "+1 White Skull"
+    },
+    "dark_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Dark elixir": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Dark injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "+2 Red Skull"
+    },
+    "preservative_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Preservative": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Preservative injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "Halts corpse decay."
+    },
+    "restore_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Balsamic solution": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Restore injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "Reduces corpse decay by 50%."
+    },
+    "silver_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Silver elixir": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Silver injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "-1 Red Skull and +1 White Skull"
+    },
+    "gold_injection": {
+      "workbench_tags": [
+        "church_workbench"
+      ],
+      "reagents": {
+        "Golden elixir": 1,
+        "Water": 6,
+        "Conical flasks": 2
+      },
+      "products": {
+        "Gold injection": 5
+      },
+      "energy_cost": 0,
+      "notes": "-2 Red Skull and +2 White Skull"
+    }
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "building": {},
+  "recipe": {
+    "glue": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Health powder": 1,
+        "Life solution": 1,
+        "Chaos extract": 1
+      },
+      "products": {
+        "Glue": 1
+      },
+      "energy_cost": 10
+    },
+    "preservative_from_life_powder": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Life powder": 1,
+        "Slowing solution": 1,
+        "Slowing extract": 1
+      },
+      "products": {
+        "Preservative": 1
+      },
+      "energy_cost": 10
+    },
+    "preservative_from_slowing_powder": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Slowing powder": 1,
+        "Life solution": 1,
+        "Slowing extract": 1
+      },
+      "products": {
+        "Preservative": 1
+      },
+      "energy_cost": 10
+    },
+    "speed_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Acceleration powder": 1,
+        "Chaos solution": 1,
+        "Blood": 1
+      },
+      "products": {
+        "Speed potion": 1
+      },
+      "energy_cost": 10
+    },
+    "digestion_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Health powder": 1,
+        "Toxic solution": 1,
+        "Acceleration extract": 1
+      },
+      "products": {
+        "Digestion potion": 1
+      },
+      "energy_cost": 10
+    },
+    "restoring_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Order powder": 1,
+        "Health solution": 1,
+        "Health extract": 1
+      },
+      "products": {
+        "Restoring potion": 1
+      },
+      "energy_cost": 10
+    },
+    "protection_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Order powder": 1,
+        "Slowing solution": 1,
+        "Slowing extract": 1
+      },
+      "products": {
+        "Protection potion": 1
+      },
+      "energy_cost": 10
+    },
+    "flavor_enhancer": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Ash": 1,
+        "Toxic solution": 1,
+        "Life extract": 1
+      },
+      "products": {
+        "Flavor enhancer": 1
+      },
+      "energy_cost": 10
+    },
+    "acid": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Toxic powder": 1,
+        "Chaos solution": 1,
+        "Toxic extract": 1
+      },
+      "products": {
+        "Acid": 1
+      },
+      "energy_cost": 10
+    },
+    "aromatizer": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Acceleration powder": 1,
+        "Alcohol": 1,
+        "Life extract": 1
+      },
+      "products": {
+        "Aromatizer": 1
+      },
+      "energy_cost": 10
+    },
+    "alkali": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Life powder": 1,
+        "Death solution": 1,
+        "Blood": 1
+      },
+      "products": {
+        "Alkali": 1
+      },
+      "energy_cost": 10
+    },
+    "tanning_agent": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Slowing powder": 1,
+        "Death solution": 1,
+        "Order extract": 1
+      },
+      "products": {
+        "Tanning agent": 1
+      },
+      "energy_cost": 10
+    },
+    "balsamic_solution": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Chaos powder": 1,
+        "Water": 1,
+        "Death extract": 1
+      },
+      "products": {
+        "Balsamic solution": 1
+      },
+      "energy_cost": 10
+    },
+    "rage_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Chaos powder": 1,
+        "Death solution": 1,
+        "Toxic extract": 1
+      },
+      "products": {
+        "Rage potion": 1
+      },
+      "energy_cost": 10
+    },
+    "berserk_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Toxic powder": 1,
+        "Death solution": 1,
+        "Death extract": 1
+      },
+      "products": {
+        "Berserk potion": 1
+      },
+      "energy_cost": 10
+    },
+    "golden_elixir_from_toxic": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Gold powder": 1,
+        "Toxic solution": 1,
+        "Chaos extract": 1
+      },
+      "products": {
+        "Golden elixir": 1
+      },
+      "energy_cost": 10
+    },
+    "golden_elixir_from_order": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Gold powder": 1,
+        "Order solution": 1,
+        "Health extract": 1
+      },
+      "products": {
+        "Golden elixir": 1
+      },
+      "energy_cost": 10
+    },
+    "silver_elixir_from_order": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Silver powder": 1,
+        "Order solution": 1,
+        "Life extract": 1
+      },
+      "products": {
+        "Silver elixir": 1
+      },
+      "energy_cost": 10
+    },
+    "silver_elixir_from_chaos": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Silver powder": 1,
+        "Chaos solution": 1,
+        "Order extract": 1
+      },
+      "products": {
+        "Silver elixir": 1
+      },
+      "energy_cost": 10
+    },
+    "memory_tincture": {
+      "workbench_tags": [
+        "alchemy_workbench_2"
+      ],
+      "reagents": {
+        "Memory powder": 1,
+        "Silver powder": 1,
+        "Gold powder": 1
+      },
+      "products": {
+        "Memory tincture": 1
+      },
+      "energy_cost": 10,
+      "notes": "Game of Crone DLC"
+    }
+  }
+}

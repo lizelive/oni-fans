@@ -1,0 +1,221 @@
+{
+  "building": {},
+  "recipe": {
+    "acceleration_extract_from_hemp": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Hemp": 1
+      },
+      "products": {
+        "Acceleration extract": 3
+      },
+      "time": 60
+    },
+    "acceleration_extract_from_blue_jelly": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Blue jelly": 1
+      },
+      "products": {
+        "Acceleration extract": 3
+      },
+      "time": 60
+    },
+    "chaos_extract_from_moth": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Moth": 1
+      },
+      "products": {
+        "Chaos extract": 2
+      },
+      "time": 60
+    },
+    "chaos_extract_from_butterfly": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Butterfly": 1
+      },
+      "products": {
+        "Chaos extract": 2
+      },
+      "time": 60
+    },
+    "death_extract_from_black_jelly": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Black jelly": 1
+      },
+      "products": {
+        "Death extract": 3
+      },
+      "time": 60
+    },
+    "death_extract_from_dark_heart": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Dark heart": 1
+      },
+      "products": {
+        "Death extract": 3
+      },
+      "time": 60
+    },
+    "health_extract_from_lentils": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Lentils": 1
+      },
+      "products": {
+        "Health extract": 3
+      },
+      "time": 60
+    },
+    "health_extract_from_pumpkin": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Pumpkin": 1
+      },
+      "products": {
+        "Health extract": 3
+      },
+      "time": 60
+    },
+    "life_extract_from_heart": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Heart": 1
+      },
+      "products": {
+        "Life extract": 3
+      },
+      "time": 60
+    },
+    "life_extract_from_maggot": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Maggot": 1
+      },
+      "products": {
+        "Life extract": 2
+      },
+      "time": 60
+    },
+    "life_extract_from_yellow_flower": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Yellow flower": 1
+      },
+      "products": {
+        "Life extract": 2
+      },
+      "time": 60
+    },
+    "order_extract_from_green_jelly": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Green jelly": 1
+      },
+      "products": {
+        "Order extract": 3
+      },
+      "time": 60
+    },
+    "order_extract_from_white_flower": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "White flower": 1
+      },
+      "products": {
+        "Order extract": 2
+      },
+      "time": 60
+    },
+    "slowing_extract_from_beeswax": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Beeswax": 1
+      },
+      "products": {
+        "Slowing extract": 3
+      },
+      "time": 60
+    },
+    "slowing_extract_from_spider_web": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Spider web": 1
+      },
+      "products": {
+        "Slowing extract": 2
+      },
+      "time": 60
+    },
+    "toxic_extract_from_onion": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Onion": 1
+      },
+      "products": {
+        "Toxic extract": 3
+      },
+      "time": 60
+    },
+    "toxic_extract_from_orange_jelly": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Orange jelly": 1
+      },
+      "products": {
+        "Toxic extract": 2
+      },
+      "time": 60
+    },
+    "health_extract_from_nori": {
+      "workbench_tags": [
+        "distillation_cube_2"
+      ],
+      "reagents": {
+        "Nori": 1
+      },
+      "products": {
+        "Health extract": 1
+      },
+      "time": 60
+    }
+  }
+}

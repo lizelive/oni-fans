@@ -16,6 +16,7 @@ interface Recipe {
     energy_cost: number;
     notes?: string;
     experiance?: Experiance;
+    time?: number;
 }
 
 interface Building {
