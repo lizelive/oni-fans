@@ -26,6 +26,18 @@
             },
             "energy_cost": 6
         },
+        "pay_donkey": {
+            "workbench_tags": [
+                "donkey"
+            ],
+            "reagents": {
+                "Carrot": 10
+            },
+            "products": {
+                "Corpse": 2
+            },
+            "energy_cost": 0
+        },
         "bury_fancy": {
             "workbench_tags": [
                 "graveyard"

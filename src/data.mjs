@@ -168,7 +168,12 @@ for (const key in generatedRecipes) {
     if (!Data.recipe[key]) Data.recipe[key] = generatedRecipes[key];
 }
 
-
+// delete all recyle_ recipes
+for (const key in Data.recipe) {
+    if (key.startsWith('recycle_')) {
+        delete Data.recipe[key];
+    }
+}
 
 
 /**
