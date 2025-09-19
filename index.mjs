@@ -1,6 +1,5 @@
 import {Data} from "./src/data.mjs"
 
-console.log(Data);
 
 // get all the item names, and check for duplicates that are almost the same
 
@@ -11,12 +10,14 @@ console.log(Data);
  */
 function getAllNames(data) {
     const names = new Set();
+    const products = new Set();
     for (const recipe in data.recipe) {
         for (const item in data.recipe[recipe].reagents) {
             names.add(item);
         }
         for (const item in data.recipe[recipe].products) {
             names.add(item);
+            products.add(item);
         }
         if (data.recipe[recipe].catalysts) {
             for (const item in data.recipe[recipe].catalysts) {
@@ -24,15 +25,20 @@ function getAllNames(data) {
             }
         }
     }
+    const uncraftable = names.difference(products); 
+    console.log( uncraftable);
     return names;
 }
 
-console.log(getAllNames(Data));
+getAllNames(Data);
 
+let numGraves = 10;
 let want = {
-    "Lye injection": 1,
-    "Glue injection": 1,
-    "Silver injection": 1,
-    "Gold injection": 1,
+    "Lye injection": 10,
+    "Glue injection": 10,
+    "Silver injection": 10,
+    "Gold injection": 10,
     
+    "Marble sculpture II": 10,
+    "Marble grave fence II" : 10,
 }

@@ -1,0 +1,313 @@
+{
+  "building": {},
+  "recipe": {
+    "black_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Graphite powder": 1,
+        "Water": 1
+      },
+      "products": {
+        "Black paint": 1
+      },
+      "energy_cost": 5
+    },
+    "ash_from_oil": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Oil": 1
+      },
+      "products": {
+        "Ash": 1
+      },
+      "energy_cost": 5
+    },
+    "death_powder_from_water": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Water": 1
+      },
+      "products": {
+        "Death powder": 1
+      },
+      "energy_cost": 5
+    },
+    "white_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "White powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "White paint": 1
+      },
+      "energy_cost": 5
+    },
+    "alcohol_with_slowing_solution": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Slowing solution": 1
+      },
+      "products": {
+        "Alcohol": 1
+      },
+      "energy_cost": 5
+    },
+    "electric_powder": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Water": 1
+      },
+      "products": {
+        "Electric powder": 1
+      },
+      "energy_cost": 5
+    },
+    "freshener": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Oil": 1,
+        "Order solution": 1
+      },
+      "products": {
+        "Freshener": 1
+      },
+      "energy_cost": 5
+    },
+    "energy_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Acceleration powder": 1,
+        "Acceleration solution": 1
+      },
+      "products": {
+        "Energy potion": 1
+      },
+      "energy_cost": 5,
+      "notes": "Effect on use +energy50"
+    },
+    "spices": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Salt": 1,
+        "Health solution": 1
+      },
+      "products": {
+        "Spices": 1
+      },
+      "energy_cost": 5
+    },
+    "energy_elixir": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Acceleration powder": 1,
+        "Slowing solution": 1
+      },
+      "products": {
+        "Energy elixir": 1
+      },
+      "energy_cost": 5
+    },
+    "slowing_powder_with_acceleration_solution": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Acceleration solution": 1
+      },
+      "products": {
+        "Slowing powder": 1
+      },
+      "energy_cost": 5
+    },
+    "dark_elixir": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Death powder": 1,
+        "Blood": 1
+      },
+      "products": {
+        "Dark elixir": 1
+      },
+      "energy_cost": 5
+    },
+    "heal_potion": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Health powder": 1,
+        "Chaos solution": 1
+      },
+      "products": {
+        "Heal potion": 1
+      },
+      "energy_cost": 5,
+      "notes": "Effect on use +Health50"
+    },
+    "life_powder_from_health_solution": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Health solution": 1
+      },
+      "products": {
+        "Life powder": 1
+      },
+      "energy_cost": 5
+    },
+    "growth_enhancer": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Ash": 1,
+        "Life solution": 1
+      },
+      "products": {
+        "Growth enhancer": 1
+      },
+      "energy_cost": 5
+    },
+    "zombie_juice": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Health powder": 1,
+        "Blood": 1
+      },
+      "products": {
+        "Zombie juice": 1
+      },
+      "energy_cost": 5
+    },
+    "brown_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Slowing powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Brown Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "blue_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Acceleration powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Blue Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "dark_green_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Health powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Dark Green Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "green_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Order powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Green Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "dark_violet_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Death powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Dark Violet Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "violet_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Chaos powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Violet Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "red_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Toxic powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Red Paint": 1
+      },
+      "energy_cost": 5
+    },
+    "yellow_paint": {
+      "workbench_tags": [
+        "alchemy_workbench_1"
+      ],
+      "reagents": {
+        "Life powder": 1,
+        "Oil": 1
+      },
+      "products": {
+        "Yellow Paint": 1
+      },
+      "energy_cost": 5
+    }
+  }
+}

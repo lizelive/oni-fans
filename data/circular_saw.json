@@ -1,0 +1,58 @@
+{
+  "building": {},
+  "recipe": {
+    "wood_billet_from_log": {
+      "workbench_tags": [
+        "circular_saw"
+      ],
+      "reagents": {
+        "Log": 1
+      },
+      "products": {
+        "Wood billet": 5
+      },
+      "energy_cost": 10,
+      "notes": "Carpenter: +1× Wood billet"
+    },
+    "flitch_from_log": {
+      "workbench_tags": [
+        "circular_saw"
+      ],
+      "reagents": {
+        "Log": 1
+      },
+      "products": {
+        "Flitch": 7
+      },
+      "energy_cost": 10,
+      "notes": "Carpenter: +2× Flitch"
+    },
+    "wooden_plank_from_log": {
+      "workbench_tags": [
+        "circular_saw"
+      ],
+      "reagents": {
+        "Log": 1
+      },
+      "products": {
+        "Wooden plank": 3
+      },
+      "energy_cost": 15,
+      "notes": "Carpenter: +1× Wooden plank"
+    },
+    "wooden_beam_from_log": {
+      "workbench_tags": [
+        "circular_saw"
+      ],
+      "reagents": {
+        "Log": 1,
+        "Complex iron parts": 1
+      },
+      "products": {
+        "Wooden beam": 3
+      },
+      "energy_cost": 15,
+      "notes": "Carpenter: +1× Wooden beam Gives Red Tech Point5"
+    }
+  }
+}

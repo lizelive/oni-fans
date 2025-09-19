@@ -1,0 +1,67 @@
+{
+  "building": {},
+  "recipe": {
+    "firewood_from_wood_billet": {
+      "workbench_tags": [
+        "chopping_spot"
+      ],
+      "reagents": {
+        "Wood billet": 1
+      },
+      "products": {
+        "Firewood": 10
+      },
+      "energy_cost": 6,
+      "notes": "Perks +5 +Red Tech Point1"
+    },
+    "wood_wedge_from_wood_billet": {
+      "workbench_tags": [
+        "chopping_spot"
+      ],
+      "reagents": {
+        "Wood billet": 1
+      },
+      "products": {
+        "Wood wedge": 10
+      },
+      "energy_cost": 6
+    },
+    "firewood_from_wooden_cross": {
+      "workbench_tags": [
+        "chopping_spot"
+      ],
+      "reagents": {
+        "Wooden cross": 1
+      },
+      "products": {
+        "Firewood": 4
+      },
+      "energy_cost": 4,
+      "notes": "+Red Tech Point1"
+    },
+    "firewood_from_wooden_marker": {
+      "workbench_tags": [
+        "chopping_spot"
+      ],
+      "reagents": {
+        "Wooden marker": 1
+      },
+      "products": {
+        "Firewood": 4
+      },
+      "energy_cost": 4
+    },
+    "firewood_from_wooden_grave_fence": {
+      "workbench_tags": [
+        "chopping_spot"
+      ],
+      "reagents": {
+        "Wooden grave fence": 1
+      },
+      "products": {
+        "Firewood": 4
+      },
+      "energy_cost": 3
+    }
+  }
+}

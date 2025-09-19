@@ -1,0 +1,245 @@
+{
+  "building": {},
+  "recipe": {
+    "acceleration_solution_from_honey": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Honey": 1
+      },
+      "products": {
+        "Acceleration solution": 4
+      },
+      "energy_cost": 5
+    },
+    "acceleration_solution_from_blue_jelly": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Blue jelly": 1
+      },
+      "products": {
+        "Acceleration solution": 2
+      },
+      "energy_cost": 5
+    },
+    "chaos_solution_from_moth": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Moth": 1
+      },
+      "products": {
+        "Chaos solution": 2
+      },
+      "energy_cost": 5
+    },
+    "chaos_solution_from_bat_wing": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Bat wing": 1
+      },
+      "products": {
+        "Chaos solution": 1
+      },
+      "energy_cost": 5
+    },
+    "death_solution_from_dark_brain": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Dark brain": 1
+      },
+      "products": {
+        "Death solution": 2
+      },
+      "energy_cost": 5
+    },
+    "death_solution_from_black_jelly": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Black jelly": 1
+      },
+      "products": {
+        "Death solution": 2
+      },
+      "energy_cost": 5
+    },
+    "health_solution_from_carrot": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Carrot": 1
+      },
+      "products": {
+        "Health solution": 3
+      },
+      "energy_cost": 5
+    },
+    "health_solution_from_hiccup_grass": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Hiccup grass": 1
+      },
+      "products": {
+        "Health solution": 2
+      },
+      "energy_cost": 5
+    },
+    "health_solution_from_cabbage": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Cabbage": 1
+      },
+      "products": {
+        "Health solution": 2
+      },
+      "energy_cost": 5
+    },
+    "life_solution_from_brain": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Brain": 1
+      },
+      "products": {
+        "Life solution": 2
+      },
+      "energy_cost": 5
+    },
+    "life_solution_from_maggot": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Maggot": 1
+      },
+      "products": {
+        "Life solution": 1
+      },
+      "energy_cost": 5
+    },
+    "life_solution_from_yellow_flower": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Yellow flower": 1
+      },
+      "products": {
+        "Life solution": 1
+      },
+      "energy_cost": 5
+    },
+    "order_solution_from_bee": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Bee": 1
+      },
+      "products": {
+        "Order solution": 3
+      },
+      "energy_cost": 5
+    },
+    "order_solution_from_green_jelly": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Green jelly": 1
+      },
+      "products": {
+        "Order solution": 2
+      },
+      "energy_cost": 5
+    },
+    "order_solution_from_white_flower": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "White flower": 1
+      },
+      "products": {
+        "Order solution": 1
+      },
+      "energy_cost": 5
+    },
+    "slowing_solution_from_beeswax": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Beeswax": 1
+      },
+      "products": {
+        "Slowing solution": 4
+      },
+      "energy_cost": 5
+    },
+    "slowing_solution_from_hops": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Hops": 1
+      },
+      "products": {
+        "Slowing solution": 3
+      },
+      "energy_cost": 5
+    },
+    "slowing_solution_from_fat": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Fat": 1
+      },
+      "products": {
+        "Slowing solution": 1
+      },
+      "energy_cost": 5
+    },
+    "toxic_solution_from_orange_jelly": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Orange jelly": 1
+      },
+      "products": {
+        "Toxic solution": 2
+      },
+      "energy_cost": 5
+    },
+    "toxic_solution_from_red_mushroom": {
+      "workbench_tags": [
+        "hand_mixer"
+      ],
+      "reagents": {
+        "Red mushroom": 1
+      },
+      "products": {
+        "Toxic solution": 1
+      },
+      "energy_cost": 5
+    }
+  }
+}

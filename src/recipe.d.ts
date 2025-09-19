@@ -26,7 +26,7 @@ interface Building {
 
 interface Data {
     building:
-    { [building_name: string]: Buildings };
+    { [building_name: string]: Building };
 
     recipe:
     { [recipe_name: string]: Recipe };

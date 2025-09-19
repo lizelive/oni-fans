@@ -1,0 +1,235 @@
+{
+  "building": {
+    "furnace_iii": {
+      "required_techs": [],
+      "workbench_tags": [
+        "furnace_iii"
+      ]
+    }
+  },
+  "recipe": {
+    "graphite_from_coal": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Coal": 5
+      },
+      "products": {
+        "Graphite": 2
+      },
+      "energy_cost": 10,
+      "time": "0:30",
+      "notes": "+Red Tech Point1"
+    },
+    "fuel_from_wooden_stick": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Wooden stick": 10
+      },
+      "products": {
+        "Fuel": 20
+      },
+      "energy_cost": 0
+    },
+    "fuel_from_firewood": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Firewood": 10
+      },
+      "products": {
+        "Fuel": 100
+      },
+      "energy_cost": 0
+    },
+    "fuel_from_coal": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Coal": 10
+      },
+      "products": {
+        "Fuel": 180
+      },
+      "energy_cost": 0
+    },
+    "iron_ingot_3_from_iron_ore_3": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Iron ore": 3
+      },
+      "products": {
+        "Iron ingot": 3
+      },
+      "energy_cost": 25,
+      "time": "2:00",
+      "notes": "+Red Tech Point1"
+    },
+    "iron_ingot_6_from_iron_ore_6": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Iron ore": 6
+      },
+      "products": {
+        "Iron ingot": 6
+      },
+      "energy_cost": 40,
+      "time": "3:20",
+      "notes": "+Red Tech Point1"
+    },
+    "iron_ingot_from_metal_scrap": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Metal scrap": 10
+      },
+      "products": {
+        "Iron ingot": 1
+      },
+      "energy_cost": 10,
+      "time": "0:30",
+      "notes": "+Red Tech Point1"
+    },
+    "steel_ingot_from_iron_and_graphite": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Iron ingot": 2,
+        "Graphite": 1
+      },
+      "products": {
+        "Steel ingot": 2
+      },
+      "energy_cost": 25,
+      "time": "3:00",
+      "notes": "+Red Tech Point3"
+    },
+    "silver_ingot": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Silver nugget": 2
+      },
+      "products": {
+        "Silver ingot": 1
+      },
+      "energy_cost": 20,
+      "time": "1:30",
+      "notes": "+Red Tech Point3"
+    },
+    "gold_ingot": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Gold nugget": 2
+      },
+      "products": {
+        "Gold ingot": 1
+      },
+      "energy_cost": 20,
+      "time": "1:30",
+      "notes": "+Red Tech Point5"
+    },
+    "steel_parts_from_steel_ingot": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Steel ingot": 1,
+        "Ceramic bowls": 2
+      },
+      "products": {
+        "Steel parts": 2
+      },
+      "energy_cost": 20,
+      "time": "1:30",
+      "notes": "Perks +2 +Red Tech Point2 Blue Tech Point1"
+    },
+    "glass_from_sand": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "River sand": 6,
+        "Water": 2
+      },
+      "products": {
+        "Glass": 4
+      },
+      "energy_cost": 40,
+      "time": "1:00",
+      "notes": "+Red Tech Point1"
+    },
+    "conical_flasks": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Glass": 2
+      },
+      "products": {
+        "Conical flasks": 1
+      },
+      "energy_cost": 25,
+      "time": "1:00",
+      "notes": "+Red Tech Point1 Blue Tech Point1"
+    },
+    "advanced_conical_flasks": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Conical flasks": 3,
+        "Water": 1
+      },
+      "products": {
+        "Advanced conical flasks": 3
+      },
+      "energy_cost": 20,
+      "time": "2:00",
+      "notes": "+Red Tech Point3 Blue Tech Point1"
+    },
+    "ceramic_jug_from_bowls": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Ceramic bowls": 10
+      },
+      "products": {
+        "Ceramic jug": 10
+      },
+      "energy_cost": 20,
+      "time": "1:30",
+      "notes": "+Red Tech Point1"
+    },
+    "porcelain_pitcher": {
+      "workbench_tags": [
+        "furnace_iii"
+      ],
+      "reagents": {
+        "Ceramic jug": 1,
+        "White powder": 2
+      },
+      "products": {
+        "Porcelain pitcher": 1
+      },
+      "energy_cost": 20,
+      "time": "1:30",
+      "notes": "+Red Tech Point2"
+    }
+  }
+}

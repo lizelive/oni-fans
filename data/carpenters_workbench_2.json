@@ -1,0 +1,223 @@
+{
+  "building": {},
+  "recipe": {
+    "iron_chisel": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden stick": 4,
+        "Simple iron parts": 3
+      },
+      "products": {
+        "Iron chisel": 1
+      },
+      "energy_cost": 20
+    },
+    "steel_chisel_from_parts": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Steel parts": 1,
+        "Wooden stick": 2
+      },
+      "products": {
+        "Steel chisel": 1
+      },
+      "energy_cost": 5
+    },
+    "steel_chisel_with_lens": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Steel parts": 1,
+        "Wooden stick": 2,
+        "Lens": 1
+      },
+      "products": {
+        "Steel chisel": 1
+      },
+      "energy_cost": 5
+    },
+    "steel_chisel_upgraded": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Steel parts": 1,
+        "Steel chisel": 1,
+        "Lens": 1
+      },
+      "products": {
+        "Steel chisel": 1
+      },
+      "energy_cost": 5,
+      "notes": "Variant with base quality modifiers listed on wiki"
+    },
+    "iron_armor": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Skin": 4,
+        "Simple iron parts": 6
+      },
+      "products": {
+        "Iron armor": 1
+      },
+      "energy_cost": 25
+    },
+    "steel_armor": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden stick": 2,
+        "Complex iron parts": 5
+      },
+      "products": {
+        "steel armor": 1
+      },
+      "energy_cost": 30
+    },
+    "lenses": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Glass": 2,
+        "Polishing paste": 1,
+        "Faith": 2
+      },
+      "products": {
+        "Lens": 4
+      },
+      "energy_cost": 15
+    },
+    "polishing_paste": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "River sand": 1,
+        "Oil": 1,
+        "Ceramic bowls": 1
+      },
+      "products": {
+        "Polishing paste": 1
+      },
+      "energy_cost": 5
+    },
+    "wooden_plank": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Flitch": 1
+      },
+      "products": {
+        "Wooden plank": 1
+      },
+      "energy_cost": 4
+    },
+    "carved_wood": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Steel chisel": 1,
+        "Wooden plank": 1,
+        "Faith": 2
+      },
+      "products": {
+        "Carved wood": 1
+      },
+      "energy_cost": 12
+    },
+    "jointing": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden beam": 1,
+        "Nails": 2,
+        "Complex iron parts": 1
+      },
+      "products": {
+        "Jointing": 1
+      },
+      "energy_cost": 15
+    },
+    "barman_doll": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden plank": 4,
+        "Complex iron parts": 4,
+        "Wooden beam": 2
+      },
+      "products": {
+        "Barman Doll": 1
+      },
+      "energy_cost": 25
+    },
+    "wood_repair_kit": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Flitch": 3,
+        "Wooden plank": 1,
+        "Nails": 2
+      },
+      "products": {
+        "Wood repair kit": 4
+      },
+      "energy_cost": 10
+    },
+    "wooden_marker": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Flitch": 2,
+        "Nails": 1
+      },
+      "products": {
+        "Wooden marker": 1
+      },
+      "energy_cost": 5,
+      "notes": "Adds +1 Grave Decor to the grave."
+    },
+    "wooden_grave_fence": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden plank": 1
+      },
+      "products": {
+        "Wooden grave fence": 1
+      },
+      "energy_cost": 5,
+      "notes": "Adds +1 Grave Decor to the grave."
+    },
+    "wooden_cross": {
+      "workbench_tags": [
+        "carpenters_workbench_2"
+      ],
+      "reagents": {
+        "Wooden plank": 1,
+        "Nails": 1
+      },
+      "products": {
+        "Wooden cross": 1
+      },
+      "energy_cost": 10,
+      "notes": "Adds +2 Grave Decor to the grave."
+    }
+  }
+}

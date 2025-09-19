@@ -1,0 +1,191 @@
+{
+  "building": {},
+  "recipe": {
+    "nails": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Iron ingot": 1
+      },
+      "products": {
+        "Nails": 9
+      },
+      "energy_cost": 10,
+      "notes": "Perks +3 +Red Tech Point1"
+    },
+    "simple_iron_parts": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Iron ingot": 1
+      },
+      "products": {
+        "Simple iron parts": 5
+      },
+      "energy_cost": 10,
+      "notes": "+Red Tech Point1"
+    },
+    "complex_iron_parts": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Iron ingot": 1,
+        "Simple iron parts": 1
+      },
+      "products": {
+        "Complex iron parts": 2
+      },
+      "energy_cost": 10,
+      "notes": "+Red Tech Point3"
+    },
+    "axe_i": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 2,
+        "Simple iron parts": 2,
+        "Iron ingot": 1
+      },
+      "products": {
+        "Axe I": 1
+      },
+      "energy_cost": 10,
+      "notes": "Energy consumption: -energy1 Tool efficiency: 100% +Red Tech Point5"
+    },
+    "shovel_i": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 2,
+        "Simple iron parts": 2,
+        "Iron ingot": 1
+      },
+      "products": {
+        "Shovel I": 1
+      },
+      "energy_cost": 10
+    },
+    "pickaxe_i": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 2,
+        "Simple iron parts": 3,
+        "Iron ingot": 1
+      },
+      "products": {
+        "Pickaxe I": 1
+      },
+      "energy_cost": 10
+    },
+    "rusty_hammer": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 1,
+        "Complex iron parts": 2,
+        "Iron ingot": 1
+      },
+      "products": {
+        "Rusty hammer": 1
+      },
+      "energy_cost": 5,
+      "notes": "Energy consumption: -energy1 Tool efficiency: 70% +Red Tech Point1 : 'Rusty' hammer requires Iron."
+    },
+    "axe_ii": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 1,
+        "Complex iron parts": 2,
+        "Steel ingot": 1
+      },
+      "products": {
+        "Axe II": 1
+      },
+      "energy_cost": 30,
+      "notes": "Energy consumption: -energy1 Tool efficiency: 150% +Red Tech Point3"
+    },
+    "shovel_ii": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 1,
+        "Complex iron parts": 2,
+        "Steel ingot": 1
+      },
+      "products": {
+        "Shovel II": 1
+      },
+      "energy_cost": 30
+    },
+    "pickaxe_ii": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 1,
+        "Complex iron parts": 3,
+        "Steel ingot": 1
+      },
+      "products": {
+        "Pickaxe II": 1
+      },
+      "energy_cost": 30
+    },
+    "iron_hammer": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 1,
+        "Complex iron parts": 2,
+        "Steel ingot": 1
+      },
+      "products": {
+        "Iron hammer": 1
+      },
+      "energy_cost": 10,
+      "notes": "Energy consumption: -energy1 Tool efficiency: 100% +Red Tech Point1 : 'Iron' hammer requires Steel."
+    },
+    "sword": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Iron ingot": 1,
+        "Complex iron parts": 4,
+        "Hemp rope": 2
+      },
+      "products": {
+        "Sword": 1
+      },
+      "energy_cost": 20,
+      "notes": "Energy consumption: -energy2 10 damage +Red Tech Point2"
+    },
+    "steel_sword": {
+      "workbench_tags": [
+        "anvil_2"
+      ],
+      "reagents": {
+        "Wooden stick": 2,
+        "Steel ingot": 2,
+        "Steel parts": 2
+      },
+      "products": {
+        "Steel sword": 1
+      },
+      "energy_cost": 30,
+      "notes": "Energy consumption: -energy2 15 damage +Red Tech Point2 Blue Tech Point1"
+    }
+  }
+}

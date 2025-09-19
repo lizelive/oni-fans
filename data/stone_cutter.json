@@ -1,0 +1,498 @@
+{
+  "building": {},
+  "recipe": {
+    "gravestone": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 2
+      },
+      "products": {
+        "Gravestone": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 0
+      },
+      "notes": "Adds Grave Decor2 to the grave. Red Tech Point5"
+    },
+    "stone_grave_fence": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 2
+      },
+      "products": {
+        "Stone grave fence": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 2,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor2 to the grave. Red Tech Point2 Blue Tech Point5"
+    },
+    "stone_cross": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 1,
+        "A polished brick of stone": 1,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Stone cross": 1
+      },
+      "energy_cost": 20,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor3 to the grave. Red Tech Point5 Blue Tech Point5"
+    },
+    "gravestone_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 3
+      },
+      "products": {
+        "Gravestone II": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor3 to the grave. Red Tech Point5 Blue Tech Point5"
+    },
+    "stone_grave_fence_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 1,
+        "A polished brick of stone": 1
+      },
+      "products": {
+        "Stone grave fence II": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 2,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor3 to the grave. Red Tech Point2 Blue Tech Point5"
+    },
+    "stone_cross_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of stone": 3,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Stone cross II": 1
+      },
+      "energy_cost": 25,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor4 to the grave. Red Tech Point5 Blue Tech Point5"
+    },
+    "stone_plinth": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of stone": 1,
+        "A carved piece of stone": 1,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Stone plinth": 1
+      },
+      "energy_cost": 25,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor4 to the grave. Red Tech Point5 Blue Tech Point5"
+    },
+    "stone_sculpture": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of stone": 1,
+        "A carved piece of stone": 1,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Stone sculpture": 1
+      },
+      "energy_cost": 40,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 10
+      },
+      "notes": "Adds Grave Decor5 to the grave. Red Tech Point5 Blue Tech Point10"
+    },
+    "stone_sculpture_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A carved piece of stone": 2
+      },
+      "products": {
+        "Stone sculpture II": 1
+      },
+      "energy_cost": 40,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 10
+      },
+      "notes": "Adds Grave Decor5 to the grave. Red Tech Point5 Blue Tech Point10"
+    },
+    "marble_grave_fence": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of marble": 2
+      },
+      "products": {
+        "Marble grave fence": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 0
+      },
+      "notes": "Adds Grave Decor4 to the grave. Gives Red Tech Point5"
+    },
+    "marble_cross": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of marble": 1,
+        "A polished brick of marble": 1,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Marble cross": 1
+      },
+      "energy_cost": 25,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 0
+      },
+      "notes": "Adds Grave Decor5 to the grave. Gives Red Tech Point5"
+    },
+    "marble_grave_fence_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of marble": 1,
+        "A polished brick of marble": 1
+      },
+      "products": {
+        "Marble grave fence II": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 0
+      },
+      "notes": "Adds Grave Decor5 to the grave. Gives Red Tech Point5"
+    },
+    "marble_cross_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of marble": 1,
+        "A carved piece of marble": 2,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Marble cross II": 1
+      },
+      "energy_cost": 30,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 0
+      },
+      "notes": "Adds Grave Decor6 to the grave. Gives Red Tech Point5"
+    },
+    "marble_plinth": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of marble": 1,
+        "A carved piece of marble": 2,
+        "Complex iron parts": 2
+      },
+      "products": {
+        "Marble plinth": 1
+      },
+      "energy_cost": 30,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 5
+      },
+      "notes": "Adds Grave Decor6 to the grave. Gives Red Tech Point5 + Blue Tech Point5"
+    },
+    "marble_sculpture": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A carved piece of marble": 2,
+        "Complex iron parts": 2,
+        "Faith": 5
+      },
+      "products": {
+        "Marble sculpture": 1
+      },
+      "energy_cost": 40,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 15
+      },
+      "notes": "Adds Grave Decor7 to the grave. Gives Red Tech Point5 + Blue Tech Point15"
+    },
+    "marble_sculpture_ii": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A carved piece of marble": 2,
+        "Complex iron parts": 2,
+        "Faith": 5
+      },
+      "products": {
+        "Marble sculpture II": 1
+      },
+      "energy_cost": 40,
+      "experiance": {
+        "red": 5,
+        "green": 0,
+        "blue": 15
+      },
+      "notes": "Adds Grave Decor7 to the grave. Gives Red Tech Point5 + Blue Tech Point15"
+    },
+    "iron_block": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Iron ore": 5
+      },
+      "products": {
+        "Iron block": 1
+      },
+      "energy_cost": 10
+    },
+    "stone_block": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 6
+      },
+      "products": {
+        "Stone block": 1
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 3,
+        "green": 1,
+        "blue": 0
+      },
+      "notes": "Each crafts gives Red Tech Point3 Green Tech Point1 Mason: +2× A piece of stone"
+    },
+    "polished_brick_stone_polishing": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Polishing paste": 1,
+        "A piece of stone": 1
+      },
+      "products": {
+        "A polished brick of stone": 1
+      },
+      "energy_cost": 10
+    },
+    "polished_brick_stone_chisel": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Iron chisel": 1,
+        "A piece of stone": 1
+      },
+      "products": {
+        "A polished brick of stone": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 3,
+        "green": 1,
+        "blue": 1
+      },
+      "notes": "Each crafts gives Red Tech Point3 Green Tech Point1 Blue Tech Point1"
+    },
+    "carved_piece_of_stone": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Iron chisel": 1,
+        "A polished brick of stone": 1,
+        "Faith": 3
+      },
+      "products": {
+        "A carved piece of stone": 2
+      },
+      "energy_cost": 15,
+      "experiance": {
+        "red": 2,
+        "green": 1,
+        "blue": 0
+      },
+      "notes": "Each crafts gives Red Tech Point2 Green Tech Point1"
+    },
+    "polished_brick_marble": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Iron chisel": 1,
+        "A piece of marble": 1
+      },
+      "products": {
+        "A polished brick of marble": 1
+      },
+      "energy_cost": 10,
+      "experiance": {
+        "red": 2,
+        "green": 1,
+        "blue": 1
+      },
+      "notes": "Each crafts gives Red Tech Point2 Green Tech Point1 Blue Tech Point1"
+    },
+    "carved_piece_of_marble": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Steel chisel": 1,
+        "A polished brick of marble": 1,
+        "Faith": 5
+      },
+      "products": {
+        "A carved piece of marble": 2
+      },
+      "energy_cost": 20,
+      "experiance": {
+        "red": 3,
+        "green": 1,
+        "blue": 2
+      },
+      "notes": "Base downgrade: Copper Quality -1.0 Engineer: Copper Quality +0.3 Mason: Copper Quality +0.5 Each crafts gives Red Tech Point3 Green Tech Point1 Blue Tech Point2"
+    },
+    "stone_repair_kit": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A piece of stone": 1,
+        "Simple iron parts": 2,
+        "Clay": 1
+      },
+      "products": {
+        "Stone repair kit": 4
+      },
+      "energy_cost": 8
+    },
+    "marble_repair_kit": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "A polished brick of marble": 1,
+        "Complex iron parts": 2,
+        "Clay": 1
+      },
+      "products": {
+        "Marble repair kit": 4
+      },
+      "energy_cost": 10
+    },
+    "recycle_gravestone": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Gravestone": 1
+      },
+      "products": {
+        "A piece of stone": 1
+      },
+      "energy_cost": 10
+    },
+    "recycle_stone_grave_fence": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Stone grave fence": 1
+      },
+      "products": {
+        "A piece of stone": 1
+      },
+      "energy_cost": 10
+    },
+    "recycle_stone_cross": {
+      "workbench_tags": [
+        "stone_cutter_2"
+      ],
+      "reagents": {
+        "Stone cross": 1
+      },
+      "products": {
+        "A polished brick of stone": 1,
+        "Complex iron parts": 1
+      },
+      "energy_cost": 10
+    }
+  }
+}

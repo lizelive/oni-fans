@@ -1,0 +1,283 @@
+{
+  "building": {},
+  "recipe": {
+    "acceleration_powder_from_hemp": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Hemp": 1
+      },
+      "products": {
+        "Acceleration powder": 3
+      },
+      "energy_cost": 5
+    },
+    "acceleration_powder_from_honey": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Honey": 1
+      },
+      "products": {
+        "Acceleration powder": 3
+      },
+      "energy_cost": 5
+    },
+    "chaos_powder_from_butterfly": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Butterfly": 1
+      },
+      "products": {
+        "Chaos powder": 2
+      },
+      "energy_cost": 5
+    },
+    "chaos_powder_from_bat_wing": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Bat wing": 1
+      },
+      "products": {
+        "Chaos powder": 1
+      },
+      "energy_cost": 5
+    },
+    "death_powder_from_dark_intestine": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Dark intestine": 1
+      },
+      "products": {
+        "Death powder": 3
+      },
+      "energy_cost": 5
+    },
+    "health_powder_from_pumpkin": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Pumpkin": 1
+      },
+      "products": {
+        "Health powder": 4
+      },
+      "energy_cost": 5
+    },
+    "health_powder_from_cabbage": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Cabbage": 1
+      },
+      "products": {
+        "Health powder": 2
+      },
+      "energy_cost": 5
+    },
+    "health_powder_from_crop_waste": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Crop waste": 1
+      },
+      "products": {
+        "Health powder": 1
+      },
+      "energy_cost": 5
+    },
+    "life_powder_from_intestine": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Intestine": 1
+      },
+      "products": {
+        "Life powder": 2
+      },
+      "energy_cost": 5
+    },
+    "life_powder_from_sulfur": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Sulfur": 1
+      },
+      "products": {
+        "Life powder": 2
+      },
+      "energy_cost": 5
+    },
+    "order_powder_from_bee": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Bee": 1
+      },
+      "products": {
+        "Order powder": 3
+      },
+      "energy_cost": 5
+    },
+    "slowing_powder_from_hops": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Hops": 1
+      },
+      "products": {
+        "Slowing powder": 4
+      },
+      "energy_cost": 5
+    },
+    "slowing_powder_from_spider_web": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Spider web": 1
+      },
+      "products": {
+        "Slowing powder": 2
+      },
+      "energy_cost": 5
+    },
+    "toxic_powder_from_onion": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Onion": 1
+      },
+      "products": {
+        "Toxic powder": 3
+      },
+      "energy_cost": 5
+    },
+    "toxic_powder_from_red_flower": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Red flower": 1
+      },
+      "products": {
+        "Toxic powder": 1
+      },
+      "energy_cost": 5
+    },
+    "white_powder_from_bone": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Bone": 1
+      },
+      "products": {
+        "White powder": 2
+      },
+      "energy_cost": 5
+    },
+    "white_powder_from_limestone": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Limestone": 1
+      },
+      "products": {
+        "White powder": 2
+      },
+      "energy_cost": 5
+    },
+    "graphite_powder_from_graphite": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Graphite": 1
+      },
+      "products": {
+        "Graphite powder": 2
+      },
+      "energy_cost": 5
+    },
+    "gold_powder_from_gold_nugget": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Gold nugget": 1
+      },
+      "products": {
+        "Gold powder": 4
+      },
+      "energy_cost": 5
+    },
+    "silver_powder_from_silver_nugget": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Silver nugget": 1
+      },
+      "products": {
+        "Silver powder": 4
+      },
+      "energy_cost": 5
+    },
+    "electric_powder_from_eel": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Eel": 1
+      },
+      "products": {
+        "Electric powder": 2
+      },
+      "energy_cost": 5
+    },
+    "order_powder_from_faceted_emerald": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Faceted emerald": 1
+      },
+      "products": {
+        "Order powder": 1
+      },
+      "energy_cost": 5,
+      "notes": "Wiki lists amount as '?×' — assumed 1"
+    },
+    "slowing_powder_from_pyrite": {
+      "workbench_tags": [
+        "alchemy_mill"
+      ],
+      "reagents": {
+        "Pyrite": 1
+      },
+      "products": {
+        "Slowing powder": 1
+      },
+      "energy_cost": 5,
+      "notes": "Wiki lists amount as '?×' — assumed 1"
+    }
+  }
+}
