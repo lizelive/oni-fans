@@ -12,7 +12,17 @@
             "products": {
                 "Burial certificate": 1,
                 "Salt": 2,
-                "Ash": 5
+                "Ash": 5,
+                "Brain": 1,
+                "Bone": 1,
+                "Meat": 1,
+                "Skin": 1,
+                "Heart": 1,
+                "Lung": 1,
+                "Fat": 1,
+                "Blood": 1,
+                "Intestine": 1,
+                "Dark intestine": 1
             },
             "energy_cost": 6
         },
