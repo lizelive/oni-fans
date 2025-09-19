@@ -15,6 +15,7 @@
   "type": "module",
   "main": "index.mjs",
   "scripts": {
+    "start": "node index.mjs",
     "test": "node --test"
   }
 }
