@@ -37,4 +37,7 @@ export {
   printingPod, storageCompactor, smartStorageBin,
   ladder, tile, pneumaticDoor, mechanizedAirlock, tempshiftPlate,
 } from './buildings/index.js';
-export { hatch } from './critters/hatch.js';
+export * from './critters/index.js';
+export * from './geysers/index.js';
+export * from './food/index.js';
+export * from './diseases/index.js';

@@ -5,6 +5,11 @@ import { mealwood } from '../../../data/oni/plants/mealwood.js';
 import { bristleBlossom } from '../../../data/oni/plants/bristleBlossom.js';
 import { hatch } from '../../../data/oni/critters/hatch.js';
 import { buildings, algaeTerr, electrolyzer, hydrogenGenerator } from '../../../data/oni/buildings/index.js';
+import { plants } from '../../../data/oni/plants/index.js';
+import { critters } from '../../../data/oni/critters/index.js';
+import { geysers } from '../../../data/oni/geysers/index.js';
+import { foodItems } from '../../../data/oni/food/index.js';
+import { diseases } from '../../../data/oni/diseases/index.js';
 
 describe('Elements data', () => {
   test('elements array is non-empty', () => {
@@ -117,9 +122,91 @@ describe('Critters data', () => {
     assert.ok(hatch.heatProduction > 0);
   });
 
-  test('hatch consumes coal', () => {
-    const coalFeed = hatch.feed.find(f => f.id === 'coal');
-    assert.ok(coalFeed, 'Hatch should eat coal');
-    assert.equal(coalFeed.amount, 140000);
+  test('hatch consumes sandstone', () => {
+    const sandstoneFeed = hatch.feed.find(f => f.id === 'sandstone');
+    assert.ok(sandstoneFeed, 'Hatch should eat sandstone');
+    assert.equal(sandstoneFeed.amount, 140000);
+  });
+});
+
+describe('Data counts', () => {
+  test('plant count >= 15', () => {
+    assert.ok(plants.length >= 15, `Expected at least 15 plants, got ${plants.length}`);
+  });
+
+  test('critter count >= 10', () => {
+    assert.ok(critters.length >= 10, `Expected at least 10 critters, got ${critters.length}`);
+  });
+
+  test('element count >= 80', () => {
+    assert.ok(elements.length >= 80, `Expected at least 80 elements, got ${elements.length}`);
+  });
+
+  test('building count >= 50', () => {
+    assert.ok(buildings.length >= 50, `Expected at least 50 buildings, got ${buildings.length}`);
+  });
+
+  test('geyser count >= 15', () => {
+    assert.ok(geysers.length >= 15, `Expected at least 15 geysers, got ${geysers.length}`);
+  });
+
+  test('food count >= 20', () => {
+    assert.ok(foodItems.length >= 20, `Expected at least 20 food items, got ${foodItems.length}`);
+  });
+});
+
+describe('Geysers data', () => {
+  test('geysers array is non-empty', () => {
+    assert.ok(geysers.length > 0);
+  });
+
+  test('all geysers have required fields', () => {
+    for (const g of geysers) {
+      assert.ok(g.id, `Geyser missing id`);
+      assert.ok(g.name, `Geyser ${g.id} missing name`);
+      assert.ok(g.output, `Geyser ${g.id} missing output`);
+      assert.ok(typeof g.outputTemp === 'number', `Geyser ${g.id} missing outputTemp`);
+      assert.ok(g.eruptionPeriod, `Geyser ${g.id} missing eruptionPeriod`);
+      assert.ok(g.dormancyPeriod, `Geyser ${g.id} missing dormancyPeriod`);
+      assert.ok(g.activeCycles, `Geyser ${g.id} missing activeCycles`);
+      assert.ok(g.dormantCycles, `Geyser ${g.id} missing dormantCycles`);
+    }
+  });
+});
+
+describe('Food data', () => {
+  test('foodItems array is non-empty', () => {
+    assert.ok(foodItems.length > 0);
+  });
+
+  test('all food items have required fields', () => {
+    for (const f of foodItems) {
+      assert.ok(f.id, `Food missing id`);
+      assert.ok(f.name, `Food ${f.id} missing name`);
+      assert.ok(typeof f.quality === 'number', `Food ${f.id} missing quality`);
+      assert.ok(typeof f.calories === 'number', `Food ${f.id} missing calories`);
+      assert.ok(typeof f.spoilTime === 'number', `Food ${f.id} missing spoilTime`);
+    }
+  });
+
+  test('food quality is in valid range', () => {
+    for (const f of foodItems) {
+      assert.ok(f.quality >= -1 && f.quality <= 6, `Food ${f.id} has quality ${f.quality} outside range [-1, 6]`);
+    }
+  });
+});
+
+describe('Diseases data', () => {
+  test('diseases array is non-empty', () => {
+    assert.ok(diseases.length > 0);
+  });
+
+  test('all diseases have required fields', () => {
+    for (const d of diseases) {
+      assert.ok(d.id, `Disease missing id`);
+      assert.ok(d.name, `Disease ${d.id} missing name`);
+      assert.ok(['germ', 'radiation', 'other'].includes(d.type), `Disease ${d.id} has invalid type`);
+      assert.ok(Array.isArray(d.effects), `Disease ${d.id} missing effects`);
+    }
   });
 });
