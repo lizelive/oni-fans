@@ -1,0 +1,31 @@
+{
+  "name": "oni-fans",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Z3-powered abstract optimizer and data ingester for Oxygen Not Included.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --coverage",
+    "test:watch": "vitest",
+    "ingest": "tsx src/cli.ts ingest",
+    "ingest:all": "tsx src/cli.ts ingest --all",
+    "solve": "tsx src/cli.ts solve",
+    "catalog": "tsx src/cli.ts catalog"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "z3-solver": "^4.15.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@vitest/coverage-v8": "^3.2.4",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}
