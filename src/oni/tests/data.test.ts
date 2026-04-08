@@ -23,10 +23,10 @@ describe('Elements data', () => {
     assert.equal(water.phase, 'liquid');
   });
 
-  test('water boiling point is 100', () => {
+  test('water boiling point is 99.4', () => {
     const water = getElementById('water');
     assert.ok(water);
-    assert.equal(water.boilingPoint, 100);
+    assert.equal(water.boilingPoint, 99.4);
   });
 
   test('oxygen is gas phase', () => {
@@ -35,10 +35,10 @@ describe('Elements data', () => {
     assert.equal(oxygen.phase, 'gas');
   });
 
-  test('hydrogen has high specific heat capacity', () => {
+  test('hydrogen has correct specific heat capacity', () => {
     const hydrogen = getElementById('hydrogen');
     assert.ok(hydrogen);
-    assert.ok(hydrogen.specificHeatCapacity > 10, 'Hydrogen SHC should be > 10');
+    assert.equal(hydrogen.specificHeatCapacity, 2.400);
   });
 
   test('all elements have required fields', () => {
