@@ -1,0 +1,1000 @@
+{
+  "tags": {
+    "other": "Miscellaneous",
+    "filter": "Filtration Medium",
+    "filter_desc": "Filtration mediums are materials used to separate purified gases or liquids from their polluted forms.\n\nThey are consumables that will be transformed by the filtering process. For example, Sand that has been used to filter Polluted Water will become Polluted Dirt.",
+    "iceore": "Ice",
+    "iceore_desc": "Ice is a class of materials made up mostly (if not completely) of Water in a frozen or partially frozen form.\n\nAs a material in a frigid solid or semi-solid state, these elements are very useful as a low-cost way to cool the environment around them.\n\nWhen heated, ice will melt into its original liquified form (ie.Brine Ice will liquify into Brine). Each ice element has a different freezing and melting point based upon its composition and state.",
+    "phosphorus": "Phosphorus",
+    "buildableraw": "Raw Mineral",
+    "buildableraw_desc": "Raw minerals are the unrefined forms of organic solids. Almost all raw minerals can be processed in the Rock Crusher, although a handful require the use of the Molecular Forge.",
+    "buildableprocessed": "Refined Mineral",
+    "buildableany": "General Buildable",
+    "buildableany_desc": "",
+    "dehydrated": "Dehydrated",
+    "fossils": "Fossil",
+    "fossils_desc": "Fossil is a category of composite rocks and minerals that contain traces of petrified lifeforms.\n\nThey have varied uses as basic building materials, sculpting blocks, or raw ingredients in the production of higher-grade materials.",
+    "plastifiableliquid": "Plastic Monomer",
+    "plastifiableliquid_desc": "Plastic monomers are organic compounds that can be processed into Plastics that have valuable applications as advanced building materials.\n\nPlastics derived from these monomers can also be used as packaging materials for Food preservation.",
+    "unrefinedoil": "Unrefined Oil",
+    "unrefinedoil_desc": "Oils in their raw, minimally processed forms. They can be used as industrial lubricants or refined for other applications at designated buildings.",
+    "refinedmetal": "Refined Metal",
+    "refinedmetal_desc": "Refined metals are purified forms of metal often used in higher-tier electronics due to their tendency to be able to withstand higher temperatures when they are made into wires. Other benefits include the increased decor value for some metals which can greatly improve the well-being of a colony.\n\nMetal ore can be refined in either the Rock Crusher or the Metal Refinery.",
+    "metal": "Metal Ore",
+    "metal_desc": "Metal ore is the raw form of metal, and has a wide variety of practical applications in electronics and general construction.\n\nMetal ore is typically processed into Refined Metal using the Rock Crusher or the Metal Refinery.\n\nSome rare metal ores can also be refined in the Molecular Forge.",
+    "preciousmetal": "Precious Metal",
+    "rawpreciousmetal": "Precious Metal Ore",
+    "preciousrock": "Precious Rock",
+    "preciousrock_desc": "Precious rocks are raw minerals. Their extreme hardness produces durable Decor.\n\nSome precious rocks are inherently attractive even in their natural, unfinished form.",
+    "alloy": "Alloy",
+    "buildingfiber": "Fibers",
+    "buildingfiber_desc": "Fibers are organically sourced polymers which are both sturdy and sensorially pleasant, making them suitable in the construction of Morale-boosting buildings.",
+    "buildingwood": "Wood",
+    "buildingwood_desc": "Wood is a renewable building material which can also be used as a valuable source of fuel and electricity when refined at the Wood Burner or the Ethanol Distiller.",
+    "crushable": "Crushable",
+    "cropseeds": "Crop Seeds",
+    "cropseed": "Crop Seed",
+    "waterseed": "Aquatic Seed",
+    "decorseed": "Decor Seed",
+    "ceramic": "Ceramic",
+    "polypropylene": "Plastic",
+    "bagablecreature": "Critter",
+    "swimmingcreature": "Aquatic Critter",
+    "life": "Life",
+    "liquifiable": "Liquefiable",
+    "liquid": "Liquid",
+    "lubricatingoil": "Gear Oil",
+    "lubricatingoil_desc": "Gear oils are lubricating fluids useful in the maintenance of complex machinery, protecting gear systems from damage and minimizing friction between moving parts to support optimal performance.",
+    "remoteoperable": "Remote Workable",
+    "remoteoperable_desc": "These buildings can be operated from a distance by a Remote Controller so long as they are built within range of a Remote Worker Dock.",
+    "slippery": "Slippery",
+    "slippery_desc": "Some liquids and solids have a remarkably low coefficient of friction. These present a safety hazard if left on the ground, as Duplicants may slip and fall when traveling across them.",
+    "lead": "Lead",
+    "chargedportablebattery": "Power Banks",
+    "emptyportablebattery": "Empty Eco Power Banks",
+    "special": "Special",
+    "farmable": "Cultivable Soil",
+    "farmable_desc": "Cultivable soil is a fundamental building block of basic agricultural systems and can also be useful in the production of clean Oxygen.",
+    "agriculture": "Agriculture",
+    "coal": "Coal",
+    "bleachstone": "Bleach Stone",
+    "organics": "Organic",
+    "organics_desc": "Organic materials are useful ingredients gathered from the environment, harvested from plants or derived from critters.\n\nSome, not all, require additional processing before they can be used.",
+    "consumableore": "Consumable Ore",
+    "sublimating": "Sublimator",
+    "sublimating_subheader": "Off-Gassing Elements",
+    "sublimating_desc": "Sublimators are a class of Solid elements that passively convert to a Gaseous state. When off-gassing is complete, no trace of the original solid remains.\n\nThis passive conversion persists when the element is left in storage.",
+    "ore": "Ore",
+    "breathable": "Breathable Gas",
+    "unbreathable": "Unbreathable Gas",
+    "gas": "Gas",
+    "burns": "Flammable",
+    "unstable": "Unstable",
+    "toxic": "Toxic",
+    "mixture": "Mixture",
+    "solid": "Solid",
+    "flyingcritteredible": "Bait",
+    "industrialproduct": "Industrial Product",
+    "industrialingredient": "Industrial Ingredient",
+    "techcomponents": "Tech Component",
+    "ornament": "Ornament",
+    "medicalsupplies": "Medical Supplies",
+    "clothes": "Clothing",
+    "emitslight": "Light Emitter",
+    "bed": "Beds",
+    "messstation": "Dining Tables",
+    "toy": "Toy",
+    "suit": "Suits",
+    "multitool": "Multitool",
+    "clinic": "Clinic",
+    "relaxation_point": "Leisure Area",
+    "solidmaterial": "Solid Material",
+    "extrudable": "Extrudable",
+    "plumbable": "Plumbable",
+    "plumbable_desc": "",
+    "compostable": "Compostable",
+    "compostable_subheader": "Recyclable Organics",
+    "compostable_desc": "Compostables are biological materials which can be put into a Compost to generate clean Dirt.\n\nComposting also generates a small amount of Heat.\n\nOnce it starts to rot, consumable food should be composted to prevent Food Poisoning.",
+    "compostbasicplantfood": "Compost Muckroot",
+    "edible": "Edible",
+    "oxidizer": "Oxidizer",
+    "cookingingredient": "Cooking Ingredient",
+    "medicine": "Medicine",
+    "seed": "Seed",
+    "anywater": "Water Based",
+    "markedforcompost": "Marked For Compost",
+    "markedforcompostinstorage": "In Compost Storage",
+    "compostmeat": "Compost Meat",
+    "pickled": "Pickled",
+    "plastic": "Plastics",
+    "plastic_desc": "Plastics are synthetic Solids that are pliable and minimize the transfer of Heat. They typically have a low melting point, although more advanced plastics have been developed to circumvent this issue.",
+    "toilet": "Toilets",
+    "massage_table": "Massage Tables",
+    "powerstation": "Power Station",
+    "farmstation": "Farm Station",
+    "machine_shop": "Machine Shop",
+    "antiseptic": "Antiseptic",
+    "oil": "Hydrocarbon",
+    "decoration": "Decoration",
+    "egg": "Critter Egg",
+    "eggshell": "Egg Shell",
+    "manufacturedmaterial": "Manufactured Material",
+    "steel": "Steel",
+    "raw": "Raw Animal Product",
+    "fossil": "Fossil",
+    "ice": "Ice",
+    "any": "Any",
+    "transparent": "Transparent",
+    "transparent_desc": "Transparent materials allow Light to pass through. Illumination boosts Duplicant productivity during working hours, but undermines sleep quality.\n\nTransparency is also important for buildings that require a clear line of sight in order to function correctly, such as the Space Scanner.",
+    "rarematerials": "Rare Resource",
+    "farmingmaterial": "Fertilizer",
+    "insulator": "Insulator",
+    "insulator_desc": "Insulators have low thermal conductivity, and effectively reduce the speed at which Heat is transferred through them.",
+    "railgunpayloademptyable": "Payload",
+    "noncrushable": "Uncrushable",
+    "storytraitresource": "Story Trait",
+    "glass": "Glass",
+    "obsidian": "Obsidian",
+    "diamond": "Diamond",
+    "snow": "Snow",
+    "woodlog": "Wood",
+    "oxygencanister": "Oxygen Canister",
+    "ornamentdisplayed": "Ornament",
+    "pedestaldisplayable": "Other Pedestal Displayable",
+    "command_module": "Command Module",
+    "habitat_module": "Habitat Module",
+    "combustiblegas": "Combustible Gas",
+    "combustiblegas_desc": "Combustible Gases can be burned as fuel to be used in the production of Power and Food.",
+    "combustibleliquid": "Combustible Liquid",
+    "combustibleliquid_desc": "Combustible Liquids can be burned as fuels to be used in energy production, such as in a Petroleum Generator or a NAME.\n\nThough these liquids have other uses, such as fertilizer for growing a Nosh Bean, their primary usefulness lies in their ability to be burned for Power.",
+    "combustiblesolid": "Combustible Solid",
+    "combustiblesolid_desc": "Combustible Solids can be burned as fuel to be used in Power production.",
+    "unidentifiedseed": "Seed (Unidentified Mutation)",
+    "artifact": "Artifact",
+    "charmedartifact": "Artifact of Interest",
+    "gene_shuffler": "Neural Vacillator",
+    "warp_portal": "Teleportal",
+    "bionicupgrade": "Boosters",
+    "farming": "Farm Build-Delivery",
+    "research": "Research Delivery",
+    "power": "Generator Delivery",
+    "building": "Build Dig-Delivery",
+    "cooking": "Cook Delivery",
+    "fabricating": "Fabricate Delivery",
+    "wiring": "Wire Build-Delivery",
+    "art": "Art Build-Delivery",
+    "doctoring": "Treatment Delivery",
+    "conveyor": "Shipping Build",
+    "compost_format": "{Item}",
+    "advanceddoctorstationmedicalsupplies": "Serum Vial",
+    "doctorstationmedicalsupplies": "Medical Pack",
+    "longrangemissile": "Long Range Missile"
+  },
+  "statusitems": {
+    "attentionrequired": {
+      "name": "Attention Required!",
+      "tooltip": "Something in my colony needs to be attended to"
+    },
+    "sublimationblocked": {
+      "name": "{SubElement} emission blocked",
+      "tooltip": "This {Element} deposit is not exposed to air and cannot emit {SubElement}"
+    },
+    "sublimationoverpressure": {
+      "name": "Inert",
+      "tooltip": "Environmental Gas Pressure is too high for this {Element} deposit to emit {SubElement}"
+    },
+    "sublimationemitting": {
+      "name": "Emitting {Element}: {FlowRate}",
+      "tooltip": "Producing {Element} at a rate of {FlowRate}"
+    },
+    "space": {
+      "name": "Space exposure",
+      "tooltip": "This region is exposed to the vacuum of space and will result in the loss of Gas and Liquid resources"
+    },
+    "edible": {
+      "name": "Rations: {0}",
+      "tooltip": "Can provide {0} of energy to Duplicants"
+    },
+    "rehydratedfood": {
+      "name": "Rehydrated Food",
+      "tooltip": "This food has been carefully re-moistened for consumption\n\nMorale: -1"
+    },
+    "markedfordisinfection": {
+      "name": "Disinfect Errand",
+      "tooltip": "Building will be disinfected once a Duplicant is available"
+    },
+    "pendingclear": {
+      "name": "Sweep Errand",
+      "tooltip": "Debris will be swept once a Duplicant is available"
+    },
+    "pendingclearnostorage": {
+      "name": "Storage Unavailable",
+      "tooltip": "No available Storage Bin can accept this item\n\nMake sure the filter on your storage is correctly set and there is sufficient space remaining"
+    },
+    "markedforcompost": {
+      "name": "Compost Errand",
+      "tooltip": "Object is marked and will be moved to Compost once a Duplicant is available"
+    },
+    "noclearlocationsavailable": {
+      "name": "No Sweep Destination",
+      "tooltip": "There are no valid destinations for this object to be swept to"
+    },
+    "pendingharvest": {
+      "name": "Harvest Errand",
+      "tooltip": "Plant will be harvested once a Duplicant is available"
+    },
+    "pendinguproot": {
+      "name": "Uproot Errand",
+      "tooltip": "Plant will be uprooted once a Duplicant is available"
+    },
+    "waitingfordig": {
+      "name": "Dig Errand",
+      "tooltip": "Tile will be dug out once a Duplicant is available"
+    },
+    "waitingformop": {
+      "name": "Mop Errand",
+      "tooltip": "Spill will be mopped once a Duplicant is available"
+    },
+    "notmarkedforharvest": {
+      "name": "No Harvest Pending",
+      "tooltip": "Use the Harvest Tool Harvest to mark this plant for harvest"
+    },
+    "growingbranches": {
+      "name": "Growing Branches",
+      "tooltip": "This tree is working hard to grow new branches right now"
+    },
+    "clustermeteorremainingtraveltime": {
+      "name": "Time to collision: {time}",
+      "tooltip": "The time remaining before this meteor reaches its destination"
+    },
+    "elementalcategory": {
+      "name": "{Category}",
+      "tooltip": "The selected object belongs to the <b>{Category}</b> resource category"
+    },
+    "elementalmass": {
+      "name": "{Mass}",
+      "tooltip": "The selected object has a mass of <b>{Mass}</b>"
+    },
+    "elementaldisease": {
+      "name": "{Disease}",
+      "tooltip": "Current disease: {Disease}"
+    },
+    "elementaltemperature": {
+      "name": "{Temp}",
+      "tooltip": "The selected object is currently <b>{Temp}</b>"
+    },
+    "markedforcompostinstorage": {
+      "name": "Composted",
+      "tooltip": "The selected object is currently in the compost"
+    },
+    "burieditem": {
+      "name": "Buried Object",
+      "tooltip": "Something seems to be hidden here",
+      "notification": "Buried object discovered",
+      "notification_tooltip": "My Duplicants have uncovered a {Uncoverable}!\n\nClick to jump to its location."
+    },
+    "geneticanalysiscompleted": {
+      "name": "Genome Sequenced",
+      "tooltip": "This Station has sequenced a new seed mutation"
+    },
+    "healthstatus": {
+      "perfect": {
+        "name": "None",
+        "tooltip": "This Duplicant is in peak condition"
+      },
+      "alright": {
+        "name": "None",
+        "tooltip": "This Duplicant is none the worse for wear"
+      },
+      "scuffed": {
+        "name": "Minor",
+        "tooltip": "This Duplicant has a few scrapes and bruises"
+      },
+      "injured": {
+        "name": "Moderate",
+        "tooltip": "This Duplicant needs some patching up"
+      },
+      "critical": {
+        "name": "Severe",
+        "tooltip": "This Duplicant is in serious need of medical attention"
+      },
+      "incapacitated": {
+        "name": "Paralyzing",
+        "tooltip": "This Duplicant will die if they do not receive medical attention"
+      },
+      "dead": {
+        "name": "Conclusive",
+        "tooltip": "This Duplicant won't be getting back up"
+      }
+    },
+    "hit": {
+      "name": "{targetName} took {damageAmount} damage from {attackerName}'s attack!"
+    },
+    "oremass": {
+      "name": "{Mass}",
+      "tooltip": "The selected object has a mass of <b>{Mass}</b>"
+    },
+    "oretemp": {
+      "name": "{Temp}",
+      "tooltip": "The selected object is currently <b>{Temp}</b>"
+    },
+    "treefilterabletags": {
+      "name": "{Tags}",
+      "tooltip": "{Tags}"
+    },
+    "spoutoverpressure": {
+      "name": "Overpressure {StudiedDetails}",
+      "tooltip": "Spout cannot vent due to high environmental pressure",
+      "studied": "(idle in <b>{Time}</b>)"
+    },
+    "spoutemitting": {
+      "name": "Venting {StudiedDetails}",
+      "tooltip": "This geyser is erupting",
+      "studied": "(idle in <b>{Time}</b>)"
+    },
+    "spoutpressurebuilding": {
+      "name": "Rising pressure {StudiedDetails}",
+      "tooltip": "This geyser's internal pressure is steadily building",
+      "studied": "(erupts in <b>{Time}</b>)"
+    },
+    "spoutidle": {
+      "name": "Idle {StudiedDetails}",
+      "tooltip": "This geyser is not currently erupting",
+      "studied": "(erupts in <b>{Time}</b>)"
+    },
+    "spoutdormant": {
+      "name": "Dormant",
+      "tooltip": "This geyser's geoactivity has halted\n\nIt won't erupt again for some time"
+    },
+    "spicedfood": {
+      "name": "Seasoned",
+      "tooltip": "This food has been improved with spice from the Spice Grinder"
+    },
+    "pickupableunreachable": {
+      "name": "Unreachable",
+      "tooltip": "Duplicants cannot reach this object"
+    },
+    "prioritized": {
+      "name": "High Priority",
+      "tooltip": "This Errand has been marked as important and will be preferred over other pending Errands"
+    },
+    "using": {
+      "name": "Using {Target}",
+      "tooltip": "{Target} is currently in use"
+    },
+    "orderattack": {
+      "name": "Pending Attack",
+      "tooltip": "Waiting for a Duplicant to murderize this defenseless Critter"
+    },
+    "ordercapture": {
+      "name": "Pending Wrangle",
+      "tooltip": "Waiting for a Duplicant to capture this Critter\n\nOnly Duplicants with the Critter Ranching I skill can catch critters without traps"
+    },
+    "operating": {
+      "name": "In Use",
+      "tooltip": "This object is currently being used"
+    },
+    "cleaning": {
+      "name": "Cleaning",
+      "tooltip": "This building is currently being cleaned"
+    },
+    "regionisblocked": {
+      "name": "Blocked",
+      "tooltip": "Undug material is blocking off an essential tile"
+    },
+    "studied": {
+      "name": "Analysis Complete",
+      "tooltip": "Information on this Natural Feature has been compiled below."
+    },
+    "awaitingstudy": {
+      "name": "Analysis Pending",
+      "tooltip": "New information on this Natural Feature will be compiled once the field study is complete"
+    },
+    "durability": {
+      "name": "Durability: {durability}",
+      "tooltip": "Items lose durability each time they are equipped, and can no longer be put on by a Duplicant once they reach 0% durability\n\nRepair of this item can be done in the appropriate fabrication station"
+    },
+    "bionicexplorerbooster": {
+      "name": "Stored Geodata: {0}",
+      "tooltip": "Dowsing Boosters retain geodata gathered by Bionic Duplicants\n\nWhen dowsing is complete and this booster is installed in a Bionic Duplicant, a new geyser will be revealed"
+    },
+    "bionicexplorerboosterready": {
+      "name": "Dowsing Complete",
+      "tooltip": "This Dowsing Booster has sufficient geodata stored to reveal a new geyser\n\nIt must be installed in a Bionic Duplicant in order to function"
+    },
+    "unassignedbionicbooster": {
+      "name": "Unassigned",
+      "tooltip": "This booster has not yet been assigned to a Bionic Duplicant"
+    },
+    "storeditemdurability": {
+      "name": "Durability: {durability}",
+      "tooltip": "Items lose durability each time they are equipped, and can no longer be put on by a Duplicant once they reach 0% durability\n\nRepair of this item can be done in the appropriate fabrication station"
+    },
+    "artifactentombed": {
+      "name": "Entombed Artifact",
+      "tooltip": "This artifact is trapped in an obscuring shell limiting its decor. A skilled artist can remove it at the Artifact Analysis Station"
+    },
+    "tearopen": {
+      "name": "Temporal Tear open",
+      "tooltip": "An open passage through spacetime"
+    },
+    "tearclosed": {
+      "name": "Temporal Tear closed",
+      "tooltip": "Perhaps some technology could open the passage"
+    },
+    "largeimpactorstatus": {
+      "name": "Time until impact: {0}",
+      "tooltip": "This impactor asteroid will reach its target in {0}"
+    },
+    "largeimpactorhealth": {
+      "name": "Health: {0} / {1}",
+      "tooltip": "Collision damage can be avoided by destroying this impactor asteroid with Intracosmic Blastshot before it makes contact"
+    },
+    "longrangemissiletti": {
+      "name": "Time To Intercept {0}: {1}",
+      "tooltip": "This projectile will reach its destination in {1}"
+    },
+    "markedformove": {
+      "name": "Pending Move",
+      "tooltip": "Waiting for a Duplicant to move this object"
+    },
+    "movestorageunreachable": {
+      "name": "Unreachable Move",
+      "tooltip": "Duplicants cannot reach this object to move it"
+    },
+    "clustermapharvestableresource": {
+      "name": "{0}",
+      "tooltip": "{0}"
+    },
+    "pendingcarve": {
+      "name": "Carve Errand",
+      "tooltip": "Rock will be carved once a Duplicant is available"
+    },
+    "electrobanklifetimeremaining": {
+      "name": "Lifetime Remaining: {0}",
+      "tooltip": "Self-charging will continue for {0}\n\nWhen lifetime reaches zero, this  Power Bank will explode"
+    },
+    "electrobankselfcharging": {
+      "name": "Self-Charging: {0}",
+      "tooltip": "This Power Bank is always slowly charging itself"
+    }
+  },
+  "popfx": {
+    "resource_eaten": "Resource Eaten",
+    "resource_selection_changed": "Changed to {0}",
+    "extra_powerbanks_bionic": "Extra Power Banks"
+  },
+  "notifications": {
+    "basiccontrols": {
+      "name": "Tutorial: Basic Controls",
+      "messagebody": "• I can use PanLeft and PanRight to pan my view left and right, and PanUp and PanDown to pan up and down.\n\n• ZoomIn lets me zoom in, and ZoomOut zooms out.\n\n• CameraHome returns my view to the Printing Pod.\n\n• I can speed or slow my perception of time using the top left corner buttons, or by pressing SpeedUp or SlowDown. Pressing TogglePause will pause the flow of time entirely.\n\n• I'll keep records of everything I discover in my personal DATABASE ManageDatabase to refer back to if I forget anything important.",
+      "messagebodyalt": "• I can use AnalogCamera to pan my view.\n\n• ZoomIn lets me zoom in, and ZoomOut zooms out.\n\n• I can speed or slow my perception of time using the top left corner buttons, or by pressing CycleSpeed. Pressing TogglePause will pause the flow of time entirely.\n\n• I'll keep records of everything I discover in my personal DATABASE ManageDatabase to refer back to if I forget anything important.",
+      "tooltip": "Notes on using my HUD"
+    },
+    "codexunlock": {
+      "name": "New Log Entry",
+      "messagebody": "I've added a new log entry to my Database",
+      "tooltip": "I've added a new log entry to my Database"
+    },
+    "welcomemessage": {
+      "name": "Tutorial: Colony Management",
+      "messagebody": "I can use the Dig Tool Dig and the Build Menu in the lower left of the screen to begin planning my first construction tasks.\n\nOnce I've placed a few errands my Duplicants will automatically get to work, without me needing to direct them individually.",
+      "tooltip": "Notes on getting Duplicants to do my bidding"
+    },
+    "stressmanagementmessage": {
+      "name": "Tutorial: Stress Management",
+      "messagebody": "At 100% Stress, a Duplicant will have a nervous breakdown and be unable to work.\n\nBreakdowns can manifest in different colony-threatening ways, such as the destruction of buildings or the binge eating of food.\n\nI can help my Duplicants manage stressful situations by giving them access to good Food, fancy Decor and comfort items which boost their Morale.\n\nI can select a Duplicant and mouse over Stress or Morale in their CONDITION TAB to view current statuses, and hopefully manage things before they become a problem.\n\nRelated Video: Duplicant Morale ",
+      "tooltip": "Notes on keeping Duplicants happy and productive"
+    },
+    "taskprioritiesmessage": {
+      "name": "Tutorial: Priority",
+      "messagebody": "Duplicants always perform errands in order of highest to lowest priority. They will harvest Food before they build, for example, or always build new structures before they mine materials.\n\nI can open the Priorities Screen to set which Errand Types Duplicants may or may not perform, or to specialize skilled Duplicants for particular Errand Types.",
+      "tooltip": "Notes on managing Duplicants' errands"
+    },
+    "moppingmessage": {
+      "name": "Tutorial: Polluted Water",
+      "messagebody": "Polluted Water slowly emits Polluted Oxygen which accelerates the spread of Disease.\n\nDuplicants will also be Stressed by walking through Polluted Water, so I should have my Duplicants clean up spills by clicking and dragging the Mop Tool Mop",
+      "tooltip": "Notes on handling polluted materials"
+    },
+    "locomotionmessage": {
+      "name": "Video: Duplicant Movement",
+      "messagebody": "Duplicants have limited jumping and climbing abilities. They can only climb two tiles high and cannot fit into spaces shorter than two tiles, or cross gaps wider than one tile. I should keep this in mind while placing errands.\n\nTo check if an errand I've placed is accessible, I can select a Duplicant and click <b>Show Navigation</b> to view all areas within their reach.",
+      "tooltip": "Notes on my Duplicants' maneuverability"
+    },
+    "prioritiesmessage": {
+      "name": "Tutorial: Errand Priorities",
+      "messagebody": "Duplicants will choose where to work based on the priority of the errands that I give them. I can open the Priorities Screen to set their Duplicant Priorities, and the Priority Tool Prioritize to fine tune Building Priority. Many buildings will also let me change their Priority level when I select them.",
+      "tooltip": "Notes on my Duplicants' priorities"
+    },
+    "fetchingwatermessage": {
+      "name": "Tutorial: Fetching Water",
+      "messagebody": "By building a Pitcher Pump from the Plumbing Tab over a pool of liquid, my Duplicants will be able to bottle it up and manually deliver it wherever it needs to go.",
+      "tooltip": "Notes on liquid resource gathering"
+    },
+    "schedulemessage": {
+      "name": "Tutorial: Scheduling",
+      "messagebody": "My Duplicants will only eat, sleep, work, or bathe during the times I allot for such activities.\n\nTo make the best use of their time, I can open the Schedule Tab to adjust the colony's schedule and plan how they should utilize their day.",
+      "tooltip": "Notes on scheduling my Duplicants' time"
+    },
+    "thermalcomfort": {
+      "name": "Tutorial: Duplicant Temperature",
+      "tooltip": "Notes on helping Duplicants keep their cool",
+      "messagebody": "Environments that are extremely Hot or Cold affect my Duplicants' internal body temperature and cause undue Stress or unscheduled naps.\n\nOpening the Temperature Overlay and checking the <b>Thermal Tolerance</b> box allows me to view all areas where my Duplicants will feel discomfort and be unable to regulate their internal body temperature.\n\nRelated Video: Insulation"
+    },
+    "tutorial_overheating": {
+      "name": "Tutorial: Building Temperature",
+      "tooltip": "Notes on preventing building from breaking",
+      "messagebody": "When constructing buildings, I should always take note of their Overheat Temperature and plan their locations accordingly. Maintaining low ambient temperatures and good ventilation in the colony will also help keep building temperatures down.\n\nThe <b>Relative Temperature</b> slider tool in the Temperature Overlay allows me to change adjust the overlay's color-coding in order to highlight specific temperature ranges.\n\nIf I allow buildings to exceed their Overheat Temperature they will begin to take damage, and if left unattended, they will break down and be unusable until repaired."
+    },
+    "lots_of_germs": {
+      "name": "Tutorial: Germs and Disease",
+      "tooltip": "Notes on Duplicant disease risks",
+      "messagebody": "Germs such as Food Poisoning and Slimelung can cause Disease in my Duplicants. I can use the Germ Overlay to view all germ concentrations in my colony, and even detect the sources spawning them.\n\nBuilding Wash Basins from the Medicine Tab near colony toilets will tell my Duplicants they need to wash up.\n\nRelated Video: Plumbing and Ventilation"
+    },
+    "being_infected": {
+      "name": "Tutorial: Immune Systems",
+      "tooltip": "Notes on keeping Duplicants in peak health",
+      "messagebody": "When Duplicants come into contact with various Germs, they'll need to expend points of Immunity to resist them and remain healthy. If repeated exposes causes their Immunity to drop to 0%, they'll be unable to resist germs and will contract the next disease they encounter.\n\nDoors with Access Permissions can be built from the BASE TAB<color=#F44A47> <b>[1]</b></color> of the Build menu to block Duplicants from entering biohazardous areas while they recover their spent immunity points."
+    },
+    "disease_cooking": {
+      "name": "Tutorial: Food Safety",
+      "tooltip": "Notes on managing food contamination",
+      "messagebody": "The Food my Duplicants cook will only ever be as clean as the ingredients used to make it. Storing food in sterile or Refrigerated environments will keep food free of Germs, while carefully placed hygiene stations like Wash Basin or Shower will prevent the cooks from infecting the food by handling it.\n\nDangerously contaminated food can be sent to compost by clicking the <b>Compost</b> button on the selected item."
+    },
+    "suits": {
+      "name": "Tutorial: Atmo Suits",
+      "tooltip": "Notes on using atmo suits",
+      "messagebody": "Atmo Suits can be equipped to protect my Duplicants from environmental hazards like extreme Heat, airborne Germs, or unbreathable Gas. In order to utilize these suits, I'll need to hook up an Atmo Suit Dock to an Atmo Suit Checkpoint , then store one of the suits inside.\n\nDuplicants will equip a suit when they walk past the checkpoint in the chosen direction, and will unequip their suit when walking back the opposite way."
+    },
+    "radiation": {
+      "name": "Tutorial: Radiation",
+      "tooltip": "Notes on managing radiation",
+      "messagebody": "Objects such as Uranium Ore and Beeta Hives emit a Radioactive energy that can be toxic to my Duplicants.\n\nI can use the Radiation Overlay Overlay15 to check the scope of the Radiation field. Building thick walls around radiation emitters will dampen the field and protect my Duplicants from getting Radiation Sickness."
+    },
+    "spacetravel": {
+      "name": "Tutorial: Space Travel",
+      "tooltip": "Notes on traveling in space",
+      "messagebody": "Building a rocket first requires constructing a Rocket Platform and adding modules from the menu. All components of the Rocket Checklist will need to be complete before being capable of launching.\n\nA Telescope needs to be built on the surface of a Planetoid in order to use the Starmap Screen ManageStarmap to see and set course for new destinations."
+    },
+    "morale": {
+      "name": "Video: Duplicant Morale",
+      "tooltip": "Notes on Duplicant expectations",
+      "messagebody": "Food, Rooms, Decor, and Recreation all have an effect on Duplicant Morale. Good experiences improve their Morale, while poor experiences lower it. When a Duplicant's Morale is below their Expectations, they will become Stressed.\n\nDuplicants' Expectations will get higher as they are given new Skills, and the colony will have to be improved to keep up their Morale. An overview of Morale and Stress can be viewed on the Vitals screen.\n\nRelated Tutorial: Stress Management"
+    },
+    "power": {
+      "name": "Video: Power Circuits",
+      "tooltip": "Notes on managing electricity",
+      "messagebody": "Generators are considered \"Producers\" of Power, while the various buildings and machines in the colony are considered \"Consumers\". Each Consumer will pull a certain wattage from the power circuit it is connected to, which can be checked at any time by clicking the building and going to the Energy Tab.\n\nI can use the Power Overlay Overlay2 to quickly check the status of all my circuits. If the Consumers are taking more wattage than the Generators are creating, the Batteries will drain and there will be brownouts.\n\nAdditionally, if the Consumers are pulling more wattage through the Wires than the Wires can handle, they will overload and burn out. To correct both these situations, I will need to reorganize my Consumers onto separate circuits."
+    },
+    "bionicbattery": {
+      "name": "Tutorial: Powering Bionics",
+      "tooltip": "Notes on Duplicant power bank needs",
+      "messagebody": "Bionic Duplicants require Power Banks to function. Bionic Duplicants who run out of Power will become incapacitated and require another Duplicant to reboot them.\n\nBasic power banks can be made at the Crafting Station."
+    },
+    "gunkedtoilet": {
+      "name": "Tutorial: Gunked Toilets",
+      "tooltip": "Notes on unclogging toilets",
+      "messagebody": "Bionic Duplicants can dump built-up Gunk into Toilets if no other options are available. This invariably clogs the plumbing, however, and must be removed before facilities can be used by other Duplicants.\n\nBuilding a Gunk Extractor from the Plumbing Tab will ensure that Bionic Duplicants can dispose of their waste appropriately."
+    },
+    "slipperysurface": {
+      "name": "Tutorial: Wet Surfaces",
+      "tooltip": "Notes on slipping hazards",
+      "messagebody": "My Duplicants may slip and fall on wet surfaces, and Duplicants with bionic systems can experience disruptive glitching.\n\nI can help my colony avoid undue Stress and potential injury by using the Mop Tool Mop to clean up spills. Building Toilets and Gunk Extractors can help minimize the incidence of spills."
+    },
+    "bionicoil": {
+      "name": "Tutorial: Oiling Bionics",
+      "tooltip": "Notes on keeping Bionics working efficiently",
+      "messagebody": "Bionic Duplicants with insufficient Gear Oil will slow down significantly to avoid grinding their gears.\n\nI can keep them running smoothly by supplying Gear Balm, or by building a Lubrication Station from the Medicine Tab."
+    },
+    "digging": {
+      "name": "Video: Digging for Resources",
+      "tooltip": "Notes on buried riches",
+      "messagebody": "Everything a colony needs to get going is found in the ground. Instructing Duplicants to dig out areas means we can find food, mine resources to build infrastructure, and clear space for the colony to grow. I can access the Dig Tool with Dig, which allows me to select the area where I want my Duplicants to dig.\n\nDuplicants will need to gain the Superhard Digging skill to mine Abyssalite and the Superduperhard Digging skill to mine Diamond and Obsidian. Without the proper skills, these materials will be undiggable."
+    },
+    "insulation": {
+      "name": "Video: Insulation",
+      "tooltip": "Notes on effective temperature management",
+      "messagebody": "The temperature of an environment can have positive or negative effects on the well-being of my Duplicants, as well as the plants and critters in my colony. Selecting Overlay3 will open the Temperature Overlay where I can check for any hot or cold spots.\n\nI can use a Utility building like an Ice-E Fan or a Space Heater to make an area colder or warmer. However, I will have limited success changing the temperature of a room unless I build the area with insulating tiles to prevent cold or warm air from escaping."
+    },
+    "plumbing": {
+      "name": "Video: Plumbing and Ventilation",
+      "tooltip": "Notes on connecting buildings with pipes",
+      "messagebody": "When connecting pipes for plumbing, it is useful to have the Plumbing Overlay Overlay6 selected. Each building which requires plumbing must have their Building Intake connected to the Output Pipe from a source such as a Liquid Pump. Liquid Pumps must be submerged in liquid and attached to a power source to function.\n\nBuildings often output contaminated water which must flow out of the building through piping from the Output Pipe. The water can then be expelled through a Liquid Vent, or filtered through a Water Sieve for reuse.\n\nVentilation applies the same principles to gases. Select the Ventilation Overlay Overlay7 to see how gases are being moved around the colony."
+    },
+    "new_automation_warning": {
+      "name": "New Automation Port",
+      "tooltip": "This building has a new automation port and is unintentionally connected to an existing Automation Wire"
+    },
+    "dtu": {
+      "name": "Tutorial: Duplicant Thermal Units",
+      "tooltip": "Notes on measuring heat energy",
+      "messagebody": "My Duplicants measure heat energy in Duplicant Thermal Units or DTU.\n\n1 DTU = 1055.06 J"
+    },
+    "nomessages": {
+      "name": "",
+      "tooltip": ""
+    },
+    "noalerts": {
+      "name": "",
+      "tooltip": ""
+    },
+    "newtrait": {
+      "name": "{0} has developed a trait",
+      "tooltip": "{0} has developed the trait(s):\n    • {1}"
+    },
+    "researchcomplete": {
+      "name": "Research Complete",
+      "messagebody": "Eureka! We've discovered {0} Technology.\n\nNew buildings have become available:\n  • {1}",
+      "tooltip": "{0} research complete!"
+    },
+    "worlddetected": {
+      "name": "New Planetoid detected",
+      "messagebody": "My Duplicants' astronomical efforts have uncovered a new Planetoid:\n{0}",
+      "tooltip": "{0} discovered"
+    },
+    "skill_point_earned": {
+      "name": "{Duplicant} earned a skill point!",
+      "messagebody": "These Duplicants have Skill Points that can be spent on new abilities:\n{0}",
+      "line": "\n• <b>{0}</b>",
+      "tooltip": "{Duplicant} has been working hard and is ready to learn a new skill"
+    },
+    "duplicantabsorbed": {
+      "name": "Printables have been reabsorbed",
+      "messagebody": "The Printing Pod is no longer available for printing.\nCountdown to the next production has been rebooted.",
+      "tooltip": "Printing countdown rebooted"
+    },
+    "duplicantdied": {
+      "name": "Duplicants have died",
+      "tooltip": "These Duplicants have died:"
+    },
+    "foodrot": {
+      "name": "Food has decayed",
+      "tooltip": "These Food items have rotted and are no longer edible:{0}"
+    },
+    "foodstale": {
+      "name": "Food has become stale",
+      "tooltip": "These Food items have become stale and could rot if not stored:"
+    },
+    "yellowalert": {
+      "name": "Yellow Alert",
+      "tooltip": "The colony has some top priority tasks to complete before resuming a normal schedule"
+    },
+    "redalert": {
+      "name": "Red Alert",
+      "tooltip": "The colony is prioritizing work over their individual well-being"
+    },
+    "reactormeltdown": {
+      "name": "Reactor Meltdown",
+      "tooltip": "A Research Reactor has overheated and is melting down! Extreme radiation is flooding the area"
+    },
+    "healing": {
+      "name": "Healing",
+      "tooltip": "This Duplicant is recovering from an injury"
+    },
+    "unreachableitem": {
+      "name": "Unreachable resources",
+      "tooltip": "Duplicants cannot retrieve these resources:"
+    },
+    "invalidconstructionlocation": {
+      "name": "Invalid construction location",
+      "tooltip": "These buildings cannot be constructed in the planned areas:"
+    },
+    "missingmaterials": {
+      "name": "Missing materials",
+      "tooltip": "These resources are not available:"
+    },
+    "buildingoverheated": {
+      "name": "Damage: Overheated",
+      "tooltip": "Extreme heat is damaging these buildings:"
+    },
+    "tilecollapse": {
+      "name": "Ceiling Collapse!",
+      "tooltip": "Falling material fell on these Duplicants and displaced them:"
+    },
+    "no_oxygen_generator": {
+      "name": "No Oxygen Generator built",
+      "tooltip": "My colony is not producing any new Oxygen\n\nOxygen Diffusers can be built from the Oxygen Tab"
+    },
+    "insufficientoxygenlastcycle": {
+      "name": "Insufficient Oxygen generation",
+      "tooltip": "My colony is consuming more Oxygen than it is producing, and will run out air if I do not increase production.\n\nI should check my existing oxygen production buildings to ensure they're operating correctly\n\n• Oxygen produced last cycle: {EmittingRate}\n• Consumed last cycle: {ConsumptionRate}"
+    },
+    "unrefrigeratedfood": {
+      "name": "Unrefrigerated Food",
+      "tooltip": "These Food items are stored but not refrigerated:\n"
+    },
+    "foodlow": {
+      "name": "Food shortage",
+      "tooltip": "The colony's Food reserves are low:\n\n    • {0} are currently available\n    • {1} is being consumed per cycle\n\nMicrobe Mushers can be built from the Food Tab"
+    },
+    "no_medical_cots": {
+      "name": "No Sick Bay built",
+      "tooltip": "There is nowhere for sick Duplicants receive medical care\n\nSick Bays can be built from the Medicine Tab"
+    },
+    "needtoilet": {
+      "name": "No Outhouse built",
+      "tooltip": "My Duplicants have nowhere to relieve themselves\n\nOuthouses can be built from the Plumbing Tab"
+    },
+    "needfood": {
+      "name": "Colony requires a food source",
+      "tooltip": "The colony will exhaust their supplies without a new Food source\n\nMicrobe Mushers can be built from the Food Tab"
+    },
+    "hygene_needed": {
+      "name": "No Wash Basin built",
+      "tooltip": "Germs are spreading in the colony because my Duplicants have nowhere to clean up\n\nWash Basins can be built from the Medicine Tab"
+    },
+    "needsleep": {
+      "name": "No Cots built",
+      "tooltip": "My Duplicants would appreciate a place to sleep\n\nCots can be built from the Furniture Tab"
+    },
+    "needenergysource": {
+      "name": "Colony requires a Power source",
+      "tooltip": "Power is required to operate electrical buildings\n\nManual Generators and Wire can be built from the Power Tab"
+    },
+    "resourcemelted": {
+      "name": "Resources melted",
+      "tooltip": "These resources have melted:"
+    },
+    "ventoverpressure": {
+      "name": "Vent overpressurized",
+      "tooltip": "These Pipe systems have exited the ideal Pressure range:"
+    },
+    "ventblocked": {
+      "name": "Vent blocked",
+      "tooltip": "Blocked Pipes have stopped these systems from functioning:"
+    },
+    "outputblocked": {
+      "name": "Output blocked",
+      "tooltip": "Blocked Pipes have stopped these systems from functioning:"
+    },
+    "brokenmachine": {
+      "name": "Building broken",
+      "tooltip": "These buildings have taken significant damage and are nonfunctional:"
+    },
+    "structuraldamage": {
+      "name": "Structural damage",
+      "tooltip": "These buildings' structural integrity has been compromised"
+    },
+    "structuralcollapse": {
+      "name": "Structural collapse",
+      "tooltip": "These buildings have collapsed:"
+    },
+    "gascloudwarning": {
+      "name": "A gas cloud approaches",
+      "tooltip": "A toxic Gas cloud will soon envelop the colony"
+    },
+    "gascloudarriving": {
+      "name": "The colony is entering a cloud of gas",
+      "tooltip": ""
+    },
+    "gascloudpeak": {
+      "name": "The gas cloud is at its densest point",
+      "tooltip": ""
+    },
+    "gasclouddeparting": {
+      "name": "The gas cloud is receding",
+      "tooltip": ""
+    },
+    "gascloudgone": {
+      "name": "The colony is once again in open space",
+      "tooltip": ""
+    },
+    "available": {
+      "name": "Resource available",
+      "tooltip": "These resources have become available:"
+    },
+    "allocated": {
+      "name": "Resource allocated",
+      "tooltip": "These resources are reserved for a planned building:"
+    },
+    "increasedexpectations": {
+      "name": "Duplicants' expectations increased",
+      "tooltip": "Duplicants require better amenities over time.\nThese Duplicants have increased their expectations:"
+    },
+    "nearlydry": {
+      "name": "Nearly dry",
+      "tooltip": "These Duplicants will dry off soon:"
+    },
+    "immigrantsleft": {
+      "name": "Printables have been reabsorbed",
+      "tooltip": "The care packages have been disintegrated and printable Duplicants have been Oozed"
+    },
+    "levelup": {
+      "name": "Attribute increase",
+      "tooltip": "These Duplicants' Attributes have improved:",
+      "suffix": " - {0} Attribute Level modifier raised to +{1}"
+    },
+    "resetskill": {
+      "name": "Skills reset",
+      "tooltip": "These Duplicants have had their Skill Points refunded:"
+    },
+    "badrocketpath": {
+      "name": "Flight Path Obstructed",
+      "tooltip": "A rocket's flight path has been interrupted by a new astronomical discovery.\nOpen the Starmap Screen ManageStarmap to reassign rocket paths"
+    },
+    "schedule_changed": {
+      "name": "{0}: {1}!",
+      "tooltip": "Duplicants assigned to {0} have started their <b>{1}</b> block.\n\n{2}\n\nOpen the Schedule Screen ManageSchedule to change blocks or assignments"
+    },
+    "geneshuffler": {
+      "name": "Genes Shuffled",
+      "tooltip": "These Duplicants had their genetic makeup modified:",
+      "suffix": " has developed {0}"
+    },
+    "healingtraitgain": {
+      "name": "New trait",
+      "tooltip": "These Duplicants' injuries weren't set and healed improperly.\nThey developed Traits as a result:",
+      "suffix": " has developed {0}"
+    },
+    "colonylost": {
+      "name": "Colony Lost",
+      "tooltip": "All Duplicants are dead or incapacitated"
+    },
+    "fabricatorempty": {
+      "name": "Fabricator idle",
+      "tooltip": "These fabricators have no recipes queued:"
+    },
+    "building_melted": {
+      "name": "Building melted",
+      "tooltip": "Extreme heat has melted these buildings:"
+    },
+    "large_impactor_geyser_eruption": {
+      "name": "Geyser triggered",
+      "tooltip": "Demolior's impact has triggered the eruption of a natural vent on this world"
+    },
+    "large_impactor_keepsake": {
+      "name": "Artifact found",
+      "tooltip": "An artifact has been found in Demolior's rubble"
+    },
+    "suit_dropped": {
+      "name": "No Docks available",
+      "tooltip": "An exosuit was dropped because there were no empty docks available"
+    },
+    "death_suffocation": {
+      "name": "Duplicants suffocated",
+      "tooltip": "These Duplicants died from a lack of Oxygen:"
+    },
+    "death_frozensolid": {
+      "name": "Duplicants have frozen",
+      "tooltip": "These Duplicants died from extremely low Temperatures:"
+    },
+    "death_overheating": {
+      "name": "Duplicants have overheated",
+      "tooltip": "These Duplicants died from extreme Heat:"
+    },
+    "death_starvation": {
+      "name": "Duplicants have starved",
+      "tooltip": "These Duplicants died from a lack of Food:"
+    },
+    "death_fell": {
+      "name": "Duplicants splattered",
+      "tooltip": "These Duplicants fell to their deaths:"
+    },
+    "death_crushed": {
+      "name": "Duplicants crushed",
+      "tooltip": "These Duplicants have been crushed:"
+    },
+    "death_suffocatedtankempty": {
+      "name": "Duplicants have suffocated",
+      "tooltip": "These Duplicants were unable to reach Oxygen and died:"
+    },
+    "death_suffocatedairtoohot": {
+      "name": "Duplicants have suffocated",
+      "tooltip": "These Duplicants have asphyxiated in Hot air:"
+    },
+    "death_suffocatedairtoocold": {
+      "name": "Duplicants have suffocated",
+      "tooltip": "These Duplicants have asphyxiated in Cold air:"
+    },
+    "death_drowned": {
+      "name": "Duplicants have drowned",
+      "tooltip": "These Duplicants have drowned:"
+    },
+    "death_entoumbed": {
+      "name": "Duplicants have been entombed",
+      "tooltip": "These Duplicants are trapped and need assistance:"
+    },
+    "death_rapiddecompression": {
+      "name": "Duplicants pressurized",
+      "tooltip": "These Duplicants died in a low pressure environment:"
+    },
+    "death_overpressure": {
+      "name": "Duplicants pressurized",
+      "tooltip": "These Duplicants died in a high pressure environment:"
+    },
+    "death_poisoned": {
+      "name": "Duplicants poisoned",
+      "tooltip": "These Duplicants died as a result of poisoning:"
+    },
+    "death_disease": {
+      "name": "Duplicants have succumbed to disease",
+      "tooltip": "These Duplicants died from an untreated Disease:"
+    },
+    "circuit_overloaded": {
+      "name": "Circuit Overloaded",
+      "tooltip": "These Wires melted due to excessive current demands on their circuits"
+    },
+    "logic_circuit_overloaded": {
+      "name": "Logic Circuit Overloaded",
+      "tooltip": "These Automation Wires melted due to more bits of data being sent over them than they can support"
+    },
+    "discovered_space": {
+      "name": "ALERT - Surface Breach",
+      "tooltip": "Amazing!\n\nMy Duplicants have managed to breach the surface of our rocky prison.\n\nI should be careful; the region is extremely inhospitable and I could easily lose resources to the vacuum of space."
+    },
+    "colony_achievement_earned": {
+      "name": "Colony Achievement earned",
+      "tooltip": "The colony has earned a new achievement."
+    },
+    "warp_portal_dupe_ready": {
+      "name": "Duplicant warp ready",
+      "tooltip": "{dupe} is ready to warp from the Teleporter Transmitter"
+    },
+    "geneticanalysiscomplete": {
+      "name": "Seed Analysis Complete",
+      "messagebody": "Deeply probing the genes of the {Plant} plant have led to the discovery of a promising new cultivatable mutation:\n\n<b>{Subspecies}</b>\n\n{Info}",
+      "tooltip": "{Plant} Analysis complete!"
+    },
+    "newmutantseed": {
+      "name": "New Mutant Seed Discovered",
+      "tooltip": "A new mutant variety of the {Plant} has been found. Analyze it at the Botanical Analyzer to learn more!"
+    },
+    "duplicant_crash_landed": {
+      "name": "Duplicant Crash Landed!",
+      "tooltip": "A Duplicant has successfully crashed an Escape Pod onto the surface of a nearby Planetoid."
+    },
+    "poiresearchunlockcomplete": {
+      "name": "Portal Unlocked!",
+      "messagebody": "Eureka! We've decrypted the Research Portal's final transmission. New buildings have become available:\n  {0}\n\nOne file was labeled \"Open This First.\" New Database Entry unlocked.",
+      "tooltip": "{0} unlocked!",
+      "button_view_lore": "View entry"
+    },
+    "poiresearchunlockcomplete_nolore": {
+      "name": "Portal Unlocked!",
+      "messagebody": "Eureka! We've decrypted the Research Portal's final transmission. New buildings have become available:\n  {0}\n\n",
+      "tooltip": "{0} unlocked!"
+    },
+    "incomingprehistoricasteroidnotification": {
+      "name": "DEMOLIOR",
+      "tooltip": "Incoming Asteroid: <b><color=#ff1111>DEMOLIOR</color></b>\n• Health: {0}/{1}\n• Time until impact: {2}\n\nCollision damage can be avoided by destroying <b><color=#ff1111>DEMOLIOR</color></b> with Intracosmic Blastshot before it makes contact",
+      "toggle_tooltip": "Click to toggle impact zone preview"
+    },
+    "largeimpactorrevealsequence": {
+      "reticle": {
+        "large_impactor_name": "DEMOLIOR",
+        "side_panel_title": "IMMINENT THREAT",
+        "side_panel_description": "\n\nTIME UNTIL IMPACT: {0} CYCLES.",
+        "calculating_impact_zone_text": "CALCULATING IMPACT ZONE..."
+      }
+    },
+    "bionicresearchunlock": {
+      "name": "Research Discovered",
+      "messagebody": "My new Bionic Duplicant has built-in programming that they've shared with the colony.\n\nNew buildings have become available:\n  • {0}",
+      "tooltip": "{0} research discovered!"
+    },
+    "bionicliquiddamage": {
+      "name": "Liquid Damage",
+      "tooltip": "This Duplicant stepped in liquid and damaged their bionic systems!"
+    }
+  },
+  "tutorial": {
+    "dont_show_again": "Don't Show Again"
+  },
+  "placers": {
+    "digplacer": {
+      "name": "Dig"
+    },
+    "mopplacer": {
+      "name": "Mop"
+    },
+    "movepickupableplacer": {
+      "name": "Relocate Here",
+      "placer_status": "Next Destination",
+      "placer_status_tooltip": "Click to see where this item will be relocated to"
+    }
+  },
+  "monument_complete": {
+    "name": "Great Monument",
+    "desc": "A feat of artistic vision and expert engineering that will doubtless inspire Duplicants for thousands of cycles to come"
+  }
+}

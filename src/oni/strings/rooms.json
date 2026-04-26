@@ -1,0 +1,513 @@
+{
+  "category": {
+    "none": {
+      "name": "None"
+    },
+    "food": {
+      "name": "Dining"
+    },
+    "sleep": {
+      "name": "Sleep"
+    },
+    "recreation": {
+      "name": "Recreation"
+    },
+    "bathroom": {
+      "name": "Washroom"
+    },
+    "bionic": {
+      "name": ""
+    },
+    "hospital": {
+      "name": "Medical"
+    },
+    "industrial": {
+      "name": "Industrial"
+    },
+    "agricultural": {
+      "name": "Agriculture"
+    },
+    "park": {
+      "name": "Parks"
+    },
+    "science": {
+      "name": "Science"
+    }
+  },
+  "types": {
+    "conflicted": "Conflicted Room",
+    "neutral": {
+      "name": "Miscellaneous Room",
+      "description": "An enclosed space with plenty of potential and no dedicated use.",
+      "effect": "- No effect",
+      "tooltip": "This area has walls and doors but no dedicated use"
+    },
+    "latrine": {
+      "name": "Latrine",
+      "description": "It's a step up from doing one's business in full view of the rest of the colony.\n\nUsing a toilet in an enclosed room will improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Using a toilet in an enclosed room will improve Duplicants' Morale"
+    },
+    "bionicupkeep": {
+      "name": "",
+      "description": "",
+      "effect": "",
+      "tooltip": ""
+    },
+    "plumbedbathroom": {
+      "name": "Washroom",
+      "description": "A sanctuary of personal hygiene.\n\nUsing a fully plumbed Washroom will improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Using a fully plumbed Washroom will improve Duplicants' Morale"
+    },
+    "barracks": {
+      "name": "Barracks",
+      "description": "A basic communal sleeping area for up-and-coming colonies.\n\nSleeping in Barracks will improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Sleeping in Barracks will improve Duplicants' Morale"
+    },
+    "bedroom": {
+      "name": "Luxury Barracks",
+      "description": "An upscale communal sleeping area full of things that greatly enhance quality of rest for occupants.\n\nSleeping in a Luxury Barracks will improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Sleeping in a Luxury Barracks will improve Duplicants' Morale"
+    },
+    "private_bedroom": {
+      "name": "Private Bedroom",
+      "description": "A comfortable, roommate-free retreat where tired Duplicants can get uninterrupted rest.\n\nSleeping in a Private Bedroom will greatly improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Sleeping in a Private Bedroom will greatly improve Duplicants' Morale"
+    },
+    "messhall": {
+      "name": "Mess Hall",
+      "description": "A simple dining room setup that's easy to improve upon.\n\nEating at a mess table in a Mess Hall will increase Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Eating at a Mess Table in a Mess Hall will improve Duplicants' Morale"
+    },
+    "kitchen": {
+      "name": "Kitchen",
+      "description": "A cooking area equipped to take meals to the next level.\n\nAdding ingredients from a Spice Grinder to foods cooked on an Electric Grill or Gas Range provides a variety of positive benefits.",
+      "effect": "- Enables Spice Grinder use",
+      "tooltip": "Using a Spice Grinder in a Kitchen adds benefits to foods cooked on Electric Grill or Gas Range"
+    },
+    "greathall": {
+      "name": "Great Hall",
+      "description": "A great place to eat, with great decor. Great!\n\nEating in a Great Hall will improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Eating in a Great Hall will significantly improve Duplicants' Morale"
+    },
+    "banquethall": {
+      "name": "Banquet Hall",
+      "description": "An exquisite place for communal dining.\n\nEating in a Banquet Hall will dramatically improve Duplicants' Morale.",
+      "effect": "- Morale bonus",
+      "tooltip": "Eating in a Banquet Hall will dramatically improve Duplicants' Morale"
+    },
+    "hospital": {
+      "name": "Hospital",
+      "description": "A dedicated medical facility that helps minimize recovery time.\n\nSick Duplicants assigned to medical buildings located within a Hospital are also less likely to spread Disease.",
+      "effect": "- Quarantine sick Duplicants",
+      "tooltip": "Sick Duplicants assigned to medical buildings located within a Hospital are less likely to spread Disease"
+    },
+    "massage_clinic": {
+      "name": "Massage Clinic",
+      "description": "A soothing space with a very relaxing ambience, especially when well-decorated.\n\nReceiving massages at a Massage Clinic will significantly improve Stress reduction.",
+      "effect": "- Massage stress relief bonus",
+      "tooltip": "Receiving massages at a Massage Clinic will significantly improve Stress reduction"
+    },
+    "power_plant": {
+      "name": "Power Plant",
+      "description": "The perfect place for Duplicants to flex their Electrical Engineering skills.\n\nHeavy-duty generators built within a Power Plant can be tuned up using microchips from power control stations to improve their Power production.",
+      "effect": "- Enables Microchip tune-ups on heavy-duty generators",
+      "tooltip": "Heavy-duty generators built in a Power Plant can be tuned up using microchips from Power Control Stations to improve their Power production"
+    },
+    "machine_shop": {
+      "name": "Machine Shop",
+      "description": "It smells like elbow grease.\n\nDuplicants working in a Machine Shop can maintain buildings and increase their production speed.",
+      "effect": "- Increased fabrication efficiency",
+      "tooltip": "Duplicants working in a Machine Shop can maintain buildings and increase their production speed"
+    },
+    "farm": {
+      "name": "Greenhouse",
+      "description": "An enclosed agricultural space best utilized by Duplicants with Crop Tending skills.\n\nCrops grown within a Greenhouse can be tended with Farm Station fertilizer to increase their growth speed.",
+      "effect": "- Enables Farm Station use",
+      "tooltip": "Crops grown within a Greenhouse can be tended with Farm Station fertilizer to increase their growth speed"
+    },
+    "creaturepen": {
+      "name": "Stable",
+      "description": "Critters don't mind it here, as long as things don't get too crowded.\n\nStabled critters can be tended to in order to improve their happiness, hasten their domestication and increase their production.\n\nEnables the use of Grooming Stations, Shearing Stations, Critter Condos, Critter Fountains and Milking Stations.",
+      "effect": "- Critter taming and mood bonus",
+      "tooltip": "A stable enables Grooming Station, Critter Condo, Critter Fountain, Shearing Station and Milking Station use"
+    },
+    "rec_room": {
+      "name": "Recreation Room",
+      "description": "Where Duplicants go to mingle with off-duty peers and indulge in a little R&R.\n\nScheduled Downtime will further improve Morale for Duplicants visiting a Recreation Room.",
+      "effect": "- Morale bonus",
+      "tooltip": "Scheduled Downtime will further improve Morale for Duplicants visiting a Recreation Room"
+    },
+    "park": {
+      "name": "Park",
+      "description": "A little greenery goes a long way.\n\nPassing through natural spaces throughout the day will raise the Morale of Duplicants.",
+      "effect": "- Morale bonus",
+      "tooltip": "Passing through natural spaces throughout the day will raise the Morale of Duplicants"
+    },
+    "naturereserve": {
+      "name": "Nature Reserve",
+      "description": "A lot of greenery goes an even longer way.\n\nPassing through a Nature Reserve will grant higher Morale bonuses to Duplicants than a Park.",
+      "effect": "- Morale bonus",
+      "tooltip": "A Nature Reserve will grant higher Morale bonuses to Duplicants than a Park"
+    },
+    "laboratory": {
+      "name": "Laboratory",
+      "description": "Where wild hypotheses meet rigorous scientific experimentation.\n\nScience stations built in a Laboratory function more efficiently.\n\nA Laboratory enables the use of the Geotuner and the Mission Control Station.",
+      "effect": "- Efficiency bonus",
+      "tooltip": "Science buildings built in a Laboratory function more efficiently\n\nA Laboratory enables Geotuner and Mission Control Station use"
+    },
+    "private_bathroom": {
+      "name": "Private Bathroom",
+      "description": "Finally, a place to truly be alone with one's thoughts.\n\nDuplicants relieve even more Stress when using the toilet in a Private Bathroom than in a Latrine.",
+      "effect": "- Stress relief bonus",
+      "tooltip": "Duplicants relieve even more stress when using the toilet in a Private Bathroom than in a Latrine"
+    },
+    "bionic_upkeep": {
+      "name": "",
+      "description": "",
+      "effect": "",
+      "tooltip": ""
+    }
+  },
+  "criteria": {
+    "header": "<b>Requirements:</b>",
+    "neutral_type": "Enclosed by wall tile",
+    "possible_types_header": "Possible Room Types",
+    "no_type_conflicts": "Remove conflicting buildings",
+    "in_code_error": "String Key Not Found: {0}",
+    "criteria_failed": {
+      "missing_building": "Missing {0}",
+      "failed": "{0}"
+    },
+    "decoration": {
+      "name": "Decor building",
+      "conflict_description": "Decor building"
+    },
+    "ceiling_height": {
+      "name": "Minimum height: {0} tiles",
+      "description": "Must have a ceiling height of at least {0} tiles",
+      "conflict_description": "Minimum height: {0} tiles"
+    },
+    "minimum_size": {
+      "name": "Minimum size: {0} tiles",
+      "description": "Must have an area of at least {0} tiles",
+      "conflict_description": "Minimum size: {0} tiles"
+    },
+    "maximum_size": {
+      "name": "Maximum size: {0} tiles",
+      "description": "Must have an area no larger than {0} tiles",
+      "conflict_description": "Maximum size: {0} tiles"
+    },
+    "industrialmachinery": {
+      "name": "Industrial machinery",
+      "conflict_description": "Industrial machinery"
+    },
+    "has_bed": {
+      "name": "One or more beds",
+      "description": "Requires at least one Cot or Comfy Bed",
+      "conflict_description": "One or more beds"
+    },
+    "has_luxury_bed": {
+      "name": "One or more Comfy Beds",
+      "description": "Requires at least one Comfy Bed",
+      "conflict_description": "One or more Comfy Beds"
+    },
+    "luxurybedtype": {
+      "name": "Single Comfy Bed",
+      "description": "Must have no more than one Comfy Bed",
+      "conflict_description": "Single Comfy Bed"
+    },
+    "bed_single": {
+      "name": "Single beds",
+      "description": "Must have no more than one Cot or Comfy Bed",
+      "conflict_description": "Single beds"
+    },
+    "is_backwalled": {
+      "name": "Has backwall tiles",
+      "description": "Must be covered in backwall tiles",
+      "conflict_description": "Has backwall tiles"
+    },
+    "no_cots": {
+      "name": "No Cots",
+      "description": "Room cannot contain a Cot",
+      "conflict_description": "No Cots"
+    },
+    "no_luxury_beds": {
+      "name": "No Comfy Beds",
+      "description": "Room cannot contain a Comfy Bed",
+      "conflict_description": "No Comfy Beds"
+    },
+    "bedtype": {
+      "name": "Beds",
+      "description": "Requires two or more Cots or Comfy Beds",
+      "conflict_description": "Beds"
+    },
+    "building_decor_positive": {
+      "name": "Positive decor",
+      "description": "Requires at least one building with positive decor",
+      "conflict_description": "Positive decor"
+    },
+    "decorative_item": {
+      "name": "Decor building ({0})",
+      "description": "Requires {0} or more Decor buildings",
+      "conflict_description": "Decor building ({0})"
+    },
+    "ornament": {
+      "name": "Displayed Ornament",
+      "description": "Requires an ornament displayed on a Pedestal or Display Shelf",
+      "conflict_description": "Displayed Ornament"
+    },
+    "clinic": {
+      "name": "Medical equipment",
+      "description": "Requires one or more Sick Bays or Disease Clinics",
+      "conflict_description": "Medical equipment"
+    },
+    "powerplant": {
+      "name": "Heavy-Duty Generator\n    • Two or more Power Buildings",
+      "description": "Requires a Heavy-Duty Generator and two or more Power Buildings",
+      "conflict_description": "Heavy-Duty Generator and two or more Power buildings"
+    },
+    "farmstationtype": {
+      "name": "Farm Station",
+      "description": "Requires a single Farm Station",
+      "conflict_description": "Farm Station"
+    },
+    "farmbuilding": {
+      "name": "Farm Building",
+      "description": "",
+      "conflict_description": "Farm Building"
+    },
+    "creature_feeder": {
+      "name": "Critter Feeder",
+      "description": "Requires a single Critter Feeder",
+      "conflict_description": "Critter Feeder"
+    },
+    "ranchstationtype": {
+      "name": "Ranching building",
+      "description": "Requires a single Grooming Station, Critter Condo, Critter Fountain, Shearing Station or Milking Station",
+      "conflict_description": "Ranching building"
+    },
+    "spicestation": {
+      "name": "Spice Grinder",
+      "description": "Requires a single Spice Grinder",
+      "conflict_description": "Spice Grinder"
+    },
+    "cooktop": {
+      "name": "Cooking station",
+      "description": "Requires a single Electric Grill or Gas Range",
+      "conflict_description": "Cooking station"
+    },
+    "refrigerator": {
+      "name": "Refrigerator",
+      "description": "Requires a single Refrigerator",
+      "conflict_description": "Refrigerator"
+    },
+    "recbuilding": {
+      "name": "Recreational building",
+      "description": "Requires one or more recreational buildings",
+      "conflict_description": "Recreational building"
+    },
+    "park": {
+      "name": "Park Sign",
+      "description": "Requires one or more Park Signs",
+      "conflict_description": "Park Sign"
+    },
+    "machineshoptype": {
+      "name": "Mechanics Station",
+      "description": "Requires requires one or more Mechanics Stations",
+      "conflict_description": "Mechanics Station"
+    },
+    "food_box": {
+      "name": "Food storage",
+      "description": "Requires one or more Ration Boxes or Refrigerators",
+      "conflict_description": "Food storage"
+    },
+    "lightsource": {
+      "name": "Light source",
+      "description": "Requires one or more light sources",
+      "conflict_description": "Light source"
+    },
+    "destressingbuilding": {
+      "name": "De-Stressing Building",
+      "description": "Requires one or more De-Stressing buildings",
+      "conflict_description": "De-Stressing Building"
+    },
+    "massage_table": {
+      "name": "Massage Table",
+      "description": "Requires one or more Massage Tables",
+      "conflict_description": "Massage Table"
+    },
+    "diningtabletype": {
+      "name": "Dining Table",
+      "description": "Requires a single Mess Table or Communal Table",
+      "conflict_description": "Dining Table"
+    },
+    "no_basic_mess_stations": {
+      "name": "No Mess Table",
+      "description": "Cannot contain a Mess Table",
+      "conflict_description": "No Mess Table"
+    },
+    "no_mess_station": {
+      "name": "No dining tables",
+      "description": "Cannot contain a Mess Table or Communal Table",
+      "conflict_description": "No dining tables"
+    },
+    "mess_station_multiple": {
+      "name": "Mess Tables",
+      "description": "Requires two or more Mess Tables",
+      "conflict_description": "Mess Tables"
+    },
+    "multi_minion_dining_table": {
+      "name": "Communal Table",
+      "description": "Requires a Communal Table",
+      "conflict_description": "Communal Table"
+    },
+    "research_station": {
+      "name": "Research station",
+      "description": "Requires one or more Research Stations or Super Computers",
+      "conflict_description": "Research station"
+    },
+    "bionicupkeep": {
+      "name": "Bionic service station",
+      "description": "Requires at least one Lubrication Station and one Gunk Extractor",
+      "conflict_description": "Bionic service station"
+    },
+    "bionic_gunkemptier": {
+      "name": "Gunk Extractor",
+      "description": "Requires one or more Gunk Extractors",
+      "conflict_description": "Gunk Extractor"
+    },
+    "bionic_lubrication": {
+      "name": "Lubrication Station",
+      "description": "Requires one or more Lubrication Stations",
+      "conflict_description": "Lubrication Station"
+    },
+    "toilettype": {
+      "name": "Toilet",
+      "description": "Requires one or more Outhouses or Lavatories",
+      "conflict_description": "Toilet"
+    },
+    "flushtoilettype": {
+      "name": "Flush Toilet",
+      "description": "Requires one or more Lavatories",
+      "conflict_description": "Flush Toilet"
+    },
+    "no_outhouses": {
+      "name": "No Outhouses",
+      "description": "Cannot contain basic Outhouses",
+      "conflict_description": "No Outhouses"
+    },
+    "washstation": {
+      "name": "Wash station",
+      "description": "Requires one or more Wash Basins, Sinks, Hand Sanitizers, or Showers",
+      "conflict_description": "Wash station"
+    },
+    "advancedwashstation": {
+      "name": "Plumbed wash station",
+      "description": "Requires one or more Sinks, Hand Sanitizers, or Showers",
+      "conflict_description": "Plumbed wash station"
+    },
+    "no_industrial_machinery": {
+      "name": "No industrial machinery",
+      "description": "Cannot contain any building labeled Industrial Machinery",
+      "conflict_description": "No industrial machinery"
+    },
+    "wildanimal": {
+      "name": "Wildlife",
+      "description": "Requires at least one wild critter",
+      "conflict_description": "Wildlife"
+    },
+    "wildanimals": {
+      "name": "More wildlife",
+      "description": "Requires two or more wild critters",
+      "conflict_description": "More wildlife"
+    },
+    "wildplant": {
+      "name": "Two wild plants",
+      "description": "Requires two or more wild plants",
+      "conflict_description": "Two wild plants"
+    },
+    "wildplants": {
+      "name": "Four wild plants",
+      "description": "Requires four or more wild plants",
+      "conflict_description": "Four wild plants"
+    },
+    "sciencebuilding": {
+      "name": "Science building",
+      "description": "Requires one or more science buildings",
+      "conflict_description": "Science building"
+    },
+    "science_buildings": {
+      "name": "Two science buildings",
+      "description": "Requires two or more science buildings",
+      "conflict_description": "Two science buildings"
+    },
+    "rocketinterior": {
+      "name": "Rocket interior",
+      "description": "Must be built inside a rocket",
+      "conflict_description": "Rocket interior"
+    },
+    "warmingstation": {
+      "name": "Warming station",
+      "description": "Raises the ambient temperature",
+      "conflict_description": "Warming station"
+    },
+    "generatortype": {
+      "name": "Generator",
+      "description": "Generates electrical power",
+      "conflict_description": "Generator"
+    },
+    "heavydutygeneratortype": {
+      "name": "Heavy-duty generator",
+      "description": "For big power needs",
+      "conflict_description": "Heavy-duty generator"
+    },
+    "lightdutygeneratortype": {
+      "name": "Basic generator",
+      "description": "For basic power needs",
+      "conflict_description": "Basic generator"
+    },
+    "powerbuilding": {
+      "name": "Power building",
+      "description": "Buildings that generate, store, or manage power",
+      "conflict_description": "Power building"
+    }
+  },
+  "details": {
+    "header": "Room Details",
+    "assigned_to": {
+      "name": "<b>Assignments:</b>\n{0}",
+      "unassigned": "Unassigned"
+    },
+    "average_temperature": {
+      "name": "Average temperature: {0}"
+    },
+    "average_atmo_mass": {
+      "name": "Average air pressure: {0}"
+    },
+    "size": {
+      "name": "Room size: {0} Tiles"
+    },
+    "building_count": {
+      "name": "Buildings: {0}"
+    },
+    "creature_count": {
+      "name": "Critters: {0}"
+    },
+    "plant_count": {
+      "name": "Plants: {0}"
+    },
+    "ornament_count": {
+      "name": "Displayed ornaments: {0}"
+    }
+  },
+  "effects": {
+    "header": "<b>Effects:</b>"
+  }
+}

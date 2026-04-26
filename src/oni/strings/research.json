@@ -1,0 +1,633 @@
+{
+  "messaging": {
+    "noresearchselected": "No research selected",
+    "researchtyperequired": "{0} required",
+    "researchtypealsorequired": "{0} also required",
+    "no_researcher_skill": "No Researchers assigned",
+    "no_researcher_skill_tooltip": "The selected research focus requires {ResearchType} to complete\n\nOpen the Skills Panel and teach a Duplicant the {ResearchType} Skill to use this building",
+    "missing_research_station": "Missing Research Station",
+    "missing_research_station_tooltip": "The selected research focus requires a {0} to perform\n\nOpen the Stations Tab of the Build Menu to construct one",
+    "dlc": {
+      "expansion1": "\n\n<i>Spaced Out!</i> DLC Content",
+      "dlc_content": "\n<i>{0}</i> DLC Content"
+    }
+  },
+  "types": {
+    "missingrecipedesc": "Missing Recipe Description",
+    "alpha": {
+      "name": "Novice Research",
+      "desc": "Novice Research is required to unlock basic technologies.\nIt can be conducted at a Research Station.",
+      "recipedesc": "Unlocks rudimentary technologies."
+    },
+    "beta": {
+      "name": "Advanced Research",
+      "desc": "Advanced Research is required to unlock improved technologies.\nIt can be conducted at a Super Computer.",
+      "recipedesc": "Unlocks improved technologies."
+    },
+    "gamma": {
+      "name": "Interstellar Research",
+      "desc": "Interstellar Research is required to unlock space technologies.\nIt can be conducted at a Virtual Planetarium.",
+      "recipedesc": "Unlocks cutting-edge technologies."
+    },
+    "delta": {
+      "name": "Applied Sciences Research",
+      "desc": "Applied Sciences Research is required to unlock materials science technologies.\nIt can be conducted at a Materials Study Terminal.",
+      "recipedesc": "Unlocks next wave technologies."
+    },
+    "orbital": {
+      "name": "Data Analysis Research",
+      "desc": "Data Analysis Research is required to unlock Data Analysis technologies.\nIt can be conducted at a Orbital Data Collection Lab.",
+      "recipedesc": "Unlocks out-of-this-world technologies."
+    }
+  },
+  "other_tech_items": {
+    "automation_overlay": {
+      "name": "Automation Overlay",
+      "desc": "Enables access to the Automation Overlay."
+    },
+    "suits_overlay": {
+      "name": "Exosuit Overlay",
+      "desc": "Enables access to the Exosuit Overlay."
+    },
+    "jet_suit": {
+      "name": "Jet Suit Pattern",
+      "desc": "Enables fabrication of Jet Suits at the Exosuit Forge"
+    },
+    "oxygen_mask": {
+      "name": "Oxygen Mask Pattern",
+      "desc": "Enables fabrication of Oxygen Masks at the Crafting Station"
+    },
+    "lead_suit": {
+      "name": "Lead Suit Pattern",
+      "desc": "Enables fabrication of Lead Suits at the Exosuit Forge"
+    },
+    "atmo_suit": {
+      "name": "Atmo Suit Pattern",
+      "desc": "Enables fabrication of Atmo Suits at the Exosuit Forge"
+    },
+    "beta_research_point": {
+      "name": "Advanced Research Capability",
+      "desc": "Allows Advanced Research points to be accumulated, unlocking higher technology tiers."
+    },
+    "gamma_research_point": {
+      "name": "Interstellar Research Capability",
+      "desc": "Allows Interstellar Research points to be accumulated, unlocking higher technology tiers."
+    },
+    "delta_research_point": {
+      "name": "Materials Science Research Capability",
+      "desc": "Allows Materials Science Research points to be accumulated, unlocking higher technology tiers."
+    },
+    "orbital_research_point": {
+      "name": "Data Analysis Research Capability",
+      "desc": "Allows Data Analysis Research points to be accumulated, unlocking higher technology tiers."
+    },
+    "conveyor_overlay": {
+      "name": "Conveyor Overlay",
+      "desc": "Enables access to the Conveyor Overlay."
+    },
+    "super_liquids": {
+      "name": "Advanced Chemical Production",
+      "desc": "Enables production of Visco-Gel Fluid and Super Coolant at the Emulsifier."
+    },
+    "lubrication_stick": {
+      "name": "Gear Balm Pattern",
+      "desc": "Enables fabrication of Gear Balm at the Apothecary"
+    },
+    "disposable_electrobank_metal_ore": {
+      "name": "Metal Power Bank Pattern",
+      "desc": "Enables fabrication of Metal Power Banks at the Crafting Station"
+    },
+    "disposable_electrobank_uranium_ore": {
+      "name": "Uranium Ore Power Bank Pattern",
+      "desc": "Enables fabrication of Uranium Ore Power Banks at the Crafting Station"
+    },
+    "electrobank": {
+      "name": "Eco Power Bank Pattern",
+      "desc": "Enables fabrication of Eco Power Banks at the Soldering Station"
+    },
+    "selfchargingelectrobank": {
+      "name": "Atomic Power Bank Pattern",
+      "desc": "Enables fabrication of Atomic Power Bank at the Molecular Forge"
+    },
+    "fetchdrone": {
+      "name": "Flydo Pattern",
+      "desc": "Enables fabrication of Flydo at the Soldering Station"
+    },
+    "pilotingbooster": {
+      "name": "Rocketry Booster Pattern",
+      "desc": "Enables fabrication of Rocketry Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "constructionbooster": {
+      "name": "Building Booster Pattern",
+      "desc": "Enables fabrication of Building Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "excavationbooster": {
+      "name": "Digging Booster Pattern",
+      "desc": "Enables fabrication of Digging Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "explorerbooster": {
+      "name": "Dowsing Booster Pattern",
+      "desc": "Enables fabrication of Dowsing Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "machinerybooster": {
+      "name": "Operating Booster Pattern",
+      "desc": "Enables fabrication of Operating Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "athleticsbooster": {
+      "name": "Athletics Booster Pattern",
+      "desc": "Enables fabrication of Athletics Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "sciencebooster": {
+      "name": "Researching Booster Pattern",
+      "desc": "Enables fabrication of Researching Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "cookingbooster": {
+      "name": "Cooking Booster Pattern",
+      "desc": "Enables fabrication of Cooking Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "medicinebooster": {
+      "name": "Doctoring Booster Pattern",
+      "desc": "Enables fabrication of Doctoring Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "strengthbooster": {
+      "name": "Strength Booster Pattern",
+      "desc": "Enables fabrication of Strength Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "creativitybooster": {
+      "name": "Decorating Booster Pattern",
+      "desc": "Enables fabrication of Decorating Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "agriculturebooster": {
+      "name": "Farming Booster Pattern",
+      "desc": "Enables fabrication of Farming Boosters for Bionic Duplicants at the Soldering Station"
+    },
+    "husbandrybooster": {
+      "name": "Ranching Booster Pattern",
+      "desc": "Enables fabrication of Ranching Boosters for Bionic Duplicants at the Soldering Station"
+    }
+  },
+  "trees": {
+    "title_food": "Food",
+    "title_power": "Power",
+    "title_solids": "Solid Material",
+    "title_colonydevelopment": "Colony Development",
+    "title_radiationtech": "Radiation Technologies",
+    "title_medicine": "Medicine",
+    "title_liquids": "Liquids",
+    "title_gases": "Gases",
+    "title_suits": "Exosuits",
+    "title_decor": "Decor",
+    "title_computers": "Computers",
+    "title_rockets": "Rocketry"
+  },
+  "techs": {
+    "jobs": {
+      "name": "Employment",
+      "desc": "Exchange the skill points earned by Duplicants for new traits and abilities."
+    },
+    "improvedoxygen": {
+      "name": "Air Systems",
+      "desc": "Maintain clean, breathable air in the colony."
+    },
+    "farmingtech": {
+      "name": "Basic Farming",
+      "desc": "Learn the introductory principles of Plant domestication."
+    },
+    "agriculture": {
+      "name": "Agriculture",
+      "desc": "Master the agricultural art of crop raising."
+    },
+    "ranching": {
+      "name": "Ranching",
+      "desc": "Tame and care for wild critters."
+    },
+    "animalcontrol": {
+      "name": "Animal Control",
+      "desc": "Useful techniques to manage critter populations in the colony."
+    },
+    "animalcomfort": {
+      "name": "Creature Comforts",
+      "desc": "Strategies for maximizing critters' quality of life."
+    },
+    "dairyoperation": {
+      "name": "Brackene Flow",
+      "desc": "Advanced production, processing and distribution of this fluid resource."
+    },
+    "foodrepurposing": {
+      "name": "Food Repurposing",
+      "desc": "Blend that leftover Food into a Morale-boosting slurry."
+    },
+    "finedining": {
+      "name": "Meal Preparation",
+      "desc": "Prepare more nutritious Food and store it longer before spoiling."
+    },
+    "finerdining": {
+      "name": "Gourmet Meal Preparation",
+      "desc": "Raise colony Morale by cooking the most delicious, high-quality Foods."
+    },
+    "gaspiping": {
+      "name": "Ventilation",
+      "desc": "Rudimentary technologies for installing Gas infrastructure."
+    },
+    "improvedgaspiping": {
+      "name": "Improved Ventilation",
+      "desc": "Gas infrastructure capable of withstanding more intense conditions, such as Heat and pressure."
+    },
+    "flowredirection": {
+      "name": "Flow Redirection",
+      "desc": "Liquid management for Morale and industry."
+    },
+    "liquiddistribution": {
+      "name": "Liquid Distribution",
+      "desc": "Advanced fittings ensure that Liquid resources get where they need to go."
+    },
+    "temperaturemodulation": {
+      "name": "Temperature Modulation",
+      "desc": "Precise Temperature altering technologies to keep my colony at the perfect Kelvin."
+    },
+    "hvac": {
+      "name": "HVAC",
+      "desc": "Regulate Temperature in the colony for Plant cultivation and Duplicant comfort."
+    },
+    "gasdistribution": {
+      "name": "Gas Distribution",
+      "desc": "Design building hookups to get Gas resources circulating properly."
+    },
+    "liquidtemperature": {
+      "name": "Liquid Tuning",
+      "desc": "Easily manipulate Liquid Heat with these temperature regulating technologies."
+    },
+    "insulation": {
+      "name": "Insulation",
+      "desc": "Improve Heat distribution within the colony and guard buildings from extreme temperatures."
+    },
+    "pressuremanagement": {
+      "name": "Pressure Management",
+      "desc": "Unlock technologies to manage colony pressure and atmosphere."
+    },
+    "portablegasses": {
+      "name": "Portable Gases",
+      "desc": "Unlock technologies to easily move gases around your colony."
+    },
+    "directedairstreams": {
+      "name": "Decontamination",
+      "desc": "Instruments to help reduce Germ spread within the base."
+    },
+    "liquidfiltering": {
+      "name": "Liquid-Based Refinement Processes",
+      "desc": "Use pumped Liquids to filter out unwanted elements."
+    },
+    "liquidpiping": {
+      "name": "Plumbing",
+      "desc": "Rudimentary technologies for installing Liquid infrastructure."
+    },
+    "improvedliquidpiping": {
+      "name": "Improved Plumbing",
+      "desc": "Liquid infrastructure capable of withstanding more intense conditions, such as Heat and pressure."
+    },
+    "precisionplumbing": {
+      "name": "Advanced Caffeination",
+      "desc": "Let Duplicants relax after a long day of subterranean digging with a shot of warm beanjuice."
+    },
+    "sanitationsciences": {
+      "name": "Sanitation",
+      "desc": "Make daily ablutions less of a hassle."
+    },
+    "advancedsanitation": {
+      "name": "Advanced Sanitation",
+      "desc": "Clean up dirty Duplicants."
+    },
+    "medicinei": {
+      "name": "Pharmacology",
+      "desc": "Compound natural cures to fight the most common Sicknesses that plague Duplicants."
+    },
+    "medicineii": {
+      "name": "Medical Equipment",
+      "desc": "The basic necessities doctors need to facilitate patient care."
+    },
+    "medicineiii": {
+      "name": "Pathogen Diagnostics",
+      "desc": "Stop Germs at the source using special medical automation technology."
+    },
+    "medicineiv": {
+      "name": "Micro-Targeted Medicine",
+      "desc": "State of the art equipment to conquer the most stubborn of illnesses."
+    },
+    "advancedfiltration": {
+      "name": "Filtration",
+      "desc": "Basic technologies for filtering Liquids and Gases."
+    },
+    "powerregulation": {
+      "name": "Power Regulation",
+      "desc": "Prevent wasted Power with improved electrical tools."
+    },
+    "combustion": {
+      "name": "Internal Combustion",
+      "desc": "Fuel-powered generators for crude yet powerful Power production."
+    },
+    "improvedcombustion": {
+      "name": "Fossil Fuels",
+      "desc": "Burn dirty fuels for exceptional Power production."
+    },
+    "interiordecor": {
+      "name": "Interior Decor",
+      "desc": "Decor boosting items to counteract the gloom of underground living."
+    },
+    "artistry": {
+      "name": "Artistic Expression",
+      "desc": "Majorly improve Decor by giving Duplicants the tools of artistic and emotional expression."
+    },
+    "clothing": {
+      "name": "Textile Production",
+      "desc": "Bring Duplicants the Morale boosting benefits of soft, cushy fabrics."
+    },
+    "acoustics": {
+      "name": "Sound Amplifiers",
+      "desc": "Precise control of the audio spectrum allows Duplicants to get funky."
+    },
+    "spacepower": {
+      "name": "Space Power",
+      "desc": "It's like power... in space!"
+    },
+    "amplifiers": {
+      "name": "Power Amplifiers",
+      "desc": "Further increased efficacy of Power management to prevent those wasted joules."
+    },
+    "luxury": {
+      "name": "Home Luxuries",
+      "desc": "Luxury amenities for advanced Stress reduction."
+    },
+    "environmentalappreciation": {
+      "name": "Environmental Appreciation",
+      "desc": "Improve Morale by lazing around in Light with a high Lux value."
+    },
+    "fineart": {
+      "name": "Fine Art",
+      "desc": "Broader options for artistic Decor improvements."
+    },
+    "refractivedecor": {
+      "name": "High Culture",
+      "desc": "New methods for working with extremely high quality art materials."
+    },
+    "renaissanceart": {
+      "name": "Renaissance Art",
+      "desc": "The kind of art that culture legacies are made of."
+    },
+    "glassfurnishings": {
+      "name": "Glass Blowing",
+      "desc": "The decorative benefits of glass are both apparent and transparent."
+    },
+    "screens": {
+      "name": "New Media",
+      "desc": "High tech displays with lots of pretty colors."
+    },
+    "advancedpowerregulation": {
+      "name": "Advanced Power Regulation",
+      "desc": "Circuit components required for large scale Power management."
+    },
+    "plastics": {
+      "name": "Plastic Manufacturing",
+      "desc": "Stable, lightweight, durable. Plastics are useful for a wide array of applications."
+    },
+    "suits": {
+      "name": "Hazard Protection",
+      "desc": "Vital gear for surviving in extreme conditions and environments."
+    },
+    "distillation": {
+      "name": "Distillation",
+      "desc": "Distill difficult mixtures down to their most useful parts."
+    },
+    "advanceddistillation": {
+      "name": "Emulsification",
+      "desc": "Specialized production of Liquid compounds."
+    },
+    "catalytics": {
+      "name": "Catalytics",
+      "desc": "Advanced gas manipulation using unique catalysts."
+    },
+    "advancedresearch": {
+      "name": "Advanced Research",
+      "desc": "The tools my colony needs to conduct more advanced, in-depth research."
+    },
+    "spaceprogram": {
+      "name": "Space Program",
+      "desc": "The first steps in getting a Duplicant to space."
+    },
+    "crashplan": {
+      "name": "Crash Plan",
+      "desc": "What goes up, must come down."
+    },
+    "durablelifesupport": {
+      "name": "Durable Life Support",
+      "desc": "Improved devices for extended missions into space."
+    },
+    "artificialfriends": {
+      "name": "Artificial Friends",
+      "desc": "Sweeping advances in companion technology."
+    },
+    "robotictools": {
+      "name": "Robotic Tools",
+      "desc": "The goal of every great civilization is to one day make itself obsolete."
+    },
+    "logiccontrol": {
+      "name": "Smart Home",
+      "desc": "Switches that grant full control of building operations within the colony."
+    },
+    "logiccircuits": {
+      "name": "Advanced Automation",
+      "desc": "The only limit to colony automation is my own imagination."
+    },
+    "parallelautomation": {
+      "name": "Parallel Automation",
+      "desc": "Multi-wire automation at a fraction of the space."
+    },
+    "multiplexing": {
+      "name": "Multiplexing",
+      "desc": "More choices for Automation signal distribution."
+    },
+    "valveminiaturization": {
+      "name": "Valve Miniaturization",
+      "desc": "Smaller, more efficient pumps for those low-throughput situations."
+    },
+    "hydrocarbonpropulsion": {
+      "name": "Hydrocarbon Propulsion",
+      "desc": "Low-range rocket engines with lots of smoke."
+    },
+    "betterhydrocarbonpropulsion": {
+      "name": "Improved Hydrocarbon Propulsion",
+      "desc": "Mid-range rocket engines with lots of smoke."
+    },
+    "prettygoodconductors": {
+      "name": "Low-Resistance Conductors",
+      "desc": "Pure-core wires that can handle more Electrical current without overloading."
+    },
+    "renewableenergy": {
+      "name": "Renewable Energy",
+      "desc": "Clean, sustainable Power production that produces little to no waste."
+    },
+    "basicrefinement": {
+      "name": "Brute-Force Refinement",
+      "desc": "Low-tech refinement methods for producing clay and renewable sources of sand."
+    },
+    "refinedobjects": {
+      "name": "Refined Renovations",
+      "desc": "Improve base infrastructure with new objects crafted from Refined Metals."
+    },
+    "genericsensors": {
+      "name": "Generic Sensors",
+      "desc": "Drive automation in a variety of new, inventive ways."
+    },
+    "dupetrafficcontrol": {
+      "name": "Computing",
+      "desc": "Virtually extend the boundaries of Duplicant imagination."
+    },
+    "advancedscanners": {
+      "name": "Sensitive Microimaging",
+      "desc": "Computerized systems do the looking, so Duplicants don't have to."
+    },
+    "smelting": {
+      "name": "Smelting",
+      "desc": "High temperatures facilitate the production of purer, special use metal resources."
+    },
+    "traveltubes": {
+      "name": "Transit Tubes",
+      "desc": "A wholly futuristic way to move Duplicants around the base."
+    },
+    "smartstorage": {
+      "name": "Smart Storage",
+      "desc": "Completely automate the storage of solid resources."
+    },
+    "solidtransport": {
+      "name": "Solid Transport",
+      "desc": "Free Duplicants from the drudgery of day-to-day material deliveries with new methods of automation."
+    },
+    "solidmanagement": {
+      "name": "Solid Management",
+      "desc": "Make solid decisions in Solid sorting."
+    },
+    "soliddistribution": {
+      "name": "Solid Distribution",
+      "desc": "Internal rocket hookups for Solid resources."
+    },
+    "hightempforging": {
+      "name": "Superheated Forging",
+      "desc": "Craft entirely new materials by harnessing the most extreme temperatures."
+    },
+    "highpressureforging": {
+      "name": "Pressurized Forging",
+      "desc": "High pressure diamond forging."
+    },
+    "radiationprotection": {
+      "name": "Radiation Protection",
+      "desc": "Shield Duplicants from dangerous amounts of radiation."
+    },
+    "skydetectors": {
+      "name": "Celestial Detection",
+      "desc": "Turn Duplicants' eyes to the skies and discover what undiscovered wonders await out there."
+    },
+    "missiles": {
+      "name": "Missiles",
+      "desc": "Craft explosives and fire them into outer space."
+    },
+    "jetpacks": {
+      "name": "Personal Flight",
+      "desc": "Give Duplicants the gift of a walk-free commute."
+    },
+    "basicrocketry": {
+      "name": "Introductory Rocketry",
+      "desc": "Everything required for launching the colony's very first space program."
+    },
+    "enginesi": {
+      "name": "Solid Fuel Combustion",
+      "desc": "Rockets that fly further, longer."
+    },
+    "enginesii": {
+      "name": "Hydrocarbon Combustion",
+      "desc": "Delve deeper into the vastness of space than ever before."
+    },
+    "enginesiii": {
+      "name": "Cryofuel Combustion",
+      "desc": "With this technology, the sky is your oyster. Go exploring!"
+    },
+    "cryofuelpropulsion": {
+      "name": "Cryofuel Propulsion",
+      "desc": "A semi-powerful engine to propel you further into the galaxy."
+    },
+    "nuclearpropulsion": {
+      "name": "Radbolt Propulsion",
+      "desc": "Radical technology to get you to the stars."
+    },
+    "advancedresourceextraction": {
+      "name": "Advanced Resource Extraction",
+      "desc": "Bring back souvieners from the stars."
+    },
+    "cargoi": {
+      "name": "Solid Cargo",
+      "desc": "Make extra use of journeys into space by mining and storing useful resources."
+    },
+    "cargoii": {
+      "name": "Liquid and Gas Cargo",
+      "desc": "Extract precious liquids and gases from the far reaches of space, and return with them to the colony."
+    },
+    "cargoiii": {
+      "name": "Unique Cargo",
+      "desc": "Allow Duplicants to take their friends to see the stars... or simply bring souvenirs back from their travels."
+    },
+    "notificationsystems": {
+      "name": "Notification Systems",
+      "desc": "Get all the news you need to know about your complex colony."
+    },
+    "nuclearrefinement": {
+      "name": "Radiation Refinement",
+      "desc": "Refine uranium and generate radiation."
+    },
+    "nuclearresearch": {
+      "name": "Materials Science Research",
+      "desc": "Harness sub-atomic particles to study the properties of matter."
+    },
+    "advancednuclearresearch": {
+      "name": "More Materials Science Research",
+      "desc": "Harness sub-atomic particles to study the properties of matter even more."
+    },
+    "nuclearstorage": {
+      "name": "Radbolt Containment",
+      "desc": "Build a quality cache of radbolts."
+    },
+    "solidspace": {
+      "name": "Solid Control",
+      "desc": "Transport and sort Solid resources."
+    },
+    "highvelocitytransport": {
+      "name": "High Velocity Transport",
+      "desc": "Hurl things through space."
+    },
+    "monuments": {
+      "name": "Monuments",
+      "desc": "Monumental art projects."
+    },
+    "bioengineering": {
+      "name": "Bioengineering",
+      "desc": "Mutation station."
+    },
+    "spacecombustion": {
+      "name": "Advanced Combustion",
+      "desc": "Sweet advancements in rocket engines."
+    },
+    "highvelocitydestruction": {
+      "name": "High Velocity Destruction",
+      "desc": "Mine the skies."
+    },
+    "spacegas": {
+      "name": "Advanced Gas Flow",
+      "desc": "Gas engines and transportation for rockets."
+    },
+    "datascience": {
+      "name": "Data Science",
+      "desc": "The science of making the data work for my Duplicants, instead of the other way around."
+    },
+    "datasciencebasegame": {
+      "name": "Data Science",
+      "desc": "The science of making the data work for my Duplicants, instead of the other way around."
+    }
+  }
+}

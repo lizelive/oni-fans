@@ -1,0 +1,23 @@
+{
+  "enter": "Enter",
+  "escape": "Escape",
+  "backspace": "Backspace",
+  "space": "Space",
+  "tab": "Tab",
+  "period": "Period Key",
+  "insert": "Insert",
+  "left_shift": "L-Shift",
+  "right_shift": "R-Shift",
+  "shift": "Shift",
+  "left_alt": "L-Alt",
+  "right_alt": "R-Alt",
+  "alt": "Alt",
+  "left_ctrl": "L-Ctrl",
+  "right_ctrl": "R-Ctrl",
+  "ctrl": "Ctrl",
+  "num": "Num",
+  "mouse_scroll_up": "Mouse Scroll Up",
+  "mouse_scroll_down": "Mouse Scroll Down",
+  "mouse": "Mouse",
+  "backquote": "Backquote"
+}

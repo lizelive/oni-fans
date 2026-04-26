@@ -1,0 +1,1726 @@
+{
+  "permit_atmo_belt_neutronium": {
+    "name": "Regal Neutronium Atmo Belt",
+    "desc": "The only acceptable atmo belt for exalted space explorers."
+  },
+  "permit_atmosuit_neutronium": {
+    "name": "Regal Neutronium Atmo Suit",
+    "desc": "Understated elegance topped with a solid-gold collar that protects against sharp space objects and surprise tickle attacks."
+  },
+  "permit_atmo_shoes_neutronium": {
+    "name": "Regal Atmo Boots",
+    "desc": "Protective footwear that shines with the promise of safety and new adventures."
+  },
+  "permit_atmo_gloves_neutronium": {
+    "name": "Regal Neutronium Atmo Gloves",
+    "desc": "Thick engineered \"leather\" hand protectors and polished Neutronium cuffs keep little Duplicant fingers safe, no matter what they're tempted to touch."
+  },
+  "permit_atmo_helmet_neutronium": {
+    "name": "Regal Neutronium Atmo Helmet",
+    "desc": "A truly magnificent noggin protector that makes every errand feel like an epic expedition."
+  },
+  "permit_gloves_neutronium": {
+    "name": "Regal Golden Gloves",
+    "desc": "Manufacturer's note: These gloves will not transform touched objects into gold or neutronium."
+  },
+  "permit_top_regal_neutronium": {
+    "name": "Regal Neutronium Uniform Shirt",
+    "desc": "The unofficial dress uniform of the super-regal, with a solid gold belt and collar. It's not comfortable, but wow, does it ever look good."
+  },
+  "permit_bottom_regal_neutronium": {
+    "name": "Regal Neutronium Uniform Pants",
+    "desc": "These tailored uniform pants come in a rich, deep neutronium-inspired hue that pairs well with gold."
+  },
+  "permit_shoes_regal_neutronium": {
+    "name": "Regal Shoes",
+    "desc": "Classic black work shoes with a lavish gold ankle band."
+  },
+  "permit_crown_moulding_neutronium": {
+    "name": "Regal Neutronium Ceiling Trim",
+    "desc": "Installing elegant crown moulding is a clever way to distract visitors from unswept tunnel floors."
+  },
+  "permit_corner_tile_neutronium": {
+    "name": "Regal Neutronium Corner Trim",
+    "desc": "Someone once suggested that ornate corner trim tiles be called \"cornate\" tiles. Thankfully, they were overruled."
+  },
+  "permit_pedestal_neutronium": {
+    "name": "Regal Neutronium Pedestal",
+    "desc": "This signet ring-style pedestal makes an opulent home for everything from crown jewels to knickknacks."
+  },
+  "permit_generatormanual_neutronium": {
+    "name": "Regal Neutronium Manual Generator",
+    "desc": "Some folks climb up the corporate ladder, others race on the aristocratic wheel."
+  },
+  "permit_hqbase_neutronium": {
+    "name": "Regal Neutronium Printing Pod",
+    "desc": "A grandiose machine that makes even the most haphazard colony feel like a distinguished outpost."
+  },
+  "permit_porta_pod_y_neutronium": {
+    "name": "Regal Neutronium Mini-Pod",
+    "desc": "A monument to the highfalutin' hopes and dreams of every spacefarer settling in on a new world."
+  },
+  "permit_rancherstation_neutronium": {
+    "name": "Regal Neutronium Grooming Station",
+    "desc": "Mirror, mirror, on the wall...who's the best-groomed of them all?"
+  },
+  "permit_storagelocker_neutronium": {
+    "name": "Regal Neutronium Storage Bin",
+    "desc": "When the outside is this extravagant, who cares what's inside?"
+  },
+  "permit_fridge_neutronium": {
+    "name": "Regal Neutronium Refrigerator",
+    "desc": "It's so polished that there's a chance Duplicants might get lost in their own reflection."
+  },
+  "permit_mineraldeoxidizer_neutronium": {
+    "name": "Regal Neutronium Oxygen Diffuser",
+    "desc": "Enhances breathability by lending an air of affluence to its surroundings."
+  },
+  "permit_waterpump_neutronium": {
+    "name": "Regal Neutronium Water Pump",
+    "desc": "Some Duplicants dream of stealing the wrought gold pump handle to use as a fancy walking cane."
+  },
+  "permit_generatorphos_neutronium": {
+    "name": "Regal Neutronium Coal Generator",
+    "desc": "This building's high-gloss finish never loses its shine, no matter how many layers of coal dust it's coated in."
+  },
+  "permit_steamturbine2_neutronium": {
+    "name": "Regal Neutronium Steam Turbine",
+    "desc": "It exudes power, literally and figuratively."
+  },
+  "permit_co2scrubber_neutronium": {
+    "name": "Regal Neutronium Carbon Skimmer",
+    "desc": "Swiftly and discreetly pulls carbon dioxide out of the air, like a butler pulling an uninvited guest out of a gala."
+  },
+  "permit_electrolyzer_neutronium": {
+    "name": "Regal Neutronium Electrolyzer",
+    "desc": "The oxygenated air produced by this building smells...superior, somehow."
+  },
+  "permit_respeccer_neutronium": {
+    "name": "Regal Neutronium Skill Scrubber",
+    "desc": "Duplicants come out feeling very, very fancy, and knowing very, very little."
+  },
+  "permit_waterpurifier_neutronium": {
+    "name": "Regal Neutronium Water Sieve",
+    "desc": "The clean water produced by this gilded filtration system has an unmistakably rich flavor."
+  },
+  "permit_metalrefinery_neutronium": {
+    "name": "Regal Neutronium Metal Refinery",
+    "desc": "Some say it's the most refined-looking metal refinery that ever refined metal."
+  },
+  "permit_boiler_neutronium": {
+    "name": "Regal Neutronium Liquid Tepidizer",
+    "desc": "An ostentatious immersion heater that gives cool liquids the royal treatment."
+  },
+  "permit_liquidconditioner_neutronium": {
+    "name": "Regal Neutronium Thermo Aquatuner",
+    "desc": "Duplicants who <i>can</i> say this building's name three times fast are too undignified to use it."
+  },
+  "permit_jetsuit_neutronium": {
+    "name": "Regal Neutronium Jet Suit",
+    "desc": "In the event of a formal-attire emergency, the golden starburst belt buckle can double as an avant-garde monocle."
+  },
+  "permit_jet_shoes_neutronium": {
+    "name": "Regal Neutronium Jet Boots",
+    "desc": "A pair of flight boots designed to be as durable as the mysterious substance that clings to space artifacts."
+  },
+  "permit_jet_gloves_neutronium": {
+    "name": "Regal Neutronium Jet Gloves",
+    "desc": "These gloves feature heavy neutronium-inspired cuffs that keep them securely attached no matter how fast the wearer is jettin' around."
+  },
+  "permit_jet_helmet_neutronium": {
+    "name": "Regal Neutronium Jet Helmet",
+    "desc": "This showstopper of a helmet really makes Duplicants feel like jet-settin' legends."
+  },
+  "permit_walls_stripes_neutronium": {
+    "name": "Regal Neutronium Tuft",
+    "desc": "This sumptuously tufted wall panel transforms basic colony spaces into palatial throne rooms."
+  },
+  "neutronium_atmo_outfit": {
+    "name": "Regal Neutronium Atmo Outfit"
+  },
+  "neutronium_jetsuit_outfit": {
+    "name": "Regal Neutronium Jet Outfit"
+  },
+  "permit_standard_regal_neutronium_outfit": {
+    "name": "Regal Neutronium Uniform"
+  },
+  "permit_headquarters_ceres": {
+    "name": "Frosty Printing Pod",
+    "desc": "A basic model designed with portability and sub-zero temperatures in mind."
+  },
+  "permit_bed_jorge": {
+    "name": "DIY Cot",
+    "desc": "One person's junk is another person's bespoke bed."
+  },
+  "permit_smartstoragelocker_gravitas": {
+    "name": "Smart-Looking Smart Storage",
+    "desc": "Someone gave this smart storage bin a makeover."
+  },
+  "permit_sculpture_wood_amazing_action_puft": {
+    "name": "Blank Slate",
+    "desc": "The face of truly blissful ignorance."
+  },
+  "permit_sculpture_wood_amazing_rear_puft": {
+    "name": "Puft Rump",
+    "desc": "Occasionally emits a barely audible toot."
+  },
+  "permit_sculpture_wood_amazing_rear_shovevole": {
+    "name": "Vole Rump",
+    "desc": "Behind every great critter, is that critter's great behind."
+  },
+  "permit_sculpture_wood_amazing_action_gulp": {
+    "name": "Stoic Trophy",
+    "desc": "The mighty Pacu refuses to explain its philosophy. It simply embodies it."
+  },
+  "permit_sculpture_wood_amazing_rear_cuddlepip": {
+    "name": "Pip Rump",
+    "desc": "Hindsight may be 20/20, but hind art is priceless."
+  },
+  "permit_sculpture_wood_amazing_rear_drecko": {
+    "name": "Drecko Rump",
+    "desc": "The post-shearing version was considered too risque."
+  },
+  "permit_sculpture_wood_okay_mid_one": {
+    "name": "Wood Grain",
+    "desc": "A realistic rendition of Sleet Wheat, also known as \"a mouth full of splinters just waiting to happen.\""
+  },
+  "permit_sculpture_wood_amazing_action_pacu": {
+    "name": "Chompionship Trophy",
+    "desc": "Duplicants like to prank their friends by sticking their hands inside and pretending the sculpture has come to life."
+  },
+  "permit_sculpture_wood_crap_low_one": {
+    "name": "Chipped Trunk",
+    "desc": "Was this piece carved by an artist, or gnawed on by a critter? No one knows."
+  },
+  "permit_sculpture_wood_amazing_action_wood_deer": {
+    "name": "Sly Stare",
+    "desc": "The sculptor used a tiny fleck of glass to mimic the mischievous glint of a Flox's eye."
+  },
+  "permit_icesculpture_amazing_idle_seal": {
+    "name": "Sibling Dynamics",
+    "desc": "Some things really <i>are</i> universal truths."
+  },
+  "permit_icesculpture_amazing_idle_bammoth": {
+    "name": "What A Hoot",
+    "desc": "It's not a real party until someone tries to feed the sculpture a Frost Bun."
+  },
+  "permit_icesculpture_amazing_idle_wood_deer": {
+    "name": "Glam Guardian",
+    "desc": "Often showcased in pairs, with one on each side of the doorway."
+  },
+  "permit_top_flannel_red": {
+    "name": "Classic Flannel Shirt",
+    "desc": "Pretty iconic colors, eh?"
+  },
+  "permit_top_flannel_orange": {
+    "name": "Cadmium Flannel Shirt",
+    "desc": "It's giving outdoorsy Rover vibes."
+  },
+  "permit_top_flannel_yellow": {
+    "name": "Flax Flannel Shirt",
+    "desc": "Bright minds gravitate toward bright colors."
+  },
+  "permit_top_flannel_green": {
+    "name": "Swampy Flannel Shirt",
+    "desc": "Stays warm and soft, even when damp."
+  },
+  "permit_top_flannel_blue_middle": {
+    "name": "Scrub Flannel Shirt",
+    "desc": "Durable but soft, for workers who need a little extra TLC."
+  },
+  "permit_top_flannel_purple": {
+    "name": "Fusion Flannel Shirt",
+    "desc": "Perfectly aligned alternating squares imply a certain work ethic."
+  },
+  "permit_top_flannel_pink_orchid": {
+    "name": "Flare Flannel Shirt",
+    "desc": "Neither of these chest pockets are functional."
+  },
+  "permit_top_flannel_white": {
+    "name": "White Flannel Shirt",
+    "desc": "For Duplicants at the forefront of flannel formalwear."
+  },
+  "permit_top_flannel_black": {
+    "name": "Monochrome Flannel Shirt",
+    "desc": "It's always hard to tell whether the buttons are lined up properly."
+  },
+  "outfit_top_flannel_red": {
+    "name": "Classic Flannel Outfit"
+  },
+  "outfit_top_flannel_orange": {
+    "name": "Cadmium Flannel Outfit"
+  },
+  "outfit_top_flannel_yellow": {
+    "name": "Flax Flannel Outfit"
+  },
+  "outfit_top_flannel_green": {
+    "name": "Swampy Flannel Outfit"
+  },
+  "outfit_top_flannel_blue_middle": {
+    "name": "Scrub Flannel Outfit"
+  },
+  "outfit_top_flannel_purple": {
+    "name": "Fusion Flannel Outfit"
+  },
+  "outfit_top_flannel_pink_orchid": {
+    "name": "Flare Flannel Outfit"
+  },
+  "outfit_top_flannel_white": {
+    "name": "White Flannel Outfit"
+  },
+  "outfit_top_flannel_black": {
+    "name": "Monochrome Flannel Outfit"
+  },
+  "outfit_top_hockey_01": {
+    "name": "Slapshot Outfit"
+  },
+  "outfit_top_hockey_02": {
+    "name": "Blocker Outfit"
+  },
+  "outfit_top_hockey_03": {
+    "name": "High-Stick Outfit"
+  },
+  "outfit_top_hockey_04": {
+    "name": "Faceoff Outfit"
+  },
+  "outfit_top_hockey_05": {
+    "name": "MVP Outfit"
+  },
+  "outfit_top_hockey_07": {
+    "name": "Hat-Trick Outfit"
+  },
+  "outfit_top_hockey_08": {
+    "name": "Overtime Outfit"
+  },
+  "outfit_top_hockey_09": {
+    "name": "Penalty Box Outfit"
+  },
+  "outfit_top_hockey_10": {
+    "name": "Enforcer Outfit"
+  },
+  "outfit_top_hockey_11": {
+    "name": "Hoser Outfit"
+  },
+  "outfit_top_hockey_12": {
+    "name": "Rookie Outfit"
+  },
+  "permit_bed_cottage": {
+    "name": "Quilt Cot",
+    "desc": "Little scraps of textile waste make a cozy bedcover when they're stapled together by hand."
+  },
+  "beachchair_deck": {
+    "name": "Deck Chair",
+    "desc": "Deck not included."
+  },
+  "ceilinglight_chandelier": {
+    "name": "Schmancy Chandelier",
+    "desc": "Designers are not liable for injuries obtained by swinging from this fixture."
+  },
+  "diningtable_log": {
+    "name": "Rustic Mess Table",
+    "desc": "The unfinished tabletop is a valuable source of splinters- uh, <i>toothpicks!</i>"
+  },
+  "permit_floorlamp_cottage": {
+    "name": "Storytime Lamp",
+    "desc": "It makes Duplicants feel like they're about to be read a bedtime story."
+  },
+  "manualgenerator_elliptical": {
+    "name": "Elliptical Generator",
+    "desc": "A low-impact aerobic workout for fitness-fueled colonies!"
+  },
+  "permit_atmo_belt_80s": {
+    "name": "Fannypack Atmo Belt",
+    "desc": "Just big enough to hold a single lip balm whose lid keeps coming off."
+  },
+  "permit_atmosuit_80s": {
+    "name": "Radical Atmo Suit",
+    "desc": "It's truly excellent, dude."
+  },
+  "permit_atmo_shoes_80s": {
+    "name": "Radical Atmo Boots",
+    "desc": "Can you do the Running Man in space? With these, maybe."
+  },
+  "permit_atmo_gloves_80s": {
+    "name": "Radical Atmo Gloves",
+    "desc": "A funky fresh pair of hand coverings."
+  },
+  "permit_atmo_helmet_80s": {
+    "name": "Radical Atmo Helmet",
+    "desc": "A choice lid keeps things copacetic out here in the cosmos."
+  },
+  "permit_gloves_hockey_01": {
+    "name": "Slapshot Gloves",
+    "desc": "Slapshots are allowed, slapping is not."
+  },
+  "permit_gloves_hockey_02": {
+    "name": "Blocker Gloves",
+    "desc": "Designed to cause disappointment for opponents."
+  },
+  "permit_gloves_hockey_03": {
+    "name": "High-Stick Gloves",
+    "desc": "Hold your head high, and your hockey stick higher."
+  },
+  "permit_gloves_hockey_04": {
+    "name": "Faceoff Gloves",
+    "desc": "When two scientists disagree, there is only one solution."
+  },
+  "permit_gloves_hockey_05": {
+    "name": "MVP Gloves",
+    "desc": "Can only be worn by this season's Most Valuable Physicist."
+  },
+  "permit_gloves_hockey_07": {
+    "name": "Hat-Trick Gloves",
+    "desc": "Marks the wearer as someone who once received three high-fives in a single day."
+  },
+  "permit_gloves_hockey_08": {
+    "name": "Overtime Gloves",
+    "desc": "Keeps your hands warm when things take longer than scheduled."
+  },
+  "permit_gloves_hockey_09": {
+    "name": "Penalty Box Gloves",
+    "desc": "High contrast colors for effective gesturing through plexiglass."
+  },
+  "permit_gloves_hockey_10": {
+    "name": "Enforcer Gloves",
+    "desc": "They're not afraid to get a little dirty."
+  },
+  "permit_gloves_hockey_11": {
+    "name": "Hoser Gloves",
+    "desc": "Good game, bud."
+  },
+  "permit_gloves_hockey_12": {
+    "name": "Rookie Gloves",
+    "desc": "They're a little green."
+  },
+  "permit_mittens_knit_black_smog": {
+    "name": "Smog Mittens",
+    "desc": "Keeps fingers snuggled up next to each other, as nature intended."
+  },
+  "permit_mittens_knit_white": {
+    "name": "White Mittens",
+    "desc": "What they lack in dexterity, they also lack in stain-resistance."
+  },
+  "permit_mittens_knit_yellowcake": {
+    "name": "Yellowcake Mittens",
+    "desc": "They're great for stroking one's own face."
+  },
+  "permit_mittens_knit_orange_tectonic": {
+    "name": "Tectonic Mittens",
+    "desc": "If you rub them on your hair, you get a little zap."
+  },
+  "permit_mittens_knit_green_enzyme": {
+    "name": "Enzyme Mittens",
+    "desc": "A bit fiddly for handling lab equipment."
+  },
+  "permit_mittens_knit_blue_azulene": {
+    "name": "Azulene Mittens",
+    "desc": "Very useful for dusting off old reference books."
+  },
+  "permit_mittens_knit_purple_astral": {
+    "name": "Astral Mittens",
+    "desc": "They should really be attached to each other by a long string."
+  },
+  "permit_mittens_knit_pink_cosmic": {
+    "name": "Cosmic Mittens",
+    "desc": "Easy to find in the snow."
+  },
+  "permit_top_jersey_01": {
+    "name": "Slapshot Jersey",
+    "desc": "Not to be confused with a \"Snapshot\" jersey, which is made out of old photographs."
+  },
+  "permit_top_jersey_02": {
+    "name": "Blocker Jersey",
+    "desc": "Oh, was I in your way? Good."
+  },
+  "permit_top_jersey_03": {
+    "name": "High-Stick Jersey",
+    "desc": "Subtle padding in the neck and chest protects from retaliation."
+  },
+  "permit_top_jersey_04": {
+    "name": "Faceoff Jersey",
+    "desc": "It makes other colony members see red."
+  },
+  "permit_top_jersey_05": {
+    "name": "MVP Jersey",
+    "desc": "Often worn with the matching gloves to make sure <i>everyone</i> knows."
+  },
+  "permit_top_jersey_07": {
+    "name": "Hat-Trick Jersey",
+    "desc": "Three hypotheses in one paper? Wow!"
+  },
+  "permit_top_jersey_08": {
+    "name": "Overtime Jersey",
+    "desc": "It's comfy enough to sleep in."
+  },
+  "permit_top_jersey_09": {
+    "name": "Penalty Box Jersey",
+    "desc": "There's a troublemaker on every research team."
+  },
+  "permit_top_jersey_10": {
+    "name": "Enforcer Jersey",
+    "desc": "It's time to lay down the law. Newton's Law."
+  },
+  "permit_top_jersey_11": {
+    "name": "Hoser Jersey",
+    "desc": "You win some, you learn some."
+  },
+  "permit_top_jersey_12": {
+    "name": "Rookie Jersey",
+    "desc": "Grants the wearer enthusiasm and beginner's luck."
+  },
+  "permit_cookingstation_cottage": {
+    "name": "Backcountry Grill",
+    "desc": "The smoky flavor is intentional."
+  },
+  "permit_cookingstation_gourmet_cottage": {
+    "name": "Rustic Gas Range",
+    "desc": "It makes quality meal recipes feel more...approachable."
+  },
+  "permit_rancherstation_cottage": {
+    "name": "Rustic Grooming Station",
+    "desc": "Some ranchers believe that a woodsy aesthetic puts critters at ease."
+  },
+  "permit_painting_art_ceres_a": {
+    "name": "Lady With a Bammini",
+    "desc": "You cannot choose your family, but you can choose your friends."
+  },
+  "permit_painting_wide_art_ceres_a": {
+    "name": "Babe the Blue Flox",
+    "desc": "The scale implies that this critter and its friend were larger than most."
+  },
+  "permit_painting_tall_art_ceres_a": {
+    "name": "Catch of the Day",
+    "desc": "The tale of this catch grows more unbelievable with each telling."
+  },
+  "permit_walls_wood_panel": {
+    "name": "Wood Panel",
+    "desc": "Even labs can be dressed up as log cabins!"
+  },
+  "permit_walls_igloo": {
+    "name": "Ice Panel",
+    "desc": "Snow tile style that won't melt!"
+  },
+  "permit_walls_forest": {
+    "name": "Forest",
+    "desc": "Sustainable forest bathing."
+  },
+  "permit_walls_southwest": {
+    "name": "Southwest",
+    "desc": "Southwest of <i>what</i>, Duplicants aren't sure. But they like it."
+  },
+  "permit_monument_base_a_frosty": {
+    "name": "Squash Stand",
+    "desc": "The plume curls upward to enable cleaners to sweep the floor around it."
+  },
+  "permit_monument_base_b_frosty": {
+    "name": "Lumen Landing",
+    "desc": "It's radiant, though it emits no actual light."
+  },
+  "permit_monument_base_c_frosty": {
+    "name": "Patty Pose",
+    "desc": "Looks and smells just like Bammoth \"business.\""
+  },
+  "permit_monument_mid_a_frosty": {
+    "name": "Berry Bounty Trunk",
+    "desc": "Carved sherberries are just about as palatable as real ones."
+  },
+  "permit_monument_mid_b_frosty": {
+    "name": "Seal Snuggles",
+    "desc": "Never, <i>ever</i> run while holding spigot seals."
+  },
+  "permit_monument_mid_c_frosty": {
+    "name": "Recoiling",
+    "desc": "It's trying to get away from something."
+  },
+  "permit_monument_upper_a_frosty": {
+    "name": "Freyja Noggin",
+    "desc": "A cooler-than-cool topper."
+  },
+  "permit_monument_upper_b_frosty": {
+    "name": "Pei Noggin",
+    "desc": "Everyone loves Pei Day!"
+  },
+  "permit_monument_upper_c_frosty": {
+    "name": "Liam Noggin",
+    "desc": "A giant Resting Ewwww Face topper."
+  },
+  "outfit_atmo_suit_80s": {
+    "name": "Radical Atmo Outfit"
+  },
+  "permit_pedestal_cottage": {
+    "name": "Handcrafted Pedestal",
+    "desc": "A cozy spot to display cherished items."
+  },
+  "permit_porta_pod_y_ice": {
+    "name": "Frosty Mini-Pod",
+    "desc": "It could run for a thousand cycles and still be cool to the touch."
+  },
+  "permit_standard_bionic_top": {
+    "name": "Bionic Uniform Shirt",
+    "desc": "A standard-issue uniform shirt for non-standard Duplicants."
+  },
+  "permit_standard_bionic_bottom": {
+    "name": "Almost-Black Pants",
+    "desc": "If someone can tell the difference between these and actual black pants, they're standing too close."
+  },
+  "permit_standard_bionic_gloves": {
+    "name": "Bionic Gloves",
+    "desc": "Standard uniform gloves for Bionic Duplicants. They do not grant the wearer any special abilities."
+  },
+  "permit_standard_bionic_shoes": {
+    "name": "Bionic Shoes",
+    "desc": "Standard uniform shoes for Bionic Duplicants."
+  },
+  "permit_standard_bionic_outfit": {
+    "name": "Standard Bionic Uniform",
+    "desc": "The uniform issued to all Bionic Duplicants on their first day in the colony."
+  },
+  "permit_atmo_belt_3tone_purple": {
+    "name": "Tricolor Atmo Belt",
+    "desc": "Complementary colors garner countless compliments."
+  },
+  "permit_atmo_belt_circuit": {
+    "name": "Bionic Atmo Belt",
+    "desc": "The belt itself is not bionic, but the Duplicant wearing it probably is."
+  },
+  "permit_atmosuit_basic_purple_wildberry": {
+    "name": "Crisp Violet Atmo Suit",
+    "desc": "The shoulders are as purple as a paleontologist's prose."
+  },
+  "permit_atmosuit_basic_orange": {
+    "name": "Crisp Cadmium Atmo Suit",
+    "desc": "Dyed with gorgeously saturated toxic pigments!"
+  },
+  "permit_atmo_shoes_biocircuit": {
+    "name": "Bionic Atmo Boots",
+    "desc": "Standard-issue footwear for...augmented...employees."
+  },
+  "permit_atmo_shoes_basic_green": {
+    "name": "Swampy Atmo Boots",
+    "desc": "They leave a trail of moist bootprints for others to follow."
+  },
+  "permit_atmo_gloves_plum": {
+    "name": "Plum Atmo Gloves",
+    "desc": "Purpley-reddish gloves for hostile environments."
+  },
+  "permit_atmo_gloves_biocircuit": {
+    "name": "Bionic Atmo Gloves",
+    "desc": "Eye-catching accents ensure that the wearer knows where their hands are at all times."
+  },
+  "permit_atmo_helmet_gaudysweater_purple": {
+    "name": "Deepset Atmo Helmet",
+    "desc": "Makes facial features appear farther away."
+  },
+  "permit_atmo_helmet_biocircuit": {
+    "name": "Bionic Atmo Helmet",
+    "desc": "Featuring 360-degree panoramic views and cool non-functional neck buttons."
+  },
+  "permit_jumpsuit_vsuit_stellar": {
+    "name": "Aerodynamic Flightsuit",
+    "desc": "Flatlock seams on the double V accents reduce drag. They also look nice."
+  },
+  "permit_pj_biocircuit_wildberry": {
+    "name": "Bionic Jammies",
+    "desc": "This plush onesie soothes workers who feel really wired."
+  },
+  "permit_pants_extendedwaist_blue_wheezewort": {
+    "name": "High-Waisted Wheezy Pants",
+    "desc": "The built-in invisible elastic waistband supports deep belly breathing."
+  },
+  "permit_pants_snapjacket_brine": {
+    "name": "Tear-Away Pants",
+    "desc": "Most wearers consider these single-use."
+  },
+  "permit_shoes_basic_blue_wheezy": {
+    "name": "Basic Wheezy Shoes",
+    "desc": "A fresh pair of Wheezewort-blue shoes that go with everything."
+  },
+  "permit_shoes_futurespace_blue": {
+    "name": "Future Chic Booties",
+    "desc": "If they're not stylish yet, they will be someday."
+  },
+  "permit_shoes_vsuit_stellar": {
+    "name": "Stellar Flight Boots",
+    "desc": "Now with built-in arch support!"
+  },
+  "permit_gloves_basic_blue_wheezewort": {
+    "name": "Basic Wheezy Gloves",
+    "desc": "A good, solid pair of blue gloves that go with everything."
+  },
+  "permit_gloves_puffer_orange": {
+    "name": "Cadmium Jelly Gloves",
+    "desc": "A cozy little orange puffer jacket for every finger."
+  },
+  "permit_gloves_futurespace_blue": {
+    "name": "Future Chic Gloves",
+    "desc": "One metallic wrist ruffle is fancy. These gloves have two."
+  },
+  "permit_gloves_vsuit_stellar": {
+    "name": "Stellar Flight Gloves",
+    "desc": "Interstellar flights call for truly stellar gloves."
+  },
+  "permit_gloves_snapjacket_brine": {
+    "name": "Brine Gloves",
+    "desc": "Some adventurers are a little salty, which is to be expected."
+  },
+  "permit_gloves_metal_grey": {
+    "name": "Steel Gloves",
+    "desc": "They're constantly covered in fingerprints."
+  },
+  "permit_top_vest_puffer_orange": {
+    "name": "Cadmium Vest",
+    "desc": "Keeps the core warm, lets the pits breathe."
+  },
+  "permit_top_spacetop_white": {
+    "name": "Space Expo Shirt",
+    "desc": "Swag from a convention that no one remembers attending."
+  },
+  "permit_top_snapjacket_brine": {
+    "name": "Starched Blazer",
+    "desc": "It's very, <i>very</i> structured."
+  },
+  "permit_top_metal_grey": {
+    "name": "All-Metal Jacket",
+    "desc": "Can also be used as a posture corrector."
+  },
+  "permit_dress_futurespace_blue": {
+    "name": "Sculpted Steel Dress",
+    "desc": "Handcrafted from decommissioned rockets."
+  },
+  "permit_pedestal_screw_chrome": {
+    "name": "Chrome Pedestal",
+    "desc": "A display stand with a cool, steely industrial aesthetic."
+  },
+  "permit_pedestal_screw_brass": {
+    "name": "Brass Pedestal",
+    "desc": "A display stand with a warm, brassy industrial aesthetic."
+  },
+  "permit_pedestal_arcade": {
+    "name": "Arcade Pedestal",
+    "desc": "It's playful, though it can't actually <i>be</i> played."
+  },
+  "permit_pedestal_battery": {
+    "name": "Power Bank Pedestal",
+    "desc": "Items displayed on this pedestal make a really \"power-full\" statement."
+  },
+  "permit_hqbase_cyberpunk": {
+    "name": "Retro LED Printing Pod",
+    "desc": "There's something profoundly hopeful about it."
+  },
+  "permit_research_center_cyberpunk": {
+    "name": "Retro LED Research Station",
+    "desc": "Doin' research for the future, while diggin' the vibes of the past."
+  },
+  "permit_research_center2_cyberpunk": {
+    "name": "Retro LED Super Computer",
+    "desc": "Old-school cool, newfangled fact-finding."
+  },
+  "permit_craftingstation_cyberpunk": {
+    "name": "Retro LED Crafting Table",
+    "desc": "Building a better tomorrow, today."
+  },
+  "permit_logic_demultiplexer_lightcobalt": {
+    "name": "Cobalt Signal Distributor",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_multiplexer_lightcobalt": {
+    "name": "Cobalt Signal Selector",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_filter_lightcobalt": {
+    "name": "Cobalt FILTER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_buffer_lightcobalt": {
+    "name": "Cobalt BUFFER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_not_lightcobalt": {
+    "name": "Cobalt NOT Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_counter_lightcobalt": {
+    "name": "Cobalt Signal Counter",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_or_lightcobalt": {
+    "name": "Cobalt OR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_and_lightcobalt": {
+    "name": "Cobalt AND Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_xor_lightcobalt": {
+    "name": "Cobalt XOR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_memory_lightcobalt": {
+    "name": "Cobalt Memory Toggle",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_demultiplexer_flamingo": {
+    "name": "Petal Signal Distributor",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_multiplexer_flamingo": {
+    "name": "Petal Signal Selector",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_filter_flamingo": {
+    "name": "Petal FILTER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_buffer_flamingo": {
+    "name": "Petal BUFFER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_not_flamingo": {
+    "name": "Petal NOT Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_counter_flamingo": {
+    "name": "Petal Signal Counter",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_or_flamingo": {
+    "name": "Petal OR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_and_flamingo": {
+    "name": "Petal AND Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_xor_flamingo": {
+    "name": "Petal XOR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_memory_flamingo": {
+    "name": "Petal Memory Toggle",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_demultiplexer_lemon": {
+    "name": "Brightslug Signal Distributor",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_multiplexer_lemon": {
+    "name": "Brightslug Signal Selector",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_filter_lemon": {
+    "name": "Brightslug FILTER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_buffer_lemon": {
+    "name": "Brightslug BUFFER Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_not_lemon": {
+    "name": "Brightslug NOT Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_counter_lemon": {
+    "name": "Brightslug Signal Counter",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_or_lemon": {
+    "name": "Brightslug OR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_and_lemon": {
+    "name": "Brightslug AND Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_xor_lemon": {
+    "name": "Brightslug XOR Gate",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_memory_lemon": {
+    "name": "Brightslug Memory Toggle",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_bridge_flamingo": {
+    "name": "Petal Automation Wire Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_wires_flamingo": {
+    "name": "Petal Automation Wire",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_flamingo": {
+    "name": "Petal Automation Ribbon",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_bridge_flamingo": {
+    "name": "Petal Automation Ribbon Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_bridge_lemon": {
+    "name": "Brightslug Automation Wire Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_wires_lemon": {
+    "name": "Brightslug Automation Wire",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_lemon": {
+    "name": "Brightslug Automation Ribbon",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_bridge_lemon": {
+    "name": "Brightslug Automation Ribbon Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_bridge_bogey": {
+    "name": "Mulch Automation Wire Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_wires_bogey": {
+    "name": "Mulch Automation Wire",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_bogey": {
+    "name": "Mulch Automation Ribbon",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_logic_ribbon_bridge_bogey": {
+    "name": "Mulch Automation Ribbon Bridge",
+    "desc": "Color-coded automation buildings are automatically more interesting."
+  },
+  "permit_utilities_electric_conduct_net_pink": {
+    "name": "Gamma Conductive Wire",
+    "desc": "Color-coded wires make it easy to see which ones to cut...or not cut."
+  },
+  "permit_utilities_electric_conduct_diamond_orchid": {
+    "name": "Bubblegum Conductive Wire",
+    "desc": "Color-coded wires make it easy to see which ones to cut...or not cut."
+  },
+  "permit_utilities_electric_conduct_scale_lime": {
+    "name": "Leach Conductive Wire",
+    "desc": "Color-coded wires make it easy to see which ones to cut...or not cut."
+  },
+  "permit_walls_circuit_lightcobalt": {
+    "name": "Mech Circuit",
+    "desc": "It really makes power plants feel like h-Ohm."
+  },
+  "permit_walls_circuit_bogey": {
+    "name": "Quantum Circuit",
+    "desc": "Physicists say it changed color the moment it was observed."
+  },
+  "permit_walls_circuit_punk": {
+    "name": "Phage Circuit",
+    "desc": "Named for the designer's favorite bacteria-munching virus."
+  },
+  "permit_walls_arcade": {
+    "name": "Arcade",
+    "desc": "For those who miss the carpet-burned elbows of their home planet."
+  },
+  "permit_monument_upper_a_bionic": {
+    "name": "Steela Noggin",
+    "desc": "Each individual ringlet is heavy enough to crush a Duplicant."
+  },
+  "permit_monument_mid_a_bionic": {
+    "name": "Tickled Trunk",
+    "desc": "Featuring the fluttery palms of a delighted Bionic Duplicant."
+  },
+  "permit_monument_base_a_bionic": {
+    "name": "Balmy Bionic Base",
+    "desc": "It's a bit greasy."
+  },
+  "permit_monument_upper_b_bionic": {
+    "name": "Edwiredo Noggin",
+    "desc": "It's a special Ed-ition topper."
+  },
+  "permit_monument_mid_b_bionic": {
+    "name": "Power Forward",
+    "desc": "Charging ahead with portable power."
+  },
+  "permit_monument_base_b_bionic": {
+    "name": "Mount Microchip",
+    "desc": "Some Duplicants climb things just because they're there."
+  },
+  "permit_monument_upper_c_bionic": {
+    "name": "Ulti Noggin",
+    "desc": "The smug mug of a winner."
+  },
+  "permit_monument_mid_c_bionic": {
+    "name": "Hogger Trunk",
+    "desc": "In this universe, ya get what ya take."
+  },
+  "permit_monument_base_c_bionic": {
+    "name": "Gimme a Boost Base",
+    "desc": "The winner takes it all."
+  },
+  "permit_utilityelectricbridgeconductive_scale_lime": {
+    "name": "Leach Conductive Wire Bridge",
+    "desc": "Color-coded wire bridges make it easy to see how things are connected."
+  },
+  "permit_utilityelectricbridgeconductive_net_pink": {
+    "name": "Gamma Conductive Wire Bridge",
+    "desc": "Color-coded wire bridges make it easy to see how things are connected."
+  },
+  "permit_utilityelectricbridgeconductive_diamond_orchid": {
+    "name": "Bubblegum Conductive Wire Bridge",
+    "desc": "Color-coded wire bridges make it easy to see how things are connected."
+  },
+  "outfit_sculpted_steel": {
+    "name": "Sculpted Steel Outfit"
+  },
+  "outfit_starched_blazer": {
+    "name": "Starched Blazer Outfit"
+  },
+  "outfit_aerodynamic_flightsuit": {
+    "name": "Aerodynamic Outfit"
+  },
+  "outfit_all_metal_jacket": {
+    "name": "All-Metal Jacket Outfit"
+  },
+  "outfit_space_expo": {
+    "name": "Space Expo Outfit"
+  },
+  "outfit_biocircuit": {
+    "name": "Bionic Jammies Outfit"
+  },
+  "outfit_cadmium_vest": {
+    "name": "Cadmium Vest Outfit"
+  },
+  "outfit_atmosuit_bionic": {
+    "name": "Bionic Atmo Outfit"
+  },
+  "outfit_atmosuit_gaudy": {
+    "name": "Gaudy Atmo Outfit"
+  },
+  "permit_generatormanual_cyberpunk": {
+    "name": "Retro LED Manual Generator",
+    "desc": "Take a spin on the party wheel! It generates raver vibes as well as power."
+  },
+  "permit_porta_pod_y_cyberpunk": {
+    "name": "Retro LED Mini-Pod",
+    "desc": "It's seen things that Duplicants wouldn't believe."
+  },
+  "permit_atmo_belt_raptor": {
+    "name": "Rhex Atmo Belt",
+    "desc": "An atmo belt inspired by the mighty apex predator."
+  },
+  "permit_atmo_belt_stego": {
+    "name": "Lumb Atmo Belt",
+    "desc": "An atmo belt inspired by the blissfully blank herbivore."
+  },
+  "permit_atmo_belt_chameleo": {
+    "name": "Dartle Atmo Belt",
+    "desc": "An atmo belt inspired by the most unbothered critter on the planetoid."
+  },
+  "permit_atmo_belt_paculacanth": {
+    "name": "Jawbo Atmo Belt",
+    "desc": "An atmo belt inspired by an aquatic behemoth."
+  },
+  "permit_atmosuit_raptor": {
+    "name": "Rhex Atmo Suit",
+    "desc": "Each feather was painstakingly secured to the suit fabric by hand."
+  },
+  "permit_atmosuit_stego": {
+    "name": "Lumb Atmo Suit",
+    "desc": "The tail attachment has a tendency to knock things over."
+  },
+  "permit_atmosuit_chameleo": {
+    "name": "Dartle Atmo Suit",
+    "desc": "Slow and steady wins the (space) race, right?"
+  },
+  "permit_atmosuit_paculacanth": {
+    "name": "Jawbo Atmo Suit",
+    "desc": "It makes the wearer feel like a <i>very</i> big fish in a small pond."
+  },
+  "permit_atmo_shoes_raptor": {
+    "name": "Rhex Atmo Boots",
+    "desc": "The official protective footwear of the apex predator."
+  },
+  "permit_atmo_shoes_stego": {
+    "name": "Lumb Atmo Boots",
+    "desc": "Weighted boots built to clomp through extreme environments."
+  },
+  "permit_atmo_shoes_chameleo": {
+    "name": "Dartle Atmo Boots",
+    "desc": "For meandering safely through hostile environments."
+  },
+  "permit_atmo_shoes_paculacanth": {
+    "name": "Jawbo Atmo Boots",
+    "desc": "They're always a bit damp. But they work!"
+  },
+  "permit_atmo_gloves_raptor": {
+    "name": "Rhex Atmo Gloves",
+    "desc": "Wiggling the fingers makes the feathers rustle."
+  },
+  "permit_atmo_gloves_stego": {
+    "name": "Lumb Atmo Gloves",
+    "desc": "These gloves are the epitome of \"heavy-handed\"."
+  },
+  "permit_atmo_gloves_chameleo": {
+    "name": "Dartle Atmo Gloves",
+    "desc": "The added fingertip seams are a sensory nightmare for some."
+  },
+  "permit_atmo_gloves_paculacanth": {
+    "name": "Jawbo Atmo Gloves",
+    "desc": "Now with webbed fingers!"
+  },
+  "permit_atmo_helmet_raptor": {
+    "name": "Rhex Atmo Helmet",
+    "desc": "Warning: do not headbutt colleagues while wearing this helmet."
+  },
+  "permit_atmo_helmet_stego": {
+    "name": "Lumb Atmo Helmet",
+    "desc": "Listen, it's not about looking smart. Or being smart. Or...what was the question?"
+  },
+  "permit_atmo_helmet_chameleo": {
+    "name": "Dartle Atmo Helmet",
+    "desc": "Pranksters often spear small items on one of the horns and see how long it takes the wearer to notice."
+  },
+  "permit_atmo_helmet_paculacanth": {
+    "name": "Jawbo Atmo Helmet",
+    "desc": "The official helmet of the hangry space explorer."
+  },
+  "permit_jumpsuit_romper_tan_frass": {
+    "name": "Fieldwork Coveralls",
+    "desc": "Made from densely woven canvas that compromises breathability without providing any real useful protection from the elements."
+  },
+  "permit_pj_dino": {
+    "name": "Jurassic Jammies",
+    "desc": "Pajamas for the sleepy paleontology buffs in the colony."
+  },
+  "permit_pj_dino2": {
+    "name": "Pangaea Jammies",
+    "desc": "If all beds were part of a single bed mass, colony life would be one big slumber party."
+  },
+  "permit_pj_dino3": {
+    "name": "Triassic Jammies",
+    "desc": "The label inside reads: \"If at first you can't fall asleep, tri, tri again.\""
+  },
+  "permit_pants_suspenders_frass": {
+    "name": "Arbor Hugger Pants",
+    "desc": "The suspenders are made from reconstituted wood pulp. They're not stretchy."
+  },
+  "permit_pants_wader_algae": {
+    "name": "Fishing Waders",
+    "desc": "Hydrophobic high-waisted pants that also double as protective dinnerwear for messy eaters."
+  },
+  "permit_shorts_scout_brown": {
+    "name": "Scout Shorts",
+    "desc": "The leather belt doubles as a grab-handle to yank fellow explorers out of harm's way."
+  },
+  "permit_shoes_basic_frass": {
+    "name": "Basic Frass Shoes",
+    "desc": "A fresh pair of brown shoes that go with everything."
+  },
+  "permit_shoes_scout_brown": {
+    "name": "Lace-Up Trekkers",
+    "desc": "With built-in socks!"
+  },
+  "permit_shoes_romper_frass_tan": {
+    "name": "Frass Leather Shoes",
+    "desc": "Sustainable \"leather\" foot covers made from processed frass."
+  },
+  "permit_gloves_basic_brown": {
+    "name": "Basic Frass Gloves",
+    "desc": "A good, solid pair of brown gloves that go with everything."
+  },
+  "permit_gloves_basic_grime": {
+    "name": "Basic Grime Gloves",
+    "desc": "A good, solid pair of brown gloves that go with everything."
+  },
+  "permit_gloves_cuffless_shiny_algae": {
+    "name": "Geiger Glovelets",
+    "desc": "For the Duplicant who thinks \"Geiger counter\" is the academic term for counting on one's fingers."
+  },
+  "permit_top_sweater_ribbed_rust": {
+    "name": "Arbor Hugger Sweater",
+    "desc": "The ribbed knit gets snagged on the tree trunk every single time."
+  },
+  "permit_top_sweater_wader_ltblue": {
+    "name": "Woolly Fishing Sweater",
+    "desc": "It doesn't retain heat, but it shows fish that they're dealing with a pro."
+  },
+  "permit_top_scout_white": {
+    "name": "Explorer Shirt",
+    "desc": "A well-tied neckerchief prevents tiny critters from wandering down the back of one's neck."
+  },
+  "permit_bed_rock": {
+    "name": "Stone Cot",
+    "desc": "Who ordered the extra-extra-extra-firm mattress?"
+  },
+  "permit_generatormanual_rock": {
+    "name": "Rustic Manual Generator",
+    "desc": "It gets off to a rocky start, but it works so well that there's no point reinventing it."
+  },
+  "permit_hqbase_dino": {
+    "name": "Forgotten Printing Pod",
+    "desc": "Reclaimed by nature after centuries of neglect. It's a wonder that it still works."
+  },
+  "permit_rancherstation_dino": {
+    "name": "Overgrown Grooming Station",
+    "desc": "These hardy plants survive on the small amounts of drool produced by happy critters during grooming sessions."
+  },
+  "permit_gasstorage_dartle": {
+    "name": "Dartle Gas Reservoir",
+    "desc": "The splotchy parts have an unsettlingly leather-like texture."
+  },
+  "permit_gasstorage_lumb": {
+    "name": "Lumb Gas Reservoir",
+    "desc": "Does not stomp."
+  },
+  "permit_milkpress_stego": {
+    "name": "Lumb Plant Pulverizer",
+    "desc": "Industrial equipment inspired by nature."
+  },
+  "permit_balloon_babystego_egg": {
+    "name": "Bug-Eyed Blep",
+    "desc": "A happy little trio of inflatable critters. Now with blep."
+  },
+  "permit_balloon_babyrhex_egg": {
+    "name": "Poppable Lil' Predators",
+    "desc": "These balloons are so cute that they often get popped by overenthusiastic critter fans."
+  },
+  "permit_monument_upper_a_prehistoric": {
+    "name": "Rhex Noggin",
+    "desc": "A monument topper so mighty that even real Rhexes cower before it."
+  },
+  "permit_monument_upper_b_prehistoric": {
+    "name": "Higby Noggin",
+    "desc": "Ranchers really look up to it."
+  },
+  "permit_painting_art_stego": {
+    "name": "Safari Selfie",
+    "desc": "If this Duplicant had their own private fridge, this is the picture that would be displayed on it."
+  },
+  "permit_painting_wide_art_rhex": {
+    "name": "Hide and Seek",
+    "desc": "The fact that this was just a friendly game was not made clear to everyone involved."
+  },
+  "permit_masseur_prehistoric": {
+    "name": "Foot Massage Table",
+    "desc": "Reflexology for the whole body!"
+  },
+  "permit_fossilsculpture_idle_rhex": {
+    "name": "Roar O'Saurus",
+    "desc": "This display model's open jaw makes it an unsuitable shape for after-hours bowling."
+  },
+  "permit_fossilsculpture_idle_stego": {
+    "name": "Pointy Plates",
+    "desc": "Some Duplicants like to crawl into this Lumb sculpture and run a spoon over the ribs like a musical instrument."
+  },
+  "permit_fossilsculpture_idle_jawbo": {
+    "name": "The Dangler",
+    "desc": "It is safe to say that no critter ever mocked the Jawbo for having four eyes."
+  },
+  "permit_fossilsculpture_idle_shellonoidis": {
+    "name": "Uncanny Carapace",
+    "desc": "It's unclear whether this sculpture is based on a long-extinct creature, or a very vivid dream."
+  },
+  "permit_walls_chameleo": {
+    "name": "Pixel Dartle",
+    "desc": "The only known image of an adult Dartle with both eyes wide open. So awake!"
+  },
+  "permit_walls_paculacanth": {
+    "name": "Pixel Jawbo",
+    "desc": "It's just so dang cute without its rows and rows of jagged teeth."
+  },
+  "permit_walls_raptor": {
+    "name": "Pixel Rhex",
+    "desc": "Never before has this huge predator looked so much like an escapee from a petting zoo."
+  },
+  "permit_walls_stego": {
+    "name": "Pixel Lumb",
+    "desc": "Instead of having blank walls, consider blank-stare walls!"
+  },
+  "permit_walls_fossil_chameleo": {
+    "name": "Dartle Carving",
+    "desc": "Viewers remark upon this carving's age, but the real wonder is that its top-heavy subject matter didn't fall on its face more often."
+  },
+  "permit_walls_fossil_paculacanth": {
+    "name": "Jawbo Carving",
+    "desc": "A visual retelling of the terrifying creature that once ate an entire fish farm population without even calling dibs."
+  },
+  "permit_walls_fossil_raptor": {
+    "name": "Rhex Carving",
+    "desc": "The omission of a prey animal in the creature's jaws is an intentional dig at its famously subpar hunting skills."
+  },
+  "permit_walls_fossil_stego": {
+    "name": "Lumb Carving",
+    "desc": "This carving was originally found at the site of one of the most renowned farms on the planetoid."
+  },
+  "permit_walls_silhouette_prehistoriccritters": {
+    "name": "Shadowy Figures",
+    "desc": "A subtle nod to all prehistoric critters great and small."
+  },
+  "outfit_scout": {
+    "name": "Explorer Outfit"
+  },
+  "outfit_romper_tan": {
+    "name": "Fieldwork Outfit"
+  },
+  "outfit_wader": {
+    "name": "Wader Outfit"
+  },
+  "outfit_suspenders": {
+    "name": "Arbor Hugger Outfit"
+  },
+  "outfit_pj_dino": {
+    "name": "Jurassic Jammies Outfit"
+  },
+  "outfit_pj_dino2": {
+    "name": "Pangaea Jammies Outfit"
+  },
+  "outfit_pj_dino3": {
+    "name": "Triassic Jammies Outfit"
+  },
+  "outfit_atmosuit_raptor": {
+    "name": "Rhex Atmo Outfit"
+  },
+  "outfit_atmosuit_stego": {
+    "name": "Lumb Atmo Outfit"
+  },
+  "outfit_atmosuit_chameleo": {
+    "name": "Dartle Atmo Outfit"
+  },
+  "outfit_atmosuit_paculacanth": {
+    "name": "Jawbo Atmo Outfit"
+  },
+  "permit_porta_pod_y_dino": {
+    "name": "Forgotten Mini-Pod",
+    "desc": "Before it was forgotten, it was revered."
+  },
+  "permit_elegantbed_hatch": {
+    "name": "Hatch Bed",
+    "desc": "It is extremely unlikely to close while someone is inside."
+  },
+  "permit_elegantbed_pipsqueak": {
+    "name": "Pipsqueak Bed",
+    "desc": "Perfect for side sleepers and little spoons."
+  },
+  "permit_bottom_gotch_flint_ash": {
+    "name": "Flint Skivvies",
+    "desc": "Stony gray longjohns with stretchy contrast stitching."
+  },
+  "permit_bottom_gotch_petal_neonpink": {
+    "name": "Petal Skivvies",
+    "desc": "Vibrant pink longjohns that fold into their own pocket for convenience."
+  },
+  "permit_bottom_gotch_electro_sweetle": {
+    "name": "Electro Skivvies",
+    "desc": "Electric-blue longjohns with someone's name and password sewn into the tag."
+  },
+  "permit_bottom_gotch_wortseed_chromo": {
+    "name": "Wortseed Skivvies",
+    "desc": "Wort're you wearing? Longjohns as workwear!?"
+  },
+  "permit_bottom_gotch_symbio_oakmolt": {
+    "name": "Symbio Skivvies",
+    "desc": "Longjohns that form a symbiotic relationship with their wearer after just two wears."
+  },
+  "permit_bottom_gotch_quantum_radglo": {
+    "name": "Quantum Skivvies",
+    "desc": "In another universe, these are actually considered capri pants."
+  },
+  "permit_bottom_gotch_peagreen_glitch": {
+    "name": "Greenpeas Skivvies",
+    "desc": "Made with bioengineered pea-pod fabric that features sixteen-way stretch and a mild vegetable scent."
+  },
+  "permit_bottom_gotch_muck_earwax": {
+    "name": "Muck Skivvies",
+    "desc": "Cozy brown longjohns infused with moisturizing muck molecules."
+  },
+  "permit_bottom_gotch_satsuma_resin": {
+    "name": "Hi-Vis Skivvies",
+    "desc": "Safety is paramount, especially for anyone who's doing construction work in their skivvies."
+  },
+  "permit_bottom_gotch_rusty_grubby": {
+    "name": "Rusty Skivvies",
+    "desc": "The vivid hue of these longjohns was achieved using only the finest tetanus-free dyes. Well, mostly."
+  },
+  "permit_bottom_gotch_grape_alkali": {
+    "name": "Cerebra Skivvies",
+    "desc": "Purple longjohns for the comfy intellectual."
+  },
+  "permit_bottom_gotch_charcoal_obelus": {
+    "name": "Charcoal Skivvies",
+    "desc": "The dark color makes it less obvious that these are supposed to be worn <i>underneath</i> clothes."
+  },
+  "permit_socks_gotch_flint_ash": {
+    "name": "Striped Flint Socks",
+    "desc": "Stony gray crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_petal_neonpink": {
+    "name": "Striped Petal Socks",
+    "desc": "Neon pink crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_electro_sweetle": {
+    "name": "Striped Electro Socks",
+    "desc": "Electric-blue crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_wortseed_chromo": {
+    "name": "Striped Wortseed Socks",
+    "desc": "Wheezewort-colored crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_symbio_oakmolt": {
+    "name": "Striped Symbio Socks",
+    "desc": "Bright aquamarine crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_quantum_radglo": {
+    "name": "Striped Quantum Socks",
+    "desc": "Radioactive-green crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_peagreen_glitch": {
+    "name": "Striped Greenpeas Socks",
+    "desc": "Lunchroom-green crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_muck_earwax": {
+    "name": "Striped Muck Socks",
+    "desc": "Serious brown crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_satsuma_resin": {
+    "name": "Striped Hi-Vis Socks",
+    "desc": "Safety-orange crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_rusty_grubby": {
+    "name": "Striped Rusty Socks",
+    "desc": "Rust-red crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_grape_alkali": {
+    "name": "Striped Cerebra Socks",
+    "desc": "Pensive purple crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_socks_gotch_charcoal_obelus": {
+    "name": "Striped Charcoal Socks",
+    "desc": "Almost-black crew socks with a helpful stripe to indicate which end the foot goes into."
+  },
+  "permit_gloves_gotch_flint_ash": {
+    "name": "Striped Flint Gloves",
+    "desc": "Stony gray gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_petal_neonpink": {
+    "name": "Striped Petal Gloves",
+    "desc": "Bright pink gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_electro_sweetle": {
+    "name": "Striped Electro Gloves",
+    "desc": "Electric-blue gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_wortseed_chromo": {
+    "name": "Striped Wortseed Gloves",
+    "desc": "Wheezewort-colored gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_symbio_oakmolt": {
+    "name": "Striped Symbio Gloves",
+    "desc": "Bright aquamarine with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_quantum_radglo": {
+    "name": "Striped Quantum Gloves",
+    "desc": "Radioactive-green with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_peagreen_glitch": {
+    "name": "Striped Greenpeas Gloves",
+    "desc": "Lunchroom-green gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_muck_earwax": {
+    "name": "Striped Muck Gloves",
+    "desc": "Serious brown gloves with a sporty stripe at the wrist, for whimsy."
+  },
+  "permit_gloves_gotch_satsuma_resin": {
+    "name": "Striped Hi-Vis Gloves",
+    "desc": "Safety-orange gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_rusty_grubby": {
+    "name": "Striped Rusty Gloves",
+    "desc": "Rust-red gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_grape_alkali": {
+    "name": "Striped Cerebra Gloves",
+    "desc": "Pensive purple gloves with a sporty stripe at the wrist."
+  },
+  "permit_gloves_gotch_charcoal_obelus": {
+    "name": "Striped Charcoal Gloves",
+    "desc": "Almost-black gloves with a sporty stripe at the wrist."
+  },
+  "permit_top_gotch_ennui_flint": {
+    "name": "Ennui Base Layer",
+    "desc": "It's a relatively functional sweat-wicking undershirt, or whatever."
+  },
+  "permit_top_gotch_gluon_petal": {
+    "name": "Gluon Base Layer",
+    "desc": "A soft pink undershirt for pastel-loving particle physicists."
+  },
+  "permit_top_gotch_rivet_electro": {
+    "name": "Rivet Base Layer",
+    "desc": "A sweat-wicking undershirt in a really riveting shade of blue."
+  },
+  "permit_top_gotch_basin_wortseed": {
+    "name": "Basin Base Layer",
+    "desc": "A sweat-wicking undershirt with extra padding in the underarms to prevent unsightly stains."
+  },
+  "permit_top_gotch_vitro_symbio": {
+    "name": "Vitro Base Layer",
+    "desc": "A sweat-wicking undershirt in a striking glassy-blue hue."
+  },
+  "permit_top_gotch_nuked_quantum": {
+    "name": "Nuked Base Layer",
+    "desc": "A sweat-wicking undershirt the color of microwaved slime!"
+  },
+  "permit_top_gotch_mush_peagreen": {
+    "name": "Mush Base Layer",
+    "desc": "A sweat-wicking undershirt that effectively hides mush bar stains."
+  },
+  "permit_top_gotch_flatus_muck": {
+    "name": "Flatus Base Layer",
+    "desc": "An unremarkable beige undershirt that enables the wearer to avoid attention when they're passing gas at parties."
+  },
+  "permit_top_gotch_canker_satsuma": {
+    "name": "Canker Base Layer",
+    "desc": "A sweat-wicking undershirt that smells vaguely acidic. No one's sure whether it's citrus or sweat."
+  },
+  "permit_top_gotch_puce_rusty": {
+    "name": "Puce Base Layer",
+    "desc": "A sweat-wicking undershirt the color of sliced Pacu fillet, without the fishy aroma."
+  },
+  "permit_top_gotch_dusky_grape": {
+    "name": "Dusk Base Layer",
+    "desc": "A sweat-wicking undershirt in a twilight shade of purple, for colonists who haven't seen the sun in a very long time."
+  },
+  "permit_top_gotch_ash_charcoal": {
+    "name": "Ash Base Layer",
+    "desc": "How many cycles has it been since someone last washed this undershirt? It's impossible to tell."
+  },
+  "permit_jetsuit_black_hatchstone": {
+    "name": "Hatchstone Stealth Jet Suit",
+    "desc": "A black jet suit with a soft periwinkle sternum protector."
+  },
+  "permit_jetsuit_black_kelly": {
+    "name": "Algae Stealth Jet Suit",
+    "desc": "A black jet suit with a peppy green sternum protector."
+  },
+  "permit_jetsuit_black_red": {
+    "name": "Garnet Stealth Jet Suit",
+    "desc": "A black jet suit with an impressive red sternum protector. Definitely not a red shirt. Nope, nuh-uh, no way."
+  },
+  "permit_jetsuit_black_torpor": {
+    "name": "Torpor Stealth Jet Suit",
+    "desc": "A black jet suit with a slick gray sternum protector."
+  },
+  "permit_jetsuit_black_ultra": {
+    "name": "Ultra Stealth Jet Suit",
+    "desc": "A black jet suit with a dramatic blue sternum protector."
+  },
+  "permit_jetsuit_white_atomic": {
+    "name": "Crisp Atomic Jet Suit",
+    "desc": "A white jet suit with a hazard-orange sternum protector."
+  },
+  "permit_jetsuit_white_charcoal": {
+    "name": "Crisp Charcoal Jet Suit",
+    "desc": "A white jet suit with a fierce dark gray sternum protector."
+  },
+  "permit_jetsuit_white_magenta": {
+    "name": "Crisp Therma Jet Suit",
+    "desc": "A white jet suit with a warm coral-hued sternum protector."
+  },
+  "permit_jet_shoes_basic_black": {
+    "name": "Black Jet Boots",
+    "desc": "Stain-resistant footwear for flight suits. They'll look new forever!"
+  },
+  "permit_jet_shoes_basic_white": {
+    "name": "White Jet Boots",
+    "desc": "Microchannels on the boots' exterior reduce drag and increase dirt accumulation."
+  },
+  "permit_jet_gloves_obelus": {
+    "name": "Obelus Jet Gloves",
+    "desc": "Medium-gray technical gloves for jet-setting Duplicants."
+  },
+  "permit_jet_gloves_gloom": {
+    "name": "Gloom Jet Gloves",
+    "desc": "Gray technical gloves for jet-setting Duplicants."
+  },
+  "permit_jet_gloves_orange": {
+    "name": "Cadmium Jet Gloves",
+    "desc": "Orange technical gloves for jet-setting Duplicants."
+  },
+  "permit_jet_helmet_00_torpor_obelus": {
+    "name": "Torpor Jet Helmet",
+    "desc": "A pale gray flight helmet for workers who drift in and out of daydreams mid-flight."
+  },
+  "permit_jet_helmet_00_charcoal_orange": {
+    "name": "Hornet Jet Helmet",
+    "desc": "A sharp black-and-orange flight helmet for jettin' around the colony."
+  },
+  "permit_jet_helmet_00_magenta_obelus": {
+    "name": "Therma Jet Helmet",
+    "desc": "A coral-hued flight helmet for jettin' around the colony in vacation mode."
+  },
+  "permit_jet_helmet_00_red_obelus": {
+    "name": "Garnet Jet Helmet",
+    "desc": "A serious-as-a-research-grant red flight helmet for jettin' around the colony."
+  },
+  "permit_jet_helmet_00_atomic_gloom": {
+    "name": "Atomic Jet Helmet",
+    "desc": "A flashy orange flight helmet for jettin' around the colony like a happy little warning label."
+  },
+  "permit_jet_helmet_00_kelly_obelus": {
+    "name": "Algae Jet Helmet",
+    "desc": "A chlorophyll-green flight helmet for jettin' around the colony."
+  },
+  "permit_jet_helmet_00_hatchstone_obelus": {
+    "name": "Hatchstone Jet Helmet",
+    "desc": "A light blue-purple flight helmet for jettin' around the colony."
+  },
+  "permit_jet_helmet_00_ultra_obelus": {
+    "name": "Ultra Jet Helmet",
+    "desc": "A rich blue flight helmet for jettin' around the colony."
+  },
+  "outfit_jetsuit_001": {
+    "name": "Torpor Jet Outfit"
+  },
+  "outfit_jetsuit_002": {
+    "name": "Hornet Jet Outfit"
+  },
+  "outfit_jetsuit_003": {
+    "name": "Therma Jet Outfit"
+  },
+  "outfit_jetsuit_004": {
+    "name": "Garnet Jet Outfit"
+  },
+  "outfit_jetsuit_005": {
+    "name": "Atomic Jet Outfit"
+  },
+  "outfit_jetsuit_006": {
+    "name": "Algae Jet Outfit"
+  },
+  "outfit_jetsuit_007": {
+    "name": "Hatchstone Jet Outfit"
+  },
+  "outfit_jetsuit_008": {
+    "name": "Ultra Jet Outfit"
+  },
+  "outfit_gotchies_grey": {
+    "name": "Flint Skivvies Outfit"
+  },
+  "outfit_gotchies_pink": {
+    "name": "Petal Skivvies Outfit"
+  },
+  "outfit_gotchies_blue": {
+    "name": "Electro Skivvies Outfit"
+  },
+  "outfit_gotchies_blue_2": {
+    "name": "Wortseed Skivvies Outfit"
+  },
+  "outfit_gotchies_teal": {
+    "name": "Symbio Skivvies Outfit"
+  },
+  "outfit_gotchies_green_radioactive": {
+    "name": "Quantum Skivvies Outfit"
+  },
+  "outfit_gotchies_green": {
+    "name": "Greenpeas Skivvies Outfit"
+  },
+  "outfit_gotchies_brown": {
+    "name": "Muck Skivvies Outfit"
+  },
+  "outfit_gotchies_orange": {
+    "name": "Hi-Vis Skivvies Outfit"
+  },
+  "outfit_gotchies_red": {
+    "name": "Rusty Skivvies Outfit"
+  },
+  "outfit_gotchies_purple": {
+    "name": "Cerebra Skivvies Outfit"
+  },
+  "outfit_gotchies_black": {
+    "name": "Charcoal Skivvies Outfit"
+  },
+  "permit_generatormanual_a": {
+    "name": "Sleek Manual Generator",
+    "desc": "Clean lines, clean energy...as long as the operator doesn't sweat all over the wheel."
+  },
+  "permit_generatormanual_b": {
+    "name": "Clunky Manual Generator",
+    "desc": "It looks like someone dug this out of an old rocket hangar."
+  },
+  "permit_walls_triangle_chilli_white": {
+    "name": "Chili Corner",
+    "desc": "A chili-red wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_satsuma_white": {
+    "name": "Hi-Vis Corner",
+    "desc": "A safety-orange wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_lemon_white": {
+    "name": "Brightslug Corner",
+    "desc": "A bright yellow wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_kelly_white": {
+    "name": "Algae Corner",
+    "desc": "An algae-green wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_cobalt_white": {
+    "name": "Cobalt Corner",
+    "desc": "A strong blue wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_flamingo_white": {
+    "name": "Petal Corner",
+    "desc": "A vivid pink wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_charcoal_white": {
+    "name": "Charcoal Corner",
+    "desc": "A dark-gray wallpaper with one crisp white corner cut out, for modular styling."
+  },
+  "permit_walls_triangle_white_chilli": {
+    "name": "Chili Point",
+    "desc": "This wallpaper features a chili-red triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_satsuma": {
+    "name": "Hi-Vis Point",
+    "desc": "This wallpaper features a safety-orange triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_lemon": {
+    "name": "Brightslug Point",
+    "desc": "This wallpaper features a bright yellow triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_kelly": {
+    "name": "Algae Point",
+    "desc": "This wallpaper features an algae-green triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_cobalt": {
+    "name": "Cobalt Point",
+    "desc": "This wallpaper features a cobalt-blue triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_flamingo": {
+    "name": "Petal Point",
+    "desc": "This wallpaper features a vivid pink triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_triangle_white_charcoal": {
+    "name": "Charcoal Point",
+    "desc": "This wallpaper features a dark-gray triangle pointing into a vast expanse of nothingness."
+  },
+  "permit_walls_x_chilli_white": {
+    "name": "Chili X",
+    "desc": "The chili-red triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_satsuma_white": {
+    "name": "Hi-Vis X",
+    "desc": "The safety-orange triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_lemon_white": {
+    "name": "Brightslug X",
+    "desc": "The bright yellow triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_kelly_white": {
+    "name": "Algae X",
+    "desc": "The algae-green triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_cobalt_white": {
+    "name": "Cobalt X",
+    "desc": "The cobalt-blue triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_flamingo_white": {
+    "name": "Petal X",
+    "desc": "The petal-pink triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  },
+  "permit_walls_x_charcoal_white": {
+    "name": "Charcoal X",
+    "desc": "The dark-gray triangles on this wallpaper look like an X marking the spot...or an hourglass marking the passage of time."
+  }
+}

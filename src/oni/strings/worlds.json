@@ -1,0 +1,311 @@
+{
+  "survival_chance": {
+    "title": "\nSurvival Chance: <b><color=#{1}>{0}</color></b>",
+    "planetname": "<b>Starting Asteroid</b>: {0}\n",
+    "clustername": "<b>Cluster Name</b>: {0}",
+    "moonnames": "\n<b>Surrounding Planetoids</b>:",
+    "mosthospitable": "Ideal",
+    "veryhigh": "Probable",
+    "high": "Likely",
+    "neutral": "Moderate",
+    "low": "Marginal",
+    "verylow": "Slim",
+    "leasthospitable": "Inhospitable"
+  },
+  "sandstone_default": {
+    "name": "Terra",
+    "description": "A promising location with a balanced variety of resources.\n\n<smallcaps>Terra meets all the requirements for Duplicant life and holds no surprises. It's an ideal location for a first attempt at establishing a colony.</smallcaps>\n\n"
+  },
+  "sandstone_frozen": {
+    "name": "Rime",
+    "description": "A frigid location marked by inhospitably low temperatures throughout.\n\n<smallcaps>Rime's low temperatures will make finding water and establishing farms or ranches problematic. However, the wide spectrum of minerals and cool environment could lead to thriving industry.</smallcaps>\n\n"
+  },
+  "forest_default": {
+    "name": "Arboria",
+    "description": "A location with a natural abundance of trees.\n\n<smallcaps>Colonizing Arboria will require careful planning right from the start. Because of its lack of metals, finding biological solutions to problems is a must.</smallcaps>\n\n"
+  },
+  "forest_hot": {
+    "name": "Aridio",
+    "description": "A location with oppressively hot temperatures.\n\n<smallcaps>Temperatures on Aridio are much higher than expected. While resources are abundant, maintaining food and infrastructure could be difficult as our colony warms.</smallcaps>\n\n"
+  },
+  "forest_lush": {
+    "name": "Verdante",
+    "description": "A lush location rich in wildlife and life-sustaining resources.\n\n<smallcaps>Establishing a foothold on Verdante will be challenging due to reduced food and oxygen options. However, abundant biological and mineral resources should afford excellent long-term growth.</smallcaps>\n\n"
+  },
+  "badlands": {
+    "name": "The Badlands",
+    "description": "A barren location with an overabundance of mineral resources.\n\n<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but sparse resource availability will make expansion and technological progress challenging.</smallcaps>\n\n"
+  },
+  "oasis": {
+    "name": "Oasisse",
+    "description": "A desolate location with a cache of life-sustaining water trapped beneath the surface.\n\n<smallcaps>A wide underground desert will pose temperature threats and strain the resources of a colony on Oasisse. However, surviving the challenge should present great industrial opportunities.</smallcaps>\n\n"
+  },
+  "oceania": {
+    "name": "Oceania",
+    "description": "A location with vast quantities of undrinkable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>\n\n"
+  },
+  "volcanic": {
+    "name": "Volcanea",
+    "description": "A location rife with molten lava pockets and intense heat.\n\n<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging carefully and managing the temperatures in our colony will be essential to success.</smallcaps>\n\n"
+  },
+  "helicona": {
+    "name": "Helicona",
+    "description": "Due to its highly elliptical orbit around its host star, this rock is cold. Oh so very cold.\n\n<smallcaps></smallcaps>\n\n"
+  },
+  "the_rock": {
+    "name": "The Rock",
+    "description": "This place really rocks.\n\n<smallcaps></smallcaps>\n\n"
+  },
+  "moon_barren": {
+    "name": "Barren Moon",
+    "description": "A smaller planetoid in orbit around a larger, resource rich world.\n\n<smallcaps>Barren Moons are rich in minerals, but Duplicants will need to branch out into space early to find the resources the colony needs to stay alive.</smallcaps>\n\n"
+  },
+  "ideallandingsite": {
+    "name": "Irradiated Forest Asteroid",
+    "description": "A sandstone and forest world with significant radiation.\n\n<smallcaps>Irradiated Forest Asteroids have an abundance of metal for the taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
+  },
+  "metalheavylandingsite": {
+    "name": "Irradiated Marsh Asteroid",
+    "description": "A marshy world with significant radiation.\n\n<smallcaps>Irradiated Marsh Asteroids have an abundance of metal for the taking if Duplicants can withstand the planetoid's radiation.</smallcaps>"
+  },
+  "vanillasandstonedefault": {
+    "name": "Terra Asteroid",
+    "description": "A promising location with a balanced variety of resources.\n\n<smallcaps>Terra meets all the requirements for Duplicant life and holds no surprises. It's an ideal location for a first attempt at establishing a colony.</smallcaps>\n\n"
+  },
+  "vanillaforestdefault": {
+    "name": "Verdante Asteroid",
+    "description": "A lush location rich in wildlife and life-sustaining resources.\n\n<smallcaps>Establishing a foothold on Verdante will be challenging due to reduced food and oxygen options. However, abundant biological and mineral resources should afford excellent long-term growth.</smallcaps>\n\n"
+  },
+  "vanillaswampdefault": {
+    "name": "Squelchy Asteroid",
+    "description": "A large, polluted swamp world.\n\n<smallcaps>Squelchy Asteroids are a great mass of frozen slush and wasteland. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
+  },
+  "vanillavolcanic": {
+    "name": "Volcanea Asteroid",
+    "description": "A location rife with molten lava pockets and intense heat.\n\n<smallcaps>Volcanea would be perfect if it wasn't for the volcanoes. Digging carefully and managing the temperatures in our colony will be essential to success.</smallcaps>"
+  },
+  "vanillaarboria": {
+    "name": "Arboria Asteroid",
+    "description": "A location with a natural abundance of trees.\n\n<smallcaps>Colonizing Arboria will require careful planning right from the start. Because of its lack of metals, finding biological solutions to problems is a must.</smallcaps>"
+  },
+  "vanillaaridio": {
+    "name": "Aridio Asteroid",
+    "description": "A location with oppressively hot temperatures.\n\n<smallcaps>Temperatures on Aridio are much higher than expected. While resources are abundant, maintaining food and infrastructure could be difficult as our colony warms.</smallcaps>"
+  },
+  "vanillasandstonefrozen": {
+    "name": "Rime Asteroid",
+    "description": "A frigid location marked by inhospitably low temperatures throughout.\n\n<smallcaps>Rime's low temperatures will make finding water and establishing farms or ranches problematic. However, the wide spectrum of minerals and cool environment could lead to thriving industry.</smallcaps>"
+  },
+  "vanillaoasis": {
+    "name": "Oasisse Asteroid",
+    "description": "A desolate location with a cache of life-sustaining water trapped beneath the surface.\n\n<smallcaps>A wide underground desert will pose temperature threats and strain the resources of a colony on Oasisse. However, surviving the challenge should present great industrial opportunities.</smallcaps>"
+  },
+  "vanillaoceania": {
+    "name": "Oceania Asteroid",
+    "description": "A location with vast quantities of unpotable salt water.\n\n<smallcaps>Oceania is quite stable and resource rich, but the majority of the area is covered in a saltwater ocean. Careful expansion and resource usage should lead to a successful colony.</smallcaps>"
+  },
+  "vanillabadlands": {
+    "name": "The Badlands Asteroid",
+    "description": "A barren location with an overabundance of mineral resources.\n\n<smallcaps>The rocky terrain of The Badlands poses no immediate threats, but sparse resource availability will make expansion and technological progress challenging.</smallcaps>"
+  },
+  "swampylandingsite": {
+    "name": "Irradiated Swampy Asteroid",
+    "description": "A small swampy world with a radioactive core.\n\n<smallcaps>Irradiated Swamps have a high concentration of rare swampy and radioactive resources but are also chocked full of dangers.</smallcaps>"
+  },
+  "forestmoonlet": {
+    "name": "Folia Asteroid",
+    "description": "A small moon with a forest start.\n\n<smallcaps>Folia Asteroids have plenty of organic material but Duplicants will have to venture outside their starting biome quickly to find any metal.</smallcaps>"
+  },
+  "terramoonlet": {
+    "name": "Terrania Asteroid",
+    "description": "A balanced variety of resources on a smaller sandstone world.\n\n<smallcaps>Terrania Asteroids have everything needed to start a colony in a compact area. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
+  },
+  "warpoilyswamp": {
+    "name": "Oily Swamp Asteroid",
+    "description": "A partially frozen world with an oily core.\n\n<smallcaps>While Oily Swamp Asteroids are largely swampy, they also contain a great deal of rust.</smallcaps>"
+  },
+  "warpoilysandyswamp": {
+    "name": "Oily Sandy Swamp Asteroid",
+    "description": "A mildly frozen world with an oily core.\n\n<smallcaps>While Oily Sandy Swamp Asteroids are largely swampy, they also contain a great deal of wasteland.</smallcaps>"
+  },
+  "oilrichwarptarget": {
+    "name": "Rusty Oil Asteroid",
+    "description": "A rusty world with an oily core.\n\n<smallcaps>Duplicants must sift through a great deal of rust and ocean to reach the prize of this planetoid's oil.</smallcaps>"
+  },
+  "mediumradioactivevanillawarpplanet": {
+    "name": "Radioactive Swamp Asteroid",
+    "description": "A large-ish partially frozen world with a radioactive core.\n\n<smallcaps>While Radioactive Swamp Asteroids are largely swampy, they also contain a great deal of rust.</smallcaps>"
+  },
+  "mediumforestyradioactivevanillawarpplanet": {
+    "name": "Radioactive Forest Asteroid",
+    "description": "A large-ish forested asteroid with a frozen radioactive core.\n\n<smallcaps>While Radioactive Forest Asteroid are largely foresty, they also contain a great deal of rust.</smallcaps>"
+  },
+  "mediumsandyradioactivevanillawarpplanet": {
+    "name": "Radioactive Terra Asteroid",
+    "description": "A large-ish terra world with a radioactive core.\n\n<smallcaps>The Radioactive Terra Asteroid is fairly dry and sandy, but does contain areas of jungle.</smallcaps>"
+  },
+  "mediumswampy": {
+    "name": "Stinko Swamp Asteroid",
+    "description": "A large-ish, polluted swamp world.\n\n<smallcaps>Stinko Swamp Asteroids are full of swampy and marshy areas, but also contain a variety of other biomes diverse enough to keep a determined colony supplied with essentials.</smallcaps>"
+  },
+  "mediumsandyswamp": {
+    "name": "Radioactive Terrabog Asteroid",
+    "description": "A large-ish terra world with a radioactive core.\n\n<smallcaps>The Radioactive Terrabog Asteroid is fairly dry and sandy, but does contain swampy areas with a partially frozen surface.</smallcaps>"
+  },
+  "mediumforestywasteland": {
+    "name": "Glowood Wasteland Asteroid",
+    "description": "A large-ish forested asteroid with a frozen radioactive core.\n\n<smallcaps>While Glowood Wasteland Asteroids are largely foresty, they also contain a great deal of rust and wasteland.</smallcaps>"
+  },
+  "strangerichsandstone": {
+    "name": "Rocky Asteroid",
+    "description": "A petite rocky world with an oily core.\n\n<smallcaps>Though it looks deceptively nondescript from space, readings from this planet suggest a strong fuel source lurks somewhere beneath the surface.</smallcaps>"
+  },
+  "sulfurmoonlet": {
+    "name": "Brimstonia Asteroid",
+    "description": "A smaller landmass with a distinct odor.\n\n<smallcaps>Brimstonia Asteroids contain an abundant supply of Sulfur.</smallcaps>"
+  },
+  "niobiummoonlet": {
+    "name": "Superconductive Asteroid",
+    "description": "A small location with an abundance of solid Niobium.\n\n<smallcaps>Superconductive Asteroids offer rich veins of Niobium to Duplicants that can withstand its molten rivers of magma.</smallcaps>"
+  },
+  "oilymoonlet": {
+    "name": "Viscosia Asteroid",
+    "description": "A small location with an abundance of fossil fuels.\n\n<smallcaps>Viscosia Asteroids are filled with valuable crude oil, natural gas, and ethanol deposits at the expense of other essential resources. Early expansion to other planetoids will be essential for survival.</smallcaps>"
+  },
+  "marshymoonlet": {
+    "name": "Marshy Asteroid",
+    "description": "A small location with an abundance of marshland.\n\n<smallcaps>While Marshy Asteroids offer an abundance of organic resources like Slime Mold and Algae, their air quality poses a significant disease risk for Duplicants.</smallcaps>"
+  },
+  "tundramoonlet": {
+    "name": "Tundra Asteroid",
+    "description": "A small frozen planetoid with sub-zero temperatures.\n\n<smallcaps>Duplicants that travel to Tundra Asteroids will need to wear protective gear due to its harsh environment.</smallcaps>"
+  },
+  "swampmoonlet": {
+    "name": "Quagmiris Asteroid",
+    "description": "A large, polluted swamp world.\n\n<smallcaps>Quagmiris Asteroids are a great mass of frozen slush and wasteland. With a short distance to the surface, inter-world travel can be achieved quickly.</smallcaps>"
+  },
+  "moomoonlet": {
+    "name": "Moo Asteroid",
+    "description": "A small world with unique local lifeforms.\n\n<smallcaps>Moo Asteroids are the natural breeding ground of Gassy Moos due to their abundance of Gas Grass and Methane.</smallcaps>"
+  },
+  "watermoonlet": {
+    "name": "Water Asteroid",
+    "description": "A small, water-submerged world.\n\n<smallcaps>Water Asteroids possess a variety of liquid resources and are a natural source of Graphite, but Duplicants should come prepared for a swim.</smallcaps>"
+  },
+  "regolithmoonlet": {
+    "name": "Regolith Asteroid",
+    "description": "A small, cold world with plenty of craters.\n\n<smallcaps>Regolith Asteroids have frequent meteor showers and are chock-full of Regolith, an incredibly useful filtration material. </smallcaps>"
+  },
+  "minimetallicswampy": {
+    "name": "Metallic Swampy Asteroid",
+    "description": "A small swampy world with an abundance of renewable metal.\n\n<smallcaps>Metallic Swampy Asteroids have a high concentration of metal and a swampy, polluted atmosphere.</smallcaps>"
+  },
+  "miniforestfrozen": {
+    "name": "Frozen Forest Asteroid",
+    "description": "A frigid location marked by inhospitably low temperatures throughout.\n\n<smallcaps>The Frozen Forest Asteroid's low temperatures will make finding water and establishing farms or ranches problematic.</smallcaps>\n\n"
+  },
+  "minibadlands": {
+    "name": "The Desolands Asteroid",
+    "description": "A barren location with an overabundance of mineral resources and oil.\n\n<smallcaps>The rocky terrain of The Desolands poses no immediate threats, but the limited variety of resources will make expansion and technological progress challenging.</smallcaps>\n\n"
+  },
+  "miniflipped": {
+    "name": "Flipped Asteroid",
+    "description": "An asteroid in which the surface is molten hot lava and the core is livable.\n\n<smallcaps>The lava surface of the Flipped Asteroid will make it challenging to start a rocketry program.</smallcaps>\n\n"
+  },
+  "miniradioactiveocean": {
+    "name": "Radioactive Ocean Asteroid",
+    "description": "An irradiated world with renewable water sources.\n\n<smallcaps>Both the radioactive biome and the ocean biome present unique challenges yet considerable payoffs.</smallcaps>\n\n"
+  },
+  "strange_asteroid_kf23": {
+    "name": "Skewed Asteroid",
+    "description": "A tilted world, at once strange and...strangely familiar. Its singular terrain is consistent across all universes.\n\nThis resistance to the fluidity of temporal shifts has the cosmos buzzing, as individual colonies compare notes on successes, failures and the bizarre redistribution of resources.\n\n<smallcaps>Released for Klei Fest 2023."
+  },
+  "tinystart": {
+    "name": "Tiny Start FOR DEVS",
+    "description": "A cozy little starter location, just for devs."
+  },
+  "tinyempty": {
+    "name": "Tiny Empty FOR DEVS",
+    "description": "A fun-sized 'fixer upper', perfect for game devs."
+  },
+  "bigempty": {
+    "name": "Big Empty FOR DEVS",
+    "description": "A big ol' biome-free spacerock for claustrophobic devs."
+  },
+  "tinysurface": {
+    "name": "Tiny Surface FOR DEVS",
+    "description": "A cute little Dev location, with scenic space views."
+  },
+  "tinymagma": {
+    "name": "Tiny Magma FOR DEVS",
+    "description": "A small hellscape just for devs."
+  },
+  "tinyice": {
+    "name": "Tiny Ice FOR DEVS",
+    "description": "A tiny ice cold world for dev snow forts."
+  },
+  "tinyforest": {
+    "name": "Tiny Forest FOR DEVS",
+    "description": "A petite forest world for nature loving devs."
+  },
+  "twinmoonlet": {
+    "name": "Tiny Twin Asteroid FOR DEVS",
+    "description": "Two small dev worlds for the price of one."
+  },
+  "ceresbasegame": {
+    "name": "Ceres",
+    "description": "A frosty location with sub-zero temperatures throughout.\n\n<smallcaps>Duplicants who work in Ceres's sub-zero temperatures will need to wear or build warming equipment. Abundant natural fuel sources could lead to a well-powered colony.</smallcaps>"
+  },
+  "ceresbasegameshattered": {
+    "name": "Blasted Ceres",
+    "description": "The heavily damaged remnants of a frosty location with sub-zero temperatures throughout.\n\n<smallcaps>Exploring the rubble of Blasted Ceres's sub-zero temperatures is particularly challenging, yet natural fuel sources provide a valuable payoff.</smallcaps>"
+  },
+  "ceresclassicshattered": {
+    "name": "Blasted Ceres",
+    "description": "The heavily damaged remnants of a frosty location with sub-zero temperatures throughout.\n\n<smallcaps>Exploring the rubble of Blasted Ceres's sub-zero temperatures is particularly challenging, yet natural fuel sources provide a valuable payoff.</smallcaps>"
+  },
+  "minishatteredstart": {
+    "name": "Ceres Mantle Asteroid",
+    "description": "A battered chunk of a smaller frosty starting world with sub-zero temperatures throughout.\n\n<smallcaps>Surviving Ceres Mantle's frigid landscape is no easy task, but natural fuel sources provide a valuable payoff.</smallcaps>"
+  },
+  "minishatteredwarp": {
+    "name": "Sweet Ceres Asteroid",
+    "description": "A small, snow-laden world rich with oil and nectar resources.\n\n<smallcaps>Sub-zero temperatures pose unique challenges but the potential for power production is very valuable.</smallcaps>"
+  },
+  "minishatteredgeo": {
+    "name": "Ceres Core Asteroid",
+    "description": "A molten mini asteroid with a failed experiment buried inside.\n\n<smallcaps>Extremely high temperatures threaten colony safety but could yield an unimaginably powerful payoff.</smallcaps>"
+  },
+  "ceresspacedout": {
+    "name": "Ceres Minor",
+    "description": "A smaller frosty starting world with sub-zero temperatures throughout.\n\n<smallcaps>Duplicants who work in Ceres's sub-zero temperatures will need to wear or build warming equipment. Abundant natural fuel sources could lead to a well-powered colony.</smallcaps>"
+  },
+  "ceresclassic": {
+    "name": "Ceres Asteroid",
+    "description": "A frosty starting world with sub-zero temperatures throughout.\n\n<smallcaps>Duplicants who work in Ceres's sub-zero temperatures will need to wear or build warming equipment. Abundant natural fuel sources could lead to a well-powered colony.</smallcaps>"
+  },
+  "ceresmixing": {
+    "name": "Ceres Fragment",
+    "description": "A fragment of a frosty starting world with sub-zero temperatures throughout.\n\n<smallcaps>Duplicants who work in sub-zero temperatures will need to wear or build warming equipment. Abundant natural fuel sources could lead to a well-powered colony.</smallcaps>"
+  },
+  "prehistoricbasegame": {
+    "name": "Relica",
+    "description": "An endangered location with abundant food resources.\n\n<smallcaps>Relica's biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. Surface defence must be prioritized to minimize damage from an incoming impactor asteroid.</smallcaps>"
+  },
+  "prehistoricshattered": {
+    "name": "RelicAAAA<sup>AAAGHH</sup>",
+    "description": "A geyser-rich location that will be struck by an impactor asteroid almost immediately.\n\n<smallcaps>Impact-related damage will trigger the eruption of this world's unusually high number of geysers. Colonies that survive the volatile aftermath will reap the benefits of the abundant natural resources released into the environment.</smallcaps>"
+  },
+  "prehistoricclassic": {
+    "name": "Relica Asteroid",
+    "description": "An endangered starting world with abundant food resources.\n\n<smallcaps>Relica's biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. Surface defence must be prioritized to minimize damage from an incoming impactor asteroid.</smallcaps>"
+  },
+  "prehistoricspacedout": {
+    "name": "Relica Minor",
+    "description": "A smaller endangered starting world with abundant food resources.\n\n<smallcaps>Relica's biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. Surface defence must be prioritized to minimize damage from an incoming impactor asteroid.</smallcaps>"
+  },
+  "prehistoricmixing": {
+    "name": "Relica Fragment",
+    "description": "A fragment of a prehistoric starting world.\n\n<smallcaps>Its biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. </smallcaps>"
+  }
+}

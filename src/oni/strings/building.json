@@ -1,0 +1,1699 @@
+{
+  "statusitems": {
+    "gunkemptierfull": {
+      "name": "Storage Full",
+      "tooltip": "This building's internal storage is at maximum capacity\n\nIt must be emptied before its next use"
+    },
+    "mercurylight_charging": {
+      "name": "Powering Up: {0}",
+      "tooltip": "This building's Light levels are gradually increasing\n\nIf its Liquid and Power requirements continue to be met, it will reach maximum brightness in {0}"
+    },
+    "mercurylight_depleating": {
+      "name": "Brightness: {0}",
+      "tooltip": "This building's Light output is decreasing because its Liquid and Power requirements are not being met\n\nIt will power off once its stores are depleted"
+    },
+    "mercurylight_depleated": {
+      "name": "Powered Off",
+      "tooltip": "This building is non-operational due to a lack of resources\n\nIt will begin to power up when its Liquid and Power requirements are met"
+    },
+    "mercurylight_charged": {
+      "name": "Fully Charged",
+      "tooltip": "This building is functioning at maximum capacity"
+    },
+    "specialcargobayclustercritterstored": {
+      "name": "Contents: {0}",
+      "tooltip": ""
+    },
+    "geotuner_needgeyser": {
+      "name": "No Geyser Selected",
+      "tooltip": "Select an analyzed geyser to increase its output"
+    },
+    "geotuner_charge_required": {
+      "name": "Experimentation Needed",
+      "tooltip": "This building requires a Duplicant to produce amplification data through experimentation"
+    },
+    "geotuner_charging": {
+      "name": "Compiling Data",
+      "tooltip": "Compiling amplification data through experimentation"
+    },
+    "geotuner_charged": {
+      "name": "Data Remaining: {0}",
+      "tooltip": "This building consumes amplification data while boosting a geyser\n\nTime remaining: {0} ({1} data per second)"
+    },
+    "geotuner_geyser_status": {
+      "name": "",
+      "name_erupting": "Target is Erupting",
+      "name_dormant": "Target is Not Erupting",
+      "name_idle": "Target is Not Erupting",
+      "tooltip": "",
+      "tooltip_erupting": "The selected geyser is erupting and will receive stored amplification data",
+      "tooltip_dormant": "The selected geyser is not erupting\n\nIt will not receive stored amplification data in this state",
+      "tooltip_idle": "The selected geyser is not erupting\n\nIt will not receive stored amplification data in this state"
+    },
+    "geyser_geotuned": {
+      "name": "Geotuned ({0}/{1})",
+      "tooltip": "This geyser is being boosted by {0} out {1} of Geotuners"
+    },
+    "radiator_energy_current_emission_rate": {
+      "name": "Currently Emitting: {ENERGY_RATE}",
+      "tooltip": "Currently Emitting: {ENERGY_RATE}"
+    },
+    "notlinkedtohead": {
+      "name": "Not Linked",
+      "tooltip": "This building must be built adjacent to a {headBuilding} or another {linkBuilding} in order to function"
+    },
+    "baited": {
+      "name": "{0} Bait",
+      "tooltip": "This lure is baited with {0}\n\nBait material is set during the construction of the building"
+    },
+    "nocoolant": {
+      "name": "No Coolant",
+      "tooltip": "This building needs coolant"
+    },
+    "angerdamage": {
+      "name": "Damage: Duplicant Tantrum",
+      "tooltip": "A stressed Duplicant is damaging this building",
+      "notification": "Building Damage: Duplicant Tantrum",
+      "notification_tooltip": "Stressed Duplicants are damaging these buildings:\n\n{0}"
+    },
+    "pipecontents": {
+      "empty": "Empty",
+      "contents": "{0} of {1} at {2}",
+      "contents_with_disease": "\n  {0}"
+    },
+    "conveyor_contents": {
+      "empty": "Empty",
+      "contents": "{0} of {1} at {2}",
+      "contents_with_disease": "\n  {0}"
+    },
+    "assignedto": {
+      "name": "Assigned to: {Assignee}",
+      "tooltip": "Only {Assignee} can use this amenity"
+    },
+    "assignedpublic": {
+      "name": "Assigned to: Public",
+      "tooltip": "Any Duplicant can use this amenity"
+    },
+    "assignedtoroom": {
+      "name": "Assigned to: {0}",
+      "tooltip": "Any Duplicant assigned to this Room can use this amenity"
+    },
+    "awaitingseeddelivery": {
+      "name": "Awaiting Delivery",
+      "tooltip": "Awaiting delivery of selected Seed"
+    },
+    "awaitingbaitdelivery": {
+      "name": "Awaiting Bait",
+      "tooltip": "Awaiting delivery of selected Bait"
+    },
+    "clinicoutsidehospital": {
+      "name": "Medical building outside Hospital",
+      "tooltip": "Rebuild this medical equipment in a Hospital to more effectively quarantine sick Duplicants"
+    },
+    "bottle_emptier": {
+      "allowed": {
+        "name": "Auto-Bottle: On",
+        "tooltip": "Duplicants may specifically fetch Liquid from a bottling station to bring to this location"
+      },
+      "denied": {
+        "name": "Auto-Bottle: Off",
+        "tooltip": "Duplicants may not specifically fetch Liquid from a bottling station to bring to this location"
+      }
+    },
+    "canister_emptier": {
+      "allowed": {
+        "name": "Auto-Bottle: On",
+        "tooltip": "Duplicants may specifically fetch Gas from a canister filling station to bring to this location"
+      },
+      "denied": {
+        "name": "Auto-Bottle: Off",
+        "tooltip": "Duplicants may not specifically fetch Gas from a canister filling station to bring to this location"
+      }
+    },
+    "broken": {
+      "name": "Broken",
+      "tooltip": "This building received damage from <b>{DamageInfo}</b>\n\nIt will not function until it receives repairs"
+    },
+    "changestoragetiletarget": {
+      "name": "Set Storage: {TargetName}",
+      "tooltip": "Waiting for a Duplicant to reassign this storage to {TargetName}",
+      "empty": "Empty"
+    },
+    "changedoorcontrolstate": {
+      "name": "Pending Door State Change: {ControlState}",
+      "tooltip": "Waiting for a Duplicant to change control state"
+    },
+    "dispenserequested": {
+      "name": "Dispense Requested",
+      "tooltip": "Waiting for a Duplicant to dispense the item"
+    },
+    "suit_locker": {
+      "need_configuration": {
+        "name": "Current Status: Needs Configuration",
+        "tooltip": "Set this dock to store a suit or leave it empty"
+      },
+      "ready": {
+        "name": "Current Status: Empty",
+        "tooltip": "This dock is ready to receive a Suit, either by manual delivery or from a Duplicant returning the suit they're wearing"
+      },
+      "suit_requested": {
+        "name": "Current Status: Awaiting Delivery",
+        "tooltip": "Waiting for a Duplicant to deliver a Suit"
+      },
+      "charging": {
+        "name": "Current Status: Charging Suit",
+        "tooltip": "This Suit is docked and refueling"
+      },
+      "no_oxygen": {
+        "name": "Current Status: No Oxygen",
+        "tooltip": "This dock does not contain enough Oxygen to refill a Suit"
+      },
+      "no_fuel": {
+        "name": "Current Status: No Fuel",
+        "tooltip": "This dock does not contain enough Petroleum to refill a Suit"
+      },
+      "no_coolant": {
+        "name": "Current Status: No Coolant",
+        "tooltip": "This dock does not contain enough Water to refill a Suit"
+      },
+      "not_operational": {
+        "name": "Current Status: Offline",
+        "tooltip": "This dock requires Power"
+      },
+      "fully_charged": {
+        "name": "Current Status: Full Fueled",
+        "tooltip": "This suit is fully refueled and ready for use"
+      }
+    },
+    "suitmarkertraversalonlywhenroomavailable": {
+      "name": "Clearance: Vacancy Only",
+      "tooltip": "Suited Duplicants may pass only if there is room in a Dock to store their Suit"
+    },
+    "suitmarkertraversalanytime": {
+      "name": "Clearance: Always Permitted",
+      "tooltip": "Suited Duplicants may pass even if there is no room to store their Suits\n\nWhen all available docks are full, Duplicants will unequip their Suits and drop them on the floor"
+    },
+    "suit_locker_needs_configuration": {
+      "name": "Not Configured",
+      "tooltip": "Dock settings not configured"
+    },
+    "currentdoorcontrolstate": {
+      "name": "Current State: {ControlState}",
+      "tooltip": "Current State: {ControlState}\n\nOpen: Door will remain open\nAuto: Door will open and close as needed\nLocked: Nothing may pass through",
+      "opened": "Opened",
+      "auto": "Auto",
+      "locked": "Locked"
+    },
+    "conduitblocked": {
+      "name": "Pipe Blocked",
+      "tooltip": "Output Pipe is blocked"
+    },
+    "outputtileblocked": {
+      "name": "Output Blocked",
+      "tooltip": "Output Pipe is blocked"
+    },
+    "conduitblockedmultiples": {
+      "name": "Pipe Blocked",
+      "tooltip": "Output Pipe is blocked"
+    },
+    "solidconduitblockedmultiples": {
+      "name": "Conveyor Rail Blocked",
+      "tooltip": "Output Conveyor Rail is blocked"
+    },
+    "outputpipefull": {
+      "name": "Output Pipe Full",
+      "tooltip": "Unable to flush contents, output Pipe is blocked"
+    },
+    "constructionunreachable": {
+      "name": "Unreachable Build",
+      "tooltip": "Duplicants cannot reach this construction site"
+    },
+    "mopunreachable": {
+      "name": "Unreachable Mop",
+      "tooltip": "Duplicants cannot reach this area"
+    },
+    "deadreactorcoolingoff": {
+      "name": "Cooling ({CyclesRemaining} cycles remaining)",
+      "tooltip": "The radiation coming from this reactor is diminishing"
+    },
+    "digunreachable": {
+      "name": "Unreachable Dig",
+      "tooltip": "Duplicants cannot reach this area"
+    },
+    "storageunreachable": {
+      "name": "Unreachable Storage",
+      "tooltip": "Duplicants cannot reach this storage unit"
+    },
+    "passengermoduleunreachable": {
+      "name": "Unreachable Module",
+      "tooltip": "Duplicants cannot reach this rocket module"
+    },
+    "powerbankchargerinprogress": {
+      "name": "Recharging Power Bank: {0}",
+      "tooltip": "This building is currently charging a Power Bank at {0}\n\nThe Power Bank will be dropped once charging is complete"
+    },
+    "constructabledigunreachable": {
+      "name": "Unreachable Dig",
+      "tooltip": "This construction site contains cells that cannot be dug out"
+    },
+    "emptypumpingstation": {
+      "name": "Empty",
+      "tooltip": "This pumping station cannot access any Liquid"
+    },
+    "entombed": {
+      "name": "Entombed",
+      "tooltip": "Must be dug out by a Duplicant",
+      "notification_name": "Building entombment",
+      "notification_tooltip": "These buildings are entombed and need to be dug out:"
+    },
+    "electrobankjoulesavailable": {
+      "name": "Power Remaining: {JoulesAvailable} / {JoulesCapacity}",
+      "tooltip": "<b>{JoulesAvailable}</b> of stored Power available for use\n\nMaximum capacity: {JoulesCapacity}"
+    },
+    "fabricatoracceptsmutantseeds": {
+      "name": "Fabricator accepts mutant seeds",
+      "tooltip": "This fabricator is allowed to use Mutant Seeds as recipe ingredients"
+    },
+    "fishfeederacceptsmutantseeds": {
+      "name": "Fish Feeder accepts mutant seeds",
+      "tooltip": "This fish feeder is allowed to use Mutant Seeds as fish food"
+    },
+    "invalidportoverlap": {
+      "name": "Invalid Port Overlap",
+      "tooltip": "Ports on this building overlap those on another building\n\nThis building must be rebuilt in a valid location",
+      "notification_name": "Building has overlapping ports",
+      "notification_tooltip": "These buildings must be rebuilt with non-overlapping ports:"
+    },
+    "geneshufflecompleted": {
+      "name": "Vacillation Complete",
+      "tooltip": "The Duplicant has completed the neural vacillation process and is ready to be released"
+    },
+    "overheated": {
+      "name": "Damage: Overheating",
+      "tooltip": "This building is taking damage and will break down if not cooled"
+    },
+    "overloaded": {
+      "name": "Damage: Overloading",
+      "tooltip": "This Wire is taking damage because there are too many buildings pulling Power from this circuit\n\nSplit this Power circuit into multiple circuits, or use higher quality Wires to prevent overloading"
+    },
+    "logicoverloaded": {
+      "name": "Damage: Overloading",
+      "tooltip": "This Logic Wire is taking damage\n\nLimit the output to one Bit, or replace it with Logic Ribbon to prevent further damage"
+    },
+    "operatingenergy": {
+      "name": "Heat Production: {0}/s",
+      "tooltip": "This building is producing <b>{0}</b> per second\n\nSources:\n{1}",
+      "lineitem": "    • {0}: {1}\n",
+      "operating": "Normal operation",
+      "exhausting": "Excess produced",
+      "pipecontents_transfer": "Transferred from pipes",
+      "food_transfer": "Internal Cooling"
+    },
+    "flooded": {
+      "name": "Building Flooded",
+      "tooltip": "Building cannot function at current saturation",
+      "notification_name": "Flooding",
+      "notification_tooltip": "These buildings are flooded:"
+    },
+    "notsubmerged": {
+      "name": "Building Not Submerged",
+      "tooltip": "Building cannot function unless submerged in liquid"
+    },
+    "gasventobstructed": {
+      "name": "Gas Vent Obstructed",
+      "tooltip": "A Pipe has been obstructed and is preventing Gas flow to this vent"
+    },
+    "gasventoverpressure": {
+      "name": "Gas Vent Overpressure",
+      "tooltip": "High Gas or Liquid pressure in this area is preventing further Gas emission\nReduce pressure by pumping Gas away or clearing more space"
+    },
+    "direction_control": {
+      "name": "Use Direction: {Direction}",
+      "tooltip": "Duplicants will only use this building when walking by it\n\nCurrently allowed direction: <b>{Direction}</b>",
+      "directions": {
+        "left": "Left",
+        "right": "Right",
+        "both": "Both"
+      }
+    },
+    "wattsongameover": {
+      "name": "Colony Lost",
+      "tooltip": "All Duplicants are dead or incapacitated"
+    },
+    "invalidbuildinglocation": {
+      "name": "Invalid Building Location",
+      "tooltip": "Cannot construct a building in this location"
+    },
+    "liquidventobstructed": {
+      "name": "Liquid Vent Obstructed",
+      "tooltip": "A Pipe has been obstructed and is preventing Liquid flow to this vent"
+    },
+    "liquidventoverpressure": {
+      "name": "Liquid Vent Overpressure",
+      "tooltip": "High Gas or Liquid pressure in this area is preventing further Liquid emission\nReduce pressure by pumping Liquid away or clearing more space"
+    },
+    "manuallycontrolled": {
+      "name": "Manually Controlled",
+      "tooltip": "This Duplicant is under my control"
+    },
+    "limitvalvelimitreached": {
+      "name": "Limit Reached",
+      "tooltip": "No more Mass can be transferred"
+    },
+    "limitvalvelimitnotreached": {
+      "name": "Amount remaining: {0}",
+      "tooltip": "This building will stop transferring Mass when the amount remaining reaches 0"
+    },
+    "materialsunavailable": {
+      "name": "Insufficient Resources\n{ItemsRemaining}",
+      "tooltip": "Crucial materials for this building are beyond reach or unavailable",
+      "notification_name": "Building lacks resources",
+      "notification_tooltip": "Crucial materials are unavailable or beyond reach for these buildings:",
+      "line_item_mass": "• {0}: {1}",
+      "line_item_units": "• {0}"
+    },
+    "materialsunavailableforrefill": {
+      "name": "Resources Low\n{ItemsRemaining}",
+      "tooltip": "This building will soon require materials that are unavailable",
+      "line_item": "• {0}"
+    },
+    "meltingdown": {
+      "name": "Breaking Down",
+      "tooltip": "This building is collapsing",
+      "notification_name": "Building breakdown",
+      "notification_tooltip": "These buildings are collapsing:"
+    },
+    "missingfoundation": {
+      "name": "Missing Tile",
+      "tooltip": "Build Tile beneath this building to regain function\n\nTile can be found in the Base Tab of the Build Menu"
+    },
+    "missingfoundationbackwall": {
+      "name": "Missing Back Wall",
+      "tooltip": "Build a Drywall or Tempshift Plate behind this building to regain function\n\nThey can be found in the Base Tab and Utilities Tab of the Build Menu"
+    },
+    "neutroniumunminable": {
+      "name": "Cannot Mine",
+      "tooltip": "This resource cannot be mined by Duplicant tools"
+    },
+    "needgasin": {
+      "name": "No Gas Intake\n{GasRequired}",
+      "tooltip": "This building's Gas Intake does not have a Gas Pipe connected",
+      "line_item": "• {0}"
+    },
+    "needgasout": {
+      "name": "No Gas Output",
+      "tooltip": "This building's Gas Output does not have a Gas Pipe connected"
+    },
+    "needliquidin": {
+      "name": "No Liquid Intake\n{LiquidRequired}",
+      "tooltip": "This building's Liquid Intake does not have a Liquid Pipe connected",
+      "line_item": "• {0}"
+    },
+    "needliquidout": {
+      "name": "No Liquid Output",
+      "tooltip": "This building's Liquid Output does not have a Liquid Pipe connected"
+    },
+    "liquidpipeempty": {
+      "name": "Empty Pipe",
+      "tooltip": "There is no Liquid in this pipe"
+    },
+    "liquidpipeobstructed": {
+      "name": "Not Pumping",
+      "tooltip": "This pump is not active"
+    },
+    "gaspipeempty": {
+      "name": "Empty Pipe",
+      "tooltip": "There is no Gas in this pipe"
+    },
+    "gaspipeobstructed": {
+      "name": "Not Pumping",
+      "tooltip": "This pump is not active"
+    },
+    "needsolidin": {
+      "name": "No Conveyor Loader",
+      "tooltip": "Material cannot be fed onto this Conveyor system for transport\n\nEnter the Shipping Tab of the Build Menu to build and connect a Conveyor Loader"
+    },
+    "needsolidout": {
+      "name": "No Conveyor Receptacle",
+      "tooltip": "Material cannot be offloaded from this Conveyor system and will backup the rails\n\nEnter the Shipping Tab of the Build Menu to build and connect a Conveyor Receptacle"
+    },
+    "solidpipeobstructed": {
+      "name": "Conveyor Rail Backup",
+      "tooltip": "This Conveyor Rail cannot carry anymore material\n\nRemove material from the Conveyor Receptacle to free space for more objects"
+    },
+    "needplant": {
+      "name": "No Seeds",
+      "tooltip": "Uproot wild plants to obtain seeds"
+    },
+    "needseed": {
+      "name": "No Seed Selected",
+      "tooltip": "Uproot wild plants to obtain seeds"
+    },
+    "needpower": {
+      "name": "No Power",
+      "tooltip": "All connected Power sources have lost charge"
+    },
+    "notenoughpower": {
+      "name": "Insufficient Power",
+      "tooltip": "This building does not have enough stored Power to run"
+    },
+    "powerloopdetected": {
+      "name": "Power Loop Detected",
+      "tooltip": "A Transformer's Power Output has been connected back to its own Input"
+    },
+    "needresource": {
+      "name": "Resource Required",
+      "tooltip": "This building is missing required materials"
+    },
+    "newduplicantsavailable": {
+      "name": "Printables Available",
+      "tooltip": "I am ready to print a new colony member or care package",
+      "notification_name": "New Printables are available",
+      "notification_tooltip": "The Printing Pod Plan1 is ready to print a new Duplicant or care package.\nI'll need to select a blueprint:"
+    },
+    "noapplicableresearchselected": {
+      "name": "Inapplicable Research",
+      "tooltip": "This building cannot produce the correct Research Type for the current Research Focus",
+      "notification_name": "Research Center idle",
+      "notification_tooltip": "These buildings cannot produce the correct Research Type for the selected Research Focus:"
+    },
+    "noapplicableanalysisselected": {
+      "name": "No Analysis Focus Selected",
+      "tooltip": "Select an unknown destination from the Starmap to begin analysis",
+      "notification_name": "Telescope idle",
+      "notification_tooltip": "These buildings require an analysis focus:"
+    },
+    "noavailableseed": {
+      "name": "No Seed Available",
+      "tooltip": "The selected Seed is not available"
+    },
+    "nostoragefilterset": {
+      "name": "Filters Not Designated",
+      "tooltip": "No resources types are marked for storage in this building"
+    },
+    "nosuitmarker": {
+      "name": "No Checkpoint",
+      "tooltip": "Docks must be placed beside a Duplicant Checkpoint, opposite the side the checkpoint faces"
+    },
+    "suitmarkerwrongside": {
+      "name": "Invalid Checkpoint",
+      "tooltip": "This building has been built on the wrong side of a Duplicant Checkpoint\n\nDocks must be placed beside a Duplicant Checkpoint, opposite the side the checkpoint faces"
+    },
+    "nofilterelementselected": {
+      "name": "No Filter Selected",
+      "tooltip": "Select a resource to filter"
+    },
+    "nolureelementselected": {
+      "name": "No Bait Selected",
+      "tooltip": "Select a resource to use as bait"
+    },
+    "nofishablewaterbelow": {
+      "name": "No Fishable Water",
+      "tooltip": "There are no edible Fish beneath this structure"
+    },
+    "nopowerconsumers": {
+      "name": "No Power Consumers",
+      "tooltip": "No buildings are connected to this Power source"
+    },
+    "nowireconnected": {
+      "name": "No Power Wire Connected",
+      "tooltip": "This building has not been connected to a Power grid"
+    },
+    "pendingdeconstruction": {
+      "name": "Deconstruction Errand",
+      "tooltip": "Building will be deconstructed once a Duplicant is available"
+    },
+    "pendingdemolition": {
+      "name": "Demolition Errand",
+      "tooltip": "Object will be permanently demolished once a Duplicant is available"
+    },
+    "pendingfish": {
+      "name": "Fishing Errand",
+      "tooltip": "Spot will be fished once a Duplicant is available"
+    },
+    "pendingharvest": {
+      "name": "Harvest Errand",
+      "tooltip": "Plant will be harvested once a Duplicant is available"
+    },
+    "pendinguproot": {
+      "name": "Uproot Errand",
+      "tooltip": "Plant will be uprooted once a Duplicant is available"
+    },
+    "pendingrepair": {
+      "name": "Repair Errand",
+      "tooltip": "Building will be repaired once a Duplicant is available\nReceived damage from {DamageInfo}"
+    },
+    "pendingswitchtoggle": {
+      "name": "Settings Errand",
+      "tooltip": "Settings will be changed once a Duplicant is available"
+    },
+    "pendingwork": {
+      "name": "Work Errand",
+      "tooltip": "Building will be operated once a Duplicant is available"
+    },
+    "powerbuttonoff": {
+      "name": "Function Suspended",
+      "tooltip": "This building has been toggled off\nPress Enable Building ToggleEnabled to resume its use"
+    },
+    "pumpingstation": {
+      "name": "Liquid Available: {Liquids}",
+      "tooltip": "This pumping station has access to: {Liquids}"
+    },
+    "pressureok": {
+      "name": "Max Gas Pressure",
+      "tooltip": "High ambient Gas Pressure is preventing this building from emitting gas\n\nReduce pressure by pumping Gas away or clearing more space"
+    },
+    "underpressure": {
+      "name": "Low Air Pressure",
+      "tooltip": "A minimum atmospheric pressure of <b>{TargetPressure}</b> is needed for this building to operate"
+    },
+    "storagelocker": {
+      "name": "Storing: {Stored} / {Capacity} {Units}",
+      "tooltip": "This container is storing <b>{Stored}{Units}</b> of a maximum <b>{Capacity}{Units}</b>"
+    },
+    "crittercapacity": {
+      "name": "Storing: {Stored} / {Capacity} Critters",
+      "tooltip": "This container is storing <b>{Stored} {StoredUnits}</b> of a maximum <b>{Capacity} {CapacityUnits}</b>",
+      "units": "Critters",
+      "unit": "Critter"
+    },
+    "skill_points_available": {
+      "name": "Skill Points Available",
+      "tooltip": "A Duplicant has Skill Points available"
+    },
+    "tanninglightsufficient": {
+      "name": "Tanning Light Available",
+      "tooltip": "There is sufficient Light here to create pleasing skin crisping"
+    },
+    "tanninglightinsufficient": {
+      "name": "Insufficient Tanning Light",
+      "tooltip": "The Light here is not bright enough for that Sunny Day feeling"
+    },
+    "unassigned": {
+      "name": "Unassigned",
+      "tooltip": "Assign a Duplicant to use this amenity"
+    },
+    "underconstruction": {
+      "name": "Under Construction",
+      "tooltip": "This building is currently being built"
+    },
+    "underconstructionnoworker": {
+      "name": "Construction Errand",
+      "tooltip": "Building will be constructed once a Duplicant is available"
+    },
+    "waitingformaterials": {
+      "name": "Awaiting Delivery\n{ItemsRemaining}",
+      "tooltip": "These materials will be delivered once a Duplicant is available",
+      "line_item_mass": "• {0}: {1}",
+      "line_item_units": "• {0}"
+    },
+    "waitingforradiation": {
+      "name": "Awaiting Radbolts",
+      "tooltip": "This building requires Radbolts to function\n\nOpen the Radiation Overlay Overlay15 to view this building's radiation port"
+    },
+    "waitingforrepairmaterials": {
+      "name": "Awaiting Repair Delivery\n{ItemsRemaining}\n",
+      "tooltip": "These materials must be delivered before this building can be repaired",
+      "line_item": "• {0}: <b>{1}</b>"
+    },
+    "missinggantry": {
+      "name": "Missing Gantry",
+      "tooltip": "A Gantry must be built below Command Capsules and Sight-Seeing Modules for Duplicant access"
+    },
+    "disembarkingduplicant": {
+      "name": "Waiting To Disembark",
+      "tooltip": "The Duplicant inside this rocket can't come out until the Gantry is extended"
+    },
+    "reactormeltdown": {
+      "name": "Reactor Meltdown",
+      "tooltip": "This reactor is spilling dangerous radioactive waste and cannot be stopped"
+    },
+    "rocketname": {
+      "name": "Parent Rocket: {0}",
+      "tooltip": "This module belongs to the rocket: {0}"
+    },
+    "hasgantry": {
+      "name": "Has Gantry",
+      "tooltip": "Duplicants may now enter this section of the rocket"
+    },
+    "normal": {
+      "name": "Normal",
+      "tooltip": "Nothing out of the ordinary here"
+    },
+    "manualgeneratorchargingup": {
+      "name": "Charging Up",
+      "tooltip": "This power source is being charged"
+    },
+    "manualgeneratorreleasingenergy": {
+      "name": "Powering",
+      "tooltip": "This generator is supplying energy to Power consumers"
+    },
+    "generatoroffline": {
+      "name": "Generator Idle",
+      "tooltip": "This Power source is idle"
+    },
+    "pipe": {
+      "name": "Contents: {Contents}",
+      "tooltip": "This pipe is delivering {Contents}"
+    },
+    "conveyor": {
+      "name": "Contents: {Contents}",
+      "tooltip": "This conveyor is delivering {Contents}"
+    },
+    "fabricatoridle": {
+      "name": "No Fabrications Queued",
+      "tooltip": "Select a recipe to begin fabrication"
+    },
+    "fabricatorempty": {
+      "name": "Waiting For Materials",
+      "tooltip": "Fabrication will begin once materials have been delivered"
+    },
+    "fabricatorlackshep": {
+      "name": "Waiting For Radbolts ({CurrentHEP}/{HEPRequired})",
+      "tooltip": "A queued recipe requires more Radbolts than are currently stored.\n\nCurrently stored: {CurrentHEP}\nRequired for recipe: {HEPRequired}"
+    },
+    "toilet": {
+      "name": "{FlushesRemaining} \"Visits\" Remaining",
+      "tooltip": "{FlushesRemaining} more Duplicants can use this amenity before it requires maintenance"
+    },
+    "toiletneedsemptying": {
+      "name": "Requires Emptying",
+      "tooltip": "This amenity cannot be used while full\n\nEmptying it will produce Polluted Dirt"
+    },
+    "desalinatorneedsemptying": {
+      "name": "Requires Emptying",
+      "tooltip": "This building needs to be emptied of Salt to resume function"
+    },
+    "milkseparatorneedsemptying": {
+      "name": "Requires Emptying",
+      "tooltip": "This building needs to be emptied of Brackwax to resume function"
+    },
+    "habitatneedsemptying": {
+      "name": "Requires Emptying",
+      "tooltip": "This Algae Terrarium needs to be emptied of Polluted Water\n\nBottle Emptiers can be used to transport and dispose of Polluted Water in designated areas"
+    },
+    "unusable": {
+      "name": "Out of Order",
+      "tooltip": "This amenity requires maintenance"
+    },
+    "unusablegunked": {
+      "name": "Out of Order: Gunk",
+      "tooltip": "Someone dumped Gunk here instead of in a Gunk Extractor\n\nThis amenity requires maintenance"
+    },
+    "noresearchselected": {
+      "name": "No Research Focus Selected",
+      "tooltip": "Open the Research Tree to select a new Research project",
+      "notification_name": "No Research Focus selected",
+      "notification_tooltip": "Open the Research Tree to select a new Research project"
+    },
+    "noresearchordestinationselected": {
+      "name": "No Research Focus or Starmap Destination Selected",
+      "tooltip": "Select a Research project in the Research Tree or a Destination in the Starmap",
+      "notification_name": "No Research Focus or Starmap destination selected",
+      "notification_tooltip": "Select a Research project in the Research Tree or a Destination in the Starmap"
+    },
+    "researching": {
+      "name": "Current Research: {Tech}",
+      "tooltip": "Research produced at this station will be invested in {Tech}"
+    },
+    "tinkering": {
+      "name": "Tinkering: {0}",
+      "tooltip": "This Duplicant is creating {0} to use somewhere else"
+    },
+    "valve": {
+      "name": "Max Flow Rate: {MaxFlow}",
+      "tooltip": "This valve is allowing flow at a volume of <b>{MaxFlow}</b>"
+    },
+    "valverequest": {
+      "name": "Requested Flow Rate: {QueuedMaxFlow}",
+      "tooltip": "Waiting for a Duplicant to adjust flow rate"
+    },
+    "emittinglight": {
+      "name": "Emitting Light",
+      "tooltip": "Open the Light Overlay to view this light's visibility radius"
+    },
+    "kettleinsuficientsolids": {
+      "name": "Insufficient Ice",
+      "tooltip": "This building requires a minimum of {0} Ice in order to function\n\nDeliver more Ice to operate this building"
+    },
+    "kettleinsuficientfuel": {
+      "name": "Insufficient Wood",
+      "tooltip": "Colder Ice increases the amount of Wood required for melting\n\nCurrent requirement: minimum {0} Wood"
+    },
+    "kettleinsuficientliquidspace": {
+      "name": "Requires Emptying",
+      "tooltip": "This Ice Liquefier needs to be emptied of Water in order to resume function\n\nIt requires at least {2} of storage space in order to function properly\n\nCurrently storing {0} of a maximum {1} Water"
+    },
+    "kettlemelting": {
+      "name": "Melting Ice",
+      "tooltip": "This building is currently melting stored Ice to produce Water\n\nWater output temperature: {0}"
+    },
+    "rationboxcontents": {
+      "name": "Storing: {Stored}",
+      "tooltip": "This box contains <b>{Stored}</b> of Food"
+    },
+    "emittingelement": {
+      "name": "Emitting {ElementType}: {FlowRate}",
+      "tooltip": "Producing {ElementType} at {FlowRate}"
+    },
+    "emittingco2": {
+      "name": "Emitting CO<sub>2</sub>: {FlowRate}",
+      "tooltip": "Producing Carbon Dioxide at {FlowRate}"
+    },
+    "emittingoxygenavg": {
+      "name": "Emitting Oxygen: {FlowRate}",
+      "tooltip": "Producing Oxygen at a rate of {FlowRate}"
+    },
+    "emittinggasavg": {
+      "name": "Emitting {Element}: {FlowRate}",
+      "tooltip": "Producing {Element} at a rate of {FlowRate}"
+    },
+    "emittingblockedhighpressure": {
+      "name": "Not Emitting: Overpressure",
+      "tooltip": "Ambient pressure is too high for {Element} to be released"
+    },
+    "emittingblockedlowtemperature": {
+      "name": "Not Emitting: Too Cold",
+      "tooltip": "Temperature is too low for {Element} to be released"
+    },
+    "pumpingliquidorgas": {
+      "name": "Average Flow Rate: {FlowRate}",
+      "tooltip": "This building is pumping an average volume of {FlowRate}"
+    },
+    "wirecircuitstatus": {
+      "name": "Current Load: {CurrentLoadAndColor} / {MaxLoad}",
+      "tooltip": "The current Power load on this wire\n\nOverloading a wire will cause damage to the wire over time and cause it to break"
+    },
+    "wiremaxwattagestatus": {
+      "name": "Potential Load: {TotalPotentialLoadAndColor} / {MaxLoad}",
+      "tooltip": "How much wattage this network will draw if all Power consumers on the network become active at once"
+    },
+    "noliquidelementtopump": {
+      "name": "Pump Not In Liquid",
+      "tooltip": "This pump must be submerged in Liquid to work"
+    },
+    "nogaselementtopump": {
+      "name": "Pump Not In Gas",
+      "tooltip": "This pump must be submerged in Gas to work"
+    },
+    "invalidmaskstationconsumptionstate": {
+      "name": "Station Not In Oxygen",
+      "tooltip": "This station must be submerged in Oxygen to work"
+    },
+    "pipemaymelt": {
+      "name": "High Melt Risk",
+      "tooltip": "This pipe is in danger of melting at the current Temperature"
+    },
+    "elementemitteroutput": {
+      "name": "Emitting {ElementTypes}: {FlowRate}",
+      "tooltip": "This object is releasing {ElementTypes} at a rate of {FlowRate}"
+    },
+    "elementconsumer": {
+      "name": "Consuming {ElementTypes}: {FlowRate}",
+      "tooltip": "This object is utilizing ambient {ElementTypes} from the environment"
+    },
+    "spacecraftreadytoland": {
+      "name": "Spacecraft ready to land",
+      "tooltip": "A spacecraft is ready to land",
+      "notification": "Space mission complete",
+      "notification_tooltip": "Spacecrafts have completed their missions"
+    },
+    "consumingfromstorage": {
+      "name": "Consuming {ElementTypes}: {FlowRate}",
+      "tooltip": "This building is consuming {ElementTypes} from storage"
+    },
+    "elementconverteroutput": {
+      "name": "Emitting {ElementTypes}: {FlowRate}",
+      "tooltip": "This building is releasing {ElementTypes} at a rate of {FlowRate}"
+    },
+    "elementconverterinput": {
+      "name": "Using {ElementTypes}: {FlowRate}",
+      "tooltip": "This building is using {ElementTypes} from storage at a rate of {FlowRate}"
+    },
+    "awaitingcompostflip": {
+      "name": "Requires Flipping",
+      "tooltip": "Compost must be flipped periodically to produce Dirt"
+    },
+    "awaitingwaste": {
+      "name": "Awaiting Compostables",
+      "tooltip": "More waste material is required to begin the composting process"
+    },
+    "batteriessufficientlyfull": {
+      "name": "Batteries Sufficiently Full",
+      "tooltip": "All batteries are above the refill threshold"
+    },
+    "needresourcemass": {
+      "name": "Insufficient Resources\n{ResourcesRequired}",
+      "tooltip": "The mass of material that was delivered to this building was too low\n\nDeliver more material to run this building",
+      "line_item": "• <b>{0}</b>"
+    },
+    "joulesavailable": {
+      "name": "Power Available: {JoulesAvailable} / {JoulesCapacity}",
+      "tooltip": "<b>{JoulesAvailable}</b> of stored Power available for use"
+    },
+    "wattage": {
+      "name": "Wattage: {Wattage}",
+      "tooltip": "This building is generating {Wattage} of Power"
+    },
+    "solarpanelwattage": {
+      "name": "Current Wattage: {Wattage}",
+      "tooltip": "This panel is generating {Wattage} of Power"
+    },
+    "modulesolarpanelwattage": {
+      "name": "Current Wattage: {Wattage}",
+      "tooltip": "This panel is generating {Wattage} of Power"
+    },
+    "wattson": {
+      "name": "Next Print: {TimeRemaining}",
+      "tooltip": "The Printing Pod can print out new Duplicants and useful resources over time.\nThe next print will be ready in <b>{TimeRemaining}</b>",
+      "unavailable": "UNAVAILABLE"
+    },
+    "flushtoilet": {
+      "name": "{toilet} Ready",
+      "tooltip": "This bathroom is ready to receive visitors"
+    },
+    "flushtoiletinuse": {
+      "name": "{toilet} In Use",
+      "tooltip": "This bathroom is occupied"
+    },
+    "wireconnected": {
+      "name": "Wire Connected",
+      "tooltip": "This wire is connected to a network"
+    },
+    "wirenominal": {
+      "name": "Wire Nominal",
+      "tooltip": "This wire is able to handle the wattage it is receiving"
+    },
+    "wiredisconnected": {
+      "name": "Wire Disconnected",
+      "tooltip": "This wire is not connecting a Power consumer to a Power generator"
+    },
+    "cooling": {
+      "name": "Cooling",
+      "tooltip": "This building is cooling the surrounding area"
+    },
+    "coolingstalledhotenv": {
+      "name": "Gas Too Hot",
+      "tooltip": "Incoming pipe contents cannot be cooled more than <b>{2}</b> below the surrounding environment\n\nEnvironment: {0}\nCurrent Pipe Contents: {1}"
+    },
+    "coolingstalledcoldgas": {
+      "name": "Gas Too Cold",
+      "tooltip": "This building cannot cool incoming pipe contents below <b>{0}</b>\n\nCurrent Pipe Contents: {0}"
+    },
+    "coolingstalledhotliquid": {
+      "name": "Liquid Too Hot",
+      "tooltip": "Incoming pipe contents cannot be cooled more than <b>{2}</b> below the surrounding environment\n\nEnvironment: {0}\nCurrent Pipe Contents: {1}"
+    },
+    "coolingstalledcoldliquid": {
+      "name": "Liquid Too Cold",
+      "tooltip": "This building cannot cool incoming pipe contents below <b>{0}</b>\n\nCurrent Pipe Contents: {0}"
+    },
+    "cannotcoolfurther": {
+      "name": "Minimum Temperature Reached",
+      "tooltip": "This building cannot cool the surrounding environment below <b>{0}</b>"
+    },
+    "heatingstalledhotenv": {
+      "name": "Target Temperature Reached",
+      "tooltip": "This building cannot heat the surrounding environment beyond <b>{0}</b>"
+    },
+    "heatingstalledlowmass_gas": {
+      "name": "Insufficient Atmosphere",
+      "tooltip": "This building cannot operate in a vacuum"
+    },
+    "heatingstalledlowmass_liquid": {
+      "name": "Not Submerged In Liquid",
+      "tooltip": "This building must be submerged in Liquid to function"
+    },
+    "buildingdisabled": {
+      "name": "Building Disabled",
+      "tooltip": "Press Enable Building ToggleEnabled to resume use"
+    },
+    "missingrequirements": {
+      "name": "Missing Requirements",
+      "tooltip": "There are some problems that need to be fixed before this building is operational"
+    },
+    "gettingready": {
+      "name": "Getting Ready",
+      "tooltip": "This building will soon be ready to use"
+    },
+    "working": {
+      "name": "Normal",
+      "tooltip": "This building is working as intended"
+    },
+    "graveempty": {
+      "name": "Empty",
+      "tooltip": "This memorial honors no one."
+    },
+    "grave": {
+      "name": "RIP {DeadDupe}",
+      "tooltip": "{Epitaph}"
+    },
+    "awaitingarting": {
+      "name": "Incomplete Artwork",
+      "tooltip": "This building requires a Duplicant's artistic touch"
+    },
+    "lookingugly": {
+      "name": "Crude",
+      "tooltip": "Honestly, Morbs could've done better"
+    },
+    "lookingokay": {
+      "name": "Quaint",
+      "tooltip": "Duplicants find this art piece quite charming"
+    },
+    "lookinggreat": {
+      "name": "Masterpiece",
+      "tooltip": "This poignant piece stirs something deep within each Duplicant's soul"
+    },
+    "expired": {
+      "name": "Depleted",
+      "tooltip": "This building has no more use"
+    },
+    "coolingwater": {
+      "name": "Cooling Water",
+      "tooltip": "This building is cooling Water down to its freezing point"
+    },
+    "excavator_bomb": {
+      "unarmed": {
+        "name": "Unarmed",
+        "tooltip": "This explosive is currently inactive"
+      },
+      "armed": {
+        "name": "Armed",
+        "tooltip": "Stand back, this baby's ready to blow!"
+      },
+      "countdown": {
+        "name": "Countdown: {0}",
+        "tooltip": "<b>{0}</b> seconds until detonation"
+      },
+      "dupe_danger": {
+        "name": "Duplicant Preservation Override",
+        "tooltip": "Explosive disabled due to close Duplicant proximity"
+      },
+      "exploding": {
+        "name": "Exploding",
+        "tooltip": "Kaboom!"
+      }
+    },
+    "burner": {
+      "burning_fuel": {
+        "name": "Consuming Fuel: {0}",
+        "tooltip": "<b>{0}</b> fuel remaining"
+      },
+      "has_fuel": {
+        "name": "Fueled: {0}",
+        "tooltip": "<b>{0}</b> fuel remaining"
+      }
+    },
+    "creature_reusable_trap": {
+      "needs_arming": {
+        "name": "Waiting to be Armed",
+        "tooltip": "Waiting for a Duplicant to arm this trap\n\nOnly Duplicants with the Critter Ranching I skill can arm traps"
+      },
+      "ready": {
+        "name": "Armed",
+        "tooltip": "This trap has been armed and is ready to catch a Critter"
+      },
+      "sprung": {
+        "name": "Sprung",
+        "tooltip": "This trap has caught a {0}!"
+      }
+    },
+    "creature_trap": {
+      "needsbait": {
+        "name": "Needs Bait",
+        "tooltip": "This trap needs to be baited before it can be set"
+      },
+      "ready": {
+        "name": "Set",
+        "tooltip": "This trap has been set and is ready to catch a Critter"
+      },
+      "sprung": {
+        "name": "Sprung",
+        "tooltip": "This trap has caught a {0}!"
+      }
+    },
+    "access_control": {
+      "active": {
+        "name": "Access Restrictions",
+        "tooltip": "Some Duplicants are prohibited from passing through this door by the current Access Permissions"
+      },
+      "offline": {
+        "name": "Access Control Offline",
+        "tooltip": "This door has granted Emergency Access Permissions\n\nAll Duplicants are permitted to pass through it until Power is restored"
+      }
+    },
+    "requiresskillperk": {
+      "name": "Skill-Required Operation",
+      "tooltip": "Only Duplicants with the {Skills} Skill can operate this building",
+      "tooltip_dlc3": "Only Duplicants with the {Skills} Skill or {Boosters} can operate this building"
+    },
+    "digrequiresskillperk": {
+      "name": "Skill-Required Dig",
+      "tooltip": "Only Duplicants with one of the following Skills can mine this material:\n{Skills}",
+      "tooltip_dlc3": "Only Duplicants with the {Skills} Skill or {Boosters} can mine this material"
+    },
+    "colonylacksrequiredskillperk": {
+      "name": "Colony Lacks {Skills} Skill",
+      "tooltip": "{Skills} Skill required to operate\n\nOpen the Skills Panel to teach {Skills} to a Duplicant",
+      "tooltip_dlc3": "{Skills} Skill or {Boosters} required to operate\n\nOpen the Skills Panel to teach {Skills} to a Duplicant"
+    },
+    "clustercolonylacksrequiredskillperk": {
+      "name": "Local Colony Lacks {Skills} Skill",
+      "tooltip": "{Skills} Skill required to operate\n\nOpen the Skills Panel to teach {Skills} to a Duplicant, or bring a Duplicant with the skill from another Planetoid",
+      "tooltip_dlc3": "{Skills} Skill or {Boosters} required to operate\n\nOpen the Skills Panel to teach {Skills} to a Duplicant, or bring a Duplicant with this skill or booster from another Planetoid"
+    },
+    "workrequiresminion": {
+      "name": "Duplicant Operation Required",
+      "tooltip": "A Duplicant must be present to complete this operation"
+    },
+    "switchstatusactive": {
+      "name": "Active",
+      "tooltip": "This switch is currently toggled <b>On</b>"
+    },
+    "switchstatusinactive": {
+      "name": "Inactive",
+      "tooltip": "This switch is currently toggled <b>Off</b>"
+    },
+    "logicswitchstatusactive": {
+      "name": "Sending a Green Signal",
+      "tooltip": "This switch is currently sending a Green Signal"
+    },
+    "logicswitchstatusinactive": {
+      "name": "Sending a Red Signal",
+      "tooltip": "This switch is currently sending a Red Signal"
+    },
+    "logicsensorstatusactive": {
+      "name": "Sending a Green Signal",
+      "tooltip": "This sensor is currently sending a Green Signal"
+    },
+    "logicsensorstatusinactive": {
+      "name": "Sending a Red Signal",
+      "tooltip": "This sensor is currently sending Red Signal"
+    },
+    "playercontrolledtogglesidescreen": {
+      "name": "Pending Toggle on Unpause",
+      "tooltip": "This will be toggled when time is unpaused"
+    },
+    "food_containers_outside_range": {
+      "name": "Unreachable food",
+      "tooltip": "Recuperating Duplicants must have Food available within <b>{0}</b> cells"
+    },
+    "toilets_outside_range": {
+      "name": "Unreachable restroom",
+      "tooltip": "Recuperating Duplicants must have Toilets available within <b>{0}</b> cells"
+    },
+    "building_deprecated": {
+      "name": "Building Deprecated",
+      "tooltip": "This building is from an older version of the game and its use is not intended"
+    },
+    "turbine_blocked_input": {
+      "name": "All Inputs Blocked",
+      "tooltip": "This turbine's Input Vents are blocked, so it can't intake any Steam.\n\nThe Input Vents are located directly below the foundation Tile this building is resting on."
+    },
+    "turbine_partially_blocked_input": {
+      "name": "{Blocked}/{Total} Inputs Blocked",
+      "tooltip": "<b>{Blocked}</b> of this turbine's <b>{Total}</b> inputs have been blocked, resulting in reduced throughput"
+    },
+    "turbine_too_hot": {
+      "name": "Turbine Too Hot",
+      "tooltip": "This turbine must be below <b>{Overheat_Temperature}</b> to properly process {Src_Element} into {Dest_Element}"
+    },
+    "turbine_blocked_output": {
+      "name": "Output Blocked",
+      "tooltip": "A blocked Output has stopped this turbine from functioning"
+    },
+    "turbine_insufficient_mass": {
+      "name": "Not Enough {Src_Element}",
+      "tooltip": "The {Src_Element} present below this turbine must be at least <b>{Min_Mass}</b> in order to turn the turbine"
+    },
+    "turbine_insufficient_temperature": {
+      "name": "{Src_Element} Temperature Below {Active_Temperature}",
+      "tooltip": "This turbine requires {Src_Element} that is a minimum of <b>{Active_Temperature}</b> in order to produce power"
+    },
+    "turbine_active_wattage": {
+      "name": "Current Wattage: {Wattage}",
+      "tooltip": "This turbine is generating {Wattage} of Power\n\nIt is running at <b>{Efficiency}</b> of full capacity\n\nIncrease {Src_Element} Mass and Temperature to improve output"
+    },
+    "turbine_spinning_up": {
+      "name": "Spinning Up",
+      "tooltip": "This turbine is currently spinning up\n\nSpinning up allows a turbine to continue running for a short period if the pressure it needs to run becomes unavailable"
+    },
+    "turbine_active": {
+      "name": "Active",
+      "tooltip": "This turbine is running at <b>{0}RPM</b>"
+    },
+    "well_pressurizing": {
+      "name": "Backpressure: {0}",
+      "tooltip": "Well pressure increases with each use and must be periodically relieved to prevent shutdown"
+    },
+    "well_overpressure": {
+      "name": "Overpressure",
+      "tooltip": "This well can no longer function due to excessive backpressure"
+    },
+    "notinanyroom": {
+      "name": "Outside of room",
+      "tooltip": "This building must be built inside a Room for full functionality\n\nOpen the Room Overlay to view full Room status"
+    },
+    "notinrequiredroom": {
+      "name": "Outside of {0}",
+      "tooltip": "This building must be built inside a {0} for full functionality\n\nOpen the Room Overlay to view full Room status"
+    },
+    "notinrecommendedroom": {
+      "name": "Outside of {0}",
+      "tooltip": "It is recommended to build this building inside a {0}\n\nOpen the Room Overlay to view full Room status"
+    },
+    "releasing_pressure": {
+      "name": "Releasing Pressure",
+      "tooltip": "Pressure buildup is being safely released"
+    },
+    "logic_feedback_loop": {
+      "name": "Feedback Loop",
+      "tooltip": "Feedback loops prevent automation grids from functioning\n\nFeedback loops occur when the Output of an automated building connects back to its own Input through the Automation grid"
+    },
+    "enough_coolant": {
+      "name": "Awaiting Coolant",
+      "tooltip": "<b>{1}</b> of {0} must be present in storage to begin production"
+    },
+    "enough_fuel": {
+      "name": "Awaiting Fuel",
+      "tooltip": "<b>{1}</b> of {0} must be present in storage to begin production"
+    },
+    "logic": {
+      "logic_controlled_enabled": "Enabled by Automation Grid",
+      "logic_controlled_disabled": "Disabled by Automation Grid"
+    },
+    "gantry": {
+      "automation_control": "Automation Control: {0}",
+      "manual_control": "Manual Control: {0}",
+      "extended": "Extended",
+      "retracted": "Retracted"
+    },
+    "objectdispenser": {
+      "automation_control": "Automation Control: {0}",
+      "manual_control": "Manual Control: {0}",
+      "opened": "Opened",
+      "closed": "Closed"
+    },
+    "too_cold": {
+      "name": "Too Cold",
+      "tooltip": "Either this building or its surrounding environment is too cold to operate"
+    },
+    "checkpoint": {
+      "logic_controlled_open": "Clearance: Permitted",
+      "logic_controlled_closed": "Clearance: Not Permitted",
+      "logic_controlled_disconnected": "No Automation",
+      "tooltips": {
+        "logic_controlled_open": "Automated Checkpoint is receiving a Red Signal, preventing Duplicants from passing",
+        "logic_controlled_closed": "Automated Checkpoint is receiving a Green Signal, allowing Duplicants to pass",
+        "logic_controlled_disconnected": "This Checkpoint has not been connected to an Automation grid"
+      }
+    },
+    "highenergyparticleredirector": {
+      "logic_controlled_standby": "Incoming Radbolts: Ignore",
+      "logic_controlled_active": "Incoming Radbolts: Redirect",
+      "normal": "Normal",
+      "tooltips": {
+        "logic_controlled_standby": "Radbolt Reflector is receiving a Red Signal, ignoring incoming Radbolts",
+        "logic_controlled_active": "Radbolt Reflector is receiving a Green Signal, accepting incoming Radbolts",
+        "normal": "Incoming Radbolts will be accepted and redirected"
+      }
+    },
+    "highenergyparticlespawner": {
+      "logic_controlled_standby": "Launch Radbolt: Off",
+      "logic_controlled_active": "Launch Radbolt: On",
+      "normal": "Normal",
+      "tooltips": {
+        "logic_controlled_standby": "Radbolt Generator is receiving a Red Signal, ignoring incoming Radbolts",
+        "logic_controlled_active": "Radbolt Generator is receiving a Green Signal, accepting incoming Radbolts",
+        "normal": "Incoming Radbolts will be accepted and redirected"
+      }
+    },
+    "awaitingfuel": {
+      "name": "Awaiting Fuel: {0}",
+      "tooltip": "This building requires <b>{1}</b> of {0} to operate"
+    },
+    "fossilhunt": {
+      "pending_excavation": {
+        "name": "Awaiting Excavation",
+        "tooltip": "Currently awaiting excavation by a Duplicant"
+      },
+      "excavating": {
+        "name": "Excavation In Progress",
+        "tooltip": "Currently being excavated by a Duplicant"
+      }
+    },
+    "megabraintank": {
+      "progress": {
+        "progressionrate": {
+          "name": "Dream Journals: {ActivationProgress}",
+          "tooltip": "Currently awaiting the Dream Journals necessary to restore this building to full functionality"
+        },
+        "dreamanalysis": {
+          "name": "Analyzing Dreams: {TimeToComplete}s",
+          "tooltip": "Maximum Aptitude effect sustained while dream analysis continues"
+        }
+      },
+      "complete": {
+        "name": "Fully Restored",
+        "tooltip": "This building is functioning at full capacity"
+      }
+    },
+    "megabrainnotenoughoxygen": {
+      "name": "Lacks Oxygen",
+      "tooltip": "This building needs Oxygen in order to function"
+    },
+    "nologicwireconnected": {
+      "name": "No Automation Wire Connected",
+      "tooltip": "This building has not been connected to an Automation grid"
+    },
+    "notubeconnected": {
+      "name": "No Tube Connected",
+      "tooltip": "The first section of tube extending from a Transit Tube Access must connect directly upward"
+    },
+    "notubeexits": {
+      "name": "No Landing Available",
+      "tooltip": "Duplicants can only exit a tube when there is somewhere for them to land within <b>two tiles</b>"
+    },
+    "storedcharge": {
+      "name": "Charge Available: {0}/{1}",
+      "tooltip": "This building has <b>{0}</b> of stored Power\n\nIt consumes {2} per use"
+    },
+    "ornamentdisabled": {
+      "name": "Broken Display",
+      "tooltip": "This ornament's display structure is currently disabled\n\nIt will not be counted as a displayed ornament"
+    },
+    "pedestalnoitemdisplayed": {
+      "name": "No Object Displayed",
+      "tooltip": "This building must display an object in order to be counted as a Decor building for a room"
+    },
+    "needegg": {
+      "name": "No Egg Selected",
+      "tooltip": "Collect Eggs from Critters to incubate"
+    },
+    "noavailableegg": {
+      "name": "No Egg Available",
+      "tooltip": "The selected Egg is not currently available"
+    },
+    "awaitingeggdelivery": {
+      "name": "Awaiting Delivery",
+      "tooltip": "Awaiting delivery of selected Egg"
+    },
+    "incubatorprogress": {
+      "name": "Incubating: {Percent}",
+      "tooltip": "This Egg incubating cozily\n\nIt will hatch when Incubation reaches <b>100%</b>"
+    },
+    "networkquality": {
+      "name": "Scan Network Quality: {TotalQuality}",
+      "tooltip": "This scanner network is scanning at <b>{TotalQuality}</b> effectiveness\n\nIt will detect incoming objects <b>{WorstTime}</b> to <b>{BestTime}</b> before they arrive\n\nBuild multiple Space Scanners to increase surface coverage and improve network quality\n\n    • Surface Coverage: <b>{Coverage}</b>"
+    },
+    "detectorscanning": {
+      "name": "Scanning",
+      "tooltip": "This scanner is currently scouring space for anything of interest"
+    },
+    "incomingmeteors": {
+      "name": "Incoming Object Detected",
+      "tooltip": "Warning!\n\nHigh velocity objects on approach!"
+    },
+    "space_visibility_none": {
+      "name": "No Line of Sight",
+      "tooltip": "This building has no view of space\n\nTo properly function, this building requires an unblocked view of space\n    • Efficiency: <b>{VISIBILITY}</b>"
+    },
+    "space_visibility_reduced": {
+      "name": "Reduced Visibility",
+      "tooltip": "This building has a partially obstructed view of space\n\nTo operate at maximum speed, this building requires an unblocked view of space\n    • Efficiency: <b>{VISIBILITY}</b>"
+    },
+    "landedrocketlackspassengermodule": {
+      "name": "Rocket lacks spacefarer module",
+      "tooltip": "A rocket must have a spacefarer module"
+    },
+    "path_not_clear": {
+      "name": "Launch Path Blocked",
+      "tooltip": "There are obstructions in the launch trajectory of this rocket:\n    • {0}\n\nThis rocket requires a clear flight path for launch",
+      "tile_format": "Solid {0}"
+    },
+    "railgun_path_not_clear": {
+      "name": "Launch Path Blocked",
+      "tooltip": "There are obstructions in the launch trajectory of this Interplanetary Launcher\n\nThis launcher requires a clear path to launch payloads"
+    },
+    "railgun_no_destination": {
+      "name": "No Delivery Destination",
+      "tooltip": "A delivery destination has not been set"
+    },
+    "nosurfacesight": {
+      "name": "No Line of Sight",
+      "tooltip": "This building has no view of space\n\nTo properly function, this building requires an unblocked view of space"
+    },
+    "rocketrestrictionactive": {
+      "name": "Access: Restricted",
+      "tooltip": "This building cannot be operated while restricted, though it can be filled\n\nControlled by a Rocket Control Station"
+    },
+    "rocketrestrictioninactive": {
+      "name": "Access: Not Restricted",
+      "tooltip": "This building's operation is not restricted\n\nControlled by a Rocket Control Station"
+    },
+    "norocketrestriction": {
+      "name": "Not Controlled",
+      "tooltip": "This building is not controlled by a Rocket Control Station"
+    },
+    "broadcasteroutofrange": {
+      "name": "Broadcaster Out of Range",
+      "tooltip": "This receiver is too far from the selected broadcaster to get signal updates"
+    },
+    "losingradbolts": {
+      "name": "Radbolt Decay",
+      "tooltip": "This building is unable to maintain the integrity of the radbolts it is storing"
+    },
+    "top_priority_chore": {
+      "name": "Top Priority",
+      "tooltip": "This errand has been set to Top Priority\n\nThe colony will be in Yellow Alert until this task is completed",
+      "notification_name": "Yellow Alert",
+      "notification_tooltip": "The following errands have been set to Top Priority:"
+    },
+    "hottubwatertoocold": {
+      "name": "Water Too Cold",
+      "tooltip": "This tub's Water is below <b>{temperature}</b>\n\nIt is draining so it can be refilled with warmer Water"
+    },
+    "hottubtoohot": {
+      "name": "Building Too Hot",
+      "tooltip": "This tub's Temperature is above <b>{temperature}</b>\n\nIt needs to cool before it can safely be used"
+    },
+    "hottubfilling": {
+      "name": "Filling Up: ({fullness})",
+      "tooltip": "This tub is currently filling with Water\n\nIt will be available to use when the Water level reaches <b>100%</b>"
+    },
+    "windtunnelintake": {
+      "name": "Intake Requires Gas",
+      "tooltip": "A wind tunnel requires Gas at the top and bottom intakes in order to operate\n\nThe intakes for this wind tunnel don't have enough gas to operate"
+    },
+    "temporal_tear_opener_no_target": {
+      "name": "Temporal Tear not revealed",
+      "tooltip": "This machine is meant to target something in space, but the target has not yet been revealed"
+    },
+    "temporal_tear_opener_no_los": {
+      "name": "Line of Sight: Obstructed",
+      "tooltip": "This device needs a clear view of space to operate"
+    },
+    "temporal_tear_opener_insufficient_colonies": {
+      "name": "Too few Printing Pods {progress}",
+      "tooltip": "To open the Temporal Tear, this device relies on a network of activated Printing Pods {progress}"
+    },
+    "temporal_tear_opener_progress": {
+      "name": "Charging Progress: {progress}",
+      "tooltip": "This device must be charged with a high number of Radbolts\n\nOperation can commence once this device is fully charged"
+    },
+    "temporal_tear_opener_ready": {
+      "notification": "Temporal Tear Opener fully charged",
+      "notification_tooltip": "Push the red button to activate"
+    },
+    "warpportalcharging": {
+      "name": "Recharging: {charge}",
+      "tooltip": "This teleporter will be ready for use in {cycles} cycles"
+    },
+    "warpconduitpartnerdisabled": {
+      "name": "Teleporter Disabled ({x}/2)",
+      "tooltip": "This teleporter cannot be used until both the transmitting and receiving sides have been activated"
+    },
+    "collectinghep": {
+      "name": "Collecting Radbolts ({x}/cycle)",
+      "tooltip": "Collecting Radbolts from ambient radiation"
+    },
+    "inorbit": {
+      "name": "In Orbit: {Destination}",
+      "tooltip": "This rocket is currently in orbit around {Destination}"
+    },
+    "waitingtoland": {
+      "name": "Waiting to land on {Destination}",
+      "tooltip": "This rocket is waiting for an available Rcoket Platform on {Destination}"
+    },
+    "inflight": {
+      "name": "In Flight To {Destination_Asteroid}: {ETA}",
+      "tooltip": "This rocket is currently traveling to {Destination_Pad} on {Destination_Asteroid}\n\nIt will arrive in {ETA}",
+      "tooltip_no_pad": "This rocket is currently traveling to {Destination_Asteroid}\n\nIt will arrive in {ETA}"
+    },
+    "destinationoutofrange": {
+      "name": "Destination Out Of Range",
+      "tooltip": "This rocket lacks the range to reach its destination\n\nRocket Range: {Range}\nDestination Distance: {Distance}"
+    },
+    "rocketstranded": {
+      "name": "Stranded",
+      "tooltip": "This rocket has run out of fuel and cannot move"
+    },
+    "spacepoiharvesting": {
+      "name": "Drilling {0}: {1}",
+      "tooltip": "This Drillcone is breaking up space debris into harvestable resources\n\nHarvestable resources can be retrieved by a a rocket equipped with a Cargo Bay module"
+    },
+    "collectinghexcellinventoryitems": {
+      "name": "Harvesting Resources",
+      "tooltip": "One or more Cargo Bay modules are collecting resources from this rocket's current hex cell"
+    },
+    "railgunpayloadneedsemptying": {
+      "name": "Ready To Unpack",
+      "tooltip": "This payload has reached its destination and is ready to be unloaded\n\nIt can be marked for unpacking manually, or automatically unpacked on arrival using a Payload Opener"
+    },
+    "missioncontrolassistingrocket": {
+      "name": "Guidance Signal: {0}",
+      "tooltip": "Once transmission is complete, Mission Control will boost targeted rocket's speed"
+    },
+    "missioncontrolboosted": {
+      "name": "Mission Control Speed Boost: {0}",
+      "tooltip": "Mission Control has given this rocket a {0} speed boost\n\n{1} remaining"
+    },
+    "transittubeentrancewaxready": {
+      "name": "Smooth Ride Ready",
+      "tooltip": "This building is stocked with speed-boosting Brackwax\n\n{0} per use ({1} remaining)"
+    },
+    "norocketstomissioncontrolboost": {
+      "name": "No Eligible Rockets in Range",
+      "tooltip": "Rockets must be mid-flight and not targeted by another Mission Control Station, or already boosted"
+    },
+    "norocketstomissioncontrolclusterboost": {
+      "name": "No Eligible Rockets in Range",
+      "tooltip": "Rockets must be mid-flight, within {0} tiles, and not targeted by another Mission Control Station or already boosted"
+    },
+    "awaitingemptybuilding": {
+      "name": "Empty Errand",
+      "tooltip": "Building will be emptied once a Duplicant is available"
+    },
+    "duplicantactivationrequired": {
+      "name": "Activation Required",
+      "tooltip": "A Duplicant is required to bring this building online"
+    },
+    "pilotneeded": {
+      "name": "Switching to Autopilot",
+      "tooltip": "Autopilot will engage in {timeRemaining} if a Duplicant pilot does not assume control"
+    },
+    "autopilotactive": {
+      "name": "Autopilot Engaged",
+      "tooltip": "This rocket has entered autopilot mode and will fly at reduced speed\n\nIt can resume full speed once a Duplicant pilot takes over"
+    },
+    "inflightpiloted": {
+      "name": "Piloted",
+      "dupe_tooltip": "Duplicant pilot's <b>Skill</b>: +{0} speed boost",
+      "robo_tooltip": "Piloted by a Robo-Pilot"
+    },
+    "inflightunpiloted": {
+      "name": "Unpiloted",
+      "tooltip": "Inactive rocket module: -{penalty} speed {modules}",
+      "robo_pilot_only_tooltip": "Robo-Pilot has run out of Data Banks\n\nThis rocket is stranded"
+    },
+    "inflightautopiloted": {
+      "name": "Autopilot Engaged",
+      "tooltip": "This rocket's {modules} is inactive\n\nThis rocket has entered autopilot mode and will fly at reduced speed\n    •  -{penalty} speed"
+    },
+    "inflightsuperpilot": {
+      "name": "Multi-Piloted",
+      "tooltip": "This rocket is being piloted by a Duplicant and a Robo-Pilot\n    • Multi-Piloted: +{1} speed boost\n    • Duplicant pilot skill: +{0} speed boost"
+    },
+    "rocketchecklistincomplete": {
+      "name": "Launch Checklist Incomplete",
+      "tooltip": "Critical launch tasks uncompleted\n\nRefer to the Launch Checklist in the status panel"
+    },
+    "rocketcargoemptying": {
+      "name": "Unloading Cargo",
+      "tooltip": "Rocket cargo is being unloaded into the Rocket Platform\n\nLoading of new cargo will begin once unloading is complete"
+    },
+    "rocketcargofilling": {
+      "name": "Loading Cargo",
+      "tooltip": "Cargo is being loaded onto the rocket from the Rocket Platform\n\nRocket cargo will be ready for launch once loading is complete"
+    },
+    "rocketcargofull": {
+      "name": "Platform Ready",
+      "tooltip": "All cargo operations are complete"
+    },
+    "flightallcargofull": {
+      "name": "All cargo bays are full",
+      "tooltip": "Rocket cannot store any more materials"
+    },
+    "flightcargoremaining": {
+      "name": "Cargo capacity remaining: {0}",
+      "tooltip": "Rocket can store up to {0} more materials"
+    },
+    "rocket_port_idle": {
+      "name": "Idle",
+      "tooltip": "This port is idle because there is no rocket on the connected Rocket Platform"
+    },
+    "rocket_port_unloading": {
+      "name": "Unloading Rocket",
+      "tooltip": "Resources are being unloaded from the rocket into the local network"
+    },
+    "rocket_port_loading": {
+      "name": "Loading Rocket",
+      "tooltip": "Resources are being loaded from the local network into the rocket's storage"
+    },
+    "rocket_port_loaded": {
+      "name": "Cargo Transfer Complete",
+      "tooltip": "The connected rocket has either reached max capacity for this resource type, or lacks appropriate storage modules"
+    },
+    "connected_rocket_port": {
+      "name": "Port Network Attached",
+      "tooltip": "This module has been connected to a Rocket Port and can now load and unload cargo"
+    },
+    "connected_rocket_wrong_port": {
+      "name": "Incorrect Port Network",
+      "tooltip": "The attached Rocket Port is not the correct type for this cargo module"
+    },
+    "connected_rocket_no_port": {
+      "name": "No Rocket Ports",
+      "tooltip": "This Rocket Platform has no Rocket Port attached\n\nSolid, Gas, and Liquid Rocket Ports can be attached to load and unload cargo from a landed rocket's modules"
+    },
+    "clustertelescopeallworkcomplete": {
+      "name": "Area Complete",
+      "tooltip": "This Telescope has analyzed all the space visible from its current location"
+    },
+    "rocketplatformclosetoceiling": {
+      "name": "Low Clearance: {distance} Tiles",
+      "tooltip": "Tall rockets may not be able to land on this Rocket Platform"
+    },
+    "modulegeneratornotpowered": {
+      "name": "In-Flight Generator: {ActiveWattage}/{MaxWattage}",
+      "tooltip": "Engine will generate {MaxWattage} of Power while traveling through space\n\nWhen thruster is idle, no Power is generated"
+    },
+    "modulegeneratorpowered": {
+      "name": "In-Flight Generator: {ActiveWattage}/{MaxWattage}",
+      "tooltip": "Engine is extracting {MaxWattage} of Power from the thruster\n\nIt will continue generating power as long as it travels through space"
+    },
+    "inorbitrequired": {
+      "name": "Grounded",
+      "tooltip": "This building cannot operate from the surface of a Planetoid and must be in space to function"
+    },
+    "reactorrefueldisabled": {
+      "name": "Refuel Disabled",
+      "tooltip": "This building will not be refueled once its active fuel has been consumed"
+    },
+    "railguncooldown": {
+      "name": "Cleaning Rails: {timeleft}",
+      "tooltip": "This building automatically performs routine maintenance every {x} launches"
+    },
+    "fridgecooling": {
+      "name": "Cooling Contents: {UsedPower}",
+      "tooltip": "{UsedPower} of {MaxPower} are being used to cool the contents of this food storage"
+    },
+    "fridgesteady": {
+      "name": "Energy Saver: {UsedPower}",
+      "tooltip": "The contents of this food storage are at refrigeration temperatures\n\nEnergy Saver mode has been automatically activated using only {UsedPower} of {MaxPower}"
+    },
+    "telephone": {
+      "babble": {
+        "name": "Babbling to no one.",
+        "tooltip": "{Duplicant} just needed to vent to into the void."
+      },
+      "conversation": {
+        "talking_to": "Talking to {Duplicant} on {Asteroid}",
+        "talking_to_num": "Talking to {0} friends."
+      }
+    },
+    "creaturemanipulatorprogress": {
+      "name": "Collected Species Data {0}/{1}",
+      "tooltip": "This building requires data from multiple Critter species to unlock its genetic manipulator\n\nSpecies scanned:",
+      "no_data": "No species scanned"
+    },
+    "creaturemanipulatormorphmodelocked": {
+      "name": "Current Status: Offline",
+      "tooltip": "This building cannot operate until it collects more Critter DNA"
+    },
+    "creaturemanipulatormorphmode": {
+      "name": "Current Status: Online",
+      "tooltip": "This building is ready to manipulate Critter DNA"
+    },
+    "creaturemanipulatorwaiting": {
+      "name": "Waiting for a Critter",
+      "tooltip": "This building is waiting for a Critter to get sucked into its scanning area"
+    },
+    "creaturemanipulatorworking": {
+      "name": "Poking and Prodding Critter",
+      "tooltip": "This building is extracting genetic information from a Critter "
+    },
+    "spicegrindernospice": {
+      "name": "No Spice Selected",
+      "tooltip": "Select a recipe to begin fabrication"
+    },
+    "spicegrinderacceptsmutantseeds": {
+      "name": "Spice Grinder accepts mutant seeds",
+      "tooltip": "This spice grinder is allowed to use Mutant Seeds as recipe ingredients"
+    },
+    "missilelauncher_nosurfacesight": {
+      "name": "No Line of Sight",
+      "tooltip": "This building has no view of space\n\nTo properly function, this building requires an unblocked view of space"
+    },
+    "missilelauncher_partiallyblocked": {
+      "name": "Limited Line of Sight",
+      "tooltip": "This building has a partially obstructed view of space\n\nTo properly function, this building requires an unblocked view of space"
+    },
+    "missilelauncher_longrangecooldown": {
+      "name": "Reloading",
+      "tooltip": "This building recently fired an Intracosmic Blastshot and needs a moment to reload"
+    },
+    "complexfabricator": {
+      "cooking": {
+        "name": "Cooking {Item}",
+        "tooltip": "This building is currently whipping up a batch of {Item}"
+      },
+      "producing": {
+        "name": "Producing {Item}",
+        "tooltip": "This building is carrying out its current production orders"
+      },
+      "researching": {
+        "name": "Researching {Item}",
+        "tooltip": "This building is currently conducting important research"
+      },
+      "analyzing": {
+        "name": "Analyzing {Item}",
+        "tooltip": "This building is currently analyzing a fascinating artifact"
+      },
+      "untraining": {
+        "name": "Untraining {Duplicant}",
+        "tooltip": "Restoring {Duplicant} to a blissfully ignorant state"
+      },
+      "telescope": {
+        "name": "Studying Space",
+        "tooltip": "This building is currently investigating the mysteries of space"
+      },
+      "clustertelescopemeteor": {
+        "name": "Studying Meteor",
+        "tooltip": "This building is currently studying a meteor"
+      }
+    },
+    "remoteworkerdepot": {
+      "makingworker": {
+        "name": "Assembling Remote Worker",
+        "tooltip": "This building is currently assembling a remote worker drone"
+      }
+    },
+    "remoteworkterminal": {
+      "nodock": {
+        "name": "No Dock Assigned",
+        "tooltip": "This building must be assigned a Remote Worker Dock in order to function"
+      }
+    },
+    "dataminer": {
+      "productionrate": {
+        "name": "Production Rate: {RATE}",
+        "tooltip": "This building is operating at {RATE} of its maximum speed\n\nProduction rate decreases at higher temperatures\n\nCurrent ambient temperature: {TEMP}"
+      }
+    }
+  },
+  "details": {
+    "use_count": "Uses: {0}",
+    "use_count_tooltip": "This building has been used {0} times"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "default": {
+    "name": "Single World",
+    "description": "One location with everything you need on it."
+  },
+  "milkyway": {
+    "name": "Planetary System",
+    "description": "Large locations with resources shared between worlds."
+  },
+  "two_small_worlds": {
+    "name": "Two Small Worlds",
+    "description": "Two cozy locations with limited resources shared between them."
+  },
+  "sandstone_start_cluster": {
+    "name": "Terrania Cluster",
+    "description": "An earthy cluster of visitable planetoids made from the remains of an anomalous planet."
+  },
+  "swamp_start_cluster": {
+    "name": "Quagmiris Cluster",
+    "description": "A swampy cluster of visitable planetoids made from the remains of an anomalous planet."
+  },
+  "forest_start_cluster": {
+    "name": "Folia Cluster",
+    "description": "A foresty cluster of visitable planetoids made from the remains of an anomalous planet."
+  },
+  "vanilla_sandstone_cluster": {
+    "name": "Terra Cluster",
+    "description": "A cluster of planets with a larger earthy planetoid to start on."
+  },
+  "vanilla_forest_cluster": {
+    "name": "Verdante Cluster",
+    "description": "A cluster of planets with a larger foresty planetoid to start on."
+  },
+  "vanilla_swamp_cluster": {
+    "name": "Squelchy Cluster",
+    "description": "A cluster of planets with a larger swampy planetoid to start on."
+  },
+  "vanilla_sandstone_frozen_cluster": {
+    "name": "Rime Cluster",
+    "description": "A cluster of planets with a frozen planetoid to start on."
+  },
+  "vanilla_oceania_cluster": {
+    "name": "Oceania Cluster",
+    "description": "A cluster of planets with a salty planetoid to start on."
+  },
+  "vanilla_oasis_cluster": {
+    "name": "Oasisse Cluster",
+    "description": "A cluster of planets with a larger desolate planetoid to start on."
+  },
+  "vanilla_badlands_cluster": {
+    "name": "The Badlands Cluster",
+    "description": "A cluster of planets with a larger barren planetoid to start on."
+  },
+  "vanilla_arboria_cluster": {
+    "name": "Arboria Cluster",
+    "description": "A cluster of planets with a temperate foresty planetoid to start on."
+  },
+  "vanilla_aridio_cluster": {
+    "name": "Aridio Cluster",
+    "description": "A cluster of planets with a hot foresty planetoid to start on."
+  },
+  "vanilla_volcanic_cluster": {
+    "name": "Volcanea Cluster",
+    "description": "A cluster of planets with a toasty planetoid full of molten lava pockets to start on."
+  },
+  "minicluster_metallicswampystart": {
+    "name": "Moonlet Cluster - Metallic Swampy",
+    "description": "A cluster of visitable planetoids with a Metallic Swampy starting world."
+  },
+  "minicluster_forestfrozenstart": {
+    "name": "Moonlet Cluster - Frozen Forest",
+    "description": "A cluster of visitable planetoids with a Frozen Forest starting world."
+  },
+  "minicluster_badlandsstart": {
+    "name": "Moonlet Cluster - The Desolands",
+    "description": "A cluster of visitable planetoids with a Desolands starting world."
+  },
+  "minicluster_flippedstart": {
+    "name": "Moonlet Cluster - Flipped",
+    "description": "A cluster of visitable planetoids with an inverted starting world."
+  },
+  "minicluster_radioactiveoceanstart": {
+    "name": "Moonlet Cluster - Radioactive Ocean",
+    "description": "A cluster of visitable planetoids with a Radioactive Ocean starting world."
+  },
+  "ceres_base_cluster": {
+    "name": "Ceres",
+    "description": "A frosty location with sub-zero temperatures throughout.\n\n<smallcaps>Duplicants who work in Ceres's sub-zero temperatures will need to wear or build warming equipment. Abundant natural fuel sources could lead to a well-powered colony.</smallcaps>"
+  },
+  "ceres_base_shattered_cluster": {
+    "name": "Blasted Ceres",
+    "description": "The heavily damaged remnants of a frosty location with sub-zero temperatures throughout.\n\n<smallcaps>Exploring the rubble of Blasted Ceres's sub-zero temperatures is particularly challenging, yet natural fuel sources provide a valuable payoff.</smallcaps>"
+  },
+  "ceres_classic_cluster": {
+    "name": "Ceres Cluster",
+    "description": "A cluster of visitable planetoids with an Ice Cave starting world."
+  },
+  "ceres_classic_shattered_cluster": {
+    "name": "Blasted Ceres Cluster",
+    "description": "A cluster of visitable planetoids with an icy, exploded starting world."
+  },
+  "ceres_spacedout_cluster": {
+    "name": "Ceres Minor Cluster",
+    "description": "A cluster of visitable planetoids with an Ice Cave starting world."
+  },
+  "ceres_spacedout_shattered_cluster": {
+    "name": "Mini Cluster - Ceres Mantle",
+    "description": "A cluster of visitable planetoids with an Ice Cave starting world that was fractured by an experiment gone wrong."
+  },
+  "prehistoric_base_cluster": {
+    "name": "Relica",
+    "description": "An endangered location with abundant food resources.\n\n<smallcaps>Relica's biodiversity makes reliable food production more attainable for new colonies. Construction materials and fuels are also ample. Surface defence must be prioritized to minimize damage from an incoming impactor asteroid.</smallcaps>"
+  },
+  "prehistoric_classic_cluster": {
+    "name": "Relica Cluster",
+    "description": "A cluster of visitable planetoids with a Garden starting world."
+  },
+  "prehistoric_spacedout_cluster": {
+    "name": "Relica Minor Cluster",
+    "description": "A cluster of visitable planetoids with a Garden starting world."
+  },
+  "prehistoric_shattered_cluster": {
+    "name": "RelicAAAA<sup>AAAGHH</sup> Cluster",
+    "description": "A cluster of visitable planetoids with an impactor-struck starting world."
+  }
+}

@@ -1,0 +1,844 @@
+{
+  "elementdescsolid": "Resource Type: {0}\nMelting point: {1}\nHardness: {2}",
+  "elementdescliquid": "Resource Type: {0}\nFreezing point: {1}\nEvaporation point: {2}",
+  "elementdescgas": "Resource Type: {0}\nCondensation point: {1}",
+  "elementdescvacuum": "Resource Type: {0}",
+  "breathabledesc": "<color=#{0}>({1})</color>",
+  "thermalproperties": "\nSpecific Heat Capacity: {SPECIFIC_HEAT_CAPACITY}\nThermal Conductivity: {THERMAL_CONDUCTIVITY}",
+  "radiationproperties": "Radiation Absorption Factor: {0}\nRadiation Emission/1000kg: {1}",
+  "elementproperties": "Properties: {0}",
+  "state": {
+    "solid": "Solid",
+    "liquid": "Liquid",
+    "gas": "Gas",
+    "vacuum": "None"
+  },
+  "material_modifiers": {
+    "effects_header": "<b>Resource Effects:</b>",
+    "decor": "Decor: {0}",
+    "overheattemperature": "Overheat Temperature: {0}",
+    "high_thermal_conductivity": "High Thermal Conductivity",
+    "low_thermal_conductivity": "Insulator",
+    "low_specific_heat_capacity": "Thermally Reactive",
+    "high_specific_heat_capacity": "Slow Heating",
+    "excellent_radiation_shield": "Excellent Radiation Shield",
+    "tooltip": {
+      "effects_header": "Buildings constructed from this material will have these properties",
+      "decor": "This material will add <b>{0}</b> to the finished building's Decor",
+      "overheattemperature": "This material will add <b>{0}</b> to the finished building's Overheat Temperature",
+      "high_thermal_conductivity": "This material disperses Heat because energy transfers quickly through materials with high Thermal Conductivity\n\nBetween two objects, the rate of Heat transfer will be determined by the object with the <i>lowest</i> Thermal Conductivity\n\nThermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)",
+      "low_thermal_conductivity": "This material retains Heat because energy transfers slowly through materials with low Thermal Conductivity\n\nBetween two objects, the rate of Heat transfer will be determined by the object with the <i>lowest</i> Thermal Conductivity\n\nThermal Conductivity: {1} W per degree K difference (Oxygen: 0.024 W)",
+      "low_specific_heat_capacity": "Thermally Reactive materials require little energy to raise in Temperature, and therefore heat and cool quickly\n\nSpecific Heat Capacity: {1} DTU to raise 1g by 1K",
+      "high_specific_heat_capacity": "Slow Heating materials require a large amount of energy to raise in Temperature, and therefore heat and cool slowly\n\nSpecific Heat Capacity: {1} DTU to raise 1g by 1K",
+      "excellent_radiation_shield": "Excellent Radiation Shield radiation has a hard time passing through materials with a high Radiation Absorption Factor value. \n\nRadiation Absorption Factor: {1}"
+    }
+  },
+  "hardness": {
+    "na": "N/A",
+    "soft": "{0} (Soft)",
+    "verysoft": "{0} (Very Soft)",
+    "firm": "{0} (Firm)",
+    "veryfirm": "{0} (Very Firm)",
+    "nearlyimpenetrable": "{0} (Nearly Impenetrable)",
+    "impenetrable": "{0} (Impenetrable)",
+    "hardness_descriptor": {
+      "soft": "Soft",
+      "verysoft": "Very Soft",
+      "firm": "Firm",
+      "veryfirm": "Very Firm",
+      "nearlyimpenetrable": "Nearly Impenetrable",
+      "impenetrable": "Impenetrable"
+    }
+  },
+  "aerogel": {
+    "name": "Aerogel",
+    "desc": ""
+  },
+  "algae": {
+    "name": "Algae",
+    "desc": "Algae is a cluster of non-motile, single-celled lifeforms.\n\nIt can be used to produce Oxygen when used in an Oxygen Diffuser."
+  },
+  "aluminumore": {
+    "name": "Aluminum Ore",
+    "desc": "Aluminum ore, also known as Bauxite, is a sedimentary rock high in metal content.\n\nIt can be refined into Aluminum."
+  },
+  "aluminum": {
+    "name": "Aluminum",
+    "desc": "(Al) Aluminum is a low density Metal.\n\nIt has high Thermal Conductivity and is suitable for building Power systems."
+  },
+  "moltenaluminum": {
+    "name": "Molten Aluminum",
+    "desc": "(Al) Molten Aluminum is a low density Metal heated into a Liquid state."
+  },
+  "aluminumgas": {
+    "name": "Aluminum Gas",
+    "desc": "(Al) Aluminum Gas is a low density Metal heated into a Gaseous state."
+  },
+  "bleachstone": {
+    "name": "Bleach Stone",
+    "desc": "Bleach stone is an unstable compound that emits unbreathable Chlorine Gas.\n\nIt is often used in Hygienic processes."
+  },
+  "bitumen": {
+    "name": "Bitumen",
+    "desc": "Bitumen is a sticky viscous residue left behind from Petroleum production."
+  },
+  "bottledwater": {
+    "name": "Water",
+    "desc": "(H<sub>2</sub>O) Clean Water, prepped for transport."
+  },
+  "brineice": {
+    "name": "Brine Ice",
+    "desc": "Brine Ice is a natural, highly concentrated solution of Salt dissolved in Water and frozen into a Solid state.\n\nIt can be used in desalination processes, separating out usable salt."
+  },
+  "milkice": {
+    "name": "Frozen Brackene",
+    "desc": "Frozen Brackene is Brackene frozen into a Solid state."
+  },
+  "brine": {
+    "name": "Brine",
+    "desc": "Brine is a natural, highly concentrated solution of Salt dissolved in Water.\n\nIt can be used in desalination processes, separating out usable salt."
+  },
+  "carbon": {
+    "name": "Coal",
+    "desc": "(C) Coal is a combustible fossil fuel composed of carbon.\n\nIt is useful in Power production."
+  },
+  "refinedcarbon": {
+    "name": "Refined Carbon",
+    "desc": "(C) Refined carbon is solid element purified from raw Coal."
+  },
+  "peat": {
+    "name": "Peat",
+    "desc": "Peat is a densely packed material made up of partially decomposed organic matter.\n\nIt is a combustible fuel, useful in Power production."
+  },
+  "ethanolgas": {
+    "name": "Ethanol Gas",
+    "desc": "(C<sub>2</sub>H<sub>6</sub>O) Ethanol Gas is an advanced chemical compound heated into a Gaseous state."
+  },
+  "ethanol": {
+    "name": "Ethanol",
+    "desc": "(C<sub>2</sub>H<sub>6</sub>O) Ethanol is an advanced chemical compound in a Liquid state.\n\nIt can be used as a highly effective fuel source when burned."
+  },
+  "solidethanol": {
+    "name": "Solid Ethanol",
+    "desc": "(C<sub>2</sub>H<sub>6</sub>O) Solid Ethanol is an advanced chemical compound.\n\nIt can be used as a highly effective fuel source when burned."
+  },
+  "carbondioxide": {
+    "name": "Carbon Dioxide",
+    "desc": "(CO<sub>2</sub>) Carbon Dioxide is an atomically heavy chemical compound in a Gaseous state.\n\nIt tends to sink below other gases."
+  },
+  "carbonfibre": {
+    "name": "Carbon Fiber",
+    "desc": "Carbon Fiber is a Manufactured Material with high tensile strength."
+  },
+  "carbongas": {
+    "name": "Carbon Gas",
+    "desc": "(C) Carbon is an abundant, versatile element heated into a Gaseous state."
+  },
+  "chlorine": {
+    "name": "Liquid Chlorine",
+    "desc": "(Cl) Chlorine is a natural Germ-killing element in a Liquid state."
+  },
+  "chlorinegas": {
+    "name": "Chlorine Gas",
+    "desc": "(Cl) Chlorine is a natural Germ-killing element in a Gaseous state."
+  },
+  "clay": {
+    "name": "Clay",
+    "desc": "Clay is a soft, naturally occurring composite of stone and soil that hardens at high Temperatures.\n\nIt is a reliable <b>Construction Material</b>."
+  },
+  "brick": {
+    "name": "Brick",
+    "desc": "Brick is a hard, brittle material formed from heated Clay.\n\nIt is a reliable <b>Construction Material</b>."
+  },
+  "ceramic": {
+    "name": "Ceramic",
+    "desc": "Ceramic is a hard, brittle material formed from heated Clay.\n\nIt is a reliable <b>Construction Material</b>."
+  },
+  "cement": {
+    "name": "Cement",
+    "desc": "Cement is a refined building material used for assembling advanced buildings."
+  },
+  "cementmix": {
+    "name": "Cement Mix",
+    "desc": "Cement Mix can be used to create Cement for advanced building assembly."
+  },
+  "contaminatedoxygen": {
+    "name": "Polluted Oxygen",
+    "desc": "(O<sub>2</sub>) Polluted Oxygen is dirty, unfiltered air.\n\nIt is breathable."
+  },
+  "copper": {
+    "name": "Copper",
+    "desc": "(Cu) Copper is a conductive Metal.\n\nIt is suitable for building Power systems."
+  },
+  "coppergas": {
+    "name": "Copper Gas",
+    "desc": "(Cu) Copper Gas is a conductive Metal heated into a Gas state."
+  },
+  "nickelore": {
+    "name": "Nickel Ore",
+    "desc": "(Ni) Nickel Ore is a conductive Metal.\n\nIt can be refined into Nickel and is suitable for building Power systems."
+  },
+  "nickel": {
+    "name": "Nickel",
+    "desc": "(Ni) Nickel is a conductive Metal.\n\nIt is suitable for building Power systems."
+  },
+  "moltennickel": {
+    "name": "Molten Nickel",
+    "desc": "(Ni) Molten Nickel is a conductive Metal heated into a Liquid state."
+  },
+  "nickelgas": {
+    "name": "Nickel Gas",
+    "desc": "(Ni) Nickel Gas is a conductive Metal heated into a Gas state."
+  },
+  "creature": {
+    "name": "Genetic Ooze",
+    "desc": "(DuPe) Ooze is a slurry of water, carbon, and dozens and dozens of trace elements.\n\nDuplicants are printed from pure Ooze."
+  },
+  "phytooil": {
+    "name": "Phyto Oil",
+    "desc": "Phyto Oil is a thick, slippery Liquid extracted from pureed Slime."
+  },
+  "refinedlipid": {
+    "name": "Biodiesel",
+    "desc": "Biodiesel is a Liquid composed of highly processed fatty acids derived from purified natural oils.\n\nIts combustibility makes it useful for Power production."
+  },
+  "frozenphytooil": {
+    "name": "Frozen Phyto Oil",
+    "desc": "Frozen Phyto Oil is thick, slippery Slime extract, frozen into a Solid state."
+  },
+  "crudeoil": {
+    "name": "Crude Oil",
+    "desc": "Crude Oil is a raw potential Power source composed of billions of dead, primordial organisms.\n\nIt is also a useful lubricant for certain types of machinery."
+  },
+  "petroleum": {
+    "name": "Petroleum",
+    "name_two": "Petroleum",
+    "desc": "Petroleum is a Power source refined from Crude Oil.\n\nIt is also an essential ingredient in the production of Plastic."
+  },
+  "sourgas": {
+    "name": "Sour Gas",
+    "name_two": "Sour Gas",
+    "desc": "Sour Gas is a hydrocarbon Gas containing high concentrations of hydrogen sulfide.\n\nIt is a byproduct of highly heated Petroleum."
+  },
+  "crushedice": {
+    "name": "Crushed Ice",
+    "desc": "(H<sub>2</sub>O) A slush of crushed, semi-solid ice."
+  },
+  "crushedrock": {
+    "name": "Crushed Rock",
+    "desc": "Crushed Rock is Igneous Rock crushed into a mechanical mixture."
+  },
+  "cuprite": {
+    "name": "Copper Ore",
+    "desc": "(Cu<sub>2</sub>O) Copper Ore is a conductive Metal.\n\nIt is suitable for building Power systems."
+  },
+  "depleteduranium": {
+    "name": "Depleted Uranium",
+    "desc": "(U) Depleted Uranium is Uranium with a low U-235 content.\n\nIt is created as a byproduct of Enriched Uranium and is no longer suitable as fuel."
+  },
+  "diamond": {
+    "name": "Diamond",
+    "desc": "(C) Diamond is industrial-grade, high density carbon.\n\nIt is very difficult to excavate."
+  },
+  "dirt": {
+    "name": "Dirt",
+    "desc": "Dirt is a soft, nutrient-rich substance capable of supporting life.\n\nIt is necessary in some forms of Food production."
+  },
+  "dirtyice": {
+    "name": "Polluted Ice",
+    "desc": "Polluted Ice is dirty, unfiltered water frozen into a Solid state."
+  },
+  "dirtywater": {
+    "name": "Polluted Water",
+    "desc": "Polluted Water is dirty, unfiltered Water.\n\nIt is not fit for consumption."
+  },
+  "electrum": {
+    "name": "Electrum",
+    "desc": "Electrum is a conductive Metal alloy composed of gold and silver.\n\nIt is suitable for building Power systems."
+  },
+  "enricheduranium": {
+    "name": "Enriched Uranium",
+    "desc": "(U) Enriched Uranium is a refined substance primarily used to Power potent research reactors.\n\nIt becomes highly Radioactive when consumed."
+  },
+  "fertilizer": {
+    "name": "Fertilizer",
+    "desc": "Fertilizer is a processed mixture of biological nutrients.\n\nIt aids in the growth of certain Plants."
+  },
+  "pondscum": {
+    "name": "Pondscum",
+    "desc": "Pondscum is a soft, naturally occurring composite of biological nutrients.\n\nIt may be processed into Fertilizer and aids in the growth of certain Plants."
+  },
+  "fallout": {
+    "name": "Nuclear Fallout",
+    "desc": "Nuclear Fallout is a highly toxic gas full of Radioactive Contaminants. Condenses into Liquid Nuclear Waste."
+  },
+  "foolsgold": {
+    "name": "Pyrite",
+    "desc": "(FeS<sub>2</sub>) Pyrite is a conductive Metal.\n\nAlso known as \"Fool's Gold\", is suitable for building Power systems."
+  },
+  "fullerene": {
+    "name": "Fullerene",
+    "desc": "(C<sub>60</sub>) Fullerene is a form of Coal consisting of spherical molecules."
+  },
+  "glass": {
+    "name": "Glass",
+    "desc": "Glass is a brittle, transparent substance formed from Sand fired at high temperatures."
+  },
+  "gold": {
+    "name": "Gold",
+    "desc": "(Au) Gold is a conductive precious Metal.\n\nIt is suitable for building Power systems."
+  },
+  "goldamalgam": {
+    "name": "Gold Amalgam",
+    "desc": "Gold Amalgam is a conductive amalgam of gold and mercury.\n\nIt is suitable for building Power systems."
+  },
+  "goldgas": {
+    "name": "Gold Gas",
+    "desc": "(Au) Gold Gas is a conductive precious Metal, heated into a Gaseous state."
+  },
+  "granite": {
+    "name": "Granite",
+    "desc": "Granite is a dense composite of Igneous Rock.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "graphite": {
+    "name": "Graphite",
+    "desc": "(C) Graphite is the most stable form of carbon.\n\nIt has high thermal conductivity and is useful as a <b>Construction Material</b>."
+  },
+  "liquidgunk": {
+    "name": "Gunk",
+    "desc": "Gunk is the built-up grime and grit produced by Duplicants' bionic mechanisms.\n\nIt is unpleasantly viscous."
+  },
+  "gunk": {
+    "name": "Solid Gunk",
+    "desc": "Solid Gunk is the built-up grime and grit produced by Duplicants' bionic mechanisms, which has been frozen into a Solid state."
+  },
+  "solidnuclearwaste": {
+    "name": "Solid Nuclear Waste",
+    "desc": "Highly toxic solid full of Radioactive Contaminants."
+  },
+  "helium": {
+    "name": "Helium",
+    "desc": "(He) Helium is an atomically lightweight, chemical Gas."
+  },
+  "hydrogen": {
+    "name": "Hydrogen Gas",
+    "desc": "(H) Hydrogen Gas is the universe's most common and atomically light element in a Gaseous state."
+  },
+  "ice": {
+    "name": "Ice",
+    "desc": "(H<sub>2</sub>O) Ice is clean water frozen into a Solid state."
+  },
+  "igneousrock": {
+    "name": "Igneous Rock",
+    "desc": "Igneous Rock is a composite of solidified volcanic rock.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "iridium": {
+    "name": "Iridium",
+    "desc": "(Ir) Iridium is a firm and highly conductive Metal that can withstand extreme  Heat."
+  },
+  "molteniridium": {
+    "name": "Molten Iridium",
+    "desc": "(Ir) Molten Iridium is a highly conductive Metal heated to a Liquid  state."
+  },
+  "iridiumgas": {
+    "name": "Iridium Gas",
+    "desc": "(Ir) Iridium Gas is a highly conductive Metal heated into a  Gas state."
+  },
+  "amber": {
+    "name": "Amber",
+    "desc": "Amber is a Solid organic composite of Resin and Fossil."
+  },
+  "naturalresin": {
+    "name": "Resin",
+    "desc": "Resin is a viscous organic Liquid.\n\nIt can be treated to become Plastic in the Polymer Press."
+  },
+  "naturalsolidresin": {
+    "name": "Solid Resin",
+    "desc": "Resin that has been cooled to a Solid state.\n\nIt can be treated to become Plastic in the Polymer Press."
+  },
+  "isoresin": {
+    "name": "Isosap",
+    "desc": "Isosap is a crystallized sap composed of long-chain polymers.\n\nIt is used in the production of rare, high grade materials."
+  },
+  "resin": {
+    "name": "Sap",
+    "desc": "Sticky goo harvested from a grumpy tree.\n\nIt can be polymerized into Isosap by boiling away its excess moisture."
+  },
+  "solidresin": {
+    "name": "Solid Sap",
+    "desc": "Solidified goo harvested from a grumpy tree.\n\nIt is used in the production of Isosap."
+  },
+  "iron": {
+    "name": "Iron",
+    "desc": "(Fe) Iron is a common industrial Metal."
+  },
+  "irongas": {
+    "name": "Iron Gas",
+    "desc": "(Fe) Iron Gas is a common industrial Metal, heated into a Gas."
+  },
+  "ironore": {
+    "name": "Iron Ore",
+    "desc": "(Fe) Iron Ore is a soft Metal.\n\nIt is suitable for building Power systems."
+  },
+  "cobaltgas": {
+    "name": "Cobalt Gas",
+    "desc": "(Co) Cobalt is a Refined Metal, heated into a Gas."
+  },
+  "cobalt": {
+    "name": "Cobalt",
+    "desc": "(Co) Cobalt is a Refined Metal made from Cobalt Ore."
+  },
+  "cobaltite": {
+    "name": "Cobalt Ore",
+    "desc": "(Co) Cobalt Ore is a blue-hued Metal.\n\nIt is suitable for building Power systems."
+  },
+  "katairite": {
+    "name": "Abyssalite",
+    "desc": "(Ab) Abyssalite is a resilient, crystalline element."
+  },
+  "lime": {
+    "name": "Lime",
+    "desc": "(CaCO<sub>3</sub>) Lime is a mineral commonly found in Critter egg shells.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "fossil": {
+    "name": "Fossil",
+    "desc": "Fossil is organic matter, highly compressed and hardened into a mineral state.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "leadgas": {
+    "name": "Lead Gas",
+    "desc": "(Pb) Lead Gas is a soft yet extremely dense Refined Metal heated into a Gaseous."
+  },
+  "lead": {
+    "name": "Lead",
+    "desc": "(Pb) Lead is a soft yet extremely dense Refined Metal.\n\nIt has a low Overheat Temperature and is suitable for building Power systems."
+  },
+  "liquidcarbondioxide": {
+    "name": "Liquid Carbon Dioxide",
+    "desc": "(CO<sub>2</sub>) Carbon Dioxide is an unbreathable chemical compound.\n\nThis selection is currently in a Liquid state."
+  },
+  "liquidhelium": {
+    "name": "Helium",
+    "desc": "(He) Helium is an atomically lightweight chemical element cooled into a Liquid state."
+  },
+  "liquidhydrogen": {
+    "name": "Liquid Hydrogen",
+    "desc": "(H) Hydrogen in its Liquid state.\n\nIt freezes most substances that come into contact with it."
+  },
+  "liquidoxygen": {
+    "name": "Liquid Oxygen",
+    "desc": "(O<sub>2</sub>) Oxygen is a breathable chemical.\n\nThis selection is in a Liquid state."
+  },
+  "liquidmethane": {
+    "name": "Liquid Methane",
+    "desc": "(CH<sub>4</sub>) Methane is an alkane.\n\nThis selection is in a Liquid state."
+  },
+  "liquidphosphorus": {
+    "name": "Liquid Phosphorus",
+    "desc": "(P) Phosphorus is a chemical element.\n\nThis selection is in a Liquid state."
+  },
+  "liquidpropane": {
+    "name": "Liquid Propane",
+    "desc": "(C<sub>3</sub>H<sub>8</sub>) Propane is an alkane.\n\nThis selection is in a Liquid state.\n\nIt is useful in Power production."
+  },
+  "liquidsulfur": {
+    "name": "Liquid Sulfur",
+    "desc": "(S) Sulfur is a common chemical element and byproduct of Natural Gas production.\n\nThis selection is in a Liquid state."
+  },
+  "maficrock": {
+    "name": "Mafic Rock",
+    "desc": "Mafic Rock is a variation of Igneous Rock that is rich in Iron.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "magma": {
+    "name": "Magma",
+    "desc": "Magma is a composite of Igneous Rock heated into a molten, Liquid state."
+  },
+  "woodlog": {
+    "name": "Wood",
+    "desc": "Wood is a good source of Heat and Power.\n\nIts insulation properties and positive Decor also make it a useful <b>Construction Material</b>."
+  },
+  "fabricatedwood": {
+    "name": "Plywood",
+    "desc": "Plywood is a good source of Heat and Power.\n\nIts insulation properties make it a useful <b>Construction Material</b>."
+  },
+  "cinnabar": {
+    "name": "Cinnabar Ore",
+    "desc": "(HgS) Cinnabar Ore, also known as mercury sulfide, is a conductive Metal that can be refined into Mercury.\n\nIt is suitable for building Power systems."
+  },
+  "tallow": {
+    "name": "Tallow",
+    "desc": "A chunk of raw grease that can be used in Food production or industrial processes."
+  },
+  "mercury": {
+    "name": "Mercury",
+    "desc": "(Hg) Mercury is a metallic Liquid."
+  },
+  "mercurygas": {
+    "name": "Mercury Gas",
+    "desc": "(Hg) Mercury Gas is a Metal heated into a Gaseous state."
+  },
+  "methane": {
+    "name": "Natural Gas",
+    "desc": "Natural Gas is a mixture of various alkanes in a Gaseous state.\n\nIt is useful in Power production."
+  },
+  "milk": {
+    "name": "Brackene",
+    "desc": "Brackene is a sodium-rich Liquid.\n\nIt is useful in Ranching."
+  },
+  "milkfat": {
+    "name": "Brackwax",
+    "desc": "Brackwax is a Solid byproduct of Brackene."
+  },
+  "moltencarbon": {
+    "name": "Liquid Carbon",
+    "desc": "(C) Liquid Carbon is an abundant, versatile element heated into a Liquid state."
+  },
+  "moltencopper": {
+    "name": "Molten Copper",
+    "desc": "(Cu) Molten Copper is a conductive Metal heated into a Liquid state."
+  },
+  "moltenglass": {
+    "name": "Molten Glass",
+    "desc": "Molten Glass is a composite of granular rock, heated into a Liquid state."
+  },
+  "moltengold": {
+    "name": "Molten Gold",
+    "desc": "(Au) Gold, a conductive precious Metal, heated into a Liquid state."
+  },
+  "molteniron": {
+    "name": "Molten Iron",
+    "desc": "(Fe) Molten Iron is a common industrial Metal heated into a Liquid state."
+  },
+  "moltencobalt": {
+    "name": "Molten Cobalt",
+    "desc": "(Co) Molten Cobalt is a Refined Metal heated into a Liquid state."
+  },
+  "moltenlead": {
+    "name": "Molten Lead",
+    "desc": "(Pb) Lead is an extremely dense Refined Metal heated into a Liquid state."
+  },
+  "moltenniobium": {
+    "name": "Molten Niobium",
+    "desc": "(Nb) Molten Niobium is a rare metal heated into a Liquid state."
+  },
+  "moltentungsten": {
+    "name": "Molten Tungsten",
+    "desc": "(W) Molten Tungsten is a crystalline Metal heated into a Liquid state."
+  },
+  "moltentungstendiselenide": {
+    "name": "Tungsten Diselenide",
+    "desc": "(WSe<sub>2</sub>) Tungsten Diselenide is an inorganic Metal compound heated into a Liquid state."
+  },
+  "moltensteel": {
+    "name": "Molten Steel",
+    "desc": "Molten Steel is a Metal alloy of iron and carbon, heated into a hazardous Liquid state."
+  },
+  "moltenuranium": {
+    "name": "Liquid Uranium",
+    "desc": "(U) Liquid Uranium is a highly Radioactive substance, heated into a hazardous Liquid state.\n\nIt is a byproduct of Enriched Uranium."
+  },
+  "niobium": {
+    "name": "Niobium",
+    "desc": "(Nb) Niobium is a rare metal with many practical applications in metallurgy and superconductor Research."
+  },
+  "niobiumgas": {
+    "name": "Niobium Gas",
+    "desc": "(Nb) Niobium Gas is a rare metal.\n\nThis selection is in a Gaseous state."
+  },
+  "nuclearwaste": {
+    "name": "Liquid Nuclear Waste",
+    "desc": "Highly toxic liquid full of Radioactive Contaminants which emit Radiation that can be absorbed by Radbolt Generators."
+  },
+  "obsidian": {
+    "name": "Obsidian",
+    "desc": "Obsidian is a brittle composite of volcanic Glass."
+  },
+  "oxygen": {
+    "name": "Oxygen",
+    "desc": "(O<sub>2</sub>) Oxygen is an atomically lightweight and breathable Gas, necessary for sustaining life.\n\nIt tends to rise above other gases."
+  },
+  "oxyrock": {
+    "name": "Oxylite",
+    "desc": "(Ir<sub>3</sub>O<sub>2</sub>) Oxylite is a chemical compound that slowly emits breathable Oxygen.\n\nExcavating Oxylite increases its emission rate, but depletes the ore more rapidly."
+  },
+  "phosphatenodules": {
+    "name": "Phosphate Nodules",
+    "desc": "(PO<sup>3-</sup><sub>4</sub>) Nodules of sedimentary rock containing high concentrations of phosphate."
+  },
+  "phosphorite": {
+    "name": "Phosphorite",
+    "desc": "Phosphorite is a composite of sedimentary rock, saturated with phosphate."
+  },
+  "phosphorus": {
+    "name": "Refined Phosphorus",
+    "desc": "(P) Refined Phosphorus is a chemical element in its Solid state."
+  },
+  "phosphorusgas": {
+    "name": "Phosphorus Gas",
+    "desc": "(P) Phosphorus Gas is the Gaseous state of Refined Phosphorus."
+  },
+  "propane": {
+    "name": "Propane Gas",
+    "desc": "(C<sub>3</sub>H<sub>8</sub>) Propane Gas is a natural alkane.\n\nThis selection is in a Gaseous state.\n\nIt is useful in Power production."
+  },
+  "radium": {
+    "name": "Radium",
+    "desc": "(Ra) Radium is a Light emitting radioactive substance.\n\nIt is useful as a Power source."
+  },
+  "yellowcake": {
+    "name": "Yellowcake",
+    "desc": "(U<sub>3</sub>O<sub>8</sub>) Yellowcake is a byproduct of Uranium mining.\n\nIt is useful in preparing fuel for Research Reactors.\n\nNote: Do not eat."
+  },
+  "rockgas": {
+    "name": "Rock Gas",
+    "desc": "Rock Gas is rock that has been superheated into a Gaseous state."
+  },
+  "rust": {
+    "name": "Rust",
+    "desc": "Rust is an iron oxide that forms from the breakdown of Iron.\n\nIt is useful in some Oxygen production processes."
+  },
+  "regolith": {
+    "name": "Regolith",
+    "desc": "Regolith is a sandy substance composed of the various particles that collect atop terrestrial objects.\n\nIt is useful as a Filtration Medium."
+  },
+  "saltgas": {
+    "name": "Salt Gas",
+    "desc": "(NaCl) Salt Gas is an edible chemical compound that has been superheated into a Gaseous state."
+  },
+  "moltensalt": {
+    "name": "Molten Salt",
+    "desc": "(NaCl) Molten Salt is an edible chemical compound that has been heated into a Liquid state."
+  },
+  "salt": {
+    "name": "Salt",
+    "desc": "(NaCl) Salt, also known as sodium chloride, is an edible chemical compound.\n\nWhen refined, it can be eaten with meals to increase Duplicant Morale."
+  },
+  "saltwater": {
+    "name": "Salt Water",
+    "desc": "Salt Water is a natural, lightly concentrated solution of Salt dissolved in Water.\n\nIt can be used in desalination processes, separating out usable salt."
+  },
+  "sand": {
+    "name": "Sand",
+    "desc": "Sand is a composite of granular rock.\n\nIt is useful as a Filtration Medium."
+  },
+  "sandcement": {
+    "name": "Sand Cement",
+    "desc": ""
+  },
+  "sandstone": {
+    "name": "Sandstone",
+    "desc": "Sandstone is a composite of relatively soft sedimentary rock.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "sedimentaryrock": {
+    "name": "Sedimentary Rock",
+    "desc": "Sedimentary Rock is a hardened composite of sediment layers.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "shale": {
+    "name": "Shale",
+    "desc": "Shale is a brittle composite of sediment layers.\n\nIt is useful as a <b>Construction Material</b>."
+  },
+  "slimemold": {
+    "name": "Slime",
+    "desc": "Slime is a thick biomixture of algae, fungi, and mucopolysaccharides.\n\nIt can be distilled into Algae and emits Polluted Oxygen once dug up."
+  },
+  "snow": {
+    "name": "Snow",
+    "desc": "(H<sub>2</sub>O) Snow is a mass of loose, crystalline ice particles.\n\nIt becomes Water when melted."
+  },
+  "stablesnow": {
+    "name": "Packed Snow",
+    "desc": "(H<sub>2</sub>O) Snow is a mass of loose, crystalline ice particles.\n\nIt becomes Water when melted."
+  },
+  "solidcarbondioxide": {
+    "name": "Solid Carbon Dioxide",
+    "desc": "(CO<sub>2</sub>) Carbon Dioxide is an unbreathable compound in a Solid state."
+  },
+  "solidchlorine": {
+    "name": "Solid Chlorine",
+    "desc": "(Cl) Chlorine is a natural Germ-killing element in a Solid state."
+  },
+  "solidcrudeoil": {
+    "name": "Solid Crude Oil",
+    "desc": ""
+  },
+  "solidhydrogen": {
+    "name": "Solid Hydrogen",
+    "desc": "(H) Solid Hydrogen is the universe's most common element in a Solid state."
+  },
+  "solidmercury": {
+    "name": "Mercury",
+    "desc": "(Hg) Mercury is a rare Metal in a Solid state."
+  },
+  "solidoxygen": {
+    "name": "Solid Oxygen",
+    "desc": "(O<sub>2</sub>) Solid Oxygen is a breathable element in a Solid state."
+  },
+  "solidmethane": {
+    "name": "Solid Methane",
+    "desc": "(CH<sub>4</sub>) Methane is an alkane in a Solid state."
+  },
+  "solidnaphtha": {
+    "name": "Solid Naphtha",
+    "desc": "Naphtha is a distilled hydrocarbon mixture in a Solid state."
+  },
+  "corium": {
+    "name": "Corium",
+    "desc": "A radioactive mixture of nuclear waste and melted reactor materials.\n\nReleases Nuclear Fallout gas."
+  },
+  "solidpetroleum": {
+    "name": "Solid Petroleum",
+    "desc": "Petroleum is a Power source.\n\nThis selection is in a Solid state."
+  },
+  "solidpropane": {
+    "name": "Solid Propane",
+    "desc": "(C<sub>3</sub>H<sub>8</sub>) Solid Propane is a natural gas in a Solid state."
+  },
+  "solidsupercoolant": {
+    "name": "Solid Super Coolant",
+    "desc": "Super Coolant is an industrial-grade Fullerene coolant.\n\nThis selection is in a Solid state."
+  },
+  "solidviscogel": {
+    "name": "Solid Visco-Gel",
+    "desc": "Visco-Gel is a polymer that has high surface tension when in Liquid form.\n\nThis selection is in a Solid state."
+  },
+  "syngas": {
+    "name": "Synthesis Gas",
+    "desc": "Synthesis Gas is an artificial, unbreathable Gas.\n\nIt can be converted into an efficient fuel."
+  },
+  "moltensyngas": {
+    "name": "Molten Synthesis Gas",
+    "desc": "Molten Synthesis Gas is an artificial, unbreathable Liquid.\n\nIt can be converted into an efficient fuel."
+  },
+  "solidsyngas": {
+    "name": "Solid Synthesis Gas",
+    "desc": "Solid Synthesis Gas is an artificial, unbreathable Solid.\n\nIt can be converted into an efficient fuel."
+  },
+  "steam": {
+    "name": "Steam",
+    "desc": "(H<sub>2</sub>O) Steam is Water that has been heated into a scalding Gas."
+  },
+  "steel": {
+    "name": "Steel",
+    "desc": "Steel is a Metal Alloy composed of iron and carbon."
+  },
+  "steelgas": {
+    "name": "Steel Gas",
+    "desc": "Steel Gas is a superheated Metal Gas composed of iron and carbon."
+  },
+  "sugarwater": {
+    "name": "Nectar",
+    "desc": "Nectar is a natural, lightly concentrated solution of Sucrose dissolved in Water."
+  },
+  "sulfur": {
+    "name": "Sulfur",
+    "desc": "(S) Sulfur is a common chemical element and byproduct of Natural Gas production.\n\nThis selection is in a Solid state."
+  },
+  "sulfurgas": {
+    "name": "Sulfur Gas",
+    "desc": "(S) Sulfur is a common chemical element and byproduct of Natural Gas production.\n\nThis selection is in a Gaseous state."
+  },
+  "supercoolant": {
+    "name": "Super Coolant",
+    "desc": "Super Coolant is an industrial-grade coolant that utilizes the unusual energy states of Fullerene.\n\nThis selection is in a Liquid state."
+  },
+  "supercoolantgas": {
+    "name": "Super Coolant Gas",
+    "desc": "Super Coolant is an industrial-grade Fullerene coolant.\n\nThis selection is in a Gaseous state."
+  },
+  "superinsulator": {
+    "name": "Insulite",
+    "desc": "Insulite reduces Heat Transfer and is composed of recrystallized Abyssalite."
+  },
+  "tempconductorsolid": {
+    "name": "Thermium",
+    "desc": "Thermium is an industrial metal alloy formulated to maximize Heat Transfer and thermal dispersion."
+  },
+  "tungsten": {
+    "name": "Tungsten",
+    "desc": "(W) Tungsten is an extremely tough crystalline Metal.\n\nIt is suitable for building Power systems."
+  },
+  "tungstengas": {
+    "name": "Tungsten Gas",
+    "desc": "(W) Tungsten is a superheated crystalline Metal.\n\nThis selection is in a Gaseous state."
+  },
+  "tungstendiselenide": {
+    "name": "Tungsten Diselenide",
+    "desc": "(WSe<sub>2</sub>) Tungsten Diselenide is an inorganic Metal compound with a crystalline structure.\n\nIt is suitable for building Power systems."
+  },
+  "tungstendiselenidegas": {
+    "name": "Tungsten Diselenide Gas",
+    "desc": "(WSe<sub>2</sub>) Tungsten Diselenide Gasis a superheated Metal compound in a Gaseous state."
+  },
+  "toxicsand": {
+    "name": "Polluted Dirt",
+    "desc": "Polluted Dirt is unprocessed biological waste.\n\nIt emits Polluted Oxygen over time."
+  },
+  "unobtanium": {
+    "name": "Neutronium",
+    "desc": "(Nt) Neutronium is a mysterious and extremely resilient element.\n\nIt cannot be excavated by any Duplicant mining tool."
+  },
+  "uraniumore": {
+    "name": "Uranium Ore",
+    "desc": "(U) Uranium Ore is a highly Radioactive substance.\n\nIt can be refined into fuel for research reactors."
+  },
+  "vacuum": {
+    "name": "Vacuum",
+    "desc": "A vacuum is a space devoid of all matter."
+  },
+  "viscogel": {
+    "name": "Visco-Gel Fluid",
+    "desc": "Visco-Gel Fluid is a Liquid polymer with high surface tension, preventing typical liquid flow and allowing for unusual configurations."
+  },
+  "void": {
+    "name": "Void",
+    "desc": "Cold, infinite nothingness."
+  },
+  "composition": {
+    "name": "Composition",
+    "desc": "A mixture of two or more elements."
+  },
+  "water": {
+    "name": "Water",
+    "desc": "(H<sub>2</sub>O) Clean Water, suitable for consumption."
+  },
+  "wolframite": {
+    "name": "Wolframite",
+    "desc": "((Fe,Mn)WO<sub>4</sub>) Wolframite is a dense Metallic element in a Solid state.\n\nIt is a source of Tungsten and is suitable for building Power systems."
+  },
+  "testelement": {
+    "name": "Test Element",
+    "desc": "((Fe,Mn)WO<sub>4</sub>) Wolframite is a dense Metallic element in a Solid state.\n\nIt is a source of Tungsten and is suitable for building Power systems."
+  },
+  "polypropylene": {
+    "name": "Plastic",
+    "desc": "(C<sub>3</sub>H<sub>6</sub>)<sub>n</sub> Plastic is a thermoplastic polymer.\n\nIt is useful for constructing a variety of advanced buildings and equipment.",
+    "build_desc": "Buildings made of this Plastic have antiseptic properties"
+  },
+  "hardpolypropylene": {
+    "name": "Plastium",
+    "desc": "Plastium is an advanced thermoplastic polymer made from Thermium, Plastic and Brackwax.\n\nIt is highly heat-resistant and suitable for use in space buildings."
+  },
+  "naphtha": {
+    "name": "Liquid Naphtha",
+    "desc": "Naphtha a distilled hydrocarbon mixture produced from the burning of Plastic."
+  },
+  "slabs": {
+    "name": "Building Slab",
+    "desc": "Slabs are a refined mineral building block used for assembling advanced buildings."
+  },
+  "toxicmud": {
+    "name": "Polluted Mud",
+    "desc": "A mixture of Polluted Dirt and Polluted Water.\n\nCan be separated into its base elements using a Sludge Press."
+  },
+  "mud": {
+    "name": "Mud",
+    "desc": "A mixture of Dirt and Water.\n\nCan be separated into its base elements using a Sludge Press."
+  },
+  "sucrose": {
+    "name": "Sucrose",
+    "desc": "(C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) Sucrose is the raw form of sugar.\n\nIt can be used for cooking higher-quality Food."
+  },
+  "moltensucrose": {
+    "name": "Liquid Sucrose",
+    "desc": "(C<sub>12</sub>H<sub>22</sub>O<sub>11</sub>) Liquid Sucrose is the raw form of sugar, heated into a Liquid state."
+  }
+}

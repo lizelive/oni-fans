@@ -1,0 +1,739 @@
+{
+  "pills": {
+    "placebo": {
+      "name": "Placebo",
+      "desc": "A general, all-purpose Medicine.\n\nThe less one knows about it, the better it works.",
+      "recipedesc": "All-purpose Medicine."
+    },
+    "basicbooster": {
+      "name": "Vitamin Chews",
+      "desc": "Minorly reduces the chance of becoming sick.",
+      "recipedesc": "A supplement that minorly reduces the chance of contracting a Germ-based Disease.\n\nMust be taken daily."
+    },
+    "intermediatebooster": {
+      "name": "Immuno Booster",
+      "desc": "Significantly reduces the chance of becoming sick.",
+      "recipedesc": "A supplement that significantly reduces the chance of contracting a Germ-based Disease.\n\nMust be taken daily."
+    },
+    "antihistamine": {
+      "name": "Allergy Medication",
+      "desc": "Suppresses and prevents allergic reactions.",
+      "recipedesc": "A strong antihistamine Duplicants can take to halt an allergic reaction. Allergy Medication will also prevent further reactions from occurring for a short time after ingestion."
+    },
+    "basiccure": {
+      "name": "Curative Tablet",
+      "desc": "A simple, easy-to-take remedy for minor germ-based diseases.",
+      "recipedesc": "Duplicants can take this to cure themselves of minor Germ-based Diseases.\n\nCurative Tablets are very effective against Food Poisoning."
+    },
+    "intermediatecure": {
+      "name": "Medical Pack",
+      "desc": "A doctor-administered cure for moderate ailments.",
+      "recipedesc": "A doctor-administered cure for moderate Diseases. Medical Packs are very effective against Slimelung.\n\nMust be administered by a Duplicant with the Bedside Manner Skill."
+    },
+    "advancedcure": {
+      "name": "Serum Vial",
+      "desc": "A doctor-administered cure for severe ailments.",
+      "recipedesc": "An extremely powerful medication created to treat severe Diseases. Serum Vial is very effective against Zombie Spores.\n\nMust be administered by a Duplicant with the Advanced Medical Care Skill."
+    },
+    "basicradpill": {
+      "name": "Basic Rad Pill",
+      "desc": "Increases a Duplicant's natural radiation absorption rate.",
+      "recipedesc": "A supplement that speeds up the rate at which a Duplicant body absorbs radiation, allowing them to manage increased radiation exposure.\n\nMust be taken daily."
+    },
+    "intermediateradpill": {
+      "name": "Intermediate Rad Pill",
+      "desc": "Increases a Duplicant's natural radiation absorption rate.",
+      "recipedesc": "A supplement that speeds up the rate at which a Duplicant body absorbs radiation, allowing them to manage increased radiation exposure.\n\nMust be taken daily."
+    }
+  },
+  "lubricationstick": {
+    "name": "Gear Balm",
+    "subheader": "Mechanical Lubricant",
+    "desc": "Provides a small amount of lubricating Gear Oil.\n\nCan be produced at the Apothecary.",
+    "recipedesc": "A self-administered mechanical lubricant for Duplicants with bionic parts."
+  },
+  "tallowlubricationstick": {
+    "name": "Tallow Gear Balm",
+    "subheader": "Mechanical Lubricant",
+    "desc": "Provides a small amount of extra-silky lubricating Gear Oil.\n\nCan be produced at the Apothecary.",
+    "recipedesc": "An advanced self-administered mechanical lubricant for Duplicants with bionic parts."
+  },
+  "bionic_boosters": {
+    "fabrication_source": "This booster can be manufactured at the {0}.",
+    "booster_dig1": {
+      "name": "Digging Booster",
+      "desc": "Grants a Bionic Duplicant the skill required to dig hard things."
+    },
+    "booster_dig2": {
+      "name": "Extreme Digging Booster",
+      "desc": "Grants a Bionic Duplicant the digging skill required to get through anything."
+    },
+    "booster_construct1": {
+      "name": "Construction Booster",
+      "desc": "Grants a Bionic Duplicant the ability to build fast, and demolish buildings that others cannot."
+    },
+    "booster_farm1": {
+      "name": "Crop Tending Booster",
+      "desc": "Grants a Bionic Duplicant unparalleled farming and botanical analysis skills."
+    },
+    "booster_ranch1": {
+      "name": "Ranching Booster",
+      "desc": "Grants a Bionic Duplicant the skills required to care for Critters in every way."
+    },
+    "booster_cook1": {
+      "name": "Grilling Booster",
+      "desc": "Grants a Bionic Duplicant deliciously professional culinary skills."
+    },
+    "booster_art1": {
+      "name": "Masterworks Art Booster",
+      "desc": "Grants a Bionic Duplicant flawless decorating skills."
+    },
+    "booster_research1": {
+      "name": "Researching Booster",
+      "desc": "Grants a Bionic Duplicant the expertise required to study geysers and other advanced topics."
+    },
+    "booster_research2": {
+      "name": "Astronomy Booster",
+      "desc": "Grants a Bionic Duplicant a keen grasp of science and usage of space-research buildings."
+    },
+    "booster_research3": {
+      "name": "Applied Sciences Booster",
+      "desc": "Grants a Bionic Duplicant a deeply pragmatic approach to scientific research."
+    },
+    "booster_pilot1": {
+      "name": "Piloting Booster",
+      "desc": "Grants a Bionic Duplicant the expertise required to explore the skies in person."
+    },
+    "booster_pilotvanilla1": {
+      "name": "Rocketry Booster",
+      "desc": "Grants a Bionic Duplicant the expertise required to command a rocket."
+    },
+    "booster_suits1": {
+      "name": "Suit Training Booster",
+      "desc": "Enables a Bionic Duplicant to maximize durability of equipped Exosuits and maintain their runspeed."
+    },
+    "booster_carry1": {
+      "name": "Strength Booster",
+      "desc": "Grants a Bionic Duplicant increased carrying capacity and athletic prowess."
+    },
+    "booster_op1": {
+      "name": "Electrical Engineering Booster",
+      "desc": "Grants a Bionic Duplicant the skills requried to tinker and solder to their heart's content."
+    },
+    "booster_op2": {
+      "name": "Mechatronics Engineering Booster",
+      "desc": "Grants a Bionic Duplicant complete mastery of engineering skills."
+    },
+    "booster_medicine1": {
+      "name": "Advanced Medical Booster",
+      "desc": "Grants a Bionic Duplicant the ability to perform all doctoring errands."
+    },
+    "booster_tidy1": {
+      "name": "Tidying Booster",
+      "desc": "Grants a Bionic Duplicant the full range of tidying skills, including blasting unwanted meteors out of the sky."
+    }
+  },
+  "food": {
+    "compost": "Compost",
+    "foodsplat": {
+      "name": "Food Splatter",
+      "desc": "Food smeared on the wall from a recent Food Fight"
+    },
+    "burger": {
+      "name": "Frost Burger",
+      "desc": "Meat and Lettuce on a chilled Frost Bun.\n\nIt's the only burger best served cold.",
+      "recipedesc": "Meat and Lettuce on a chilled Frost Bun.",
+      "dehydrated": {
+        "name": "Dried Frost Burger",
+        "desc": "A dehydrated Frost Burger ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "fieldration": {
+      "name": "Nutrient Bar",
+      "desc": "A nourishing nutrient paste, sandwiched between thin wafer layers."
+    },
+    "mushbar": {
+      "name": "Mush Bar",
+      "desc": "An edible, putrefied mudslop.\n\nMush Bars are preferable to starvation, but only just barely.",
+      "recipedesc": "An edible, putrefied mudslop.\n\nMush Bars are preferable to starvation, but only just barely."
+    },
+    "mushroomwrap": {
+      "name": "Mushroom Wrap",
+      "desc": "Flavorful Mushrooms wrapped in Lettuce.\n\nIt has an earthy flavor punctuated by a refreshing crunch.",
+      "recipedesc": "Flavorful Mushrooms wrapped in Lettuce.",
+      "dehydrated": {
+        "name": "Dried Mushroom Wrap",
+        "desc": "A dehydrated Mushroom Wrap ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "microwavedlettuce": {
+      "name": "Microwaved Lettuce",
+      "desc": "Lettuce scrumptiously wilted in the Gamma Ray Oven.",
+      "recipedesc": "Lettuce scrumptiously wilted in the Gamma Ray Oven."
+    },
+    "gammamush": {
+      "name": "Gamma Mush",
+      "desc": "A disturbingly delicious mixture of irradiated dirt and water.",
+      "recipedesc": "Mush Fry reheated in a Gamma Ray Oven."
+    },
+    "fruitcake": {
+      "name": "Berry Sludge",
+      "desc": "A mashed up Bristle Berry sludge with an exceptionally long shelf life.\n\nIts aggressive, overbearing sweetness can leave the tongue feeling temporarily numb.",
+      "recipedesc": "A mashed up Bristle Berry sludge with an exceptionally long shelf life."
+    },
+    "popcorn": {
+      "name": "Popcorn",
+      "desc": "Sleet Wheat Grain popped in a Gamma Ray Oven.\n\nCompletely devoid of any fancy flavorings.",
+      "recipedesc": "Gamma-radiated Sleet Wheat Grain."
+    },
+    "sushi": {
+      "name": "Sushi",
+      "desc": "Raw Pacu Fillet wrapped with fresh Lettuce.\n\nWhile the salt of the lettuce may initially overpower the flavor, a keen palate can discern the subtle sweetness of the fillet beneath.",
+      "recipedesc": "Raw Pacu Fillet wrapped with fresh Lettuce."
+    },
+    "hatchegg": {
+      "name": "Hatch Egg",
+      "desc": "An egg laid by a Hatch.\n\nIf incubated, it will hatch into a Hatchling.",
+      "recipedesc": "An egg laid by a Hatch."
+    },
+    "dreckoegg": {
+      "name": "Drecko Egg",
+      "desc": "An egg laid by a Drecko.\n\nIf incubated, it will hatch into a new Drecklet.",
+      "recipedesc": "An egg laid by a Drecko."
+    },
+    "lightbugegg": {
+      "name": "Shine Bug Egg",
+      "desc": "An egg laid by a Shine Bug.\n\nIf incubated, it will hatch into a Shine Nymph.",
+      "recipedesc": "An egg laid by a Shine Bug."
+    },
+    "lettuce": {
+      "name": "Lettuce",
+      "desc": "Crunchy, slightly salty leaves from a Waterweed plant.",
+      "recipedesc": "Edible roughage from a Waterweed."
+    },
+    "pasta": {
+      "name": "Pasta",
+      "desc": "pasta made from egg and wheat",
+      "recipedesc": "pasta made from egg and wheat"
+    },
+    "pancakes": {
+      "name": "Soufflé Pancakes",
+      "desc": "Sweet discs made from Raw Egg and Sleet Wheat Grain.\n\nThey're so thick!",
+      "recipedesc": "Sweet discs made from Raw Egg and Sleet Wheat Grain."
+    },
+    "oilfloateregg": {
+      "name": "Slickster Egg",
+      "desc": "An egg laid by a Slickster.\n\nIf incubated, it will hatch into a Slickster Larva.",
+      "recipedesc": "An egg laid by a Slickster."
+    },
+    "puftegg": {
+      "name": "Puft Egg",
+      "desc": "An egg laid by a Puft.\n\nIf incubated, it will hatch into a Puftlet.",
+      "recipedesc": "An egg laid by a Puft."
+    },
+    "prehistoricpacufillet": {
+      "name": "Jawbo Fillet",
+      "desc": "An uncooked fillet from a very dead Jawbo. It has a silky texture."
+    },
+    "fishmeat": {
+      "name": "Pacu Fillet",
+      "desc": "An uncooked fillet from a very dead Pacu. Yum!"
+    },
+    "meat": {
+      "name": "Meat",
+      "desc": "Uncooked meat from a very dead critter. Yum!"
+    },
+    "dinosaurmeat": {
+      "name": "Tough Meat",
+      "desc": "Uncooked meat from a very dead critter.\n\nIt's inedible until cooked in the Smoker."
+    },
+    "smokeddinosaurmeat": {
+      "name": "Tender Brisket",
+      "desc": "A cooked stack of tough meat that's been marinated and slow-smoked to tender perfection.",
+      "recipedesc": "A stack of tender, slow-smoked meat."
+    },
+    "smokedfish": {
+      "name": "Smoked Fish",
+      "desc": "A buttery smoked fish fillet.\n\nIt flakes nicely when pulled apart with a fork.",
+      "recipedesc": "A buttery smoked fish fillet."
+    },
+    "smokedvegetables": {
+      "name": "Veggie Poppers",
+      "desc": "Crisp vegetables stuffed with herbs and smoked for hours.",
+      "recipedesc": "Crisp vegetables stuffed with herbs."
+    },
+    "plantmeat": {
+      "name": "Plant Meat",
+      "desc": "Planty plant meat from a plant. How nice!"
+    },
+    "shellfishmeat": {
+      "name": "Raw Shellfish",
+      "desc": "An uncooked chunk of very dead Sanishell. Yum!"
+    },
+    "mushroom": {
+      "name": "Mushroom",
+      "desc": "An edible, flavorless fungus that grew in the dark."
+    },
+    "cookedfish": {
+      "name": "Cooked Seafood",
+      "desc": "A cooked piece of freshly caught aquatic critter.\n\nUnsurprisingly, it tastes a bit fishy.",
+      "recipedesc": "A cooked piece of freshly caught aquatic critter."
+    },
+    "cookedmeat": {
+      "name": "Barbeque",
+      "desc": "The cooked meat of a defeated critter.\n\nIt has a delightful smoky aftertaste.",
+      "recipedesc": "The cooked meat of a defeated critter."
+    },
+    "friescarrot": {
+      "name": "Squash Fries",
+      "desc": "Irresistibly crunchy.\n\nBest eaten hot.",
+      "recipedesc": "Crunchy sticks of Plume Squash deep-fried in Tallow."
+    },
+    "deepfriedfish": {
+      "name": "Fish Taco",
+      "desc": "Deep-fried fish cradled in a crunchy fin.",
+      "recipedesc": "Pacu Fillet lightly battered and deep-fried in Tallow."
+    },
+    "deepfriedshellfish": {
+      "name": "Shellfish Tempura",
+      "desc": "A crispy deep-fried critter claw.",
+      "recipedesc": "A tender chunk of battered Raw Shellfish deep-fried in Tallow."
+    },
+    "deepfriedmeat": {
+      "name": "Deep Fried Steak",
+      "desc": "A juicy slab of meat with a crunchy deep-fried upper layer.",
+      "recipedesc": "A juicy slab of Raw Meat deep-fried in Tallow."
+    },
+    "deepfriednosh": {
+      "name": "Nosh Noms",
+      "desc": "A snackable handful of crunchy beans.",
+      "recipedesc": "A crunchy stack of Nosh Beans deep-fried in Tallow."
+    },
+    "pickledmeal": {
+      "name": "Pickled Meal",
+      "desc": "Meal Lice preserved in vinegar.\n\nIt's a rarely acquired taste.",
+      "recipedesc": "Meal Lice regrettably preserved in vinegar."
+    },
+    "friedmushbar": {
+      "name": "Mush Fry",
+      "desc": "Pan-fried, solidified mudslop.\n\nThe inside is almost completely uncooked, despite the crunch on the outside.",
+      "recipedesc": "Pan-fried, solidified mudslop."
+    },
+    "rawegg": {
+      "name": "Raw Egg",
+      "desc": "A raw Egg that has been cracked open for use in Food preparation.\n\nIt will never hatch.",
+      "recipedesc": "A raw egg that has been cracked open for use in Food preparation."
+    },
+    "cookedegg": {
+      "name": "Omelette",
+      "desc": "Fluffed and folded Egg innards.\n\nIt turns out you do, in fact, have to break a few eggs to make it.",
+      "recipedesc": "Fluffed and folded egg innards."
+    },
+    "friedmushroom": {
+      "name": "Fried Mushroom",
+      "desc": "A pan-fried dish made with a fruiting Dusk Cap.\n\nIt has a thick, savory flavor with subtle earthy undertones.",
+      "recipedesc": "A pan-fried dish made with a fruiting Dusk Cap."
+    },
+    "cookedpikeapple": {
+      "name": "Pikeapple Skewer",
+      "desc": "Grilling a Pikeapple softens its spikes, making it slighly less awkward to eat.\n\nIt does not diminish the smell.",
+      "recipedesc": "A grilled dish made with a fruiting Pikeapple."
+    },
+    "pricklefruit": {
+      "name": "Bristle Berry",
+      "desc": "A sweet, mostly pleasant-tasting fruit covered in prickly barbs."
+    },
+    "grilledpricklefruit": {
+      "name": "Gristle Berry",
+      "desc": "The grilled bud of a Bristle Berry.\n\nHeat unlocked an exquisite taste in the fruit, though the burnt spines leave something to be desired.",
+      "recipedesc": "The grilled bud of a Bristle Berry."
+    },
+    "swampfruit": {
+      "name": "Bog Jelly",
+      "desc": "A fruit with an outer film that contains chewy gelatinous cubes."
+    },
+    "swampdelights": {
+      "name": "Swampy Delights",
+      "desc": "Dried gelatinous cubes from a Bog Jelly.\n\nEach cube has a wonderfully chewy texture and is lightly coated in a delicate powder.",
+      "recipedesc": "Dried gelatinous cubes from a Bog Jelly."
+    },
+    "wormbasicfruit": {
+      "name": "Spindly Grubfruit",
+      "desc": "A Grubfruit that failed to develop properly.\n\nIt is nonetheless edible, and vaguely tasty."
+    },
+    "wormbasicfood": {
+      "name": "Roast Grubfruit Nut",
+      "desc": "Slow roasted Spindly Grubfruit.\n\nIt has a smoky aroma and tastes of coziness.",
+      "recipedesc": "Slow roasted Spindly Grubfruit."
+    },
+    "wormsuperfruit": {
+      "name": "Grubfruit",
+      "desc": "A plump, healthy fruit with a honey-like taste."
+    },
+    "wormsuperfood": {
+      "name": "Grubfruit Preserve",
+      "desc": "A long lasting Grubfruit jam preserved in Sucrose.\n\nThe thick, goopy jam retains the shape of the jar when poured out, but the sweet taste can't be matched.",
+      "recipedesc": "A long lasting Grubfruit jam preserved in Sucrose."
+    },
+    "vinefruitjam": {
+      "name": "",
+      "desc": "",
+      "recipedesc": ""
+    },
+    "berrypie": {
+      "name": "Mixed Berry Pie",
+      "desc": "A pie made primarily of Grubfruit and Gristle Berries.\n\nThe mixture of berries creates a fragrant, colorful filling that packs a sweet punch.",
+      "recipedesc": "A pie made primarily of Grubfruit and Gristle Berries.",
+      "dehydrated": {
+        "name": "Dried Berry Pie",
+        "desc": "A dehydrated Mixed Berry Pie ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "coldwheatbread": {
+      "name": "Frost Bun",
+      "desc": "A simple bun baked from Sleet Wheat Grain.\n\nEach bite leaves a mild cooling sensation in one's mouth, even when the bun itself is warm.",
+      "recipedesc": "A simple bun baked from Sleet Wheat Grain."
+    },
+    "bean": {
+      "name": "Nosh Bean",
+      "desc": "The crisp bean of a Nosh Sprout.\n\nEach bite tastes refreshingly natural and wholesome."
+    },
+    "spicenut": {
+      "name": "Pincha Peppernut",
+      "desc": "The flavorful nut of a Pincha Pepperplant.\n\nThe bitter outer rind hides a rich, peppery core that is useful in cooking."
+    },
+    "vinefruit": {
+      "name": "Ovagro Fig",
+      "desc": "The fruit from an Ovagro Vine.\n\nIt's fun to squeeze as many as possible into a single mouthful."
+    },
+    "spicebread": {
+      "name": "Pepper Bread",
+      "desc": "A loaf of bread, lightly spiced with Pincha Peppernut for a mild bite.\n\nThere's a simple joy to be had in pulling it apart in one's fingers.",
+      "recipedesc": "A loaf of bread, lightly spiced with Pincha Peppernut for a mild bite.",
+      "dehydrated": {
+        "name": "Dried Pepper Bread",
+        "desc": "A dehydrated Pepper Bread ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "surfandturf": {
+      "name": "Surf'n'Turf",
+      "desc": "A bit of Meat from the land and Cooked Seafood from the sea.\n\nIt's hearty and satisfying.",
+      "recipedesc": "A bit of Meat from the land and Cooked Seafood from the sea.",
+      "dehydrated": {
+        "name": "Dried Surf'n'Turf",
+        "desc": "A dehydrated Surf'n'Turf ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "tofu": {
+      "name": "Tofu",
+      "desc": "A bland curd made from Nosh Beans.\n\nIt has an unusual but pleasant consistency.",
+      "recipedesc": "A bland curd made from Nosh Beans."
+    },
+    "spicytofu": {
+      "name": "Spicy Tofu",
+      "desc": "Tofu marinated in a flavorful Pincha Peppernut sauce.\n\nIt packs a delightful punch.",
+      "recipedesc": "Tofu marinated in a flavorful Pincha Peppernut sauce.",
+      "dehydrated": {
+        "name": "Dried Spicy Tofu",
+        "desc": "A dehydrated Spicy Tofu ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "curry": {
+      "name": "Curried Beans",
+      "desc": "Chewy Nosh Beans simmered with chunks of Tonic Root.\n\nIt's so spicy!",
+      "recipedesc": "Chewy Nosh Beans simmered with chunks of Tonic Root.",
+      "dehydrated": {
+        "name": "Dried Curried Beans",
+        "desc": "A dehydrated Curried Beans ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "salsa": {
+      "name": "Stuffed Berry",
+      "desc": "A baked Bristle Berry stuffed with delectable spices and vibrantly flavored.",
+      "recipedesc": "A baked Bristle Berry stuffed with delectable spices and vibrantly flavored.",
+      "dehydrated": {
+        "name": "Dried Stuffed Berry",
+        "desc": "A dehydrated Stuffed Berry ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "hardskinberry": {
+      "name": "Pikeapple",
+      "desc": "An edible fruit encased in a thorny husk."
+    },
+    "carrot": {
+      "name": "Plume Squash",
+      "desc": "An edible tuber with an earthy, elegant flavor."
+    },
+    "fernfood": {
+      "name": "Megafrond Grain",
+      "desc": "An ancient grain that can be processed into Food."
+    },
+    "pemmican": {
+      "name": "Pemmican",
+      "desc": "Meat and Tallow pounded into a calorie-dense brick with an exceptionally long shelf life.\n\nSurvival never tasted so good.",
+      "recipedesc": "Meat and Tallow pounded into a nutrient-dense brick with an exceptionally long shelf life."
+    },
+    "basicplantfood": {
+      "name": "Meal Lice",
+      "desc": "A flavorless grain that almost never wiggles on its own."
+    },
+    "basicplantbar": {
+      "name": "Liceloaf",
+      "desc": "Meal Lice compacted into a dense, immobile loaf.",
+      "recipedesc": "Meal Lice compacted into a dense, immobile loaf."
+    },
+    "basicforageplant": {
+      "name": "Muckroot",
+      "desc": "A seedless fruit with an upsettingly bland aftertaste.\n\nIt cannot be replanted.\n\nDigging up Buried Objects may uncover a Muckroot."
+    },
+    "forestforageplant": {
+      "name": "Hexalent Fruit",
+      "desc": "A seedless fruit with an unusual rubbery texture.\n\nIt cannot be replanted.\n\nHexalent fruit is much more calorie dense than Muckroot fruit."
+    },
+    "swampforageplant": {
+      "name": "Swamp Chard Heart",
+      "desc": "A seedless plant with a squishy, juicy center and an awful smell.\n\nIt cannot be replanted."
+    },
+    "icecavesforageplant": {
+      "name": "Sherberry",
+      "desc": "A cold seedless fruit that triggers mild brain freeze.\n\nIt cannot be replanted."
+    },
+    "rotpile": {
+      "name": "Rot Pile",
+      "desc": "An inedible glop of former foodstuff.\n\nRot Piles break down into Polluted Dirt over time."
+    },
+    "coldwheatseed": {
+      "name": "Sleet Wheat Grain",
+      "desc": "An edible grain that leaves a cool taste on the tongue."
+    },
+    "beanplantseed": {
+      "name": "Nosh Bean",
+      "desc": "An inedible bean that can be processed into delicious foods."
+    },
+    "quiche": {
+      "name": "Mushroom Quiche",
+      "desc": "Omelette, Fried Mushroom and Lettuce piled onto a yummy crust.\n\nSomehow, it's both soggy <i>and</i> crispy.",
+      "recipedesc": "Omelette, Fried Mushroom and Lettuce piled onto a yummy crust.",
+      "dehydrated": {
+        "name": "Dried Mushroom Quiche",
+        "desc": "A dehydrated Mushroom Quiche ration. It must be rehydrated in order to be considered Food.\n\nDry rations have no expiry date."
+      }
+    },
+    "gardenfoodplantfood": {
+      "name": "Sweatcorn",
+      "desc": "The sugary vegetable produced by Sweatcorn Stalks.\n\nIt tastes a lot better deep-fried."
+    },
+    "gardenforageplant": {
+      "name": "Snac Fruit",
+      "desc": "A seedless fruit that loses its flavor long before it is fully chewed.\n\nIt cannot be replanted.\n\nDigging up Buried Objects may uncover a Snac Fruit."
+    },
+    "butterflyplantseed": {
+      "name": "Mimillet",
+      "desc": "An inedible seed from a Mimika Bud.\n\nIt can be sown to cultivate more plants, or processed into Food.\n\nDigging up Buried Objects may uncover a Mimillet Seed.",
+      "recipedesc": "An inedible Mimillet seed."
+    },
+    "butterflyfood": {
+      "name": "Toasted Mimillet",
+      "desc": "A lightly toasted Mimillet.\n\nIt makes the tummy feel a bit fluttery.",
+      "recipedesc": "A lightly toasted Mimillet."
+    }
+  },
+  "ingredients": {
+    "swamplilyflower": {
+      "name": "Balm Lily Flower",
+      "desc": "A medicinal flower that soothes most minor maladies.\n\nIt is exceptionally fragrant."
+    },
+    "ginger": {
+      "name": "Tonic Root",
+      "desc": "A chewy, fibrous rhizome with a fiery aftertaste."
+    },
+    "kelp": {
+      "name": "Seakomb Leaf",
+      "desc": "The leaf of a Seakomb.\n\nIt can be processed into Phyto Oil or used as an ingredient in Allergy Medication."
+    }
+  },
+  "industrial_products": {
+    "electrobank_uranium_ore": {
+      "name": "Uranium Ore Power Bank",
+      "desc": "A disposable Power Bank made with Uranium Ore.\n\nIt can power buildings via Large Dischargers or Compact Dischargers.\n\nDuplicants can produce new Uranium Ore Power Banks at the Crafting Station.\n\nMust be kept dry."
+    },
+    "electrobank_metal_ore": {
+      "name": "Metal Power Bank",
+      "desc": "A disposable Power Bank made with Metal Ore.\n\nIt can power buildings via Large Dischargers or Compact Dischargers.\n\nDuplicants can produce new Metal Power Banks at the Crafting Station.\n\nMust be kept dry."
+    },
+    "electrobank_selfcharging": {
+      "name": "Atomic Power Bank",
+      "desc": "A self-charging Power Bank made with Enriched Uranium.\n\nIt can power buildings via Large Dischargers or Compact Dischargers.\n\nIts low wattage and high Radioactivity make it unsuitable for Bionic Duplicant use."
+    },
+    "electrobank": {
+      "name": "Eco Power Bank",
+      "desc": "A rechargeable Power Bank.\n\nIt can power buildings via Large Dischargers or Compact Dischargers.\n\nDuplicants can produce new Eco Power Banks at the Soldering Station.\n\nMust be kept dry."
+    },
+    "electrobank_empty": {
+      "name": "Empty Eco Power Bank",
+      "desc": "A depleted Power Bank.\n\nIt must be recharged at a Power Bank Charger before it can be reused."
+    },
+    "electrobank_garbage": {
+      "name": "Power Bank Scrap",
+      "desc": "A Power Bank that has reached the end of its lifetime.\n\nIt can be salvaged for Abyssalite at the Rock Crusher."
+    },
+    "fuel_brick": {
+      "name": "Fuel Brick",
+      "desc": "A densely compressed brick of combustible material.\n\nIt can be burned to produce a one-time burst of Power."
+    },
+    "basic_fabric": {
+      "name": "Reed Fiber",
+      "desc": "A ball of raw cellulose used in the production of Clothing and textiles."
+    },
+    "plant_fiber": {
+      "name": "Plant Husk",
+      "desc": "A bundle of dried plant matter.\n\nIt can be eaten by Moos, or processed into fuel or building materials."
+    },
+    "feather_fabric": {
+      "name": "Feather Fiber",
+      "desc": "A stalk of raw keratin used in the production of Clothing and textiles."
+    },
+    "dewdrip": {
+      "name": "Dewdrip",
+      "desc": "A crystallized blob of Brackene from the Dew Dripper."
+    },
+    "trap_parts": {
+      "name": "Trap Components",
+      "desc": "These components can be assembled into a Critter Trap and used to catch Critters."
+    },
+    "power_station_tools": {
+      "name": "Microchip",
+      "desc": "A specialized Microchip created by a professional engineer.\n\nTunes up Generators to increase their Power output.\n\nAlso used in the production of Boosters for Bionic Duplicants.",
+      "tinker_requirement_name": "Skill: Electrical Engineering",
+      "tinker_requirement_tooltip": "Can only be used by a Duplicant with Electrical Engineering to apply a Tune Up.",
+      "tinker_effect_name": "Engie's Tune-Up: {0} {1}",
+      "tinker_effect_tooltip": "Can be used to Tune Up a generator, increasing its {0} by <b>{1}</b>.",
+      "recipe_description": "Make Microchip from {0}"
+    },
+    "farm_station_tools": {
+      "name": "Micronutrient Fertilizer",
+      "desc": "Specialized Fertilizer mixed by a Duplicant with the Crop Tending Skill.\n\nIncreases the Growth Rate of one Plant."
+    },
+    "machine_parts": {
+      "name": "Custom Parts",
+      "desc": "Specialized Parts crafted by a professional engineer.\n\nJerry Rig machine buildings to increase their efficiency.",
+      "tinker_requirement_name": "Job: Mechatronics Engineering",
+      "tinker_requirement_tooltip": "Can only be used by a Duplicant with Mechatronics Engineering to apply a Jerry Rig.",
+      "tinker_effect_name": "Engineer's Jerry Rig: {0} {1}",
+      "tinker_effect_tooltip": "Can be used to Jerry Rig upgrades to a machine building, increasing its {0} by <b>{1}</b>."
+    },
+    "research_databank": {
+      "name": "Data Bank",
+      "name_plural": "Data Banks",
+      "desc": "Raw data that can be processed into Interstellar Research points."
+    },
+    "orbital_research_databank": {
+      "name": "Data Bank",
+      "name_plural": "Data Banks",
+      "desc": "Raw Data that can be processed into Data Analysis Research points.",
+      "recipe_desc": "Data Banks of raw data generated from exploring, either by exploring new areas with Duplicants, or by using an Orbital Data Collection Lab.\n\nUsed by the Virtual Planetarium to conduct research."
+    },
+    "egg_shell": {
+      "name": "Egg Shell",
+      "desc": "Can be crushed to produce Lime."
+    },
+    "gold_belly_crown": {
+      "name": "Regal Bammoth Crest",
+      "desc": "Can be crushed to produce Gold Amalgam."
+    },
+    "crab_shell": {
+      "name": "Pokeshell Molt",
+      "desc": "Can be crushed to produce Lime.",
+      "variant_wood": {
+        "name": "Oakshell Molt",
+        "desc": "Can be crushed to produce Wood."
+      }
+    },
+    "baby_crab_shell": {
+      "name": "Small Pokeshell Molt",
+      "desc": "Can be crushed to produce Lime.",
+      "variant_wood": {
+        "name": "Small Oakshell Molt",
+        "desc": "Can be crushed to produce Wood."
+      }
+    },
+    "wood": {
+      "name": "Wood",
+      "desc": "Natural resource harvested from certain Critters and Plants.\n\nUsed in construction or Heat production."
+    },
+    "gene_shuffler_recharge": {
+      "name": "Vacillator Recharge",
+      "desc": "Replenishes one charge to a depleted Neural Vacillator."
+    },
+    "table_salt": {
+      "name": "Table Salt",
+      "desc": "A seasoning that Duplicants can add to their Food to boost Morale.\n\nDuplicants will automatically use Table Salt while sitting at a Mess Table during mealtime.\n\n<i>Only the finest grains are chosen.</i>"
+    },
+    "refined_sugar": {
+      "name": "Refined Sugar",
+      "desc": "A seasoning that Duplicants can add to their Food to boost Morale.\n\nDuplicants will automatically use Refined Sugar while sitting at a Mess Table during mealtime.\n\n<i>Only the finest grains are chosen.</i>"
+    },
+    "ice_belly_poop": {
+      "name": "Bammoth Patty",
+      "desc": "A little treat left behind by a very large critter.\n\nIt can be crushed to extract Phosphorite and Clay."
+    }
+  },
+  "cargo_capsule": {
+    "name": "Care Package",
+    "desc": "A delivery system for recently printed resources.\n\nIt will dematerialize shortly."
+  },
+  "railgunpayload": {
+    "name": "Interplanetary Payload",
+    "desc": "Contains resources packed for interstellar shipping.\n\nCan be launched by a Interplanetary Launcher or unpacked with a Payload Opener."
+  },
+  "missile_basic": {
+    "name": "Blastshot",
+    "desc": "An explosive projectile designed to defend against meteor showers.\n\nMust be launched by a Meteor Blaster."
+  },
+  "missile_longrange_vanilladlc4": {
+    "name": "Intracosmic Blastshot",
+    "desc": "A long-range explosive projectile that defends against distant space objects.\n\nMust be launched by Meteor Blaster."
+  },
+  "missile_longrange": {
+    "name": "Intracosmic Blastshot",
+    "desc": "A long-range explosive projectile that defends against distant space objects.\n\nMust be launched by Meteor Blaster."
+  },
+  "debrispayload": {
+    "name": "Rocket Debris",
+    "desc": "Whatever is left over from a Rocket Self-Destruct can be recovered once it has crash-landed."
+  },
+  "radiation": {
+    "highenergyparitcle": {
+      "name": "Radbolts",
+      "desc": "A concentrated field of Radbolts that can be largely redirected using a Radbolt Reflector."
+    }
+  },
+  "dreamjournal": {
+    "name": "Dream Journal",
+    "desc": "A hand-scrawled account of Pajama-induced dreams.\n\nCan be analyzed using a Somnium Synthesizer."
+  },
+  "dehydratedfoodpackage": {
+    "name": "Dry Ration",
+    "desc": "A package of non-perishable dehydrated food.\n\nIt requires no refrigeration, but must be rehydrated before consumption.",
+    "consumed": "Ate Rehydrated Food",
+    "contents": "Dried {0}"
+  },
+  "spices": {
+    "machinery_spice": {
+      "name": "Machinist Spice",
+      "desc": "Improves operating skills when ingested."
+    },
+    "piloting_spice": {
+      "name": "Rocketeer Spice",
+      "desc": "Provides a boost to piloting abilities."
+    },
+    "preserving_spice": {
+      "name": "Freshener Spice",
+      "desc": "Slows the decomposition of perishable foods."
+    },
+    "strength_spice": {
+      "name": "Brawny Spice",
+      "desc": "Strengthens even the weakest of muscles."
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "missing_trait": "<missing traits>",
+  "no_traits": {
+    "name": "<i>This world is stable and has no unusual features.</i>",
+    "name_shorthand": "No unusual features",
+    "description": "This world exists in a particularly stable configuration each time it is encountered"
+  },
+  "boulders_large": {
+    "name": "Large Boulders",
+    "description": "Huge boulders make digging through this world more difficult"
+  },
+  "boulders_medium": {
+    "name": "Medium Boulders",
+    "description": "Mid-sized boulders make digging through this world more difficult"
+  },
+  "boulders_mixed": {
+    "name": "Mixed Boulders",
+    "description": "Boulders of various sizes make digging through this world more difficult"
+  },
+  "boulders_small": {
+    "name": "Small Boulders",
+    "description": "Tiny boulders make digging through this world more difficult"
+  },
+  "deep_oil": {
+    "name": "Trapped Oil",
+    "description": "Most of the Oil in this world will need to be extracted with Oil Wells"
+  },
+  "frozen_core": {
+    "name": "Frozen Core",
+    "description": "This world has a chilly core of solid Ice"
+  },
+  "geoactive": {
+    "name": "Geoactive",
+    "description": "This world has more Geysers and Vents than usual"
+  },
+  "geodes": {
+    "name": "Geodes",
+    "description": "Large geodes containing rare material caches are deposited across this world"
+  },
+  "geodormant": {
+    "name": "Geodormant",
+    "description": "This world has fewer Geysers and Vents than usual"
+  },
+  "glaciers_large": {
+    "name": "Large Glaciers",
+    "description": "Huge chunks of primordial Ice are scattered across this world"
+  },
+  "irregular_oil": {
+    "name": "Irregular Oil",
+    "description": "The Oil on this asteroid is anything but regular!"
+  },
+  "magma_vents": {
+    "name": "Magma Channels",
+    "description": "The Magma from this world's core has leaked into the mantle and crust"
+  },
+  "metal_poor": {
+    "name": "Metal Poor",
+    "description": "There is a reduced amount of Metal Ore on this world, proceed with caution!"
+  },
+  "metal_rich": {
+    "name": "Metal Rich",
+    "description": "This asteroid is an abundant source of Metal Ore"
+  },
+  "misaligned_start": {
+    "name": "Alternate Pod Location",
+    "description": "The Printing Pod didn't end up in the asteroid's exact center this time... but it's still nowhere near the surface"
+  },
+  "slime_splats": {
+    "name": "Slime Molds",
+    "description": "Sickly Slime growths have crept all over this world"
+  },
+  "subsurface_ocean": {
+    "name": "Subsurface Ocean",
+    "description": "Below the crust of this world is a Salt Water sea"
+  },
+  "volcanoes": {
+    "name": "Volcanic Activity",
+    "description": "Several active Volcanoes have been detected in this world"
+  },
+  "radioactive_crust": {
+    "name": "Radioactive Crust",
+    "description": "Deposits of Uranium Ore are found in this world's crust"
+  },
+  "lush_core": {
+    "name": "Lush Core",
+    "description": "This world has a lush forest core"
+  },
+  "metal_caves": {
+    "name": "Metallic Caves",
+    "description": "This world has caves of metal ore"
+  },
+  "distress_signal": {
+    "name": "Frozen Friend",
+    "description": "This world contains a frozen friend from a long time ago"
+  },
+  "crashed_satellites": {
+    "name": "Crashed Satellites",
+    "description": "This world contains crashed radioactive satellites"
+  }
+}

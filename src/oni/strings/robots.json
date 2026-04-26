@@ -1,0 +1,108 @@
+{
+  "category_name": "Robots",
+  "stats": {
+    "internalbattery": {
+      "name": "Rechargeable Battery",
+      "tooltip": "When this bot's battery runs out it must temporarily stop working to go recharge"
+    },
+    "internalchemicalbattery": {
+      "name": "Chemical Battery",
+      "tooltip": "This bot will shut down permanently when its battery runs out"
+    },
+    "internalbiobattery": {
+      "name": "Biofuel",
+      "tooltip": "This bot will shut down permanently when its biofuel runs out"
+    },
+    "internalelectrobank": {
+      "name": "Power Bank",
+      "tooltip": "When this bot's Power Bank runs out, it will stop working until a fully charged one is delivered"
+    }
+  },
+  "attributes": {
+    "internalbatterydelta": {
+      "name": "Rechargeable Battery Drain",
+      "tooltip": "The rate at which battery life is depleted"
+    }
+  },
+  "statusitems": {
+    "cantreachstation": {
+      "name": "Unreachable Dock",
+      "desc": "Obstacles are preventing {0} from heading home",
+      "tooltip": "Obstacles are preventing {0} from heading home"
+    },
+    "movingtochargestation": {
+      "name": "Traveling to Dock",
+      "desc": "{0} is on its way home to recharge",
+      "tooltip": "{0} is on its way home to recharge"
+    },
+    "lowbattery": {
+      "name": "Low Battery",
+      "desc": "{0}'s battery is low and needs to recharge",
+      "tooltip": "{0}'s battery is low and needs to recharge"
+    },
+    "lowbatterynocharge": {
+      "name": "Low Battery",
+      "desc": "{0}'s battery is low\n\nThe internal battery cannot be recharged and this robot will cease functioning after it is depleted.",
+      "tooltip": "{0}'s battery is low\n\nThe internal battery cannot be recharged and this robot will cease functioning after it is depleted."
+    },
+    "deadbattery": {
+      "name": "Shut Down",
+      "desc": "RIP {0}\n\n{0}'s battery has been depleted and cannot be recharged",
+      "tooltip": "RIP {0}\n\n{0}'s battery has been depleted and cannot be recharged"
+    },
+    "deadbatteryflydo": {
+      "name": "Shut Down",
+      "desc": "{0}'s battery has been depleted\n\n{0} will resume function when a new battery has been delivered",
+      "tooltip": "{0}'s battery has been depleted\n\n{0} will resume function when a new battery has been delivered"
+    },
+    "dustbinfull": {
+      "name": "Dust Bin Full",
+      "desc": "{0} must return to its dock to unload",
+      "tooltip": "{0} must return to its dock to unload"
+    },
+    "working": {
+      "name": "Working",
+      "desc": "{0} is working diligently. Great job, {0}!",
+      "tooltip": "{0} is working diligently. Great job, {0}!"
+    },
+    "unloadingstorage": {
+      "name": "Unloading",
+      "desc": "{0} is emptying out its dust bin",
+      "tooltip": "{0} is emptying out its dust bin"
+    },
+    "charging": {
+      "name": "Charging",
+      "desc": "{0} is recharging its battery",
+      "tooltip": "{0} is recharging its battery"
+    },
+    "reactpositive": {
+      "name": "Happy Reaction",
+      "desc": "This bot saw something nice!",
+      "tooltip": "This bot saw something nice!"
+    },
+    "reactnegative": {
+      "name": "Bothered Reaction",
+      "desc": "This bot saw something upsetting",
+      "tooltip": "This bot saw something upsetting"
+    }
+  },
+  "models": {
+    "morb": {
+      "name": "Biobot",
+      "desc": "A Pathogen-Fueled Extravehicular Geo-Exploratory Guidebot (model Y), aka \"P.E.G.G.Y.\"\n\nIt can be assigned basic building tasks and digging duties in hazardous environments.",
+      "codex_desc": "The pathogen-fueled guidebot is designed to maximize a colony's chances of surviving in hostile environments by meeting three core outcomes:\n\n1. Filtration and removal of toxins from environment;\n2. Safe disposal of filtered toxins through conversion into usable biofuel;\n3. Creation of geo-exploration equipment for colony expansion with minimal colonist endangerment.\n\nThe elements aggregated during this process may result in the unintentional spread of contaminants. Specialized training required for safe handling."
+    },
+    "scout": {
+      "name": "Rover",
+      "desc": "A curious bot that can remotely explore new Planetoid locations."
+    },
+    "sweepbot": {
+      "name": "Sweepy",
+      "desc": "An automated sweeping robot.\n\nSweeps up Solid debris and Liquid spills and stores the material back in its Sweepy Dock."
+    },
+    "flydo": {
+      "name": "Flydo",
+      "desc": "A programmable delivery robot.\n\nPicks up Solid objects for delivery to selected destinations."
+    }
+  }
+}

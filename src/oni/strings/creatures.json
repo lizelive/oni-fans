@@ -1,0 +1,2231 @@
+{
+  "bagged_name_fmt": "Bagged {0}",
+  "bagged_desc_fmt": "This {0} has been captured and is now safe to relocate.",
+  "family": {
+    "hatch": "Hatch",
+    "lightbug": "Shine Bug",
+    "oilfloater": "Slickster",
+    "drecko": "Drecko",
+    "glom": "Morb",
+    "puft": "Puft",
+    "pacu": "Pacu",
+    "moo": "Moo",
+    "mole": "Shove Vole",
+    "squirrel": "Pip",
+    "crab": "Pokeshell",
+    "staterpillar": "Plug Slug",
+    "divergentspecies": "Divergent",
+    "sweepbot": "Sweepies",
+    "scoutrover": "Rover",
+    "wooddeer": "Flox",
+    "seal": "Spigot Seal",
+    "icebelly": "Bammoth"
+  },
+  "family_plural": {
+    "hatchspecies": "Hatches",
+    "lightbugspecies": "Shine Bugs",
+    "oilfloaterspecies": "Slicksters",
+    "dreckospecies": "Dreckos",
+    "glomspecies": "Morbs",
+    "puftspecies": "Pufts",
+    "pacuspecies": "Pacus",
+    "moospecies": "Moos",
+    "molespecies": "Shove Voles",
+    "crabspecies": "Pokeshells",
+    "squirrelspecies": "Pips",
+    "staterpillarspecies": "Plug Slugs",
+    "beetaspecies": "Beetas",
+    "divergentspecies": "Divergents",
+    "sweepbot": "Sweepies",
+    "scoutrover": "Rovers",
+    "deerspecies": "Floxes",
+    "sealspecies": "Spigot Seals",
+    "bellyspecies": "Bammoths",
+    "raptorspecies": "Rhexes",
+    "stegospecies": "Lumbs",
+    "mosquitospecies": "Gnits",
+    "butterflyspecies": "Mimikas",
+    "chameleonspecies": "Dartles",
+    "prehistoricpacuspecies": "Jawbos"
+  },
+  "plant_mutations": {
+    "plant_name_fmt": "{PlantName} ({MutationList})",
+    "unidentified": "Unidentified Subspecies",
+    "unidentified_desc": "This seed must be identified at the Botanical Analyzer before it can be planted.",
+    "bonus_crop_fmt": "Bonus Crop: +{Amount} {Crop}",
+    "none": {
+      "name": "Original"
+    },
+    "moderatelyloose": {
+      "name": "Easygoing",
+      "description": "Plants with this mutation are easier to take care of, but don't yield as much produce."
+    },
+    "moderatelytight": {
+      "name": "Specialized",
+      "description": "Plants with this mutation are pickier about their conditions but yield more produce."
+    },
+    "extremelytight": {
+      "name": "Superspecialized",
+      "description": "Plants with this mutation are very difficult to keep alive, but produce a bounty."
+    },
+    "bonuslice": {
+      "name": "Licey",
+      "description": "Something about this mutation causes Meal Lice to pupate on this plant."
+    },
+    "sunnyspeed": {
+      "name": "Leafy",
+      "description": "This mutation provides the plant with sun-collecting leaves, allowing faster growth."
+    },
+    "slowburn": {
+      "name": "Wildish",
+      "description": "These plants grow almost as slow as their wild cousins, but also consume almost no fertilizer."
+    },
+    "blooms": {
+      "name": "Blooming",
+      "description": "Vestigial flowers increase the beauty of this plant. Don't inhale the pollen, though!"
+    },
+    "loadedwithfruit": {
+      "name": "Bountiful",
+      "description": "This mutation produces lots of extra produce, though it also takes a long time to pick it all!"
+    },
+    "rottenheaps": {
+      "name": "Exuberant",
+      "description": "Plants with this mutation grow extremely quickly, though the produce they make is sometimes questionable."
+    },
+    "heavyfruit": {
+      "name": "Juicy Fruits",
+      "description": "Extra water in these plump mutant veggies causes them to fall right off the plant! There's no extra nutritional value, though..."
+    }
+  },
+  "species": {
+    "crab": {
+      "name": "Pokeshell",
+      "desc": "Pokeshells are nonhostile critters unless their eggs are nearby.\n\nThey eat Polluted Dirt and Rot Piles.\n\nThe shells they leave behind after molting can be crushed into Lime.",
+      "egg_name": "Pokeshell Roe",
+      "baby": {
+        "name": "Pokeshell Spawn",
+        "desc": "A snippy little Pokeshell Spawn.\n\nIn time it will mature into a fully grown Pokeshell."
+      },
+      "variant_wood": {
+        "name": "Oakshell",
+        "desc": "Oakshells are nonhostile critters unless their eggs are nearby.\n\nThey eat Polluted Dirt, Slime and Rot Piles.\n\nThe shells they leave behind after molting can be crushed into Wood.\n\nOakshells thrive in Ethanol.",
+        "egg_name": "Oakshell Roe",
+        "baby": {
+          "name": "Oakshell Spawn",
+          "desc": "A knotty little Oakshell Spawn.\n\nIn time it will mature into a fully grown Oakshell."
+        }
+      },
+      "variant_fresh_water": {
+        "name": "Sanishell",
+        "desc": "Sanishells are nonhostile critters unless their eggs are nearby.\n\nThey thrive in Water and eliminate Germs from any liquid it inhabits.\n\nThey eat Polluted Dirt, Slime and Rot Piles.",
+        "egg_name": "Sanishell Roe",
+        "baby": {
+          "name": "Sanishell Spawn",
+          "desc": "A picky little Sanishell Spawn.\n\nIn time it will mature into a fully grown Sanishell."
+        }
+      }
+    },
+    "chameleon": {
+      "name": "Dartle",
+      "desc": "Dartles are non-hostile critters who eat Dewdrips and excrete Bleach Stone and Chlorine Gas .\n\nThey are preyed on by Rhexes.",
+      "egg_name": "Dartle Egg",
+      "baby": {
+        "name": "Dartlet",
+        "desc": "A wide-eyed little Dartlet.\n\nSomeday it will mature into a fully grown Dartle."
+      }
+    },
+    "mosquito": {
+      "name": "Gnit",
+      "desc": "Gnits are hostile airborne critters primarily bred as food for the carnivorous Lura Plants to produce Amber.\n\nTheir offspring must be exposed to Liquid in order to survive.",
+      "egg_name": "Gnit Egg",
+      "baby": {
+        "name": "Gnit Larva",
+        "desc": "A wiggly little Gnit Larva.\n\nIn time, it will mature into an irritating Gnit."
+      }
+    },
+    "bee": {
+      "name": "Beeta",
+      "desc": "Beetas are hostile critters that thrive in Radioactive environments.\n\nThey commonly gather Uranium Ore for their Beeta Hives to produce Enriched Uranium.",
+      "baby": {
+        "name": "Beetiny",
+        "desc": "A harmless little Beetiny.\n\nIn time, it will mature into a vicious adult Beeta."
+      }
+    },
+    "chlorinegeyser": {
+      "name": "Chlorine Geyser",
+      "desc": "A highly pressurized geyser that periodically erupts with Chlorine Gas."
+    },
+    "pacu": {
+      "name": "Pacu",
+      "desc": "Pacus are aquatic creatures that can live in any liquid, such as Water or Polluted Water.\n\nEvery organism in the known universe finds the Pacu extremely delicious.",
+      "egg_name": "Pacu Egg",
+      "baby": {
+        "name": "Pacu Fry",
+        "desc": "A wriggly little Pacu Fry.\n\nIn time, it will mature into an adult Pacu."
+      },
+      "variant_tropical": {
+        "name": "Tropical Pacu",
+        "desc": "Tropical Pacus are aquatic critters who inhabit warm liquid pools.\n\nTheir vibrant colors provide a significant Decor boost to their environment.",
+        "egg_name": "Tropical Pacu Egg",
+        "baby": {
+          "name": "Tropical Fry",
+          "desc": "A wriggly little Tropical Fry.\n\nIn time it will mature into an adult Pacu morph, the Tropical Pacu."
+        }
+      },
+      "variant_cleaner": {
+        "name": "Gulp Fish",
+        "desc": "Gulp Fishes are aquatic critters who inhabit cold liquid pools.\n\nTheir gills filter Polluted Water into Water.",
+        "egg_name": "Gulp Fish Egg",
+        "baby": {
+          "name": "Gulp Fry",
+          "desc": "A wriggly little Gulp Fry.\n\nIn time, it will mature into an adult Gulp Fish."
+        }
+      }
+    },
+    "glom": {
+      "name": "Morb",
+      "desc": "Morbs are attracted to unhygienic conditions and frequently excrete bursts of Polluted Oxygen.",
+      "egg_name": "Morb Pod"
+    },
+    "hatch": {
+      "name": "Hatch",
+      "desc": "Hatches excrete solid Coal as waste and may be uncovered by digging up Buried Objects.",
+      "egg_name": "Hatch Egg",
+      "baby": {
+        "name": "Hatchling",
+        "desc": "An innocent little Hatchling.\n\nIn time, it will mature into an adult Hatch."
+      },
+      "variant_hard": {
+        "name": "Stone Hatch",
+        "desc": "Stone Hatches excrete solid Coal as waste and enjoy burrowing into the ground.",
+        "egg_name": "Stone Hatch Egg",
+        "baby": {
+          "name": "Stone Hatchling",
+          "desc": "A doofy little Stone Hatchling.\n\nIt matures into an adult Hatch morph, the Stone Hatch, which loves nibbling on various rocks and metals."
+        }
+      },
+      "variant_veggie": {
+        "name": "Sage Hatch",
+        "desc": "Sage Hatches excrete solid Coal as waste and enjoy burrowing into the ground.",
+        "egg_name": "Sage Hatch Egg",
+        "baby": {
+          "name": "Sage Hatchling",
+          "desc": "A doofy little Sage Hatchling.\n\nIt matures into an adult Hatch morph, the Sage Hatch, which loves nibbling on organic materials."
+        }
+      },
+      "variant_metal": {
+        "name": "Smooth Hatch",
+        "desc": "Smooth Hatches enjoy burrowing into the ground and excrete Refined Metal when fed Metal Ore.",
+        "egg_name": "Smooth Hatch Egg",
+        "baby": {
+          "name": "Smooth Hatchling",
+          "desc": "A doofy little Smooth Hatchling.\n\nIt matures into an adult Hatch morph, the Smooth Hatch, which loves nibbling on different types of metals."
+        }
+      }
+    },
+    "staterpillar": {
+      "name": "Plug Slug",
+      "desc": "Plug Slugs are dynamic creatures that generate electrical Power during the night.\n\nTheir power can be harnessed by leaving an exposed wire near areas where they like to sleep.",
+      "egg_name": "Plug Slug Egg",
+      "baby": {
+        "name": "Plug Sluglet",
+        "desc": "A chubby little Plug Sluglet.\n\nIn time it will mature into a fully grown Plug Slug."
+      },
+      "variant_gas": {
+        "name": "Smog Slug",
+        "desc": "Smog Slugs are porous creatures that draw in unbreathable Gases during the day.\n\nAt night, they sleep near exposed Gas Pipes, where they deposit their cache.",
+        "egg_name": "Smog Slug Egg",
+        "baby": {
+          "name": "Smog Sluglet",
+          "desc": "A tubby little Smog Sluglet.\n\nIn time it will mature into a fully grown Smog Slug."
+        }
+      },
+      "variant_liquid": {
+        "name": "Sponge Slug",
+        "desc": "Sponge Slugs are thirsty creatures that soak up Liquids during the day.\n\nThey deposit their stored Liquids into the exposed Liquid Pipes they sleep next to at night.",
+        "egg_name": "Sponge Slug Egg",
+        "baby": {
+          "name": "Sponge Sluglet",
+          "desc": "A chonky little Sponge Sluglet.\n\nIn time it will mature into a fully grown Sponge Slug."
+        }
+      }
+    },
+    "divergent": {
+      "variant_beetle": {
+        "name": "Sweetle",
+        "desc": "Sweetles are nonhostile critters that excrete large amounts of Sucrose.\n\nThey are closely related to the Grubgrub and exhibit similar, albeit less effective farming behaviors.",
+        "egg_name": "Sweetle Egg",
+        "baby": {
+          "name": "Sweetle Larva",
+          "desc": "A crawly little Sweetle Larva.\n\nIn time, it will mature into an adult Sweetle."
+        }
+      },
+      "variant_worm": {
+        "name": "Grubgrub",
+        "desc": "Grubgrubs form symbiotic relationships with plants, especially Grubfruit Plants, and instinctually tend to them.\n\nGrubgrubs are closely related to Sweetles.",
+        "egg_name": "Grubgrub Egg",
+        "baby": {
+          "name": "Grubgrub Wormling",
+          "desc": "A squirmy little Grubgrub Wormling.\n\nIn time, it will mature into an adult Grubgrub and drastically grow in size."
+        }
+      }
+    },
+    "drecko": {
+      "name": "Drecko",
+      "desc": "Dreckos are nonhostile critters that graze on Pincha Pepperplants, Balm Lily or Mealwood Plants.\n\nTheir backsides are covered in thick woolly fibers that only grow in Hydrogen climates.",
+      "egg_name": "Drecko Egg",
+      "baby": {
+        "name": "Drecklet",
+        "desc": "A little, bug-eyed Drecklet.\n\nIn time it will mature into a fully grown Drecko."
+      },
+      "variant_plastic": {
+        "name": "Glossy Drecko",
+        "desc": "Glossy Dreckos are nonhostile critters that graze on live Mealwood Plants and Bristle Blossoms.\n\nTheir backsides are covered in bioplastic scales that only grow in Hydrogen Gas climates.",
+        "egg_name": "Glossy Drecko Egg",
+        "baby": {
+          "name": "Glossy Drecklet",
+          "desc": "A bug-eyed little Glossy Drecklet.\n\nIn time it will mature into an adult Drecko morph, the Glossy Drecko."
+        }
+      }
+    },
+    "wooddeer": {
+      "name": "Flox",
+      "desc": "Floxes are nonhostile critters that graze on Bristle Blossoms and Pikeapples.\n\nWhen Flox antlers are fully grown, they harden into shearable Wood.",
+      "egg_name": "Flox Egg",
+      "baby": {
+        "name": "Flox Fawn",
+        "desc": "A little yipping Flox Fawn.\n\nIn time it will mature into a fully grown Flox."
+      }
+    },
+    "glassdeer": {
+      "name": "Shatter Flox",
+      "desc": "Shatter Floxes are nonhostile critters that can subsist on Bristle Blossom and Pikeapple Bush.\n\nTheir shearable Glass antlers grow only when they are fed Abyssalite.",
+      "egg_name": "Shatter Flox Egg",
+      "baby": {
+        "name": "Shatter Flox Fawn",
+        "desc": "A little yipping Shatter Flox Fawn.\n\nIn time it will mature into a fully grown Shatter Flox."
+      }
+    },
+    "icebelly": {
+      "name": "Bammoth",
+      "desc": "Bammoths are lumbering, nonhostile creatures that subsist on Plume Squash, Nosh Beans and Squash Fries.\n\nTheir thick overcoats can be shorn for Reed Fiber.",
+      "egg_name": "Bammoth Egg",
+      "baby": {
+        "name": "Bammini",
+        "desc": "A floofy little Bammini.\n\nIn time it will mature into a fully grown Bammoth."
+      },
+      "variant_gold": {
+        "name": "Regal Bammoth",
+        "desc": "Regal Bammoths are nonhostile creatures that subsist on Plume Squash and Nosh Beans.\n\nTheir ornate crests grow only when they are fed Squash Fries.",
+        "egg_name": "Regal Bammoth Egg",
+        "baby": {
+          "name": "Regal Bammini",
+          "desc": "A haughty little Regal Bammini.\n\nIn time it will mature into a fully grown Regal Bammoth."
+        }
+      }
+    },
+    "seal": {
+      "name": "Spigot Seal",
+      "desc": "Spigot Seals are charismatic creatures who produce Ethanol.\n\nThey eat Sucrose, and drink Nectar straight from the Bonbon Tree.",
+      "egg_name": "Spigot Seal Egg",
+      "baby": {
+        "name": "Spigot Pup",
+        "desc": "A wobbly little Spigot Pup.\n\nIn time, it will mature into an adult Spigot Seal."
+      }
+    },
+    "squirrel": {
+      "name": "Pip",
+      "desc": "Pips are pesky, nonhostile critters that subsist on Thimble Reeds and Arbor Tree branches.\n\nThey are known to bury Seeds in the ground whenever they can find a suitable area with enough space.",
+      "egg_name": "Pip Egg",
+      "baby": {
+        "name": "Pipsqueak",
+        "desc": "A little purring Pipsqueak.\n\nIn time it will mature into a fully grown Pip."
+      },
+      "variant_hug": {
+        "name": "Cuddle Pip",
+        "desc": "Cuddle Pips are fluffy, affectionate critters who exhibit a strong snuggling instinct towards all types of eggs.\n\nThis is temporarily amplified when they are hugged by a passing Duplicant.",
+        "egg_name": "Cuddle Pip Egg",
+        "baby": {
+          "name": "Cuddle Pipsqueak",
+          "desc": "A fuzzy little Cuddle Pipsqueak.\n\nIn time it will mature into a fully grown Cuddle Pip."
+        }
+      }
+    },
+    "oilfloater": {
+      "name": "Slickster",
+      "desc": "Slicksters are slimy critters that consume Carbon Dioxide and exude Crude Oil.",
+      "egg_name": "Slickster Egg",
+      "baby": {
+        "name": "Slickster Larva",
+        "desc": "A goopy little Slickster Larva.\n\nOne day it will grow into an adult Slickster."
+      },
+      "variant_hightemp": {
+        "name": "Molten Slickster",
+        "desc": "Molten Slicksters are slimy critters that consume Carbon Dioxide and exude Petroleum.",
+        "egg_name": "Molten Slickster Egg",
+        "baby": {
+          "name": "Molten Larva",
+          "desc": "A goopy little Molten Larva.\n\nOne day it will grow into an adult Slickster morph, the Molten Slickster."
+        }
+      },
+      "variant_decor": {
+        "name": "Longhair Slickster",
+        "desc": "Longhair Slicksters are friendly critters that consume Oxygen and thrive in close contact with Duplicant companions.\n\nLonghairs have extremely beautiful and luxurious coats.",
+        "egg_name": "Longhair Slickster Egg",
+        "baby": {
+          "name": "Longhair Larva",
+          "desc": "A snuggly little Longhair Larva.\n\nOne day it will grow into an adult Slickster morph, the Longhair Slickster."
+        }
+      }
+    },
+    "puft": {
+      "name": "Puft",
+      "desc": "Pufts are non-aggressive critters that excrete lumps of Slime with each breath.",
+      "egg_name": "Puft Egg",
+      "baby": {
+        "name": "Puftlet",
+        "desc": "A gassy little Puftlet.\n\nIn time it will grow into an adult Puft."
+      },
+      "variant_alpha": {
+        "name": "Puft Prince",
+        "desc": "The Puft Prince is a lazy critter that excretes little Solid lumps of whatever it has been breathing.",
+        "egg_name": "Puft Prince Egg",
+        "baby": {
+          "name": "Puftlet Prince",
+          "desc": "A gassy little Puftlet Prince.\n\nOne day it will grow into an adult Puft morph, the Puft Prince.\n\nIt seems a bit snobby..."
+        }
+      },
+      "variant_oxylite": {
+        "name": "Dense Puft",
+        "desc": "Dense Pufts are non-aggressive critters that excrete condensed Oxylite with each breath.",
+        "egg_name": "Dense Puft Egg",
+        "baby": {
+          "name": "Dense Puftlet",
+          "desc": "A stocky little Dense Puftlet.\n\nOne day it will grow into an adult Puft morph, the Dense Puft."
+        }
+      },
+      "variant_bleachstone": {
+        "name": "Squeaky Puft",
+        "desc": "Squeaky Pufts are non-aggressive critters that excrete lumps of Bleachstone with each breath.",
+        "egg_name": "Squeaky Puft Egg",
+        "baby": {
+          "name": "Squeaky Puftlet",
+          "desc": "A frazzled little Squeaky Puftlet.\n\nOne day it will grow into an adult Puft morph, the Squeaky Puft."
+        }
+      }
+    },
+    "moo": {
+      "name": "Gassy Moo",
+      "desc": "Moos are extraterrestrial critters that feed on Gas Grass and excrete Natural Gas.\n\nWhen domesticated and fed, they can be milked for Brackene."
+    },
+    "dieselmoo": {
+      "name": "Husky Moo",
+      "desc": "Husky Moos are extraterrestrial critters that feed on Plant Husk and Gas Grass, and excrete Carbon Dioxide.\n\nWhen domesticated and fed, they can be milked for Biodiesel."
+    },
+    "mole": {
+      "name": "Shove Vole",
+      "desc": "Shove Voles are burrowing critters that eat the Regolith collected on terrestrial surfaces.\n\nThey cannot burrow through Refined Metals.",
+      "egg_name": "Shove Vole Egg",
+      "baby": {
+        "name": "Vole Pup",
+        "desc": "A snuggly little pup.\n\nOne day it will grow into an adult Shove Vole."
+      },
+      "variant_delicacy": {
+        "name": "Delecta Vole",
+        "desc": "Delecta Voles are burrowing critters whose bodies sprout shearable Tonic Root when Regolith is ingested at preferred temperatures.\n\nThey cannot burrow through Refined Metals.",
+        "egg_name": "Delecta Vole Egg",
+        "baby": {
+          "name": "Delecta Vole Pup",
+          "desc": "A tender little Delecta Vole pup.\n\nOne day it will grow into an adult Shove Vole morph, the Delecta Vole."
+        }
+      }
+    },
+    "greedygreen": {
+      "name": "Avari Vine",
+      "desc": "A rapidly growing, subterranean Plant."
+    },
+    "shockworm": {
+      "name": "Shockworm",
+      "desc": "Shockworms are exceptionally aggressive and discharge electrical shocks to stun their prey."
+    },
+    "lightbug": {
+      "name": "Shine Bug",
+      "desc": "Shine Bugs emit a soft Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+      "egg_name": "Shine Bug Egg",
+      "baby": {
+        "name": "Shine Nymph",
+        "desc": "A chubby baby Shine Bug."
+      },
+      "variant_orange": {
+        "name": "Sun Bug",
+        "desc": "Sun Bugs emit a soft orange Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Sun Bug Egg",
+        "baby": {
+          "name": "Sun Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is a Sun morph."
+        }
+      },
+      "variant_purple": {
+        "name": "Royal Bug",
+        "desc": "Royal Bugs emit a soft purple Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Royal Bug Egg",
+        "baby": {
+          "name": "Royal Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is a Royal morph."
+        }
+      },
+      "variant_pink": {
+        "name": "Coral Bug",
+        "desc": "Coral Bugs emit a soft pink Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Coral Bug Egg",
+        "baby": {
+          "name": "Coral Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is a Coral morph."
+        }
+      },
+      "variant_blue": {
+        "name": "Azure Bug",
+        "desc": "Azure Bugs emit a soft blue Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Azure Bug Egg",
+        "baby": {
+          "name": "Azure Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is an Azure morph."
+        }
+      },
+      "variant_black": {
+        "name": "Abyss Bug",
+        "desc": "This Shine Bug emits no Light, but it makes up for it by having an excellent personality.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Abyss Bug Egg",
+        "baby": {
+          "name": "Abyss Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is an Abyss morph."
+        }
+      },
+      "variant_crystal": {
+        "name": "Radiant Bug",
+        "desc": "Radiant Bugs emit an extra-bright Light in hopes of attracting more of their kind for company.\n\nTheir eggs contain small amounts of Resin that can be harvested when cracked at the Egg Cracker.",
+        "egg_name": "Radiant Bug Egg",
+        "baby": {
+          "name": "Radiant Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is a Radiant morph."
+        }
+      },
+      "variant_radioactive": {
+        "name": "Ionizing Bug",
+        "desc": "Shine Bugs emit a dangerously radioactive Light in hopes of attracting more of their kind for company.",
+        "egg_name": "Ionizing Bug Egg",
+        "baby": {
+          "name": "Ionizing Nymph",
+          "desc": "A chubby baby Shine Bug.\n\nThis one is an Ionizing morph."
+        }
+      }
+    },
+    "raptor": {
+      "name": "Rhex",
+      "desc": "Rhexes are carnivorous critters that feed on smaller Critters and produce Brine Ice.\n\nTheir tailfeathers can be shorn for Feather Fiber.",
+      "egg_name": "Rhex Egg",
+      "baby": {
+        "name": "Rhex Baby",
+        "desc": "A feathery little Rhex fledgling.\n\nOne day, it will grow into a fearsome Rhex."
+      }
+    },
+    "prehistoricpacu": {
+      "name": "Jawbo",
+      "desc": "Jawbos are carnivorous aquatic critters that feed on Pacus and produce Rust.\n\nThey pose no danger to Duplicants.",
+      "egg_name": "Jawbo Egg",
+      "baby": {
+        "name": "Jawbo Fry",
+        "desc": "A grumpy little Jawbo fry.\n\nIn time, it will grow into a toothy Jawbo."
+      }
+    },
+    "stego": {
+      "name": "Lumb",
+      "desc": "Lumbs are non-hostile critters that subsist on Ovagro vines.\n\nWhen they stomp heavily near plants, the commotion causes harvestable items to fall to the ground.",
+      "egg_name": "Lumb Egg",
+      "baby": {
+        "name": "Lumblet",
+        "desc": "A heavy-footed little Lumb baby.\n\nIn time, it will grow into a stompy Lumb."
+      }
+    },
+    "algae_stego": {
+      "name": "Blum Lumb",
+      "desc": "Blum Lumbs are non-hostile critters that produce Algae.\n\nWhen they stomp heavily near plants, the commotion causes harvestable items to fall to the ground.",
+      "egg_name": "Blum Lumb Egg",
+      "baby": {
+        "name": "Blumblet",
+        "desc": "A slightly moist Blum Lumb baby.\n\nIn time, it will grow into a stompy Blum Lumb."
+      }
+    },
+    "butterfly": {
+      "name": "Mimika",
+      "desc": "Mimikas are airborne organisms that help nearby Plants grow more quickly.\n\nWhen its leaves dry up, it will harden into Mimillet."
+    },
+    "geyser": {
+      "name": "Steam Geyser",
+      "desc": "A highly pressurized geyser that periodically erupts, spraying Steam and boiling hot Water.",
+      "steam": {
+        "name": "Cool Steam Vent",
+        "desc": "A highly pressurized vent that periodically erupts with Steam."
+      },
+      "hot_steam": {
+        "name": "Steam Vent",
+        "desc": "A highly pressurized vent that periodically erupts with scalding Steam."
+      },
+      "salt_water": {
+        "name": "Salt Water Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with Salt Water."
+      },
+      "slush_salt_water": {
+        "name": "Cool Salt Slush Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with freezing Brine."
+      },
+      "hot_water": {
+        "name": "Water Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with hot Water."
+      },
+      "slush_water": {
+        "name": "Cool Slush Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with freezing Polluted Water."
+      },
+      "filthy_water": {
+        "name": "Polluted Water Vent",
+        "desc": "A highly pressurized vent that periodically erupts with boiling Polluted Water."
+      },
+      "small_volcano": {
+        "name": "Minor Volcano",
+        "desc": "A miniature volcano that periodically erupts with molten Magma."
+      },
+      "big_volcano": {
+        "name": "Volcano",
+        "desc": "A massive volcano that periodically erupts with molten Magma."
+      },
+      "liquid_co2": {
+        "name": "Carbon Dioxide Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with boiling Liquid Carbon Dioxide."
+      },
+      "hot_co2": {
+        "name": "Carbon Dioxide Vent",
+        "desc": "A highly pressurized vent that periodically erupts with hot Carbon Dioxide."
+      },
+      "hot_hydrogen": {
+        "name": "Hydrogen Vent",
+        "desc": "A highly pressurized vent that periodically erupts with hot gaseous Hydrogen."
+      },
+      "hot_po2": {
+        "name": "Hot Polluted Oxygen Vent",
+        "desc": "A highly pressurized vent that periodically erupts with hot Polluted Oxygen."
+      },
+      "slimy_po2": {
+        "name": "Infectious Polluted Oxygen Vent",
+        "desc": "A highly pressurized vent that periodically erupts with warm Polluted Oxygen."
+      },
+      "chlorine_gas": {
+        "name": "Chlorine Gas Vent",
+        "desc": "A highly pressurized vent that periodically erupts with warm Chlorine Gas."
+      },
+      "chlorine_gas_cool": {
+        "name": "Cool Chlorine Gas Vent",
+        "desc": "A highly pressurized vent that periodically erupts with cool Chlorine Gas."
+      },
+      "methane": {
+        "name": "Natural Gas Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with hot Natural Gas."
+      },
+      "molten_copper": {
+        "name": "Copper Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Copper."
+      },
+      "molten_iron": {
+        "name": "Iron Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Iron."
+      },
+      "molten_aluminum": {
+        "name": "Aluminum Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Aluminum."
+      },
+      "molten_tungsten": {
+        "name": "Tungsten Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Tungsten."
+      },
+      "molten_gold": {
+        "name": "Gold Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Gold."
+      },
+      "molten_cobalt": {
+        "name": "Cobalt Volcano",
+        "desc": "A large volcano that periodically erupts with Molten Cobalt."
+      },
+      "molten_niobium": {
+        "name": "Niobium Volcano",
+        "desc": "A large volcano that periodically erupts with Niobium."
+      },
+      "oil_drip": {
+        "name": "Leaky Oil Fissure",
+        "desc": "A fissure that periodically erupts with boiling Crude Oil."
+      },
+      "liquid_sulfur": {
+        "name": "Liquid Sulfur Geyser",
+        "desc": "A highly pressurized geyser that periodically erupts with boiling Liquid Sulfur."
+      }
+    },
+    "methanegeyser": {
+      "name": "Natural Gas Geyser",
+      "desc": "A highly pressurized geyser that periodically erupts with Natural Gas."
+    },
+    "oil_well": {
+      "name": "Oil Reservoir",
+      "desc": "Oil Reservoirs are rock formations with Crude Oil deposits beneath their surface.\n\nOil can be extracted from a reservoir with sufficient pressure."
+    },
+    "mushroomplant": {
+      "name": "Dusk Cap",
+      "desc": "Dusk Caps produce Mushrooms, fungal growths that can be harvested for Food.",
+      "domesticateddesc": "This plant produces edible Mushrooms."
+    },
+    "steamspout": {
+      "name": "Steam Spout",
+      "desc": "A rocky vent that spouts Steam."
+    },
+    "propanespout": {
+      "name": "Propane Spout",
+      "desc": "A rocky vent that spouts Propane Gas."
+    },
+    "oilspout": {
+      "name": "Oil Spout",
+      "desc": "A rocky vent that spouts Crude Oil."
+    },
+    "heatbulb": {
+      "name": "Fervine",
+      "desc": "A temperature reactive, subterranean Plant."
+    },
+    "heatbulbseed": {
+      "name": "Fervine Bulb",
+      "desc": "A temperature reactive, subterranean Plant."
+    },
+    "pacuegg": {
+      "name": "Pacu Egg",
+      "desc": "A tiny Pacu is nestled inside.\n\nIt is not yet ready for the world."
+    },
+    "mysteryegg": {
+      "name": "Mysterious Egg",
+      "desc": "What's growing inside? Something nice? Something mean?"
+    },
+    "swamplily": {
+      "name": "Balm Lily",
+      "desc": "Balm Lilies produce Balm Lily Flower, a lovely bloom with medicinal properties.",
+      "domesticateddesc": "This plant produces medicinal Balm Lily Flower."
+    },
+    "junglegasplant": {
+      "name": "Palmera Tree",
+      "desc": "A large, chlorine-dwelling Plant that can be grown in farm buildings.\n\nPalmeras grow inedible buds that emit unbreathable hydrogen gas.",
+      "domesticateddesc": "A large, chlorine-dwelling Plant that grows inedible buds which emit unbreathable hydrogen gas."
+    },
+    "prickleflower": {
+      "name": "Bristle Blossom",
+      "desc": "Bristle Blossoms produce Bristle Berry, a prickly edible bud.",
+      "domesticateddesc": "This plant produces edible Bristle Berries."
+    },
+    "coldwheat": {
+      "name": "Sleet Wheat",
+      "desc": "Sleet Wheat produces Sleet Wheat Grain, a chilly grain that can be processed into Food.",
+      "domesticateddesc": "This plant produces edible Sleet Wheat Grain."
+    },
+    "gasgrass": {
+      "name": "Gas Grass",
+      "desc": "Gas Grass is an alien lifeform tentatively categorized as a \"plant.\"\n\nIt can be harvested for Plant Husk or eaten as-is by Moos.",
+      "domesticateddesc": "An alien grass variety that is eaten by Gassy Moos."
+    },
+    "pinkrock": {
+      "name": "Lumen Quartz",
+      "desc": "Lumen quartz emits a soft glowing Light that makes everything look and feel a little rosier.\n\nIt's even brighter and more beautiful once it's been carved.",
+      "effect": "",
+      "codex": "Lumen quartz is a naturally occurring object found in the Cool Pool biome."
+    },
+    "pinkrockcarved": {
+      "name": "Carved Lumen Quartz",
+      "desc": "A Duplicant has carved this Lumen quartz in a way that really maximizes its Decor value and brightness.",
+      "effect": ""
+    },
+    "pricklegrass": {
+      "name": "Bluff Briar",
+      "desc": "Bluff Briars exude pheromones causing critters to view them as especially beautiful.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "cylindrica": {
+      "name": "Bliss Burst",
+      "desc": "Bliss Bursts release an explosion of Decor into otherwise dull environments.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "toeplant": {
+      "name": "Tranquil Toes",
+      "desc": "Tranquil Toes improve Decor by giving their surroundings the visual equivalent of a foot rub.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "winecups": {
+      "name": "Mellow Mallow",
+      "desc": "Mellow Mallows heighten Decor and alleviate Stress with their calming color and cradle shape.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "evilflower": {
+      "name": "Sporechid",
+      "desc": "Sporechids have an eerily alluring appearance to mask the fact that they host particularly nasty strain of brain fungus.",
+      "domesticateddesc": "This plant improves ambient Decor but produces high quantities of Zombie Spores.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "leafyplant": {
+      "name": "Mirth Leaf",
+      "desc": "Mirth Leaves sport a calm green hue known for alleviating Stress and improving Morale.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "cactusplant": {
+      "name": "Jumping Joya",
+      "desc": "Joyas are Decorative Plants that are colloquially said to make gardeners \"jump for joy\".",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "bulbplant": {
+      "name": "Buddy Bud",
+      "desc": "Buddy Buds are leafy plants that have a positive effect on Morale, much like a friend.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "iceflower": {
+      "name": "Idylla Flower",
+      "desc": "Idyllas are Decorative Plants with soft, pompom-shaped blossoms.\n\nGazing dreamily at them has a positive effect on Morale.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "hardskinberryplant": {
+      "name": "Pikeapple Bush",
+      "desc": "Pikeapple bushes produce Pikeapple, a useful yet almost unbearably fragrant Food.",
+      "domesticateddesc": "This plant produces edible Pikeapple."
+    },
+    "carrotplant": {
+      "name": "Plume Squash Plant",
+      "desc": "Plume Squashes are sweet, nutrient-rich tubers that can be harvested for Food.",
+      "domesticateddesc": "This plant produces edible Plume Squash."
+    },
+    "spacetree": {
+      "name": "Bonbon Tree",
+      "desc": "Bonbon Tree branches synthesize Light to produce Nectar.\n\nBranches can be harvested for Wood.\n\nBonbon Trees can shed most environmental debris, and rarely become entombed.",
+      "domesticateddesc": "This plant produces Nectar and Wood."
+    },
+    "blue_grass": {
+      "name": "Alveo Vera",
+      "desc": "Alveo Veras consume Carbon Dioxide and Ice, and form harvestable Oxylite deposits.",
+      "domesticateddesc": "This plant produces Oxylite."
+    },
+    "basicsingleharvestplant": {
+      "name": "Mealwood",
+      "desc": "Mealwoods produce Meal Lice, an oddly wriggly grain that can be harvested for Food.",
+      "domesticateddesc": "This plant produces edible Meal Lice."
+    },
+    "dewdripperplant": {
+      "name": "Dew Dripper",
+      "desc": "Dew Drippers produce Dewdrips that can be crushed into Brackene.",
+      "domesticateddesc": "This plant produces Brackene."
+    },
+    "swampharvestplant": {
+      "name": "Bog Bucket",
+      "desc": "Bog Buckets produce juicy, sweet Bog Jellies for Food.",
+      "domesticateddesc": "This plant produces edible Bog Jellies."
+    },
+    "wormplant": {
+      "name": "Spindly Grubfruit Plant",
+      "desc": "Spindly Grubfruit Plants produce Spindly Grubfruit for Food.\n\nIf it is tended by a Divergent critter, it will produce high quality fruits instead.",
+      "domesticateddesc": "This plant produces edible Spindly Grubfruit."
+    },
+    "superwormplant": {
+      "name": "Grubfruit Plant",
+      "desc": "A Grubfruit Plant that has flourished after being tended by a Divergent critter.\n\nIt will produce high quality Grubfruits.",
+      "domesticateddesc": "This plant produces edible Grubfruit."
+    },
+    "basicfabricmaterialplant": {
+      "name": "Thimble Reed",
+      "desc": "Thimble Reeds produce indescribably soft Reed Fiber for Clothing production.",
+      "domesticateddesc": "This plant produces Reed Fiber."
+    },
+    "basicforageplantplanted": {
+      "name": "Buried Muckroot",
+      "desc": "Muckroots are incapable of propagating but can be harvested for a single Food serving."
+    },
+    "icecavesforageplantplanted": {
+      "name": "Sherberry Plant",
+      "desc": "Sherberries are incapable of propagating, but can be harvested for a single Food serving."
+    },
+    "forestforageplantplanted": {
+      "name": "Hexalent",
+      "desc": "Hexalents are incapable of propagating but can be harvested for a single, calorie dense Food serving."
+    },
+    "swampforageplantplanted": {
+      "name": "Swamp Chard",
+      "desc": "Swamp Chards are incapable of propagating but can be harvested for a single low quality and calorie dense Food serving."
+    },
+    "coldbreather": {
+      "name": "Wheezewort",
+      "desc": "Wheezeworts can be planted in Planter Boxes, Farm Tiles or Hydroponic Farms, and absorb Heat by respiring through their porous outer membranes.",
+      "domesticateddesc": "This plant absorbs Heat."
+    },
+    "coldbreathercluster": {
+      "name": "Wheezewort",
+      "desc": "Wheezeworts can be planted in Planter Boxes, Farm Tiles or Hydroponic Farms, and absorb Heat by respiring through their porous outer membranes.",
+      "domesticateddesc": "This plant absorbs Heat."
+    },
+    "dinofern": {
+      "name": "Megafrond",
+      "desc": "Megafronds produce Megafrond Grain, an ancient grain that can be processed into Food.",
+      "domesticateddesc": "This plant produces Megafrond Grain."
+    },
+    "flytrapplant": {
+      "name": "Lura Plant",
+      "desc": "Lura plants are carnivorous plants that trap flying critters, such as Gnits.\n\nTheir digestive processes produce harvestable Amber.",
+      "domesticateddesc": "This plant produces Resin.",
+      "hungry": "Hungry",
+      "plant_hunger_requirement": "Carnivorous Diet",
+      "victim_identifier": "Airborne Critters"
+    },
+    "kelpplant": {
+      "name": "Seakomb",
+      "desc": "Seakombs consume Polluted Dirt.\n\nTheir leaves can be processed to extract Phyto Oil.",
+      "domesticateddesc": "This plant produces Seakomb Leaf."
+    },
+    "spice_vine": {
+      "name": "Pincha Pepperplant",
+      "desc": "Pincha Pepperplants produce flavorful Pincha Peppernut for spicing Food.",
+      "domesticateddesc": "This plant produces Pincha Peppernut spices."
+    },
+    "saltplant": {
+      "name": "Dasha Saltvine",
+      "desc": "Dasha Saltvines consume small amounts of Chlorine Gas and form sodium deposits as they grow, producing harvestable Salt.",
+      "domesticateddesc": "This plant produces unrefined Salt."
+    },
+    "filterplant": {
+      "name": "Hydrocactus",
+      "desc": "Hydrocacti act as natural Water filters when given access to Sand.",
+      "domesticateddesc": "This plant uses Sand to convert Polluted Water into Water."
+    },
+    "vinemother": {
+      "name": "Ovagro Node",
+      "desc": "Ovagro Nodes are trellis plants that spread onto nearby available surfaces.\n\nA single Ovagro Node can support several Ovagro Vines without any increase in its Water requirements.",
+      "domesticateddesc": "This plant produces Ovagro Fig."
+    },
+    "vinebranch": {
+      "name": "Ovagro Vine",
+      "desc": "Ovagro Vines are plants that produce edible Ovagro Fig.\n\nIf a vine is cut off from its Ovagro Node, it will perish."
+    },
+    "oxyfern": {
+      "name": "Oxyfern",
+      "desc": "Oxyferns absorb Carbon Dioxide Gas and exude breathable Oxygen.",
+      "domesticateddesc": "This plant converts Carbon Dioxide into Oxygen."
+    },
+    "bean_plant": {
+      "name": "Nosh Sprout",
+      "desc": "Nosh Sprouts thrive in colder climates and produce edible Nosh Beans.",
+      "domesticateddesc": "This plant produces Nosh Beans."
+    },
+    "wood_tree": {
+      "name": "Arbor Tree",
+      "desc": "Arbor Trees grow Arbor Tree Branches and can be harvested for Wood.",
+      "domesticateddesc": "This plant produces Arbor Tree Branches that can be harvested for Wood."
+    },
+    "wood_tree_branch": {
+      "name": "Arbor Tree Branch",
+      "desc": "Arbor Trees Branches can be harvested for Wood."
+    },
+    "sealettuce": {
+      "name": "Waterweed",
+      "desc": "Waterweeds thrive in salty water and can be harvested for fresh, edible Lettuce.",
+      "domesticateddesc": "This plant produces Lettuce."
+    },
+    "crittertrapplant": {
+      "name": "Saturn Critter Trap",
+      "desc": "Critter Traps are carnivorous plants that consume small-to-medium-sized critters and release Hydrogen Gas as waste.",
+      "domesticateddesc": "This plant eats small critters and produces Hydrogen Gas.",
+      "hungry": "Hungry",
+      "plant_hunger_requirement": "Carnivorous Diet",
+      "victim_identifier": "Land Critters"
+    },
+    "saptree": {
+      "name": "Experiment 52B",
+      "desc": "A Sap-producing cybernetic tree that shows signs of sentience.\n\nIt is rooted firmly in place, and is waiting for some brave soul to bring it food."
+    },
+    "gardenfoodplant": {
+      "name": "Sweatcorn Stalk",
+      "desc": "Sweatcorn Stalks produce Sweatcorn, a crisp vegetable that can be harvested for Food.",
+      "domesticateddesc": "This plant produces edible Sweatcorns."
+    },
+    "gardenforageplantplanted": {
+      "name": "Snactus",
+      "desc": "Snacti are incapable of propagating but can be harvested for a single Food serving."
+    },
+    "butterflyplant": {
+      "name": "Mimika Bud",
+      "desc": "Mimika Buds are self-harvesting plants that produce airborne Mimikas.\n\nMimikas boost growth for nearby Plants before hardening into Mimillet.",
+      "domesticateddesc": "This plant produces Mimikas."
+    },
+    "gardendecorplant": {
+      "name": "Ring Rosebush",
+      "desc": "Ring Rosebushes are Decorative Plants that add a touch of whimsy wherever they are planted.",
+      "domesticateddesc": "This plant improves ambient Decor.",
+      "growth_bonus": "Growth Bonus",
+      "wilt_penalty": "Wilt Penalty"
+    },
+    "seeds": {
+      "vinemother": {
+        "name": "Ovagro Node Seed",
+        "desc": "The Seed of a Ovagro Node.\n\nDigging up Buried Objects may uncover an Ovagro Node Seed."
+      },
+      "leafyplant": {
+        "name": "Mirth Leaf Seed",
+        "desc": "The Seed of a Mirth Leaf.\n\nDigging up Buried Objects may uncover a Mirth Leaf Seed."
+      },
+      "cactusplant": {
+        "name": "Joya Seed",
+        "desc": "The Seed of a Jumping Joya.\n\nDigging up Buried Objects may uncover a Joya Seed."
+      },
+      "bulbplant": {
+        "name": "Buddy Bud Seed",
+        "desc": "The Seed of a Buddy Bud.\n\nDigging up Buried Objects may uncover a Buddy Bud Seed."
+      },
+      "prickleflower": {
+        "name": "Blossom Seed",
+        "desc": "The Seed of a Bristle Blossom.\n\nDigging up Buried Objects may uncover a Blossom Seed."
+      },
+      "mushroomplant": {
+        "name": "Fungal Spore",
+        "desc": "The Seed of a Dusk Cap.\n\nDigging up Buried Objects may uncover a Fungal Spore."
+      },
+      "dewdripperplant": {
+        "name": "Dew Seed",
+        "desc": "The Seed of a Dew Dripper plant."
+      },
+      "coldwheat": {
+        "name": "Sleet Wheat Grain",
+        "desc": "The Seed of a Sleet Wheat plant.\n\nGrain can be sown to cultivate more Sleet Wheat, or processed into Food."
+      },
+      "dinofern": {
+        "name": "Megafrond Spore",
+        "desc": "The Seed of a Megafrond plant."
+      },
+      "gasgrass": {
+        "name": "Gas Grass Seed",
+        "desc": "The Seed of a Gas Grass plant."
+      },
+      "pricklegrass": {
+        "name": "Briar Seed",
+        "desc": "The Seed of a Bluff Briar.\n\nDigging up Buried Objects may uncover a Briar Seed."
+      },
+      "cylindrica": {
+        "name": "Bliss Burst Seed",
+        "desc": "The Seed of a Bliss Burst.\n\nDigging up Buried Objects may uncover a Bliss Burst Seed."
+      },
+      "toeplant": {
+        "name": "Tranquil Toe Seed",
+        "desc": "The Seed of a Tranquil Toes.\n\nDigging up Buried Objects may uncover a Tranquil Toe Seed."
+      },
+      "winecups": {
+        "name": "Mallow Seed",
+        "desc": "The Seed of a Mellow Mallow.\n\nDigging up Buried Objects may uncover a Mallow Seed."
+      },
+      "evilflower": {
+        "name": "Sporechid Seed",
+        "desc": "The Seed of a Sporechid.\n\nDigging up Buried Objects may uncover a Sporechid Seed."
+      },
+      "swamplily": {
+        "name": "Balm Lily Seed",
+        "desc": "The Seed of a Balm Lily.\n\nDigging up Buried Objects may uncover a Balm Lily Seed."
+      },
+      "iceflower": {
+        "name": "Idylla Seed",
+        "desc": "The Seed of an Idylla Flower.\n\nDigging up Buried Objects may uncover an Idylla Seed."
+      },
+      "hardskinberryplant": {
+        "name": "Pikeapple Bush Seed",
+        "desc": "The Seed of a Pikeapple Bush.\n\nDigging up Buried Objects may uncover a Pikeapple Bush Seed."
+      },
+      "spacetree": {
+        "name": "Bonbon Tree Seed",
+        "desc": "The Seed of a Bonbon Tree.\n\nDigging up Buried Objects may uncover a Bonbon Tree Seed."
+      },
+      "blue_grass": {
+        "name": "Alveo Vera Seed",
+        "desc": "The Seed of a Alveo Vera.\n\nDigging up Buried Objects may uncover an Alveo Vera Seed."
+      },
+      "carrotplant": {
+        "name": "Plume Squash Seed",
+        "desc": "The Seed of a Plume Squash Plant.\n\nDigging up Buried Objects may uncover a Plume Squash Seed."
+      },
+      "basicsingleharvestplant": {
+        "name": "Mealwood Seed",
+        "desc": "The Seed of a Mealwood.\n\nDigging up Buried Objects may uncover a Mealwood Seed."
+      },
+      "swampharvestplant": {
+        "name": "Bog Bucket Seed",
+        "desc": "The Seed of a Bog Bucket.\n\nDigging up Buried Objects may uncover a Bog Bucket Seed."
+      },
+      "wormplant": {
+        "name": "Grubfruit Seed",
+        "desc": "The Seed of a Spindly Grubfruit Plant.\n\nDigging up Buried Objects may uncover a Grubfruit Seed."
+      },
+      "coldbreather": {
+        "name": "Wort Seed",
+        "desc": "The Seed of a Wheezewort.\n\nDigging up Buried Objects may uncover a Wort Seed."
+      },
+      "basicfabricmaterialplant": {
+        "name": "Thimble Reed Seed",
+        "desc": "The Seed of a Thimble Reed.\n\nDigging up Buried Objects may uncover a Thimble Reed Seed."
+      },
+      "saltplant": {
+        "name": "Dasha Saltvine Seed",
+        "desc": "The Seed of a Dasha Saltvine.\n\nDigging up Buried Objects may uncover a Dasha Saltvine Seed."
+      },
+      "filterplant": {
+        "name": "Hydrocactus Seed",
+        "desc": "The Seed of a Hydrocactus.\n\nDigging up Buried Objects may uncover a Hydrocactus Seed."
+      },
+      "flytrapplant": {
+        "name": "Lura Seed",
+        "desc": "The Seed of a Lura Plant.\n\nDigging up Buried Objects may uncover a Lura Seed."
+      },
+      "kelpplant": {
+        "name": "Seakomb Seed",
+        "desc": "The Seed of a Seakomb.\n\nDigging up Buried Objects may uncover a Seakomb Seed."
+      },
+      "spice_vine": {
+        "name": "Pincha Pepper Seed",
+        "desc": "The Seed of a Pincha Pepperplant.\n\nDigging up Buried Objects may uncover a Pincha Pepper Seed."
+      },
+      "bean_plant": {
+        "name": "Nosh Bean",
+        "desc": "The Seed of a Nosh Sprout.\n\nDigging up Buried Objects may uncover a Nosh Bean."
+      },
+      "wood_tree": {
+        "name": "Arbor Acorn",
+        "desc": "The Seed of an Arbor Tree.\n\nDigging up Buried Objects may uncover an Arbor Acorn."
+      },
+      "oileater": {
+        "name": "Ink Bloom Seed",
+        "desc": "The Seed of a Plant.\n\nDigging up Buried Objects may uncover an Ink Bloom Seed."
+      },
+      "oxyfern": {
+        "name": "Oxyfern Seed",
+        "desc": "The Seed of an Oxyfern plant."
+      },
+      "sealettuce": {
+        "name": "Waterweed Seed",
+        "desc": "The Seed of a Waterweed.\n\nDigging up Buried Objects may uncover a Waterweed Seed."
+      },
+      "crittertrapplant": {
+        "name": "Saturn Critter Trap Seed",
+        "desc": "The Seed of a Saturn Critter Trap.\n\nDigging up Buried Objects may uncover a Saturn Critter Trap Seed."
+      },
+      "gardenfoodplant": {
+        "name": "Sweatcorn Seed",
+        "desc": "The Seed of a Sweatcorn Stalk.\n\nDigging up Buried Objects may uncover a Sweatcorn Seed."
+      },
+      "gardendecorplant": {
+        "name": "Rosebush Seed",
+        "desc": "The Seed of a Ring Rosebush.\n\nDigging up Buried Objects may uncover a Rosebush Seed."
+      },
+      "butterflyplantseed": {
+        "name": "Mimillet",
+        "desc": "An inedible Seed of a Mimika Bud plant.\n\nIt can be sown to cultivate more plants, or processed into Food.\n\nDigging up Buried Objects may uncover Mimillet."
+      }
+    }
+  },
+  "statusitems": {
+    "name_non_growing_plant": "Wilted",
+    "drowsy": {
+      "name": "Drowsy",
+      "tooltip": "This critter is looking for a place to nap"
+    },
+    "sleeping": {
+      "name": "Sleeping",
+      "tooltip": "This critter is replenishing its Stamina"
+    },
+    "call_adult": {
+      "name": "Calling Adult",
+      "tooltip": "This baby's craving attention from one of its own kind"
+    },
+    "hot": {
+      "name": "Toasty surroundings",
+      "tooltip": "This critter cannot let off enough Heat to keep cool in this environment\n\nIt prefers Temperatures between <b>{0}</b> and <b>{1}</b>"
+    },
+    "cold": {
+      "name": "Chilly surroundings",
+      "tooltip": "This critter cannot retain enough Heat to stay warm in this environment\n\nIt prefers Temperatures between <b>{0}</b> and <b>{1}</b>"
+    },
+    "crop_too_dark": {
+      "name": "    • Illumination",
+      "tooltip": "Growth will resume when Light requirements are met"
+    },
+    "crop_too_bright": {
+      "name": "    • Illumination",
+      "tooltip": "Growth will resume when Light requirements are met"
+    },
+    "crop_blighted": {
+      "name": "    • Blighted",
+      "tooltip": "This plant has been struck by blight and will need to be replaced"
+    },
+    "hot_crop": {
+      "name": "    • Body Temperature",
+      "tooltip": "Growth will resume when ambient Temperature is between <b>{low_temperature}</b> and <b>{high_temperature}</b>"
+    },
+    "cold_crop": {
+      "name": "    • Body Temperature",
+      "tooltip": "Growth will resume when ambient Temperature is between <b>{low_temperature}</b> and <b>{high_temperature}</b>"
+    },
+    "perfecttemperature": {
+      "name": "Ideal Temperature",
+      "tooltip": "This critter finds the current ambient Temperature comfortable\n\nIdeal Range: <b>{0}</b> - <b>{1}</b>"
+    },
+    "eating": {
+      "name": "Eating",
+      "tooltip": "This critter found something tasty"
+    },
+    "drinkingmilk": {
+      "name": "Drinking",
+      "tooltip": "This critter found a tasty beverage"
+    },
+    "digesting": {
+      "name": "Digesting",
+      "tooltip": "This critter is working off a big meal"
+    },
+    "cooling": {
+      "name": "Chilly Breath",
+      "tooltip": "This critter's respiration is having a cooling effect on the area"
+    },
+    "lookingforliquid": {
+      "name": "Parched",
+      "tooltip": "This critter is looking for Liquids to mop up"
+    },
+    "lookingforgas": {
+      "name": "Seeking Gas",
+      "tooltip": "This critter is on the lookout for unbreathable Gases to collect"
+    },
+    "lookingformilk": {
+      "name": "Seeking Brackene",
+      "tooltip": "This critter is thirsty for Brackene"
+    },
+    "idle": {
+      "name": "Idle",
+      "tooltip": "Just enjoying life, y'know?"
+    },
+    "hive_digesting": {
+      "name": "Digesting",
+      "tooltip": "Digesting yummy food!"
+    },
+    "excited_to_get_ranched": {
+      "name": "Excited",
+      "tooltip": "This critter heard a Duplicant call for it and is very excited!"
+    },
+    "getting_ranched": {
+      "name": "Being Groomed",
+      "tooltip": "This critter's going to look so good when they're done"
+    },
+    "getting_milked": {
+      "name": "Being Milked",
+      "tooltip": "This critter's going to be so relieved when they're done"
+    },
+    "excited_to_be_ranched": {
+      "name": "Freshly Groomed",
+      "tooltip": "This critter just received some attention and feels great"
+    },
+    "getting_wrangled": {
+      "name": "Being Wrangled",
+      "tooltip": "Someone's trying to capture this critter!"
+    },
+    "bagged": {
+      "name": "Trussed",
+      "tooltip": "Tied up and ready for relocation"
+    },
+    "in_incubator": {
+      "name": "Incubation Complete",
+      "tooltip": "This critter has hatched and is waiting to be released from its incubator"
+    },
+    "hypothermia": {
+      "name": "Body Temperature Low",
+      "tooltip": "Internal Temperature is dangerously low"
+    },
+    "scalding": {
+      "name": "Scalding",
+      "tooltip": "Current external Temperature is perilously high [<b>{ExternalTemperature}</b> / <b>{TargetTemperature}</b>]",
+      "notification_name": "Scalding",
+      "notification_tooltip": "Scalding Temperatures are hurting these Duplicants:"
+    },
+    "scolding": {
+      "name": "Frostbite",
+      "tooltip": "Current external Temperature is perilously low [<b>{ExternalTemperature}</b> / <b>{TargetTemperature}</b>]",
+      "notification_name": "Frostbite",
+      "notification_tooltip": "Extremely Low Temperatures are hurting these Duplicants:"
+    },
+    "hyperthermia": {
+      "name": "Body Temperature High",
+      "tooltip": "Internal Temperature is dangerously high [<b>{InternalTemperature}</b> / <b>{TargetTemperature}</b>]"
+    },
+    "tired": {
+      "name": "Fatigued",
+      "tooltip": "This critter needs some sleepytime"
+    },
+    "breath": {
+      "name": "Suffocating",
+      "tooltip": "This critter is about to suffocate"
+    },
+    "dead": {
+      "name": "Dead",
+      "tooltip": "This critter won't be getting back up..."
+    },
+    "plantdeath": {
+      "name": "Dead",
+      "tooltip": "This plant will produce no more harvests",
+      "notification": "Plants have died",
+      "notification_tooltip": "These plants have died and will produce no more harvests:\n"
+    },
+    "struggling": {
+      "name": "Struggling",
+      "tooltip": "This critter is trying to get away"
+    },
+    "burrowing": {
+      "name": "Burrowing",
+      "tooltip": "This critter is trying to hide"
+    },
+    "burrowed": {
+      "name": "Burrowed",
+      "tooltip": "Shh! It thinks it's hiding"
+    },
+    "emerging": {
+      "name": "Emerging",
+      "tooltip": "This critter is leaving its burrow"
+    },
+    "foragingmaterial": {
+      "name": "Foraging for Materials",
+      "tooltip": "This critter is stocking up on supplies for later use"
+    },
+    "plantingseed": {
+      "name": "Planting Seed",
+      "tooltip": "This critter is burying a Seed for later"
+    },
+    "rummagingseed": {
+      "name": "Rummaging for seeds",
+      "tooltip": "This critter is searching for tasty Seeds"
+    },
+    "hugegg": {
+      "name": "Hugging Eggs",
+      "tooltip": "This critter is snuggling up to an Egg "
+    },
+    "hugminionwaiting": {
+      "name": "Hoping for hugs",
+      "tooltip": "This critter is hoping for a Duplicant to pass by and give it a hug\n\nA hug from a Duplicant will prompt it to cuddle more eggs"
+    },
+    "hugminion": {
+      "name": "Hugging",
+      "tooltip": "This critter is happily hugging a Duplicant"
+    },
+    "expelling_solid": {
+      "name": "Expelling Waste",
+      "tooltip": "This critter is doing their \"business\""
+    },
+    "expelling_gas": {
+      "name": "Passing Gas",
+      "tooltip": "This critter is emitting Gas\n\nYuck!"
+    },
+    "expelling_liquid": {
+      "name": "Expelling Waste",
+      "tooltip": "This critter is doing their \"business\""
+    },
+    "debuggoto": {
+      "name": "Moving to debug location",
+      "tooltip": "All that obedience training paid off"
+    },
+    "attack_approach": {
+      "name": "Stalking Target",
+      "tooltip": "This critter is hostile and readying to pounce!"
+    },
+    "attack": {
+      "name": "Combat!",
+      "tooltip": "This critter is on the attack!"
+    },
+    "attackingentity": {
+      "name": "Attacking",
+      "tooltip": "This critter is violently defending their young"
+    },
+    "protectingentity": {
+      "name": "Protecting",
+      "tooltip": "This creature is guarding something special to them and will likely attack if approached"
+    },
+    "layinganegg": {
+      "name": "Laying egg",
+      "tooltip": "Witness the miracle of life!"
+    },
+    "tendinganegg": {
+      "name": "Tending egg",
+      "tooltip": "Nurturing the miracle of life!"
+    },
+    "growingup": {
+      "name": "Maturing",
+      "tooltip": "This baby critter is about to reach adulthood"
+    },
+    "suffocating": {
+      "name": "Suffocating",
+      "tooltip": "This critter cannot breathe"
+    },
+    "aquaticcreaturesuffocating": {
+      "name": "Suffocating",
+      "tooltip": "This critter cannot breathe outside of Liquid!\n\nTime until death: {0}"
+    },
+    "hatching": {
+      "name": "Hatching",
+      "tooltip": "Here it comes!"
+    },
+    "incubating": {
+      "name": "Incubating",
+      "tooltip": "Cozily preparing to meet the world"
+    },
+    "consideringlure": {
+      "name": "Piqued",
+      "tooltip": "This critter is tempted to bite a nearby Lure"
+    },
+    "falling": {
+      "name": "Falling",
+      "tooltip": "AHHHH!"
+    },
+    "flopping": {
+      "name": "Flopping",
+      "tooltip": "Fish out of water!"
+    },
+    "dryingout": {
+      "name": "    • Beached",
+      "tooltip": "This plant must be submerged in Liquid to grow"
+    },
+    "growing": {
+      "name": "Growing [{PercentGrow}%]",
+      "tooltip": "Next harvest: <b>{TimeUntilNextHarvest}</b>"
+    },
+    "growingfruit": {
+      "name": "Growing Fruit [{PercentGrow}%]",
+      "tooltip": "Next harvest: <b>{TimeUntilNextHarvest}</b>"
+    },
+    "growing_carnivorousplant": {
+      "name": "Digesting [{PercentGrow}%]",
+      "tooltip": "Next harvest: <b>{TimeUntilNextHarvest}</b>"
+    },
+    "carnivorousplantawaitingvictim": {
+      "name": "Awaiting Prey",
+      "tooltip": "This plant is waiting for its next meal to show up\n\nDiet:",
+      "tooltip_item": "    • {0}"
+    },
+    "crop_sleeping": {
+      "name": "Sleeping [{REASON}]",
+      "tooltip": "Requires: {REQUIREMENTS}",
+      "requirement_luminance": "<b>{0}</b> Lux",
+      "reason_too_dark": "Too Dark",
+      "reason_too_bright": "Too Bright"
+    },
+    "molting": {
+      "name": "Molting",
+      "tooltip": "This critter is shedding its skin. Yuck"
+    },
+    "cleaning": {
+      "name": "Cleaning",
+      "tooltip": "This critter is de-germ-ifying its liquid surroundings"
+    },
+    "milkproducer": {
+      "name": "Producing Brackene {amount}",
+      "tooltip": "This critter's internal tank is refilling itself"
+    },
+    "needsfertilizer": {
+      "name": "    • Fertilization",
+      "tooltip": "Growth will resume when Fertilization requirements are met",
+      "line_item": "\n            • {Resource}: {Amount}"
+    },
+    "needsirrigation": {
+      "name": "    • Irrigation",
+      "tooltip": "Growth will resume when Liquid requirements are met",
+      "line_item": "\n            • {Resource}: {Amount}"
+    },
+    "wrongirrigation": {
+      "name": "    • Fertilization",
+      "tooltip": "This farm is storing materials that are not suitable for this plant\n\nEmpty this building's storage to remove the unusable materials",
+      "line_item": "            • {0}: {1}\n"
+    },
+    "wrongirrigationmajor": {
+      "name": "    • Irrigation (Stored)",
+      "tooltip": "This farm is storing Liquids that are not suitable for this plant\n\nEmpty Storage on this building to remove the unusable liquids",
+      "line_item": "                    • {0}: {1}\n"
+    },
+    "cantacceptfertilizer": {
+      "name": "    • Fertilization",
+      "tooltip": "This farm plot does not accept Fertilizer\n\nMove the selected plant to a fertilization capable plot for optimal growth"
+    },
+    "cantacceptirrigation": {
+      "name": "    • Irrigation",
+      "tooltip": "This farm plot does not accept Irrigation\n\nMove the selected plant to an irrigation capable plot for optimal growth"
+    },
+    "readyforharvest": {
+      "name": "Harvest Ready",
+      "tooltip": "This plant can be harvested for materials"
+    },
+    "readyforharvest_branch": {
+      "name": "Harvest Ready",
+      "tooltip": "This branch can be harvested for materials"
+    },
+    "low_yield": {
+      "name": "Standard Yield",
+      "tooltip": "This plant produced an average yield"
+    },
+    "normal_yield": {
+      "name": "Good Yield",
+      "tooltip": "Comfortable conditions allowed this plant to produce a better yield\n{Effects}",
+      "line_item": "    • {0}\n"
+    },
+    "high_yield": {
+      "name": "Excellent Yield",
+      "tooltip": "Consistently ideal conditions allowed this plant to bear a large yield\n{Effects}",
+      "line_item": "    • {0}\n"
+    },
+    "entombed": {
+      "name": "Entombed",
+      "tooltip": "This {0} is trapped and needs help digging out",
+      "line_item": "    • Entombed"
+    },
+    "drowning": {
+      "name": "Drowning",
+      "tooltip": "This critter can't breathe in Liquid!"
+    },
+    "disabled": {
+      "name": "Disabled",
+      "tooltip": "Something is preventing this critter from functioning!"
+    },
+    "saturated": {
+      "name": "Too Wet!",
+      "tooltip": "This critter likes Liquid, but not that much!"
+    },
+    "producingsugarwater": {
+      "name": "Producing Nectar ({0})",
+      "tooltip": "Current Nectar production rate: {0}\n\nNectar production rate depends on total branch productivity\n\nBranches must be fully grown and exposed to Light in order to be productive\n\n{BRANCH_0}\n{BRANCH_1}\n{BRANCH_2}\n{BRANCH_3}\n{BRANCH_4}\n\nOptimal productivity: {1} branches at {2} each",
+      "branch_line": "{0} Branch productivity: {1}",
+      "branch_line_missing": "{0} Branch not found",
+      "branch_line_growing": "{0} Branch growth : {1}"
+    },
+    "sugarwaterproductionpaused": {
+      "name": "Nectar Production Halted: {0}",
+      "tooltip": "This plant's branches are not currently producing Nectar\n\nBranches must be fully grown and exposed to Light in order to be productive\n\n{BRANCH_0}\n{BRANCH_1}\n{BRANCH_2}\n{BRANCH_3}\n{BRANCH_4}\n\nOptimal productivity: {0} branches at {1} each\n\nNectar production will resume when conditions improve",
+      "branch_line": "{0} Branch productivity: {1}",
+      "branch_line_missing": "{0} Branch not found",
+      "branch_line_growing": "{0} Branch growth : {1}"
+    },
+    "sugarwaterproductionwilted": {
+      "name": "Nectar Production Halted: {0}",
+      "tooltip": "This plant is wilted\n\nNectar production will resume when conditions improve"
+    },
+    "spacetreebranchlightstatus": {
+      "name": "Branch Productivity: {0}",
+      "tooltip": "The selected branch's Light exposure contributes to this plant's total Nectar production\n\nOptimal lux: {0}\n\nCurrent lux: {1}"
+    },
+    "wilting": {
+      "name": "Growth Halted{Reasons}",
+      "tooltip": "Growth will resume when conditions improve"
+    },
+    "wiltingdomestic": {
+      "name": "Growth Halted{Reasons}",
+      "tooltip": "Growth will resume when conditions improve"
+    },
+    "wilting_non_growing_plant": {
+      "name": "Growth Halted{Reasons}",
+      "tooltip": "Growth will resume when conditions improve"
+    },
+    "barren": {
+      "name": "Barren",
+      "tooltip": "This plant will produce no more Seeds"
+    },
+    "atmosphericpressuretoolow": {
+      "name": "    • Pressure",
+      "tooltip": "Growth will resume when air pressure is between <b>{low_mass}</b> and <b>{high_mass}</b>"
+    },
+    "wrongatmosphere": {
+      "name": "    • Atmosphere",
+      "tooltip": "Growth will resume when submersed in one of the following Gases: {elements}"
+    },
+    "atmosphericpressuretoohigh": {
+      "name": "    • Pressure",
+      "tooltip": "Growth will resume when air pressure is between <b>{low_mass}</b> and <b>{high_mass}</b>"
+    },
+    "perfectatmosphericpressure": {
+      "name": "Ideal Air Pressure",
+      "tooltip": "This critter is comfortable in the current atmospheric pressure\n\nIdeal Range: <b>{0}</b> - <b>{1}</b>"
+    },
+    "healthstatus": {
+      "name": "Injuries: {healthState}",
+      "tooltip": "Current physical status: {healthState}"
+    },
+    "fleeing": {
+      "name": "Fleeing",
+      "tooltip": "This critter is trying to escape\nGet'em!"
+    },
+    "refrigeratedfrozen": {
+      "name": "Deep Freeze",
+      "tooltip": "Temperatures below <b>{PreserveTemperature}</b> are greatly prolonging the shelf-life of this food\n\nTemperatures above <b>{RotTemperature}</b> spoil food more quickly"
+    },
+    "refrigerated": {
+      "name": "Refrigerated",
+      "tooltip": "Ideal Temperature storage is slowing this food's Decay Rate\n\nTemperatures above <b>{RotTemperature}</b> spoil food more quickly\n\nStore food below {PreserveTemperature} to further reduce spoilage"
+    },
+    "unrefrigerated": {
+      "name": "Unrefrigerated",
+      "tooltip": "This food is warm\n\nTemperatures above <b>{RotTemperature}</b> spoil food more quickly"
+    },
+    "contaminatedatmosphere": {
+      "name": "Pollution Exposure",
+      "tooltip": "Exposure to contaminants is accelerating this food's Decay Rate"
+    },
+    "sterilizingatmosphere": {
+      "name": "Sterile Atmosphere",
+      "tooltip": "Microbe destroying conditions have decreased this food's Decay Rate"
+    },
+    "exchangingelementconsume": {
+      "name": "Consuming {ConsumeElement} at {ConsumeRate}",
+      "tooltip": "{ConsumeElement} is being used at a rate of {ConsumeRate}"
+    },
+    "exchangingelementoutput": {
+      "name": "Outputting {OutputElement} at {OutputRate}",
+      "tooltip": "{OutputElement} is being expelled at a rate of {OutputRate}"
+    },
+    "fresh": {
+      "name": "Fresh {RotPercentage}",
+      "tooltip": "Get'em while they're hot!\n\n{RotTooltip}"
+    },
+    "stale": {
+      "name": "Stale {RotPercentage}",
+      "tooltip": "This Food is still edible but will soon expire\n{RotTooltip}"
+    },
+    "spoiled": {
+      "name": "Rotten",
+      "tooltip": "This Food has putrefied and should not be consumed"
+    },
+    "stunted_scale_growth": {
+      "name": "Stunted Scales",
+      "tooltip": "This critter's Scale Growth is being stunted by an unfavorable environment"
+    },
+    "receptacleinoperational": {
+      "name": "    • Farm plot inoperable",
+      "tooltip": "This farm plot cannot grow Plants in its current state"
+    },
+    "trapped": {
+      "name": "Trapped",
+      "tooltip": "This critter has been contained and cannot escape"
+    },
+    "exhaling": {
+      "name": "Exhaling",
+      "tooltip": "This critter is expelling Gas from its lungsacs"
+    },
+    "inhaling": {
+      "name": "Inhaling",
+      "tooltip": "This critter is taking a deep breath"
+    },
+    "externaltemperature": {
+      "name": "External Temperature",
+      "tooltip": "External Temperature\n\nThis critter's environment is {0}"
+    },
+    "receptacleoperational": {
+      "name": "Farm plot operational",
+      "tooltip": "This plant's farm plot is operational"
+    },
+    "domestication": {
+      "name": "Domestication Level: {LevelName}",
+      "tooltip": "{LevelDesc}"
+    },
+    "hungry": {
+      "name": "Looking for Food",
+      "tooltip": "This critter is hungry\n\nIt will keep seeking Food until its tummy is full\n"
+    },
+    "hunting": {
+      "name": "Hunting",
+      "tooltip": "This critter has spotted its next meal"
+    },
+    "mosquito_going_for_food": {
+      "name": "Going to Sting",
+      "tooltip": "This critter is on its way irritate an unsuspecting target"
+    },
+    "going_to_stomp": {
+      "name": "Going to Stomp",
+      "tooltip": "This critter is getting ready to make things rumble"
+    },
+    "stomping": {
+      "name": "Stomping",
+      "tooltip": "This critter is stomping wildly\n\nFruits are falling off nearby plants as a result"
+    },
+    "going_to_harvest": {
+      "name": "Going to harvest",
+      "tooltip": "This critter is on its way to harvest food right off the plant"
+    },
+    "harvesting": {
+      "name": "Harvesting",
+      "tooltip": "This critter is removing food from a plant in the only way it knows how"
+    },
+    "hivehungry": {
+      "name": "Food Supply Low",
+      "tooltip": "The food reserves in this hive are running low"
+    },
+    "starving": {
+      "name": "Starving\nTime until death: {TimeUntilDeath}\n",
+      "tooltip": "This critter is starving and will die if it is not fed soon",
+      "notification_name": "Critter Starvation",
+      "notification_tooltip": "These critters are starving and will die if not fed soon:"
+    },
+    "old": {
+      "name": "Elderly",
+      "tooltip": "This sweet ol'critter is over the hill and will pass on in <b>{TimeUntilDeath}</b>"
+    },
+    "divergent_will_tend": {
+      "name": "Moving to Plant",
+      "tooltip": "This critter is off to tend a plant that's caught its attention"
+    },
+    "divergent_tending": {
+      "name": "Plant Tending",
+      "tooltip": "This critter is snuggling a plant to help it grow"
+    },
+    "nosleepspot": {
+      "name": "Nowhere To Sleep",
+      "tooltip": "This critter wants to sleep but can't find a good spot to snuggle up!"
+    },
+    "originalplantmutation": {
+      "name": "Original Plant",
+      "tooltip": "This is the original, unmutated variant of this species."
+    },
+    "unknownmutation": {
+      "name": "Unknown Mutation",
+      "tooltip": "This seed carries some unexpected genetic markers. Analyze it at the Botanical Analyzer to learn its secrets."
+    },
+    "specificplantmutation": {
+      "name": "Mutant Plant: {MutationName}",
+      "tooltip": "This plant is mutated with a genetic variant I call {MutationName}."
+    },
+    "crop_too_nonradiated": {
+      "name": "    • Low Radiation Levels",
+      "tooltip": "Growth will resume when Radiation requirements are met"
+    },
+    "crop_too_radiated": {
+      "name": "    • High Radiation Levels",
+      "tooltip": "Growth will resume when Radiation requirements are met"
+    },
+    "element_growth_growing": {
+      "name": "Picky Eater: Just Right",
+      "tooltip": "This critter's Quill Growth rate is optimal\n\nPreferred food temperature range: {templo} - {temphi}",
+      "preferred_temp": "Last eaten: {element} at {temperature}"
+    },
+    "element_growth_stunted": {
+      "name": "Picky Eater: {reason}",
+      "too_hot": "Too Hot",
+      "too_cold": "Too Cold",
+      "tooltip": "This critter's Quill Growth rate has slowed because they ate food outside their preferred temperature range\n\nPreferred food temperature range: {templo} - {temphi}"
+    },
+    "element_growth_halted": {
+      "name": "Picky Eater: Hungry",
+      "tooltip": "This critter's Quill Growth is halted because they are hungry\n\nPreferred food temperature range: {templo} - {temphi}"
+    },
+    "element_growth_complete": {
+      "name": "Picky Eater: All Done",
+      "tooltip": "This critter's Tonic Root quills are fully grown\n\nPreferred food temperature range: {templo} - {temphi}"
+    },
+    "gravitas_creature_manipulator_cooldown": {
+      "name": "Processing Sample: {percent}",
+      "tooltip": "This building is busy analyzing genetic data from a recently scanned specimen\n\nRemaining: {timeleft}"
+    },
+    "beckoning": {
+      "name": "Mooing",
+      "tooltip": "This critter is inviting faraway friends to graze on this asteroid's abundant food supply\n\nA new Gassy Moo will soon arrive"
+    },
+    "beckoningblocked": {
+      "name": "Moo-ted",
+      "tooltip": "This critter needs a clear view of space in order to invite a friend to this asteroid"
+    },
+    "milkfull": {
+      "name": "Udderly Full",
+      "tooltip": "This critter is full of Brackene and ready to be milked"
+    },
+    "crittercondo": {
+      "movingto": {
+        "name": "Heading for Critter Condo",
+        "tooltip": "This critter is making its way to an unoccupied critter condo"
+      },
+      "interacting": {
+        "name": "Getting Cozy",
+        "tooltip": "This critter is relaxing in a critter condo\n\nIt's like a mini vacation!"
+      }
+    },
+    "underwatercrittercondo": {
+      "movingto": {
+        "name": "Heading for Water Fort",
+        "tooltip": "This critter is making its way to an unoccupied water fort"
+      },
+      "interacting": {
+        "name": "Getting Cozy",
+        "tooltip": "This critter is relaxing in a water fort\n\nIt's like a mini vacation!"
+      }
+    },
+    "airbornecrittercondo": {
+      "movingto": {
+        "name": "Heading for Airborne Critter Condo",
+        "tooltip": "This critter is making its way to an unoccupied airborne critter condo"
+      },
+      "interacting": {
+        "name": "Getting Cozy",
+        "tooltip": "This critter is nesting in an airborne critter condo\n\nIt's like a mini vacation!"
+      }
+    },
+    "pollinating": {
+      "movingto": {
+        "name": "Going to Pollinate",
+        "tooltip": "This critter is on its way to provide natural care for one lucky Plant"
+      },
+      "interacting": {
+        "name": "Pollination",
+        "tooltip": "This critter's gentle ministrations are boosting this Plant's growth"
+      }
+    },
+    "temperature_hot_uncomfortable": {
+      "name": "Body Temperature High",
+      "tooltip": "This critter is feeling unpleasantly hot\n\nComfortable temperature range: {1} to {2}\nCurrent internal temperature: {0}\n\n{3}"
+    },
+    "temperature_hot_deadly": {
+      "name": "Scalding",
+      "tooltip": "This critter is feeling dangerously overheated\n\nLivable temperature range: {1} to {2}\nCurrent external temperature: {0}\n\n{3}"
+    },
+    "temperature_cold_uncomfortable": {
+      "name": "Body Temperature Low",
+      "tooltip": "This critter is feeling unpleasantly cold\n\nComfortable temperature range: {1} to {2}\nCurrent internal temperature: {0}\n\n{3}"
+    },
+    "temperature_cold_deadly": {
+      "name": "Freezing",
+      "tooltip": "This critter is feeling dangerously cold\n\nLivable temperature range: {1} to {2}\nCurrent external temperature: {0}\n\n{3}"
+    },
+    "not_pollinated": {
+      "name": "Pollination",
+      "tooltip": "This plant must be tended by a pollinator Critter in order to grow"
+    }
+  },
+  "stats": {
+    "health": {
+      "name": "Health"
+    },
+    "age": {
+      "name": "Age",
+      "tooltip": "This critter will die when its Age reaches its species' maximum lifespan"
+    },
+    "maturity": {
+      "name": "Growth Progress",
+      "tooltip": "Growth Progress\n\n",
+      "tooltip_growing": "Predicted Maturation: <b>{0}</b>",
+      "tooltip_growing_crop": "Predicted Maturation Time: <b>{0}</b>\nNext harvest occurs in approximately <b>{1}</b>",
+      "tooltip_grown": "Growth paused while plant awaits harvest",
+      "tooltip_stalled": "Poor conditions have halted this plant's growth",
+      "amount_desc_fmt": "{0}: {1}\nNext harvest in <b>{2}</b>",
+      "growing": "Domestic Growth Rate",
+      "growingwild": "Wild Growth Rate"
+    },
+    "crittertemperature": {
+      "name": "Body Temperature",
+      "tooltip": "This critter's comfortable Body Temperature range is between <b>{0}</b> and <b>{1}</b>\n\nIts livable External Temperature range is between <b>{2}</b> and <b>{3}</b>"
+    },
+    "fertilization": {
+      "name": "Fertilization",
+      "absorbing_modifier": "Absorbing"
+    },
+    "domestication": {
+      "name": "Domestication",
+      "tooltip": "Fully Tame critters produce more materials than wild ones, and may even provide psychological benefits to my colony\n\nThis critter is <b>{0}</b> domesticated"
+    },
+    "happiness": {
+      "name": "Happiness",
+      "tooltip": "High Happiness increases a critter's productivity and indirectly improves their Egg laying rates\n\nIt also provides the satisfaction in knowing they're living a good little critter life"
+    },
+    "wildness": {
+      "name": "Wildness",
+      "tooltip": "At 0% Wildness a critter becomes Tame, increasing its Metabolism and requiring regular care from Duplicants\n\nDuplicants must possess the Critter Ranching skill to care for critters"
+    },
+    "fertility": {
+      "name": "Reproduction",
+      "tooltip": "At 100% Reproduction, critters will reach the end of their reproduction cycle and lay a new Egg\n\nAfter an Egg is laid, Reproduction is rolled back to 0%"
+    },
+    "beckoning": {
+      "name": "Accu-moo-lation",
+      "tooltip": "At 100% Accu-moo-lation, this critter will call a friend to join them on this asteroid\n\nOnce the newcomer has landed, Accu-moo-lation is rolled back to 0%"
+    },
+    "incubation": {
+      "name": "Incubation",
+      "tooltip": "Eggs hatch into brand new Critters at the end of their incubation period"
+    },
+    "viability": {
+      "name": "Viability",
+      "tooltip": "Eggs will lose Viability over time when exposed to poor environmental conditions\n\nAt 0% Viability a critter egg will crack and produce a Raw Egg and Egg Shell"
+    },
+    "irrigation": {
+      "name": "Irrigation",
+      "consume_modifier": "Consuming",
+      "absorbing_modifier": "Absorbing"
+    },
+    "illumination": {
+      "name": "Illumination"
+    },
+    "thermalconductivitybarrier": {
+      "name": "Thermal Conductivity Barrier",
+      "tooltip": "Thick Conductivity Barriers increase the time it takes an object to heat up or cool down"
+    },
+    "rot": {
+      "name": "Freshness",
+      "tooltip": "Food items become stale at fifty percent Freshness, and rot at zero percent"
+    },
+    "scalegrowth": {
+      "name": "Scale Growth",
+      "tooltip": "When growth reaches 100%, this critter can be shorn for {0}",
+      "scale": "Scale Growth",
+      "antler": "Antler Growth",
+      "fur": "Fur Growth",
+      "crown": "Crest Growth",
+      "feather": "Feather Growth"
+    },
+    "milkproduction": {
+      "name": "Brackene Supply",
+      "displayed_name": "{0} Supply",
+      "tooltip": "The amount of time required for this critter to replenish its natural reserves of {0}"
+    },
+    "elementgrowth": {
+      "name": "Quill Growth",
+      "tooltip": "The amount of time required for this critter to regrow its Tonic Root"
+    },
+    "airpressure": {
+      "name": "Air Pressure",
+      "tooltip": "The average Gas density of the air surrounding this plant"
+    }
+  },
+  "attributes": {
+    "incubationdelta": {
+      "name": "Incubation Rate",
+      "desc": ""
+    },
+    "powerchargedelta": {
+      "name": "Power Charge Loss Rate",
+      "desc": ""
+    },
+    "viabilitydelta": {
+      "name": "Viability Loss Rate",
+      "desc": ""
+    },
+    "scalegrowthdelta": {
+      "name": "Scale Growth",
+      "tooltip": "Determines how long this Critter's scales will take to grow back."
+    },
+    "milkproductiondelta": {
+      "name": "Brackene Supply",
+      "tooltip": "Determines how long this Critter takes to replenish its natural supply of Brackene."
+    },
+    "wildnessdelta": {
+      "name": "Wildness",
+      "desc": "Wild creatures can survive on fewer Calories than domesticated ones."
+    },
+    "fertilitydelta": {
+      "name": "Reproduction Rate",
+      "desc": "Determines the amount of time needed for a Critter to lay new Eggs."
+    },
+    "maturitydelta": {
+      "name": "Growth Speed",
+      "desc": "Determines the amount of time needed to reach maturation."
+    },
+    "maturitymax": {
+      "name": "Life Cycle",
+      "desc": "The amount of time it takes this plant to grow."
+    },
+    "maturity2delta": {
+      "name": "Fruiting Speed",
+      "desc": "The amount of time it takes this fruit to grow."
+    },
+    "maturity2max": {
+      "name": "Fruiting Speed",
+      "desc": "The amount of time it takes this fruit to grow."
+    },
+    "rotdelta": {
+      "name": "Freshness",
+      "tooltip": "Food items become stale at fifty percent Freshness, and rot at zero percent"
+    },
+    "beckoningdelta": {
+      "name": "Accu-moo-lation",
+      "desc": "Accu-moo-lation increases when this critter eats."
+    }
+  },
+  "modifiers": {
+    "domestication_increasing": {
+      "name": "Happiness Increasing",
+      "tooltip": "This critter is very happy its needs are being met"
+    },
+    "domestication_decreasing": {
+      "name": "Happiness Decreasing",
+      "tooltip": "Unfavorable conditions are making this critter unhappy"
+    },
+    "base_fertility": {
+      "name": "Base Reproduction",
+      "tooltip": "This is the base speed with which critters produce new Eggs"
+    },
+    "base_incubation_rate": {
+      "name": "Base Incubation Rate"
+    },
+    "base_production_rate": {
+      "name": "Base production rate"
+    },
+    "scale_growth_rate": {
+      "name": "Scale Regrowth Rate"
+    },
+    "element_growth_rate": {
+      "name": "Quill Regrowth Rate"
+    },
+    "incubator_song": {
+      "name": "Lullabied",
+      "tooltip": "This egg was recently sung to by a kind Duplicant\n\nIncreased Incubation Rate\n\nDuplicants must possess the Critter Ranching skill to sing to eggs"
+    },
+    "egghug": {
+      "name": "Cuddled",
+      "tooltip": "This egg was recently hugged by an affectionate critter\n\nIncreased Incubation Rate"
+    },
+    "huggingfrenzy": {
+      "name": "Hugging Spree",
+      "tooltip": "This critter was recently hugged by a Duplicant and is feeling extra affectionate\n\nWhile in this state, it hugs Eggs more frequently"
+    },
+    "incubating": {
+      "name": "Incubating",
+      "tooltip": "This egg is happily incubating"
+    },
+    "incubating_suppressed": {
+      "name": "Growth Suppressed",
+      "tooltip": "Environmental conditions are preventing this egg from developing\n\nIt will not hatch if current conditions continue"
+    },
+    "gotmilk": {
+      "name": "Hydrated",
+      "tooltip": "This critter recently drank Brackene\n\nIt doesn't mind overcrowding quite as much right now"
+    },
+    "ranched": {
+      "name": "Groomed",
+      "tooltip": "This critter has recently been attended to by a kind Duplicant\n\nDuplicants must possess the Critter Ranching skill to care for critters"
+    },
+    "mosquito_fed": {
+      "name": "Stung a Target",
+      "tooltip": "This critter recently ruined someone's day"
+    },
+    "dupe_mosquito_bite": {
+      "name": "Gnit Stung",
+      "tooltip": "This Duplicant was recently stung by a Gnit and is feeling annoyed"
+    },
+    "dupe_mosquito_bite_suppressed": {
+      "name": "Allergy Medication",
+      "tooltip": "This Duplicant is unbothered by their recent Gnit sting, thanks to Allergy Medication"
+    },
+    "critter_mosquito_bite": {
+      "name": "Gnit Stung",
+      "tooltip": "This critter was recently stung by a Gnit and is feeling upset about it"
+    },
+    "critter_mosquito_bite_suppressed": {
+      "name": "Gnit Stung: Immune",
+      "tooltip": "This critter is unbothered by its recent Gnit sting thanks to Allergy Medication"
+    },
+    "happy_wild": {
+      "name": "Mood: Happy",
+      "tooltip": "This critter's in high spirits because its needs are being exceeded"
+    },
+    "happy_tame": {
+      "name": "Mood: Happy",
+      "tooltip": "This critter's in high spirits because its needs are being exceeded\n\nIt will lay more eggs as a result"
+    },
+    "neutral": {
+      "name": "Mood: Satisfied",
+      "tooltip": "This critter's needs are being adequately met\n\nIt will produce its default amount of materials"
+    },
+    "glum": {
+      "name": "Mood: Glum",
+      "tooltip": "This critter's feeling down because its needs aren't being met\n\nIt will produce less materials as a result"
+    },
+    "critter_temperature_uncomfortable": {
+      "name": "Uncomfortable Body Temperature",
+      "tooltip": ""
+    },
+    "critter_temperature_deadly": {
+      "name": "Deadly Temperature",
+      "tooltip": ""
+    },
+    "miserable": {
+      "name": "Mood: Miserable",
+      "tooltip": "This critter's wallowing in despair because its needs aren't being met\n\nIt will produce less materials as a result, and will not lay eggs"
+    },
+    "ate_from_feeder": {
+      "name": "Ate From Feeder",
+      "tooltip": "This critter is getting more Tame because it ate from a feeder"
+    },
+    "hunt_failed": {
+      "name": "Missed Prey",
+      "tooltip": "This critter failed to catch a prey critter\n\nIt will fare better with elderly or  Tame targets"
+    },
+    "evaded_hunt": {
+      "name": "Escaped a Predator",
+      "tooltip": "This prey critter recently evaded a predator\n\nWhew!"
+    },
+    "wild": {
+      "name": "Wild",
+      "tooltip": "This critter is wild"
+    },
+    "age": {
+      "name": "Aging",
+      "tooltip": "Time takes its toll on all things"
+    },
+    "baby": {
+      "name": "Tiny Baby!",
+      "tooltip": "This critter will grow into an adult as it ages and becomes wise to the ways of the world"
+    },
+    "tame": {
+      "name": "Tame",
+      "tooltip": "This critter is Tame"
+    },
+    "out_of_calories": {
+      "name": "Starving",
+      "tooltip": "Get this critter something to eat!"
+    },
+    "overcrowded": {
+      "explanation": {
+        "no_cells": "\nRoom size: {cellCount} Tiles\nCurrent critter population requirement: {occupiedCellCount} Tiles\n",
+        "multiple_cells": "\nRoom size: {cellCount} Tiles\nCurrent critter population requirement: {occupiedCellCount} Tiles\n",
+        "single_cell": "\nRoom size: {cellCount} Tile\nCurrent critter population requirement: {occupiedCellCount} Tiles\n"
+      },
+      "explanation_aquatic": {
+        "no_cells": "\nPool size: {cellCount} Tiles\nCurrent critter population requirement: {occupiedCellCount} Tiles\n",
+        "multiple_cells": "\nPool size: {cellCount} Tiles\nCurrent critter population requirement: {occupiedCellCount} Tiles\n",
+        "single_cell": "\nPool size: {cellCount} Tile\nCurrent critter population requirement: {occupiedCellCount} Tiles\n"
+      },
+      "bullet": {
+        "can_fix": {
+          "singular": "    • {critterType} ({critterCount}):\n<indent=30px>Space occupied: {personalSpace} Tiles</indent>",
+          "multiple": "    • {critterType} ({critterCount}):\n<indent=30px>Space occupied per critter: {personalSpace} Tiles</indent>"
+        },
+        "cannot_fix": {
+          "singular": "    • {critterType} ({critterCount}):\n<indent=30px>Space occupied: {personalSpace} Tiles</indent>",
+          "multiple": "    • {critterType} ({critterCount}):\n<indent=30px>Space occupied per critter: {personalSpace} Tiles</indent>"
+        }
+      },
+      "cramped": {
+        "name": "Cramped",
+        "tooltip": "This Room will become too crowded once all nearby Eggs hatch\n\nThe selected {contextCritterType} has slowed its Reproduction to prevent further overpopulation",
+        "fishtooltip": "This Pool will become too crowded once all nearby Eggs hatch\n\nThe selected {contextCritterType} has slowed its Reproduction to prevent further overpopulation"
+      },
+      "crowded": {
+        "name": "Crowded",
+        "tooltip": "This {contextCritterType} isn't comfortable with so many other critters in a Room of this size\n{explanation}\n{bullets}",
+        "fishtooltip": "This {contextCritterType} isn't comfortable with so many other critters in a pool of this size\n{explanation}\n{bullets}"
+      },
+      "confined": {
+        "name": "Confined",
+        "tooltip": "This {contextCritterType} is trapped inside a door, tile, or confined space\n\nIt requires {personalSpace} tiles of space, but only has {cellCount}",
+        "tooltip_no_substitutions": "This {contextCritterType} is trapped inside a door, tile, or confined space\n\nSounds uncomfortable!"
+      }
+    },
+    "divergentplanttended": {
+      "name": "Pollinated: Sweetle",
+      "tooltip": "A Sweetle rubbed against this Plant for a tiny growth boost"
+    },
+    "divergentplanttendedworm": {
+      "name": "Pollinated: Grubgrub",
+      "tooltip": "A Grubgrub rubbed against this Plant, dramatically boosting growth"
+    },
+    "butterflypollinated": {
+      "name": "Pollinated: Mimika",
+      "tooltip": "A Mimika visited this Plant, boosting its growth"
+    },
+    "initiallypollinated": {
+      "name": "Initially Pollinated",
+      "tooltip": "This plant was initially pollinated"
+    },
+    "moowellfed": {
+      "name": "Welcoming Moo'd",
+      "tooltip": "This critter's recent meal is boosting their Brackene supply and making them wish all their friends were here\n\nThey're thinking about calling a new Moo to this asteroid"
+    },
+    "huskymoofed": {
+      "name": "Welcoming Moo'd",
+      "tooltip": "This critter's recent meal is making them wish all their friends were here\n\nThey're thinking about calling a new Moo to this asteroid"
+    },
+    "huskymoowellfed": {
+      "name": "Well Fed",
+      "tooltip": "This critter's recent meal is boosting their Biodiesel supply"
+    },
+    "deerwellfed": {
+      "name": "Just Ate",
+      "tooltip": "This critter's recent meal is boosting their antler growth"
+    },
+    "icebellywellfed": {
+      "name": "Just Ate",
+      "tooltip": "This critter's recent meal is boosting their fur growth"
+    },
+    "goldbellywellfed": {
+      "name": "Regal Meal",
+      "tooltip": "This critter's recent meal is boosting their Regal Bammoth Crest growth"
+    },
+    "raptorwellfed": {
+      "name": "Just Ate",
+      "tooltip": "This critter's recent meal is boosting their feather growth"
+    },
+    "crittercondointeracteffect": {
+      "name": "Cozy",
+      "tooltip": "This critter recently enjoyed a visit to a critter condo"
+    },
+    "underwatercrittercondointeracteffect": {
+      "tooltip": "This critter recently enjoyed a visit to a water fort"
+    },
+    "airbornecrittercondointeracteffect": {
+      "tooltip": "This critter recently nested in an airborne critter condo"
+    }
+  },
+  "moo_song_modifiers": {
+    "diet": {
+      "name": "Diet",
+      "desc": "Eats: {0}"
+    }
+  },
+  "fertility_modifiers": {
+    "diet": {
+      "name": "Diet",
+      "desc": "Eats: {0}"
+    },
+    "nearby_creature": {
+      "name": "Nearby Critters",
+      "desc": "Penned with: {0}"
+    },
+    "nearby_creature_neg": {
+      "name": "No Nearby Critters",
+      "desc": "Not penned with: {0}"
+    },
+    "temperature": {
+      "name": "Temperature",
+      "desc": "Body temperature: Between {0} and {1}"
+    },
+    "decor": {
+      "name": "Decor",
+      "desc": "Dwells in an area with a Decor value of {0} or higher"
+    },
+    "croptending": {
+      "name": "Crop Tending",
+      "desc": "Tends to: {0}"
+    },
+    "living_in_element": {
+      "name": "Habitat",
+      "desc": "Dwells in {0}",
+      "unbreathable": "Dwells in unbreathableGas",
+      "liquid": "Dwells in Liquid"
+    }
+  }
+}
