@@ -2,14 +2,15 @@
 export type Icon = string;
 
 export interface Identity {
-    id: number;
+    id: string;
     name: string;
     description: string;
     icon: Icon;
 }
 
-export interface Dlc extends Identity {
-
+export interface Dlc {
+    id: string;
+    name: string;
 }
 
 export interface Avalibility {
@@ -61,7 +62,7 @@ export interface Placement extends Size {
     sockets: Socket[];
 }
 
-export interface Building extends Identity, Avalibility {
+export interface Building extends Identity, Avalibility, Placement {
     
 }
 
