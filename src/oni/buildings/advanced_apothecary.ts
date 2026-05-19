@@ -1,4 +1,4 @@
-import type { Building } from "../../game";
+import type { Building } from "../game";
 import icon from "../sprites/AdvancedApothecary.png";
 
 import strings from "../strings"

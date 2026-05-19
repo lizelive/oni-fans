@@ -1,12 +1,18 @@
 
-export type Icon = string;
-
 export interface Identity {
     id: string;
     name: string;
-    description: string;
-    icon: Icon;
+
 }
+
+export interface Description {
+    description: string;
+}
+
+export interface Icon {
+    icon: string;
+}
+
 
 export interface Dlc {
     id: string;
@@ -62,9 +68,20 @@ export interface Placement extends Size {
     sockets: Socket[];
 }
 
-export interface Building extends Identity, Avalibility, Placement {
-    
+export interface Entity extends Identity, Avalibility, Description, Icon {
 }
+
+
+export interface Building extends Entity, Placement {
+
+}
+
+export interface Critter extends Entity {
+}
+
+export interface Food extends Entity {
+}
+
 
 export interface Material extends Identity {
     cost: number;
@@ -72,3 +89,4 @@ export interface Material extends Identity {
     level: number;
 }
 
+export interface Recipe { }
